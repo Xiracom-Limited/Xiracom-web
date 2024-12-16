@@ -30,10 +30,16 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/web-design', function () {
+    return view('web-design');
+});
+
+
 
 Route::get('/contact-us', function () {
 
     return view('contact-us');
 
 });
+
 
