@@ -25,3 +25,6 @@ require __DIR__.'/auth.php';
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/web-design', function () {
+    return view('web-design');
+});
