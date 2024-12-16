@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     return view('welcome');
-  
+
 });
 
 Route::get('/dashboard', function () {
@@ -21,10 +21,25 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
+Route::get('/Examparlour', function () {
+    return view('Examparlour');
+});
+
 
 Route::get('/about', function () {
     return view('about');
 });
+
 Route::get('/web-design', function () {
     return view('web-design');
 });
+
+
+
+Route::get('/contact-us', function () {
+
+    return view('contact-us');
+
+});
+
+
