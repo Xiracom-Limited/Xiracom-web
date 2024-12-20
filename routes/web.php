@@ -42,4 +42,32 @@ Route::get('/contact-us', function () {
 
 });
 
+Route::get('/app-development', function () {
 
+    return view('app-development');
+
+});
+
+Route::get('/bulk-sms', function () {
+
+    return view('bulk-sms');
+
+});
+
+Route::get('/our-projects', function () {
+
+    return view('our-projects');
+
+});
+
+Route::get('/skiza-tunes&SSID-codes', function () {
+
+    return view('skiza-tunes&SSID-codes');
+
+});
+
+Route::get('/cyber-security', function () {
+
+    return view('cyber-security');
+
+});

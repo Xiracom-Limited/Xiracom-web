@@ -2,180 +2,115 @@
 <html>
 <head>
 <style>
-     .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-  }
-  .hero-image {
-    aspect-ratio: 3.66;
-    object-fit: contain;
-    object-position: center;
-    width: 100%;
-  }
-  .contact-heading {
-  color: rgba(238, 238, 238, 1);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-align: center;
-  max-width: 384px;
-  font: 700 68px Poppins, sans-serif;
-}
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-  }
-
-  .logo-image {
-    aspect-ratio: 2.1;
-    object-fit: contain;
-    object-position: center;
-    width: 100%;
-    max-width: 124px;
-  }
-.hero-heading {
-  max-width: 341px;
-  font: 700 36px Inter, sans-serif;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.section-heading {
-  max-width: 326px;
-  font: 700 36px Inter, sans-serif;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.user-name {
-  color: rgba(0, 0, 0, 1);
-  max-width: 100px;
-  font: 400 36px Inter, sans-serif;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.rounded-container {
-  border-radius: 37px;
-  background-color: rgba(217, 217, 217, 0.55);
+.contact-section {
+  background: #fff;
   display: flex;
-  min-height: 76px;
-}
-.email-text {
-  color: rgba(0, 0, 0, 1);
-  max-width: 91px;
-  font: 400 36px Inter, sans-serif;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.rounded-container {
-  border-radius: 37px;
-  background-color: rgba(217, 217, 217, 0.55);
-  display: flex;
-  min-height: 76px;
-}
-.message-text {
-  color: rgba(0, 0, 0, 1);
-  max-width: 154px;
-  font: 400 36px Inter, sans-serif;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.rounded-container {
-  border-radius: 37px;
-  background-color: rgba(217, 217, 217, 0.55);
-  display: flex;
-  min-height: 285px;
-}
-.rounded-container {
-  border-radius: 72px;
-  display: flex;
-  max-width: 286px;
   flex-direction: column;
+  overflow: hidden;
+  font-weight: 700;
+  padding: 140px 0 659px;
 }
 
-.green-button {
-  border-radius: 72px;
-  background-color: rgba(57, 156, 35, 1);
+.hero-banner {
   display: flex;
-  min-height: 89px;
+  flex-direction: column;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  min-height: 393px;
   width: 100%;
-  border: 2px solid rgba(16, 32, 56, 1);
-}
-.cta-button {
-  color: rgba(255, 255, 255, 1);
+  color: #eee;
   text-align: center;
-  max-width: 117px;
-  font: 700 32px/0.7 Poppins, sans-serif;
-  cursor: pointer;
+  padding: 146px 70px 117px;
+  font: 68px Poppins, sans-serif;
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.form-container {
+  align-self: center;
+  display: flex;
+  width: 100%;
+  max-width: 1142px;
+  flex-direction: column;
+  margin: 28px 0 0 10px;
+  font: 36px Inter, sans-serif;
+}
+
+.header-wrapper {
+  align-self: start;
+  display: flex;
+  align-items: start;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.header-text {
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.header-icon {
+  aspect-ratio: 2.1;
+  object-fit: contain;
+  object-position: center;
+  width: 124px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.subheader {
+  align-self: center;
+  margin-top: 6px;
+}
+
+.form-input {
+  border-radius: 37px;
+  background-color: rgba(217, 217, 217, 0.55);
+  align-self: end;
+  display: flex;
+  width: 1094px;
+  max-width: 100%;
+  height: 76px;
   border: none;
-  background: none;
-  padding: 0;
-  margin: 0;
-  outline: none;
-  transition: opacity 0.2s ease;
+  padding: 0 20px;
+  font: inherit;
 }
 
-.cta-button:hover,
-.cta-button:focus {
-  opacity: 0.9;
+.message-input {
+  height: 285px;
+  margin-top: 14px;
+  padding: 20px;
+  resize: none;
 }
 
-.cta-button:focus-visible {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
+.form-label {
+  color: #000;
+  font-weight: 400;
+  align-self: start;
+  margin: 27px 0 0 47px;
+}
+
+.submit-button {
+  align-self: center;
+  width: 286px;
+  border-radius: 72px;
+  background-color: rgb(57, 156, 35);
+  margin-top: 61px;
+  min-height: 89px;
+  max-width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 32px 28px;
+  font: 32px/0.7 Poppins, sans-serif;
+  border: 2px solid rgb(16, 32, 56);
+  cursor: pointer;
 }
 
 .visually-hidden {
@@ -186,45 +121,61 @@
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
+}
+
+@media (max-width: 991px) {
+  .contact-section {
+    padding: 100px 0;
+  }
+
+  .hero-banner {
+    font-size: 40px;
+    max-width: 100%;
+    padding: 100px 20px 110px;
+  }
+
+  .form-container {
+    max-width: 100%;
+  }
+
+  .form-label {
+    margin-left: 10px;
+  }
+
+  .submit-button {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
 }
 </style>
-   <title>Page title</title>
 </head>
 <body>
-<img
-  loading="lazy"
-  src="https://cdn.builder.io/api/v1/image/assets/TEMP/fba3a0076de9f8d3b4038436db55f8ff7cd4bc847b6db4f3e1d0dfab63b5d06a?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6"
-  class="hero-image"
-  alt="Hero section banner"
-  tabindex="0"
-/>
-<div class="contact-heading">Contact Us</div>
-</
-<img
-  loading="lazy"
-  src="https://cdn.builder.io/api/v1/image/assets/TEMP/8bb4794bfd1951df75e48b6722c88f6eb5498e1b572e157086333ae5ae6d6df5?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6"
-  alt="Company Logo"
-  class="logo-image"
-/>
-<div class="hero-heading" role="heading" aria-level="1" tabindex="0">We are here for you</div>
-<div class="section-heading" tabindex="0">How can we help?</div>
-<div class="user-name" tabindex="0">Name</div>
-<div class="rounded-container"></div>
-<form class="email-form">
-  <label for="emailInput" class="visually-hidden">Email</label>
-  <input type="email" id="emailInput" class="email-text" placeholder="Email" aria-label="Email" required />
-</form>
-<div class="rounded-container"></div>
-<div class="message-text">Message</div>
-<div class="rounded-container"></div>
-<div class="rounded-container">
-  <div class="green-button" tabindex="0" role="button"></div>
-</div>
-<button class="cta-button" type="button">
-  <span class="visually-hidden">Submit form</span>
-  Submit
-</button>
+<section class="contact-section">
+  <div class="hero-banner">
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/fba3a0076de9f8d3b4038436db55f8ff7cd4bc847b6db4f3e1d0dfab63b5d06a?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6" alt="" class="hero-image" />
+    Contact Us
+  </div>
+
+  <form class="form-container">
+    <div class="header-wrapper">
+      <h1 class="header-text">We are here for you</h1>
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ade16f64ae3295a3314d0f2a470c71ba098d182b7dc81c5fef9596a9002d7cd6?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6" alt="" class="header-icon" />
+    </div>
+
+    <h2 class="subheader">How can we help?</h2>
+
+    <label for="name" class="form-label">Name</label>
+    <input type="text" id="name" class="form-input" required aria-label="Name" />
+
+    <label for="email" class="form-label">Email</label>
+    <input type="email" id="email" class="form-input" required aria-label="Email" />
+
+    <label for="message" class="form-label">Message</label>
+    <textarea id="message" class="form-input message-input" required aria-label="Message"></textarea>
+
+    <button type="submit" class="submit-button">Submit</button>
+  </form>
+</section>
 </body>
 </html>
