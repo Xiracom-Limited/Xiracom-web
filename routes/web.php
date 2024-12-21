@@ -26,8 +26,8 @@ Route::get('/Examparlour', function () {
 });
 
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('/about-us', function () {
+    return view('about-us');
 });
 
 Route::get('/contact-us', function () {
@@ -54,6 +54,7 @@ Route::get('/consultancy', function () {
 
 });
 
+
 Route::get('/uiuxdesign', function () {
 
     return view('uiuxdesign');
@@ -77,4 +78,33 @@ Route::get('/navigation-bar', function () {
     return view('navigation-bar');
 
 });
+Route::get('/app-development', function () {
+ main
 
+    return view('app-development');
+
+});
+
+Route::get('/bulk-sms', function () {
+
+    return view('bulk-sms');
+
+});
+
+Route::get('/our-projects', function () {
+
+    return view('our-projects');
+
+});
+
+Route::get('/skiza-tunes&SSID-codes', function () {
+
+    return view('skiza-tunes&SSID-codes');
+
+});
+
+Route::get('/cyber-security', function () {
+
+    return view('cyber-security');
+
+});
