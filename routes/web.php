@@ -30,19 +30,56 @@ Route::get('/about-us', function () {
     return view('about-us');
 });
 
-Route::get('/web-design', function () {
-    return view('web-design');
-});
-
-
-
 Route::get('/contact-us', function () {
 
     return view('contact-us');
 
 });
 
+Route::get('/web-design', function () {
+
+    return view('web-design');
+
+});
+
+Route::get('/jobs&internship', function () {
+
+    return view('jobs&internship');
+
+});
+
+Route::get('/consultancy', function () {
+
+    return view('consultancy');
+
+});
+
+
+Route::get('/uiuxdesign', function () {
+
+    return view('uiuxdesign');
+
+});
+
+Route::get('/ourclients&testimonials', function () {
+
+    return view('ourclients&testimonials');
+
+});
+
+Route::get('/apiintergrations', function () {
+
+    return view('apiintergrations');
+
+});
+
+Route::get('/navigation-bar', function () {
+
+    return view('navigation-bar');
+
+});
 Route::get('/app-development', function () {
+ main
 
     return view('app-development');
 
