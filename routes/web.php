@@ -42,4 +42,33 @@ Route::get('/contact-us', function () {
 
 });
 
+Route::get('/Darasalink', function () {
+
+    return view('Darasalink');
+
+});
+
+Route::get('/our-team', function () {
+
+    return view('our-team');
+
+});
+
+Route::get('/Digital-marketing', function () {
+
+    return view('Digital-marketing');
+
+});
+
+Route::get('/Request-quote', function () {
+
+    return view('Request-quote');
+
+});
+
+Route::get('/Hardware-software', function () {
+
+    return view('Hardware-software');
+
+});
 
