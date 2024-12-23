@@ -289,72 +289,77 @@
   border-radius: 8px;
   box-shadow: 75px 95px 120px 0 rgba(0, 0, 0, 0.12);
 }
-/* General Reset */
-* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #4e54c8, #8f94fb);
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
         }
 
-        .card-container {
-            display: flex;
-            gap: 100px;
-            flex-wrap: wrap;
-            margin: 50px;
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
         }
 
         .card {
-          background-color: 5D52DA;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 600px;
-            padding: 100px;
-            text-align: center;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
         }
 
         .card img {
-            width: 400px;
-            height: 275px;
-            border-radius: 10px;
+            width: 100%;
+            height: 150px;
             object-fit: cover;
-            margin-bottom: 50px;
         }
-        .card p {
-            font-size: 0.9rem;
+
+        .card-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-content h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
             color: #666;
-            line-height: 1.5;
+            margin-bottom: 15px;
         }
 
-        .card button {
-            margin-top: 15px;
-            padding: 10px 20px;
-            background-color: #007bff;
+        .card-content a {
+            display: inline-block;
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
             color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: background 0.3s ease;
         }
 
-        .card button:hover {
-            background-color: #0056b3;
+        .card-content a:hover {
+            background: linear-gradient(to right, #8f94fb, #4e54c8);
         }
-
 </style>
 </head>
 <body>
@@ -416,25 +421,37 @@
           </div>
         </div>
       </div>
-      <div class="jobs-grid">
-      <article class="job-card">
-        <div class="job-header">
-        <img
-         loading="lazy"
-         src="https://cdn.builder.io/api/v1/image/assets/TEMP/fd96e8cbaf860d2a908767e7a69ab282b2aed27027789f411dc31e0518352d7f?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040"
-         class="c"
-         alt="Featured content visual"
-         tabindex="0"
-        />
+      <div class="container">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Card Image 1">
         </div>
-      </article>
-      <!-- Rest of the design grid structure follows same pattern -->
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Card Image 2">
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Card Image 3">
+        </div>
+        <!-- Card 4 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Card Image 4">
+        </div>
+        <!-- Card 5 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Card Image 5">
+        </div>
+        <!-- Card 6 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Card Image 6">
+        </div>
     </div>
   </section>
   <div class="Frame-1597884200">
-  <div class="card-container">
+  <div class="card-container 1">
         <!-- First Card -->
-        <div class="card">
+        <div class="card 1">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/584fa702864e7146f01cf15fbda3d83ed245760afccabc701efb864884ea892d?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Card Image">
             <p>
             We are committed to delivering cutting-edge solutions that meet your needs and exceed your expectations. Here is why you should partner with us:
@@ -442,11 +459,10 @@
             <button>Learn More</button>
         </div>
         <!-- Second Card -->
-        <div class="card">
+        <div class="card 1">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3462201f79fd045c29e11d56eb396528bff6d0beab5b7018388320d08900709e?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Card Image">
             <p>
-               
-UX design, or User Experience design, is another distinct and critical discipline within the realm of digital design. While UI design focuses on the visual aspects of digital interfaces, UX design delves into the broader user experience. It is centered on ensuring that every interaction with a website or application is not just seamless but also delightful for the user. In essence, UX designers are the architects of user satisfaction, aiming to make digital experiences as intuitive, enjoyable, and effective as possible.
+              UX design, or User Experience design, is another distinct and critical discipline within the realm of digital design. While UI design focuses on the visual aspects of digital interfaces, UX design delves into the broader user experience. It is centered on ensuring that every interaction with a website or application is not just seamless but also delightful for the user. In essence, UX designers are the architects of user satisfaction, aiming to make digital experiences as intuitive, enjoyable, and effective as possible.
             </p>
             <button>Get Started</button>
         </div>
