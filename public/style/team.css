@@ -1,0 +1,428 @@
+:root {
+    --primary-color: #399c23;
+    --secondary-color: #200ee4;
+    --text-color: #6e6e6e;
+    --background-color: #d9d9d9;
+    --font-family: "Poppins", sans-serif;
+
+  }
+  .header-wrapper {
+    align-self: center;
+    display: flex;
+    margin-left: 12px;
+    width: 100%;
+    max-width: 1199px;
+    align-items: center;
+    gap: 80px 132px;
+  }
+  
+  .logo {
+    aspect-ratio: 4.24;
+    object-fit: contain;
+    width: 220px;
+    align-self: stretch;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    min-width: 240px;
+    gap: 40px 50px;
+    flex-wrap: wrap;
+    width: 905px;
+    height: 100%; 
+}
+
+  
+  .menu-wrapper {
+    border-radius: 290px;
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 28px;
+    overflow: hidden;
+    width: 664px;
+    padding: 6px;
+   background: linear-gradient(90deg, #399C23 0%, #12087E 100%);
+  }
+  
+  .home-link {
+    border-radius: 40px;
+    background-color: #fafafa;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    padding: 8px 16px;
+
+
+  }
+  
+  .home-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 20px;
+    align-self: stretch;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-align: center;
+    align-self: stretch;
+    font: 400 16px Poppins, sans-serif;
+    margin-top: 10px;
+    
+  }
+  
+  .auth-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 133px;
+    font: 500 16px Poppins, sans-serif;
+  }
+  
+  .signup-wrapper {
+    display: flex;
+    align-items: start;
+  }
+  
+  .get-started-btn {
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 132px;
+    padding: 14px 13px;
+    background: linear-gradient(180deg, #399C23 0%, #2068DC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Gradient for the text or icon */
+  }
+  
+  .heroes-section{
+    background: linear-gradient(90deg, #399C23 11.92%, #1628A8 79.92%);
+    margin-top: 10px;
+
+  }
+  .team-section {
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 144px 0 739px;
+  }
+  
+  .team-header {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-family);
+    text-align: center;
+    justify-content: center;
+    padding: 95px 80px;
+    
+
+  }
+  
+  .header-content {
+    display: flex;
+    margin-bottom: -21px;
+    width: 562px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  .team-title {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -2.72px;
+    align-self: center;
+  }
+  
+  .team-subtitle {
+    color: #d6d2d2;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 38px;
+  }
+  
+  .team-grid {
+    display: flex;
+    margin-top: 43px;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 57px;
+  }
+  
+  .team-row {
+    gap: 20px;
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+  }
+
+  .card-body2, .card-body4, .card-body6 {
+    background: linear-gradient(180deg, #399C23 0%, #2068DC 100%);
+  }
+  .card-body1 h1, .card-body3 h3, .card-body5 h5{
+    color: #6E6E6E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .card-body1 p, .card-body3 p, .card-body5 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    background: linear-gradient(180deg, #399C23 0%, #2068DC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    .card-body2 h2, .card-body2 p, .card-body4 h4, .card-body4 p, .card-body6 h6, .card-body6 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #FFF !important; /* Use !important to override other rules */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-body1 .social-links a, .card-body3 .social-links a, .card-body5 .social-links a{
+    display: inline-block;
+    background: linear-gradient(180deg, #399C23 0%, #2068DC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Gradient for the text or icon */
+    font-size: 24px; /* Adjust icon size if using icon fonts like FontAwesome */
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease; /* Add smooth hover transition */
+}
+
+  .member-card {
+    border: 1px solid var(--border-color, #dadada);
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-family);
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .member-image {
+    background-color: #c4c4c4;
+    align-self: stretch;
+    display: flex;
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .member-role {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+  
+  .member-name {
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 15px;
+  }
+  
+  
+  .cta-section {
+    border-radius: 18px;
+    background-color: var(--background-color);
+    align-self: center;
+    display: flex;
+    margin-top: 56px;
+    width: 100%;
+    max-width: 1284px;
+    flex-direction: column;
+    font-family: var(--font-family);
+    padding: 34px 52px;
+  }
+  
+  .cta-title {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  .cta-content {
+    display: flex;
+    margin-top: 4px;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cta-subtitle {
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  
+  .cta-button {
+    width: 175px;
+    border-radius: 72px;
+    background-color: var(--primary-color);
+    font-size: 1.2rem;
+    color: #FF6600;
+    font-weight: 700;
+    line-height: 1;
+    padding: 26px 28px;
+    border: 2px solid #102038;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  
+  .cta-button:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
+  }
+  
+  .cta-button:focus {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 4px;
+  }
+  
+  @media (max-width: 991px) {
+    .team-section {
+      padding: 100px 0;
+    }
+  
+    .team-header {
+      max-width: 100%;
+      padding: 0 20px 100px;
+    }
+  
+    .header-content {
+      margin-bottom: 10px;
+    }
+  
+    .team-title {
+      font-size: 2.5rem;
+    }
+  
+    .team-subtitle,
+    .team-grid,
+    .team-row,
+    .member-card,
+    .member-image,
+    .cta-section,
+    .cta-title,
+    .cta-content {
+      max-width: 100%;
+    }
+  
+    .team-grid {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    .team-row {
+      flex-direction: column;
+    }
+  
+    .team-member {
+      width: 100%;
+      margin: 30px 0 0;
+    }
+  
+    .cta-section {
+      margin-top: 40px;
+      padding: 20px;
+    }
+  
+    .cta-button {
+      padding: 20px;
+    }
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  .social-links {
+    display: flex;
+    margin-top: 10px;
+    width: 148px;
+    max-width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    color: #FFF; /* Default color */
+    font-size: 1.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: var(--primary-color);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-links a:focus {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 3px;
+  }
+  .btn-primary {
+    background-color: #FF6600; /* Adjust as needed */
+    color: #FFF;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .mt-5{
+    background-color: #D9D9D9;
+  }
+
+
+  
+
+  

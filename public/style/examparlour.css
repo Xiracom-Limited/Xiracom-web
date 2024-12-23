@@ -1,0 +1,491 @@
+  body {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+  }
+  .header-wrapper {
+    align-self: center;
+    display: flex;
+    margin-left: 12px;
+    width: 100%;
+    max-width: 1199px;
+    align-items: center;
+    gap: 80px 132px;
+  }
+  
+  .logo {
+    aspect-ratio: 4.24;
+    object-fit: contain;
+    width: 220px;
+    align-self: stretch;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    min-width: 240px;
+    gap: 40px 50px;
+    flex-wrap: wrap;
+    width: 905px;
+    height: 100%; 
+}
+
+  
+  .menu-wrapper {
+    border-radius: 290px;
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 28px;
+    overflow: hidden;
+    width: 664px;
+    padding: 6px;
+   background: linear-gradient(90deg, #399C23 0%, #12087E 100%);
+  }
+  
+  .home-link {
+    border-radius: 40px;
+    background-color: #fafafa;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    padding: 8px 16px;
+
+
+  }
+  
+  .home-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 20px;
+    align-self: stretch;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-align: center;
+    align-self: stretch;
+    font: 400 16px Poppins, sans-serif;
+    margin-top: 10px;
+    
+  }
+  
+  .auth-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 133px;
+    font: 500 16px Poppins, sans-serif;
+  }
+  
+  .signup-wrapper {
+    display: flex;
+    align-items: start;
+  }
+  
+  .get-started-btn {
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 132px;
+    padding: 14px 13px;
+    background: linear-gradient(180deg, #399C23 0%, #2068DC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Gradient for the text or icon */
+  }
+  
+  
+  /* Hero Section */
+  .heroes-section {
+    background: linear-gradient(90deg, #399C23 36.67%, #14360C 100%);
+    color: #FFFFFF; /* Text color */
+    padding: 80px 0; /* Spacing for content */
+    position: relative; /* To control relative positioning */
+    height: 350px;
+    margin-top: 30px;
+  }
+  
+  .heroes-section .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Make it responsive */
+    padding: 0 50px;
+  }
+  
+  .heroes-section .text-content {
+    max-width: 600px; /* Keep text compact */
+  }
+  
+  .heroes-section h1 {
+    font-size: 36px; /* Match Figma size */
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .heroes-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .heroes-section .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 10px; /* Spacing between buttons */
+    margin-top: 50px;
+  }
+  
+  .btn-primary {
+    background-color: #FF6600; /* Adjust as needed */
+    color: #FFF;
+    border: none;
+  }
+  
+  .btn-secondary {
+    background-color: #FF6600;
+    color: #FFF;
+    border: none;
+  }
+  
+  .heroes-section img {
+    position: absolute;
+    width: 443px;
+    height: 380px;
+    left: 750px;
+    top: -30px;
+    
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .heroes-section .content {
+      flex-direction: column; /* Stack text and image */
+      text-align: center;
+    }
+  
+    .heroes-section .text-content {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* Core Features Section */
+.core-features-section {
+    position: relative; /* Relative positioning for the section */
+    width: 100%; /* Full width for responsiveness */
+    padding: 80px 0; /* Padding around the section */
+    background-color: #f9f9f9; /* Light background color for contrast */
+}
+
+/* Title */
+.core-features-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #FF6600;
+    margin-bottom: 40px;
+}
+
+/* Individual feature card */
+.core-features-section .row {
+    display: flex; /* Use Flexbox for row */
+    flex-wrap: wrap; /* Allow wrapping for responsive design */
+    justify-content: center; /* Center align the cards */
+}
+
+.core-features-section .col-md-4 {
+    display: flex; /* Make each column a flex container */
+    flex-direction: column; /* Stack child elements vertically */
+    margin-bottom: 30px; /* Space between cards */
+}
+
+/* Card content */
+.core-features-section .p-3 {
+    flex-grow: 1; /* Allow cards to grow to fill the available space */
+    padding: 20px; /* Padding inside each card */
+    background-color: white; /* White background for cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: transform 0.3s; /* Transition for hover effect */
+    min-height: 400px; /* Set a minimum height to prevent very short cards */
+    display: flex; /* Make the card a flex container */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Ensure space between items */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) -2.42%, rgba(204, 204, 204, 0.5) 47.58%, rgba(153, 153, 153, 0.5) 97.58%);
+}
+
+/* Hover effect for cards */
+.core-features-section .p-3:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+/* Images */
+.core-features-section .img-fluid {
+    width: 100%; /* Responsive image */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+/* Title inside cards */
+.core-features-section h5 {
+    font-family: 'Poppins', sans-serif; /* Font style for card titles */
+    font-weight: 600; /* Bold font weight */
+    font-size: 20px; /* Font size for card titles */
+    line-height: 30px; /* Line height for card titles */
+    margin: 15px 0 10px; /* Margin for spacing */
+    color: #000; /* Title color */
+}
+
+/* Description inside cards */
+.core-features-section p {
+    font-family: 'Poppins', sans-serif; /* Font style for description */
+    font-size: 14px; /* Font size for description */
+    line-height: 20px; /* Line height for description */
+    color: #555; /* Description color */
+    margin-bottom: auto; /* Space below the description */
+}
+
+/* Button */
+.core-features-section .btn {
+    display: inline-block; /* Inline-block for button */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #DE5917; /* Button background color */
+    color: #FFFFFF; /* Button text color */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 20px; /* Rounded corners for button */
+    transition: background-color 0.3s, transform 0.3s; /* Transition for hover effect */
+    align-self: center; /* Center the button horizontally */
+    margin-top: 10px; /* Space above the button */
+}
+
+/* Button hover effect */
+.core-features-section .btn:hover {
+    background-color: #D76C1D; /* Darken button on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .core-features-section {
+        padding: 40px 0; /* Reduce padding on smaller screens */
+    }
+    .core-features-section .col-md-4 {
+        margin-bottom: 20px; /* Space between cards on smaller screens */
+    }
+}
+
+/* Steps Section */
+.steps-section {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), #D9D9D9;
+    padding: 60px 0; /* Padding around the section */
+}
+
+.steps-section h2 {
+    font-family: 'Poppins', sans-serif; /* Font style for title */
+    font-size: 28px; /* Font size for title */
+    font-weight: 600; /* Bold font weight */
+    color: #FF6600; /* Dark gray for contrast */
+    margin-bottom: 40px; /* Space below the title */
+}
+
+/* Pipeline Row */
+.steps-section .row {
+    display: flex; /* Flex layout */
+    align-items: center; /* Center align vertically */
+    justify-content: space-between; /* Spread out columns evenly */
+    position: relative; /* Position for pipeline */
+    margin-top: 40px; /* Space between title and steps */
+}
+
+/* Pipeline */
+.steps-section .row::before {
+    content: ""; /* Decorative line */
+    position: absolute; /* Positioned relative to row */
+    top: 50%; /* Center vertically */
+    left: 10%; /* Start slightly inside the container */
+    right: 10%; /* End slightly inside the container */
+    height: 2px; /* Thickness of the pipeline */
+    background-color: #ccc; /* Grey color for the pipeline */
+    z-index: 1; /* Behind the steps */
+}
+
+/* Step Container */
+.steps-section .col-md-3 {
+    position: relative; /* For positioning */
+    z-index: 2; /* Above the pipeline */
+    text-align: center; /* Center align content */
+}
+
+/* Circular Frame */
+.steps-section .col-md-3 .step-frame {
+    width: 80px; /* Set consistent size for the circular frame */
+    height: 80px; /* Set consistent size for the circular frame */
+    background-color: #fff; /* White background for the frame */
+    border: 4px solid #DE5917; /* Border color and thickness */
+    border-radius: 50%; /* Make it a circle */
+    display: flex; /* Flexbox for centering image */
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    margin: 0 auto; /* Center frame */
+    position: relative; /* Relative for pseudo-element alignment */
+}
+
+/* Step Image */
+.steps-section .col-md-3 img {
+    width: 50%; /* Responsive size within the circular frame */
+    height: 50%; /* Maintain aspect ratio */
+    object-fit: contain; /* Contain the image inside the circle */
+}
+
+/* Step Title */
+.steps-section .col-md-3 h5 {
+    font-family: 'Poppins', sans-serif; /* Font style for step titles */
+    font-size: 16px; /* Font size for step titles */
+    font-weight: 500; /* Medium font weight */
+    color: #333; /* Step title color */
+    margin-top: 15px; /* Space above the text */
+}
+
+/* Connecting lines between steps */
+.steps-section .col-md-3:not(:last-child)::after {
+    content: ""; /* Decorative line */
+    position: absolute; /* Positioned relative to step */
+    top: 50%; /* Center vertically */
+    right: -30px; /* Position to the right of the circle */
+    width: 40px; /* Length of the line */
+    height: 2px; /* Thickness of the line */
+    background-color: #ccc; /* Grey color for the line */
+    z-index: 1; /* Below the step */
+}
+
+/* Space between circle and connecting line */
+.steps-section .col-md-3 .step-frame::after {
+    content: ""; /* Add a gap */
+    position: absolute;
+    top: 50%; /* Center with the frame */
+    right: -10px; /* Space between circle and line */
+    width: 10px; /* Length of the gap */
+    height: 2px; /* Match the pipeline thickness */
+    background-color: transparent; /* Transparent space */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .steps-section .row {
+        flex-direction: column; /* Stack steps vertically */
+        gap: 30px; /* Space between steps */
+    }
+
+    .steps-section .row::before {
+        display: none; /* Hide pipeline on small screens */
+    }
+
+    .steps-section .col-md-3:not(:last-child)::after {
+        display: none; /* Hide connecting lines on small screens */
+    }
+}
+/* Smart Learning Tips Section */
+.smart-tips-section {
+    background: linear-gradient(180deg, #399C23 0%, #FFFFFF 24%);
+    padding: 60px 0; /* Space around the section */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Section Title */
+.smart-tips-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #FF6600;
+    margin-bottom: 40px;
+}
+
+/* Card Wrapper */
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Wrap cards on smaller screens */
+    gap: 20px; /* Spacing between cards */
+}
+
+/* Individual Card */
+.card {
+    background-color: white;
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Clip content */
+    width: 100%;
+    max-width: 350px; /* Fixed card size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+}
+
+/* Card Image */
+.card-image {
+    width: 100%;
+    height: 200px; /* Fixed image height for consistency */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Card Body */
+.card-body {
+    padding: 20px;
+    text-align: center; /* Center-align content */
+}
+
+/* Card Title */
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Card Text */
+.card-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Card Link/Button */
+.card-body .btn-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #DE5917;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.card-body .btn-link:hover {
+    color: #BF460F; /* Darken color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%; /* Full width on smaller screens */
+    }
+}
