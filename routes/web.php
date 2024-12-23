@@ -76,10 +76,9 @@ Route::get('/apiintergrations', function () {
 Route::get('/navigation-bar', function () {
 
     return view('navigation-bar');
-
+    
 });
 Route::get('/app-development', function () {
- main
 
     return view('app-development');
 
