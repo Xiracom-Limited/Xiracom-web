@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Clients & Testimonials</title>
-    <style>
+<style>
   .nav-wrapper {
     display: flex;
     align-items: center;
@@ -109,7 +109,6 @@
     
   }
 .hero-section {
-  position: relative;
   min-height: 405px;
   margin-top: 51px;
   width: 100%;
@@ -202,6 +201,18 @@
   font: 700 20px/1 Poppins, sans-serif;
   border: 2px solid #102038;
 }
+
+@media (max-width: 991px) {
+  .testimonials-wrapper {
+    padding-bottom: 100px;
+  }
+
+  .header-container,
+  .nav-container,
+  .nav-menu {
+    max-width: 100%;
+  }
+
   .testimonial-content {
     flex-direction: column;
     align-items: stretch;
@@ -218,11 +229,9 @@
 
   .hero-title {
     font-size: 40px;
-    padding: 0 20px;
   }
 
   .testimonials-section {
-    padding: 0 20px;
   }
 
   .testimonial-card {
@@ -236,7 +245,6 @@
 
   .cta-button-large {
     margin-top: 40px;
-    padding: 0 20px;
   }
 }
 </style>

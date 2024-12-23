@@ -123,6 +123,7 @@
     background-color: rgba(255, 255, 255, 0.8);
     width: 132px;
     padding: 14px 13px;
+    background-image: linear-gradient(to right, #200ee4, #399c23);
     
   }
 
@@ -407,33 +408,13 @@
   .text-input {
     max-width: 100%;
     padding: 0 20px;
+    background-image: linear-gradient(to right, #200ee4, #399c23);
   }
   
   .submit-btn {
     margin-left: 7px;
     padding: 0 20px;
-  }
-  
-  .footer {
-    max-width: 100%;
-    margin-top: 40px;
-  }
-  
-  .footer-content {
-    max-width: 100%;
-  }
-  
-  .footer-wrapper {
-    max-width: 100%;
-  }
-  
-  .social-icons {
-    margin-left: 10px;
-  }
-  
-  .footer-image {
-    max-width: 100%;
-    margin-top: 40px;
+    background-image: linear-gradient(to right, #200ee4, #399c23);
   }
 }
 </style>
@@ -529,21 +510,6 @@
       <button type="submit" class="submit-btn">Get Started</button>
     </form>
   </div>
-
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-wrapper">
-        <div class="social-icons">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b63f089cd3bde2b7521a2ec084c5e531e9c844f12b1c64e6543792b8db8d0c13?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Social Media Icon" class="social-icon" />
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/241969ec3c271f6909394b76a171d5d390413ffca4160c5a00b2fabb7a4d0bb0?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Social Media Icon" class="social-icon" />
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/aa12fabb4a93e17e7f152a6eb73029680cf0209ecfabaa80491ec4f5e823e7ec?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Social Media Icon" class="social-icon" />
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/32fa041e24fba2f0a01a21e3ed968298e7ee6f7ab25aa614b2507605143aa0c2?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Social Media Icon" class="social-icon" />
-        </div>
-        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/250e773822efec3527788a9b634d439bcfa75990ef7e7560376000a00b79381f?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Footer Logo" class="footer-logo" />
-      </div>
-      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/08d8f16e550429ef3ee3b365712151bf071b5d3caf7b48bcfdfb3d90af65fcf0?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="footer-image" />
-    </div>
-  </footer>
 </section>
 </body>
 </html>

@@ -168,8 +168,6 @@
   .hero-title {
     width: 614px;
   height: 124px;
-  margin: 0 10.3px 38.4px 0;
-  font-family: Poppins;
   font-size: 48px;
   font-weight: bold;
   font-stretch: normal;
@@ -274,85 +272,8 @@
     color: #fff;
     line-height: 0.7;
     padding: 30px 28px;
-    border: 2px linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), linear-gradient(to right, #399c23, #200ee4);
+    border: 2px solid #102038;
   }
-
-  .footer-section {
-    background-color: #102039;
-    display: flex;
-    margin-top: 67px;
-    width: 100%;
-    flex-direction: column;
-    overflow: hidden;
-    padding: 2px 0 10px;
-  }
-
-  .footer-content {
-    transform: rotate(180deg);
-    background-color: rgba(217, 217, 217, 0.01);
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    overflow: hidden;
-    padding: 57px 0;
-  }
-
-  .social-links {
-    display: flex;
-    margin-left: 38px;
-    width: 100%;
-    max-width: 1186px;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .social-icons {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .icon-spacer {
-    display: flex;
-    height: 90px;
-  }
-
-  .icon-container {
-    display: flex;
-    width: 25px;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 27px 0 0 30px;
-  }
-
-  .social-icon {
-    aspect-ratio: 1;
-    object-fit: contain;
-    width: 100%;
-  }
-
-  .social-icon-vertical {
-    aspect-ratio: 0.28;
-    object-fit: contain;
-    width: 100%;
-    margin-top: 37px;
-  }
-
-  .footer-logo {
-    aspect-ratio: 1.37;
-    object-fit: contain;
-    width: 245px;
-    align-self: flex-start;
-    margin-top: 10px;
-  }
-
-  .footer-image {
-    object-fit: contain;
-    width: 100%;
-    border-radius: 0;
-    margin-top: 113px;
-  }
-
   @media (max-width: 991px) {
     .header-container,
     .nav-container,
@@ -360,8 +281,7 @@
     .hero-content,
     .main-content,
     .content-wrapper,
-    .footer-content,
-    .footer-image {
+    .footer-content {
       max-width: 100%;
     }
 
@@ -412,10 +332,6 @@
 
     .social-icon {
       margin-right: 3px;
-    }
-
-    .footer-image {
-      margin-top: 40px;
     }
   }
 </style>
@@ -477,24 +393,6 @@
       </div>
     </div>
   </div>
-
-  <footer class="footer-section">
-    <div class="footer-content">
-      <div class="social-links">
-        <div class="social-icons">
-          <div class="icon-spacer"></div>
-          <div class="icon-container">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3cb1279823088a9bb7c9301a99526c10ec4630a5f8e59a04873e15b6c9a27dab?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Social Media Icon" class="social-icon" />
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c177f3af3a64a13a3528fde1fc00a3ef5ccf46328c2ebba433336ed1f0029f52?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Social Media Icon" class="social-icon" />
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1fc33800d98a8291a8cd8b4499b2a0c56102891ba76e13cb56c37286b8139ce7?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Social Media Icon" class="social-icon" />
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/94cceb66a22ae57432d1206e25a891d37566480957058a4a47fc0d446d2f72ec?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Social Media Icon" class="social-icon-vertical" />
-          </div>
-        </div>
-        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/caa9b745c6b00370f90ef86e93b1122163aec0ff33771c1eda0a47d5e2ac8ef8?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Footer Logo" class="footer-logo" />
-      </div>
-      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/08d8f16e550429ef3ee3b365712151bf071b5d3caf7b48bcfdfb3d90af65fcf0?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="footer-image" />
-    </div>
-  </footer>
 </div>
 </body>
 </html>

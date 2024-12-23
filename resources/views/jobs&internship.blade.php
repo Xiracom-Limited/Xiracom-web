@@ -13,99 +13,14 @@
   align-items: center;
   padding: 55px 0 737px;
 }
-
-.header-wrapper {
-  display: flex;
-  width: 100%;
-  max-width: 1199px;
-  align-items: center;
-  gap: 40px 132px;
-  justify-content: flex-start;
-}
-
-.logo {
-  aspect-ratio: 4.24;
-  object-fit: contain;
-  width: 220px;
-  align-self: stretch;
-  margin: auto 0;
-}
-
-.nav-container {
-  align-self: stretch;
-  display: flex;
-  min-width: 240px;
-  align-items: center;
-  gap: 40px 50px;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 905px;
-  margin: auto 0;
-}
-
-.nav-menu {
-  border-radius: 290px;
-  align-self: stretch;
-  display: flex;
-  min-width: 240px;
-  align-items: center;
-  gap: 28px;
-  overflow: hidden;
-  width: 664px;
-  margin: auto 0;
-  padding: 6px;
-}
-
-.home-link {
-  border-radius: 40px;
-  background-color: rgba(250, 250, 250, 1);
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  justify-content: center;
-  padding: 8px 16px;
-}
-
-.home-icon {
-  aspect-ratio: 1;
-  object-fit: contain;
-  width: 20px;
-  align-self: stretch;
-  margin: auto 0;
-}
-
-.nav-item {
-  color: #fff;
-  text-align: center;
-  align-self: stretch;
-  margin: auto 0;
-  font: 400 16px Poppins, sans-serif;
-}
-
-.cta-wrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 133px;
-  margin: auto 0;
-  font: 500 16px Poppins, sans-serif;
-}
-
-.cta-button {
-  border-radius: 40px;
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 132px;
-  padding: 14px 13px;
-}
-
 .hero-section {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   align-self: stretch;
   margin-top: 37px;
   width: 100%;
   padding: 0 65px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(to right, #283593 25%, #0c102d);
 }
 
 .hero-content {
@@ -142,7 +57,7 @@
 .hero-image {
   aspect-ratio: 1.9;
   object-fit: contain;
-  width: 100%;
+  width: 50%;
   flex-grow: 1;
 }
 
@@ -163,12 +78,11 @@
 }
 
 .process-section {
-  background-color: #d9d9d9;
+  background-color: white;
   display: flex;
   margin-top: 72px;
   width: 100%;
   flex-direction: column;
-  padding: 39px 61px;
 }
 
 .process-steps {
@@ -178,7 +92,7 @@
   width: 100%;
   max-width: 1025px;
   align-items: flex-start;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -268,8 +182,8 @@
 }
 
 .explore-button {
-  align-self: end;
-  width: 175px;
+  align-self: center;
+  width: 200px;
   border-radius: 72px;
   background-color: #399c23;
   margin-top: 24px;
@@ -280,6 +194,8 @@
   line-height: 1;
   padding: 23px 28px;
   border: 2px solid #102038;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 991px) {
@@ -335,25 +251,6 @@
 </head>
 <body>
 <section class="jobs-section">
-  <header class="header-wrapper">
-    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/506632aacc67dbd87460b43d27734ac6d43dfa83eb09a0a36fbc266330b7e110?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Xiracom company logo" class="logo" />
-    <nav class="nav-container">
-      <div class="nav-menu">
-        <a href="#" class="home-link">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/147f521bb0a02cc710cce07272de641c6d02d682e1115b8ddd8c0ed5ccdd4389?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="home-icon" />
-        </a>
-        <a href="#" class="nav-item">About us</a>
-        <a href="#" class="nav-item">Projects</a>
-        <a href="#" class="nav-item">Our Services</a>
-        <a href="#" class="nav-item">Sections</a>
-        <a href="#" class="nav-item">Contact us</a>
-      </div>
-      <div class="cta-wrapper">
-        <button class="cta-button">Get Started</button>
-      </div>
-    </nav>
-  </header>
-
   <section class="hero-section">
     <div class="hero-content">
       <div class="hero-text">
@@ -439,8 +336,8 @@
           <h3 class="job-title">Web design and development</h3>
         </div>
         <p class="job-count">10 Jobs available</p>
-        <button class="explore-button">Explore More</button>
       </article>
+      <button class="explore-button">Explore More</button>
     </div>
   </main>
 </section>
