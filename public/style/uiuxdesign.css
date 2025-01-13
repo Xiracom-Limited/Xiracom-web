@@ -85,6 +85,7 @@
     align-self: stretch;
     margin: auto 0;
     font: 400 16px Poppins, sans-serif;
+    text-decoration: none;
   }
 
   .nav-link-flex {
