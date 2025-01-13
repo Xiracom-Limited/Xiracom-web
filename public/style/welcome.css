@@ -1,0 +1,46 @@
+  /* Reset and Base Styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Skiza Section */
+  .skiza {
+    background-color: rgba(253, 255, 252, 1);
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(90deg, #A0CD96 0%, #DAD7F7 26.81%, #B3D3AB 54.58%, #DAD7F7 99.86%);
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+    color: #399C23;
+    margin-bottom: 10px;
+  }
+  
+  .header h2 {
+    font-size: 2rem;
+    color: #200EE4;
+  }
+  
+  .header p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .subheading p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    text-align: center;
+  }

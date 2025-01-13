@@ -107,6 +107,7 @@ Route::get('/navigation-bar', function () {
     return view('navigation-bar');
     
 });
+
 Route::get('/app-development', function () {
 
     return view('app-development');
@@ -134,5 +135,17 @@ Route::get('/skiza-tunes&SSID-codes', function () {
 Route::get('/cyber-security', function () {
 
     return view('cyber-security');
+
+});
+
+Route::get('/welcome', function () {
+
+    return view('welcome');
+
+});
+
+Route::get('/footer', function () {
+
+    return view('footer');
 
 });

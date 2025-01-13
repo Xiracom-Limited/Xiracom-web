@@ -160,7 +160,7 @@
 }
 
 .hero-title {
-  width: 614px;
+width: 400px;
 height: 124px;
 font-size: 48px;
 font-weight: bold;
@@ -176,7 +176,7 @@ color: #000;
   font-size: 32px;
   font-weight: 400;
   letter-spacing: -1.28px;
-  margin: 26px 31px 0 0;
+  margin: 26px 25px 0 0;
 }
 
 .main-content {
