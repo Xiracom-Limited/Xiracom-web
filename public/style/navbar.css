@@ -1,0 +1,97 @@
+
+
+@media screen and (max-width: 600px ){
+
+  .nav-bar-bg-p{
+
+    /* Menu */
+    
+    
+    background-color:#399C23;
+   
+    
+    
+    }
+
+
+}
+
+
+.nav-bar-bg{
+
+  /* Menu */
+  
+  box-sizing: border-box;
+  
+
+  
+  background: linear-gradient(90deg, #399C23 0%, #12087E 100%);
+  border-radius: 290px;
+  
+  
+  }
+.get-started{
+
+
+
+
+
+
+}
+.txt{
+  position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bolder;
+font-size: 100%;
+
+
+top: 20%;
+left: 4%;
+text-align: center;
+
+background: linear-gradient(90deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+text-decoration: none;
+
+
+}
+@media screen and (max-width: 600px ){
+  .navbar-bg{
+
+    /* Menu */
+    
+    box-sizing: border-box;
+    
+  
+    
+    background:#367588;
+   
+    
+    
+    }
+
+  .get-started{
+
+display: none;
+
+    
+    
+    
+    }
+    
+  
+}
+.login{
+
+  background-color: #399C23;
+  
+
+}
+.login:hover{
+
+  background-color: #367588;
+}
