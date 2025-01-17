@@ -45,6 +45,109 @@
     .hero-image{
         margin: 0 0 0 40%;
     }
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f9f9f9;
+color: #333;
+}
+
+
+.header-wrapper {
+align-self: center;
+display: flex;
+width: 100%;
+max-width: 1250px;
+align-items: center;
+gap: 80px 120px;
+margin: 15px 0 15px 100px;
+}
+
+
+
+
+.menu-wrapper {
+border-radius: 290px;
+align-self: stretch;
+display: flex;
+min-width: 240px;
+align-items: center;
+gap: 28px;
+overflow: hidden;
+width: 664px;
+padding: 6px;
+background: linear-gradient(90deg, #399C23 0%, #12087E 100%);
+}
+
+.home-link {
+border-radius: 40px;
+background-color: #fafafa;
+align-self: stretch;
+display: flex;
+align-items: center;
+gap: 6px;
+justify-content: center;
+padding: 8px 16px;
+
+
+}
+
+.home-icon {
+aspect-ratio: 1;
+object-fit: contain;
+width: 20px;
+align-self: stretch;
+}
+
+
+
+.auth-container {
+align-self: stretch;
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 133px;
+font: 500 16px Poppins, sans-serif;
+margin: 0 0 0 20px;
+}
+
+.signup-wrapper {
+display: flex;
+align-items: start;
+}
+
+
+.hero {
+    background: linear-gradient(90deg, #000048, #017A01);
+    color: #fff;
+    padding: 150px;
+    text-align: left;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.hero button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero .btn-start {
+    background-color: #017A01;
+    color: #fff;
+}
+
+.hero .btn-quote {
+    background-color: #fff;
+    color: linear-gradient(to right, #399c23, #200ee4);
+}
 
     .tabs {
         display: flex;

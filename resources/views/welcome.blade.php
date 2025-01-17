@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Tech Solutions</title>
+    <title>Xiracom</title>
     <link rel="stylesheet" href="style/welcome.css">
 <body>
   <div class="hero">
@@ -139,7 +139,7 @@
     </div>
     <div class="profile-card">
         <div class="profile-image">
-            <img src="images\Ellipse 6.png" alt="Jason Wandrag">
+            <img src="public\images\Ellipse 6.png" alt="Jason Wandrag">
         </div>
         <h2 class="profile-name">Smith Jon</h2>
         <p class="profile-description">
