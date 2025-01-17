@@ -17,23 +17,7 @@ gap: 80px 120px;
 margin: 15px 0 15px 100px;
 }
 
-.logo {
-aspect-ratio: 4.24;
-object-fit: contain;
-width: 220px;
-align-self: stretch;
-}
 
-.nav-container {
-display: flex;
-align-items: center; 
-justify-content: center; 
-min-width: 240px;
-gap: 40px 50px;
-flex-wrap: wrap;
-width: 905px;
-height: 100%; 
-}
 
 
 .menu-wrapper {
@@ -69,20 +53,7 @@ width: 20px;
 align-self: stretch;
 }
 
-.nav-link {
-color: #fff;
-text-align: center;
-align-self: stretch;
-font: 400 16px Poppins, sans-serif;
-margin-top: 10px;
-text-decoration: none;
-gap: 70px;
-transition: color 0.3s ease;
-}
 
-.nav-link:hover {
-color: #00ff00;
-}
 
 .auth-container {
 align-self: stretch;
@@ -99,17 +70,6 @@ display: flex;
 align-items: start;
 }
 
-.get-started-btn {
-font-size: 1.1rem;
-border-radius: 40px;
-background-color: rgba(255, 255, 255, 0.8);
-width: 132px;
-padding: 14px 13px;
-cursor: pointer;
-background: linear-gradient(to right, #399c23, #200ee4);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; /* Gradient for the text or icon */
-}
 
 .hero {
     background: linear-gradient(90deg, #000048, #017A01);
