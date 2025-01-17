@@ -542,7 +542,7 @@
     </nav>
   </div>
     <div class="hero">
-        <h1>Kenya's Trusted Partner in<br> Professional Tech Solutions</h1>
+        <h1>Kenya's Trusted Partner in1<br> Professional Tech Solutions</h1>
         <button class="btn-start">Get Started</button>
         <button class="btn-quote">Request Quote</button>
     </div>
