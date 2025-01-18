@@ -85,7 +85,7 @@
         <a class="nav-link" style="font-weight:bolder;color:white;" href="#">Blog</a>
       </li>
       <li class="login">
-        <a class="nav-link back"style="font-weight:bolder;color:white;border-style:solid;border-color:green;"  href="#">LOGIN</a>
+        <a class="nav-link back"style="font-weight:bolder;color:white;border-style:solid;border-color:green;"  href="#">Get Started</a>
       </li>
     </ul> 
    
