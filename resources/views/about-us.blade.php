@@ -1,3 +1,7 @@
+
+@include("navigation-bar")
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +14,7 @@
      <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<!--navigation bar section-->
-<div class="container-fluid">
-    <h1>This is my navigation</h1>
-</div>
+
 <!--Navigation bar ends here-->
 <!--Heroes section starts here-->
 
@@ -116,3 +117,4 @@
 
 </body>
 </html>
+

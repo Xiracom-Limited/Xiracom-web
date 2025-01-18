@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
-<body>
+
   
 <!--Navigation bar starts here-->
 <nav class="container navbar navbar-expand-lg" id="nav-bar">
@@ -82,7 +81,7 @@
         <a class="nav-link" style="font-weight:bolder;color:white;" href="#">Contact Us</a>
       </li>
       <li class="login">
-        <a class="nav-link back"style="font-weight:bolder;color:white;border-style:solid;border-color:green;"  href="#">Get Started</a>
+        <a class="nav-link back"style="font-weight:bolder;color:white;border-style:solid;border-color:green;"  href="#">LOGIN</a>
       </li>
     </ul> 
    
@@ -94,12 +93,3 @@
 
 
 
-
-</body>
-
-
-
-
-
-
-</html>
