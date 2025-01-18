@@ -9,18 +9,19 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
-  
+  <div class="media" style="background-color:#399C23">
+
 <!--Navigation bar starts here-->
 <nav class="container navbar navbar-expand-lg" id="nav-bar">
-  <a class="navbar-brand" href="#"><img src="images/logo.svg" width="80%"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" href="#"><img src="images/logo.svg" width="60%"></a>
+  <button class="navbar-toggler bg-light color-white" style=""type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse nav-bar-bg" id="navbarNavDropdown">
-    <ul class="navbar-nav  navbar-bg" style="padding-left:3%;padding-right:2%;">
+  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+    <ul class="navbar-nav nav-bar-bg">
      
       <li class="nav-item active">
-        <a class="nav-link" style="font-weight:bolder;color:white;"  href="#">Home</a>
+        <a class="nav-link" style="font-weight:bolder;color:white;"  href="./">Home</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle"style="font-weight:bolder;color:white;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -80,6 +81,9 @@
       <li class="nav-item">
         <a class="nav-link" style="font-weight:bolder;color:white;" href="#">Contact Us</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" style="font-weight:bolder;color:white;" href="#">Blog</a>
+      </li>
       <li class="login">
         <a class="nav-link back"style="font-weight:bolder;color:white;border-style:solid;border-color:green;"  href="#">LOGIN</a>
       </li>
@@ -89,7 +93,8 @@
  
 </nav>
 <!--navigation bar ends here -->
-
+    
+</div>
 
 
 
