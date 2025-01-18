@@ -32,7 +32,13 @@ background-size: contain;
     
   
 }
+.login{
 
+ 
+  background-color: #367588;
+ 
+
+}
 .login:hover{
 
   background-color: #367588;
