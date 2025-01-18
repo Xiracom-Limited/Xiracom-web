@@ -173,55 +173,7 @@
 
       <!-- Footer starts here-->
 
-      <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-section logo-social">
-                <img src="logo.png" alt="Xiracom Logo" class="flogo">
-                <ul class="social-links">
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Tiktok</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                </ul>
-            </div>
-            <div class="footer-section service">
-                <h3>Our services</h3>
-                <ul>
-                    <li>UI design</li>
-                    <li>UX design</li>
-                    <li>Bulk SMS</li>
-                    <li>Graphic designing</li>
-                    <li>Web development</li>
-                    <li>App development</li>
-                    <li>Jobs and internship</li>
-                </ul>
-            </div>
-            <div class="footer-section explore">
-                <h3>Explore</h3>
-                <ul>
-                    <li>Design</li>
-                    <li>Prototyping</li>
-                    <li>Development features</li>
-                    <li>Design systems</li>
-                    <li>Collaboration features</li>
-                    <li>Design process</li>
-                    <li>Cybersecurity</li>
-                </ul>
-            </div>
-            <div class="footer-section address">
-                <h3>Address</h3>
-                <p>Eldoret, Kenya</p>
-                <p>+254704907565</p>
-                <p><a href="mailto:info@xiracom.co.ke">info@xiracom.co.ke</a></p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>Copyright ©2025 Xiracom. All Rights Reserved</p>
-            <ul>
-                <li><a href="#">Terms and conditions</a></li>
-                <li><a href="#">Policy</a></li>
-            </ul>
-        </div>
-    </footer>
+    
 </body>
 </html>
+@include("footer")
