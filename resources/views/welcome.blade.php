@@ -6,60 +6,87 @@
     <title>Xiracom</title>
     <link rel="stylesheet" href="style/welcome.css">
 <body>
-  <div class="hero">
-    <div>
-    <h1>Kenya's Trusted Partner in<br> Professional Tech Solutions</h1>
-    <button class="btn-start">Get Started</button>
-    <button class="btn-quote">Request Quote</button>
-    </div>
-    <div>
-    <img class="hero-image" src="images\Rectangle 1981.png">
-    </div>
-</div>
+<header class="hero-section">
+        <div class="content">
+            <h1>Kenya's Trusted Partner in <br> Professional Tech Solutions</h1>
+            <div class="buttons">
+                <a href="#" class="btn btn-primary">Get Started</a>
+                <a href="#" class="btn btn-secondary">Request Quote</a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images\Rectangle 1981.png" alt="Person with Laptop">
+        </div>
+    </header>
 
 <!-- Tabs section  starts here-->
 
 <div class="tabs">
   <button>UI/UX Design</button>
+  <div class="tab-image">
+            <img src="images\23.png">
+        </div>
   <button>DarasaLink</button>
+  <div class="tab-image">
+            <img src="images\23.png">
+        </div>
   <button>Exam Parlour</button>
+  <div class="tab-image">
+            <img src="images\23.png">
+        </div>
   <button>Web Design</button>
 </div>
 
 
-    <section class="process">
-        <h2>My process to design</h2>
-        <div class="steps">
-          <div class="step">
-              <h3>Step 1: Product Design Research</h3>
-              <p>This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
-              <button>See Examples</button>
-         <hr>
-              <h3>Step 2: UI Design in Figma</h3>
-              <p>This step involves designing and prototyping user interfaces to ensure the product is user-friendly and visually appealing.</p>
-          <hr>
-              <h3>Step 3: No-code Develop in Webflow</h3>
-              <p>Develop a functional and visually stunning product using no-code tools like Webflow.</p>
-          </div>
-          <section class="case-studies">
-            <div class="card1">
-                <div class="card1-content">
-                    <h2>Web Development</h2>
-                    <p>UX Case study</p>
-                </div>
-                <img class="card1-image" src="images\pexels-shkrabaanthony-7163431 1.png" alt="Web Development">
+<section class="design-process">
+    <div class="steps">
+        <div class="step">
+            <div class="step-number">
+                <span>1</span>
             </div>
-    
-            <div class="card1">
-                <div class="card1-content">
-                    <h2>Software Development</h2>
-                    <p>UX Case study</p>
-                </div>
-                <img class="card1-image" src="images\Rectangle 3817.png" alt="Software Development">
+            <div class="step-content">
+                <h3>Step 1: Product design Research</h3>
+                <p>This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
+                <a href="#" class="btn-link">See Examples</a>
             </div>
-        </section>
-   </div>
-    </section>
+        </div>
+        <div class="step">
+            <div class="step-number">
+                <span>2</span>
+            </div>
+            <div class="step-content">
+                <h3>Step 2: UI design in Figma</h3>
+                <p>This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">
+                <span>3</span>
+            </div>
+            <div class="step-content">
+                <h3>Step 3: No-code develop in Webflow</h3>
+                <p>This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h4>Web Development</h4>
+            <p>UX Case study</p>
+            <div class="cards-image">
+            <img src="images\pexels-shkrabaanthony-7163431 1.png">
+        </div>
+        </div>
+        <div class="card">
+            <h4>Software Development</h4>
+            <p>UX Case study</p>
+            <div class="cards-image">
+            <img src="images\Rectangle 3817.png">
+        </div>
+        </div>
+    </div>
+</section>
 
     <h5 class="Services-title">Our Services</h5>
         <div class="services-grid">
