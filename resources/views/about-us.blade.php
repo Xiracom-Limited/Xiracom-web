@@ -18,7 +18,7 @@
 
 <img src="images/about.png" width="100%">
 
-
+<h class="about-txt">ABOUT US</h>
 </div>
 <!--heroes section ends here-->
 

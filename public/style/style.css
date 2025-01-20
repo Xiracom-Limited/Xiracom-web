@@ -1,5 +1,66 @@
+
 .heroes-section{
 
+    width: 100%;
 
-    
+}
+.about-txt{
+  /* About Us */
+
+position: absolute;
+width: 388px;
+height: 90px;
+left: 526px;
+top: 167px;
+
+/* H1 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 90px;
+/* identical to box height */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+}
+@media screen and (max-width:600px) and (max-width:720px){
+    .heroes-section{
+        /* About Us */
+      
+      position: absolute;
+      width: 100%;
+ 
+      
+      
+      }
+      .about-txt{
+        /* About Us */
+      
+      position: center;
+      width: 388px;
+      height: 20px;
+      left: 20%;
+      top: 7%;
+      
+      
+      /* H1 */
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 1000;
+      font-size: 30px;
+      line-height: 90px;
+      /* identical to box height */
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      
+      /* White */
+      color: #FFFFFF;
+      
+      
+      }
 }
