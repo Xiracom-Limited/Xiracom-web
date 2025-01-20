@@ -19,17 +19,7 @@
     align-self: stretch;
   }
   
-  .nav-container {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    min-width: 240px;
-    gap: 40px 50px;
-    flex-wrap: wrap;
-    width: 905px;
-    height: 100%; 
-}
-
+ 
   
   .menu-wrapper {
     border-radius: 290px;
@@ -64,14 +54,7 @@
     align-self: stretch;
   }
   
-  .nav-link {
-    color: #fff;
-    text-align: center;
-    align-self: stretch;
-    font: 400 16px Poppins, sans-serif;
-    margin-top: 10px;
-    
-  }
+  
   
   .auth-container {
     align-self: stretch;
@@ -85,16 +68,6 @@
   .signup-wrapper {
     display: flex;
     align-items: start;
-  }
-  
-  .get-started-btn {
-    border-radius: 40px;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 132px;
-    padding: 14px 13px;
-    background: linear-gradient(180deg, #399C23 0%, #2068DC 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Gradient for the text or icon */
   }
   
   

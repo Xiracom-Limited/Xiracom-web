@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,32 +12,9 @@
     <link rel="stylesheet" href="style/examparlour.css">
 </head>
 <body>
-    <!-- Navbar Section -->
-    <div class="header-wrapper">
-        <!-- Company Logo -->
-        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a5016053130a5fc70271270a2305caafee1ce05308b14e2bf7842f252a184fec?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Company Logo" class="logo" />
-        
-        <!-- Navigation Menu -->
-        <nav class="nav-container">
-            <div class="menu-wrapper">
-                <a href="#" class="home-link">
-                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d756e8c8126240957051134d6a08d14dc7246ef6a0fe66a1990f300025f683bd?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Home Icon" class="home-icon" />
-                </a>
-                <a href="#" class="nav-link">About us</a>
-                <a href="#" class="nav-link">Projects</a>
-                <a href="#" class="nav-link">Our Services</a>
-                <a href="#" class="nav-link">Sections</a>
-                <a href="#" class="nav-link">Contact us</a>
-            </div>
-            <!-- Authentication Section -->
-            <div class="auth-container">
-                <div class="signup-wrapper">
-                    <button class="get-started-btn">Get Started</button>
-                </div>
-            </div>
-        </nav>
-    </div>
-    
+    <div style="background-color: #399C23">
+@include("navigation-bar")
+
     <!-- Hero Section -->
     <div class="container-fluid heroes-section bg-success text-white py-5">
         <div class="container text-center">
@@ -50,12 +28,12 @@
                 </div>
                 <!-- Hero Image -->
                 <div class="col-md-6 text-center">
-                    <img src="./images/Examparlour1.png" alt="Hero Image" class="img-fluid" style="max-height: 400px;">
+                    <img src="images/Examparlour1.png" alt="Hero Image">
                 </div>
             </div>
         </div>
     </div>
-
+    </div>
     <!-- Core Features Section -->
     <div class="container-fluid core-features-section py-5">
         <div class="container text-center">
