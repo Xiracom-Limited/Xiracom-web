@@ -28,7 +28,20 @@ color: #FFFFFF;
 
 
 }
-@media screen and (max-width:600px) and (max-width:720px){
+.about-section-one{
+    /* Left Column */
+
+
+
+    background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+
+
+
+}
+@media screen and (max-width:600px){
+    body{
+      margin-right: auto;
+    }
     .heroes-section{
         /* About Us */
       
@@ -63,4 +76,17 @@ color: #FFFFFF;
       
       
       }
+      .bg-icon{
+
+        background-image:url('../images/about-icon.png');
+        background-repeat: no-repeat;
+    background-size: 20%;
+    }
+   
+}
+.bg-icon{
+
+    background-image:url('../images/about-icon.png');
+    background-repeat: no-repeat;
+background-size: 20%;
 }
