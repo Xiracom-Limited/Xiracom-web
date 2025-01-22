@@ -19,7 +19,7 @@ body {
     background: linear-gradient(to right, #040f20, #14079e, #194d0d, #399C23);
     color: white;
     padding: 5% 10%;
-    height: 77vh;
+    height: 67.5vh;
 }
 
 .hero-section .content {
@@ -186,7 +186,7 @@ body {
     padding: 2rem;
     border-radius: 10px;
     position: relative;
-    height: auto;
+    height: 78.2vh;
 }
 
 .card h4 {
