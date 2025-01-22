@@ -149,3 +149,9 @@ Route::get('/footer', function () {
     return view('footer');
 
 });
+
+Route::get('/nav-bar2', function () {
+
+    return view('nav-bar2');
+
+});
