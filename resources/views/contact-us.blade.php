@@ -169,7 +169,8 @@
   object-fit: cover; 
   filter: brightness(0.7); 
   z-index: 1; 
-
+   
+}
 .hero-text {
   color: white;
   position: absolute;
