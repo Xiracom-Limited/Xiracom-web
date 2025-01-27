@@ -17,14 +17,14 @@
       align-self: center;
       display: flex;
       width: 90%;
-      /* Ensure it scales for smaller screens */
+      
       max-width: 80%;
-      /* Constrain the maximum width */
+
       flex-direction: column;
       margin: 3vh 0 0 1%;
-      /* Relative margins for better layout control */
+      
       font-size: 2rem;
-      /* Adjust font size to scale with root */
+      
     }
 
     .header-wrapper {
@@ -32,7 +32,7 @@
       display: flex;
       align-items: flex-start;
       gap: 2%;
-      /* Replace fixed gap with percentage */
+      
       flex-wrap: wrap;
     }
 
@@ -46,16 +46,16 @@
       object-fit: contain;
       object-position: center;
       width: 10%;
-      /* Scale with container size */
+      
       margin-top: 5%;
-      /* Percentage-based margin */
+      
       max-width: 100%;
     }
 
     .subheader {
       align-self: center;
       margin-top: 2%;
-      /* Adjust margin for better spacing */
+      
     }
 
 
@@ -155,43 +155,42 @@
     .hero-banner {
   position: relative;
   width: 100%;
-  height: 80vh; /* Adjust as needed for your design */
+  height: 80vh; 
   display: flex;
-  align-items: center; /* Vertically center the text */
-  justify-content: center; /* Horizontally center the text */
-  overflow: hidden; /* Prevents content from overflowing */
+  align-items: center; 
+  justify-content: center; 
+  overflow: hidden; 
 }
 
 .hero-image {
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the div while maintaining aspect ratio */
-  filter: brightness(0.7); /* Darkens the image for better text visibility */
-  z-index: 1; /* Ensures the image is behind the text */
-}
+  object-fit: cover; 
+  filter: brightness(0.7); 
+  z-index: 1; 
 
 .hero-text {
   color: white;
   position: absolute;
-  z-index: 2; /* Ensures the text is above the image */
+  z-index: 2; 
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem; /* Adjust font size as needed */
+  font-size: 2.5rem; 
   font-weight: bold;
-  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Adds a shadow for better readability */
-  padding: 1rem; /* Adds padding around the text */
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 1rem; 
   line-height: 1.5;
 }
 
 @media (max-width: 768px) {
   .hero-text {
-    font-size: 2rem; /* Responsive font size for smaller screens */
+    font-size: 2rem; 
   }
 }
 
 @media (max-width: 480px) {
   .hero-text {
-    font-size: 1.5rem; /* Further adjustment for very small devices */
+    font-size: 1.5rem; 
   }
 }
 
