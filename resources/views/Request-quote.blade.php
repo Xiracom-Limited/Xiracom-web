@@ -41,36 +41,58 @@
         <p class="hero-subtitle">Get a Personalized Quote for a Service</p>
     </div>
 
-    <!-- Form title -->
-    <h2 class="form-title">Request Quote</h2>
+    <div class="container mt-5 ">
+    <div class="card shadow p-4 rounded">
+        <h2 class="text-center mb-4">Request Quote</h2>
+        
+        <form>
+            <!-- Name Field -->
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
+                </div>
+            </div>
 
-    <!-- Quote request form -->
-    <form class="quote-form">
-        <label for="name" class="form-label">Your Name</label>
-        <div class="input-wrapper">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/75dfa1ba39bf7a0f3adbe1bd4a95eaf0ceb33df61c1b087d998ad9733d375ef9?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Name Icon" class="input-icon" />
-            <input type="text" id="name" class="form-input" placeholder="Enter Your Name" required />
-        </div>
+            <!-- Email Field -->
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required>
+                </div>
+            </div>
 
-        <label for="email" class="form-label">Mail</label>
-        <div class="input-wrapper">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d850fa04c3e189ee0f7d390bb7682efaa2f5c3fe61af2860ec4d18a72764681?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Email Icon" class="input-icon" />
-            <input type="email" id="email" class="form-input" placeholder="Email" required />
-        </div>
+            <!-- Service Selection -->
+            <div class="mb-3">
+                <label for="service" class="form-label">Service</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-list"></i></span>
+                    <select class="form-select" id="service" required>
+                        <option value="" selected>Select a service</option>
+                        <option value="web">Web Development</option>
+                        <option value="design">UI/UX Design</option>
+                        <option value="seo">SEO Optimization</option>
+                    </select>
+                </div>
+            </div>
 
-        <label for="service" class="form-label">Service</label>
-        <div class="select-wrapper">
-            <select id="service" class="form-input" required>
-                <option value="">Select</option>
-                <!-- Add service options here -->
-            </select>
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/564483bed361ace8ee24794bb3e98ed651d3b67dacd192f1b0bc31c594b038f7?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Dropdown Icon" class="input-icon" />
-        </div>
+            <!-- Message Field -->
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message..." required></textarea>
+            </div>
 
-        <label for="message" class="form-label">Message</label>
-        <textarea id="message" class="message-input" placeholder="Message" required></textarea>
+            <!-- Submit Button -->
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary c-btm-button">
+                    <i class="bi bi-send-fill"></i> Send Message
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
 
-        <button type="submit" class="submit-btn">Send Message</button>
-    </form>
 </body>
 </html>
