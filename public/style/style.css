@@ -2,30 +2,7 @@
 .heroes-section{
 
     width: 100%;
-
-}
-.about-txt{
-  /* About Us */
-
-position: absolute;
-width: 388px;
-height: 90px;
-left: 526px;
-top: 167px;
-
-/* H1 */
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 60px;
-line-height: 90px;
-/* identical to box height */
-letter-spacing: 0.07em;
-text-transform: uppercase;
-
-/* White */
-color: #FFFFFF;
-
+    
 
 }
 .about-section-one{
@@ -51,31 +28,7 @@ color: #FFFFFF;
       
       
       }
-      .about-txt{
-        /* About Us */
-      
-      position: center;
-      width: 388px;
-      height: 20px;
-      left: 20%;
-      top: 7%;
-      
-      
-      /* H1 */
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 1000;
-      font-size: 30px;
-      line-height: 90px;
-      /* identical to box height */
-      letter-spacing: 0.07em;
-      text-transform: uppercase;
-      
-      /* White */
-      color: #FFFFFF;
-      
-      
-      }
+    
       .bg-icon{
 
         background-image:url('../images/about-icon.png');
@@ -89,4 +42,37 @@ color: #FFFFFF;
     background-image:url('../images/about-icon.png');
     background-repeat: no-repeat;
 background-size: 20%;
+}
+.txt-about{
+padding-top: 5%;
+
+}
+.list{
+  text-decoration: none;
+  list-style-type: none;
+}
+.team-card{
+  /* Team */
+
+width: 100%;
+height: 706px;
+
+
+
+}
+.upper-section-1{
+  /* Image Placeholder */
+
+  width: 100%;
+  height: 70%;
+  left: 50px;
+  top: 30%;
+
+background: url("../images/Team2.png");
+background-position: center;
+background-repeat: no-repeat;
+/* Image Placeholder */
+
+
+
 }
