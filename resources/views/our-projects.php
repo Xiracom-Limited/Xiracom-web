@@ -60,7 +60,7 @@
       width: 70%; /* Take 40% of the screen width on large screens */
       max-width: 600px; /* Optional: Limit maximum width */
       background: transparent; /* Transparent background */
-      padding: 20px; /* Add some padding */
+      padding: 20px; 
       align-items: center;
       text-align: center;
 
