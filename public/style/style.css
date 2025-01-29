@@ -1,0 +1,489 @@
+
+.heroes-section{
+
+    width: 100%;
+    
+
+}
+.about-section-one{
+    /* Left Column */
+
+
+
+    background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+
+
+
+}
+@media screen and (max-width:600px){
+    body{
+      margin-right: auto;
+    }
+    .heroes-section{
+        /* About Us */
+      
+      position: absolute;
+      width: 100%;
+ 
+      
+      
+      }
+    
+      .bg-icon{
+
+        background-image:url('../images/about-icon.png');
+        background-repeat: no-repeat;
+    background-size: 20%;
+    }
+   
+}
+.bg-icon{
+
+    background-image:url('../images/about-icon.png');
+    background-repeat: no-repeat;
+background-size: 20%;
+}
+.bg-icon2{
+
+  background-image:url('../images/Circle.svg');
+  background-repeat: no-repeat;
+background-size: 20%;
+}
+.bg-icon3{
+
+  background-image:url('../images/Circle.svg');
+  background-repeat: no-repeat;
+background-size: 10%;
+}
+.txt-about{
+padding-top: 5%;
+
+}
+.list{
+  text-decoration: none;
+  list-style-type: none;
+}
+.team-card{
+  /* Team */
+
+width: 100%;
+height: 605px;
+
+
+
+
+}
+.upper-section-1{
+  /* Image Placeholder */
+
+  width: 100%;
+  height: 60%;
+
+  top: 30%;
+
+background: url("../images/Team2.png");
+background-position: center;
+background-repeat: no-repeat;
+/* Image Placeholder */
+
+
+
+}
+
+.lower-section2{
+/* Background */
+
+background: #2068DC;
+text-align: center;
+
+
+}
+.lower-section{
+  text-align: center;
+}
+.about-us{
+
+  /* About Us */
+/* H1 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 90px;
+/* identical to box height */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+}
+.about-content{
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. */
+
+/* Text Paragraph */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+/* White */
+color: #FFFFFF;
+
+
+}
+@media screen and (max-width:720px){
+  .about-content{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. */
+  
+  /* Text Paragraph */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  top: 10px;
+  
+  /* White */
+  color: #FFFFFF;
+  
+  
+  }
+
+
+
+  
+}
+.who-we{
+  /* WHO WE ARE */
+/* H6 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 26px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.we-are{
+  /* WE ARE PERFECT TEAM FOR TECH DESIGN */
+/* H2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 68px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+@media screen and (max-width:720px){
+  .we-are{
+    /* WE ARE PERFECT TEAM FOR TECH DESIGN */
+  /* H2 */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  
+  color: #12087E;
+  
+  
+  }
+}
+.team-txt{
+  /* Title */
+
+/* OUR TEAM */
+
+
+
+/* H2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 68px;
+/* identical to box height */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+
+
+}
+.head-txt{
+  /* 15Y */
+
+/* H2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 68px;
+text-align: center;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.exp-txt1{
+  /* Experience */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: left;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+.exp-txt2{
+  /* Best Team */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: left;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+.exp-txt3{
+  /* Best Team */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: left;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+@media screen and (max-width:720px){
+
+.exp-txt1{
+  /* Experience */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+.exp-txt2{
+  /* Best Team */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+.exp-txt3{
+  /* Best Team */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+}
+.head-title{
+  /* KELVIN MUKOLWE */
+
+/* H4 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+}
+.head-title2{
+  /* LEVIS CHISIRA */
+/* H4 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.title-txt1{
+  /* CEO, CO-FOUNDER */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* Paragraph Color */
+color: #6E6E6E;
+
+
+}
+.title-txt2{
+
+  /* PRODUCT MANAGER */
+
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.call-us-section{
+  /* Quote Block */
+/* Background */
+
+
+width: 100%;
+height: 50%;
+left: 0px;
+
+
+
+background: linear-gradient(96.08deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+
+
+}
+.call-section1{
+  /* Right Column */
+/* Icon Box */
+
+/* Rectangle 14 */
+
+box-sizing: border-box;
+left: 10%;
+top: 10%;
+width: 427px;
+height: 221px;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+
+}
+.call-section2{
+  /* "WORK HARD & GREAT QUALITY IS our PRIORITY" */
+
+width: 70%;
+height: 40%;
+left: 55px;
+top: 38px;
+
+/* H1 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 90px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+}

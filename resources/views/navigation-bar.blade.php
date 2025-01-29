@@ -14,7 +14,7 @@
 <!--Navigation bar starts here-->
 <nav class="container navbar navbar-expand-lg" id="nav-bar">
   <a class="navbar-brand" href="#"><img src="images/logo.svg" width="60%"></a>
-  <button class="navbar-toggler bg-light color-white" style=""type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler bg-light color-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse " id="navbarNavDropdown">
