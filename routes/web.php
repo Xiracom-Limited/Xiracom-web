@@ -149,3 +149,15 @@ Route::get('/footer', function () {
     return view('footer');
 
 });
+Route::get('/blog', function () {
+
+    return view('blog');
+
+});
+Route::get('/domain-hosting-services', function () {
+
+    return view('domain-hosting-services');
+
+});
+
+

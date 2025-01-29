@@ -68,7 +68,7 @@ padding-top: 5%;
 
 width: 100%;
 height: 605px;
-top: 0px;
+
 
 
 
@@ -427,6 +427,62 @@ text-align: center;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 
+color: #FFFFFF;
+
+
+}
+.call-us-section{
+  /* Quote Block */
+/* Background */
+
+
+width: 100%;
+height: 50%;
+left: 0px;
+
+
+
+background: linear-gradient(96.08deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+
+
+}
+.call-section1{
+  /* Right Column */
+/* Icon Box */
+
+/* Rectangle 14 */
+
+box-sizing: border-box;
+left: 10%;
+top: 10%;
+width: 427px;
+height: 221px;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+
+}
+.call-section2{
+  /* "WORK HARD & GREAT QUALITY IS our PRIORITY" */
+
+width: 70%;
+height: 40%;
+left: 55px;
+top: 38px;
+
+/* H1 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 90px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+/* White */
 color: #FFFFFF;
 
 
