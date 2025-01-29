@@ -149,9 +149,24 @@ Route::get('/footer', function () {
     return view('footer');
 
 });
+<<<<<<< HEAD
 
 Route::get('/nav-bar2', function () {
 
     return view('nav-bar2');
 
 });
+=======
+Route::get('/blog', function () {
+
+    return view('blog');
+
+});
+Route::get('/domain-hosting-services', function () {
+
+    return view('domain-hosting-services');
+
+});
+
+
+>>>>>>> 77559c8a5b27fb8a6bd86ca53c43317b6b5bead0

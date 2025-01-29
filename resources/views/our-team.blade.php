@@ -169,11 +169,22 @@
             </div>
         </div>
         <!-- Call to Action -->
-        <div class="mt-5">
-            <h3 class="mb-3">Ready to Build Your App? Let's Get Started.</h3>
-            <p class="text-muted">Here is a quick way to begin</p>
-            <a href="#" class="btn btn-primary">Get Started</a>
+        <section class="cta-section py-5 bg-white">
+      <div id="container-bottom" class="container">
+        <div class="row align-items-center">
+          <!-- Left Column: Text Content -->
+          <div class="col-md-8 text-left">
+            <h2 class="mb-3">Ready To Build your Website? Let’s Get Started.</h2>
+            <p class="mb-0">Here is a quick way to begin</p>
+          </div>
+
+          <!-- Right Column: Button -->
+          <div class="col-md-4 ms-auto text-end">
+            <button class="btn btn-custom btn-lg">Get Started</button>
+          </div>
         </div>
+      </div>
+    </section>
     </div>
 </section>
 
