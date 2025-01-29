@@ -147,7 +147,7 @@
              <!-- Team Member 6-->
              <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/Team2.png" alt="Japheth Kibet - Project Manager">
+                    <img class="card-img-top img-fluid" src="images\DSC_6434 (1).png" alt="Japheth Kibet - Project Manager">
                     <div class="card-body6">
                         <h6 class="card-title">PROJECT MANAGER</h6>
                         <p class="text-muted">JAPHETH KIBET</p>

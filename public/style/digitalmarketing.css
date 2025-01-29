@@ -1,219 +1,49 @@
-  .header-wrapper {
-    align-self: center;
-    display: flex;
-    margin-left: 12px;
-    width: 100%;
-    max-width: 1199px;
-    align-items: center;
-    gap: 80px 132px;
 
-  }
-  
-  .logo {
-    aspect-ratio: 4.24;
-    object-fit: contain;
-    width: 220px;
-    align-self: stretch;
-  }
-  
-  .nav-container {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    min-width: 240px;
-    gap: 40px 50px;
-    flex-wrap: wrap;
-    width: 905px;
-    height: 100%; 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 20px;
+  background: linear-gradient(to right, #A0CD96, #DAD7F7, #B3D3AB, #574ADD);
 }
-
-  
-  .menu-wrapper {
-    border-radius: 290px;
-    align-self: stretch;
-    display: flex;
-    min-width: 240px;
-    align-items: center;
-    gap: 28px;
-    overflow: hidden;
-    width: 664px;
-    padding: 6px;
-   background: linear-gradient(90deg, #399C23 0%, #12087E 100%);
-  }
-  
-  .home-link {
-    border-radius: 40px;
-    background-color: #fafafa;
-    align-self: stretch;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    justify-content: center;
-    padding: 8px 16px;
-
-
-  }
-  
-  .home-icon {
-    aspect-ratio: 1;
-    object-fit: contain;
-    width: 20px;
-    align-self: stretch;
-  }
-  
-  .nav-link {
-    color: #fff;
-    text-align: center;
-    align-self: stretch;
-    font: 400 16px Poppins, sans-serif;
-    margin-top: 10px;
-    
-  }
-  
-  .auth-container {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 133px;
-    font: 500 16px Poppins, sans-serif;
-  }
-  
-  .signup-wrapper {
-    display: flex;
-    align-items: start;
-  }
-  
-  .get-started-btn {
-    border-radius: 40px;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 132px;
-    padding: 14px 13px;
-    background: linear-gradient(180deg, #399C23 0%, #2068DC 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Gradient for the text or icon */
-  }
-
- .marketing-container {
-    background-color: rgba(253, 255, 252, 1);
-    display: flex;
-    padding-bottom: 659px;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(90deg, #A0CD96 0%, #DAD7F7 26.81%, #B3D3AB 54.58%, #574ADD 99.86%);
-    margin-top: 10px;
-  }
-  
-  .hero-section {
-    display: flex; /* Enables flexbox for layout */
-    flex-direction: column; /* Aligns children in a column */
-    position: relative; /* Allows for absolute positioning of children */
-    z-index: 10; /* Sets the stacking order */
-    min-height: 1224px; /* Sets a minimum height */
-    margin-bottom: -1400px; /* Pulls the section up by this amount */
-    width: 100%; /* Full width */
-    max-width: 1310px; /* Maximum width */
-    padding: 41px 0 0 80px; /* Padding on top and left */
-    margin-top: -350px; /* Pulls the section up by this amount */
+.content {
+  max-width: 50%;
 }
-
-
-  
-  .hero-bg {
-    position: absolute;
-    inset: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-  
-  .content-wrapper {
-    position: relative;
-    align-self: end;
-    z-index: 10;
-    width: 100%;
-    max-width: 1142px;
-    margin: 71px 20px -77px 0;
-  }
-  
-  .content-grid {
-    gap: 20px;
-    display: flex;
-  }
-  
-  .left-column {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 50%;
-    margin-left: 0px;
-  }
-  
-  .hero-content {
-    position: relative;
-    display: flex;
-    margin-top: 25px;
-    width: 100%;
-    flex-direction: column;
-    align-items: start;
-    font: 500 18px Inter, sans-serif;
-  }
-  
-  .hero-title {
-    color: rgba(1, 22, 39, 1);
-    font-size: 65px;
-    font-weight: 700;
-    line-height: 88px;
-    text-transform: uppercase;
-  }
-  
-  .hero-subtitle {
-    color: rgba(1, 22, 39, 1);
-    font-size: 26px;
-    letter-spacing: 0.52px;
-    align-self: stretch;
-    margin-top: 48px;
-  }
-  
-  .hero-description {
-    color: rgba(1, 22, 39, 1);
-    font-weight: 400;
-    align-self: stretch;
-    margin: 40px 17px 0 0;
-  }
-  
-  .cta-container {
-    display: flex;
-    margin-top: 71px;
-    gap: 33px;
-    font-size: 20px;
-  }
-  
-  .cta-primary {
-    border-radius: 62px;
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
-    padding: 14px 44px;
-  }
-  
-  .cta-secondary {
-    display: flex;
-    gap: 12px;
-  }
-  
-  .play-icon {
-    aspect-ratio: 1;
-    object-fit: contain;
-    object-position: center;
-    width: 52px;
-    border-radius: 0;
-  }
-  
-  .watch-text {
-    flex-basis: auto;
-    margin: auto 0;
-  }
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.blue { color: blue; }
+.green { color: green; }
+.subheading {
+  font-size: 18px;
+  font-weight: bold;
+}
+.description {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+.get-start {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.watch-video {
+  text-decoration: none;
+  font-size: 16px;
+  color: green;
+}
+.image img {
+  max-width: 300px;
+}
   
   .features-title {
     color: rgba(1, 22, 39, 1);
@@ -341,6 +171,11 @@
     .header-wrapper {
       max-width: 100%;
       padding-right: 20px;
+    }
+
+    .image img {
+      visibility: hidden;
+      width: 1px;
     }
     
     .hero-section {

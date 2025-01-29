@@ -207,6 +207,6 @@
 
       <!-- Footer starts here-->
 
-    
+    @include("footer")
 </body>
 </html>
