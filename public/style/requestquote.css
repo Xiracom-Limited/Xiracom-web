@@ -294,3 +294,11 @@
       padding: 0 20px;
     }
   }
+
+  .c-btm-button{
+    background-color: #399C23 !important;
+    border-radius: 72px !important;
+    padding: 10px;
+    /* padding: ; */
+
+  }

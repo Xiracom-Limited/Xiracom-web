@@ -197,7 +197,72 @@
   .cta-form button:hover {
     background-color: #399C23;
   }
+
+  .pricing-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  flex-wrap: wrap; 
+}
   
+  @media (max-width: 768px) {
+  .pricing-section {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .pricing-card {
+    width: 90%;
+    max-width: 300px; 
+  }
+}
+
+
+
+.subheading {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 20px 10px;
+  padding: 10px;
+}
+
+
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 40px auto;
+  text-align: left;
+  max-width: 900px;
+}
+
+
+.info, .setup {
+  width: 45%;
+}
+
+
+@media (max-width: 768px) {
+  .info-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px; 
+    margin-right: 20px;
+  }
+
+  .info, .setup {
+    width: 90%; 
+  }
+
+  .setup ul {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
  </style>
 </head>
 <body>
@@ -239,8 +304,8 @@
     </div>
 
     <!-- Pricing Section -->
-    <div class="pricing-section">
-      <div class="pricing-card bronze">
+    <div class="row pricing-section">
+      <div class="col-12 pricing-card bronze">
         <h3>Bronze</h3>
         <p><strong>KSH 1000</strong></p>
         <p>Quick easy setup for small businesses, greet your customers with a custom ringtone when they call.</p>
@@ -252,7 +317,7 @@
           <li>Professional recording</li>
         </ul>
       </div>
-      <div class="pricing-card silver">
+      <div class="col-12 pricing-card silver">
         <h3>Silver</h3>
         <p><strong>KSH 5000</strong></p>
         <p>Set up a custom ringtone on your mobile line and customer care centre, manage which tone is played to customers.</p>
