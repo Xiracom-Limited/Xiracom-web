@@ -1,3 +1,5 @@
+@include("navigation-bar")
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,28 +8,8 @@
     <title>Jobs & internship</title>
     <link rel="stylesheet" href="style/jobs-internships.css">
 </head>
+
 <body>
-  <!-- Navbar starts here-->
-<div class="header-wrapper">
-    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a5016053130a5fc70271270a2305caafee1ce05308b14e2bf7842f252a184fec?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Company Logo" class="logo" />
-    <nav class="nav-container">
-      <div class="menu-wrapper">
-        <a href="#" class="home-link">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d756e8c8126240957051134d6a08d14dc7246ef6a0fe66a1990f300025f683bd?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Home Icon" class="home-icon" />
-        </a>
-        <a href="#" class="nav-link">About us</a>
-        <a href="#" class="nav-link">Projects</a>
-        <a href="#" class="nav-link">Our Services</a>
-        <a href="#" class="nav-link">Sections</a>
-        <a href="#" class="nav-link">Contact us</a>
-      </div>
-      <div class="auth-container">
-        <div class="signup-wrapper">
-          <button class="get-started-btn">Get Started</button>
-        </div>
-      </div>
-    </nav>
-</div>
 <section class="jobs-section">
   <section class="hero-section">
     <div class="hero-content">
@@ -49,10 +31,12 @@
         <div class="step-circle">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef2c9783ee912505a67a374e92568d0b6badea58cbe3c86acf82ae91b46a1324?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Register account icon" class="step-icon" />
         </div>
+
         <div class="step-connector"></div>
         <div class="step-circle">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/770660ec75faec43c3339cc0a2026bc0d6850b4a30a52b0c03520a97a66dc2b2?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Upload resume icon" class="step-icon" />
         </div>
+
         <div class="step-connector"></div>
         <div class="step-circle">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/77944ddad3c4e223a2ee883e26e63bae74553850e28bfbc74f46dd9b601533e9?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Apply job icon" class="step-icon" />
@@ -119,5 +103,8 @@
     </div>
   </main>
 </section>
+
+@include("footer")
+
 </body>
 </html>

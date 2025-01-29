@@ -1,74 +1,28 @@
+@include("navigation-bar")
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Marketing</title>
-    <!-- Bootstrap CSS -->
-    @vite(['resources/sass/app.scss','resources/js/app.js'])
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="style/digitalmarketing.css">
 </head>
 <body>
-    <!-- Navbar starts here-->
-    <div class="header-wrapper">
-    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a5016053130a5fc70271270a2305caafee1ce05308b14e2bf7842f252a184fec?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Company Logo" class="logo" />
-    <nav class="nav-container">
-      <div class="menu-wrapper">
-        <a href="#" class="home-link">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d756e8c8126240957051134d6a08d14dc7246ef6a0fe66a1990f300025f683bd?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Home Icon" class="home-icon" />
-        </a>
-        <a href="#" class="nav-link">About us</a>
-        <a href="#" class="nav-link">Projects</a>
-        <a href="#" class="nav-link">Our Services</a>
-        <a href="#" class="nav-link">Sections</a>
-        <a href="#" class="nav-link">Contact us</a>
-      </div>
-      <div class="auth-container">
-        <div class="signup-wrapper">
-          <button class="get-started-btn">Get Started</button>
-        </div>
-      </div>
-    </nav>
-    </div>
-    
+
     <!-- Heroes section starts here -->
-    <div class="marketing-container">
-        <div class="header-wrapper">
-            <div class="hero-section">
-                <div class="content-wrapper">
-                    <div class="content-grid">
-                        <div class="left-column">
-                            <div class="hero-content">
-                                <h1 class="hero-title">
-                                    <span style="color: rgba(32, 14, 228, 1)">BEST DIGITAL</span>
-                                    <span style="color: rgba(57, 156, 35, 1)">marketing</span>
-                                    <br />
-                                    <span style="color: rgba(32, 14, 228, 1)">COMPANY.</span>
-                                </h1>
-                                <h2 class="hero-subtitle">#1 MARKETING Services Agency in Kenya</h2>
-                                <p class="hero-description">
-                                    If you're looking for the best SEO company for your business,
-                                    <br />
-                                    Xiracom is the perfect choice.
-                                </p>
-                                <div class="cta-container">
-                                    <button class="cta-primary">Get start</button>
-                                    <div class="cta-secondary">
-                                        <img src="./images/digital4.png" alt="Play video icon" class="play-icon" />
-                                        <span class="watch-text">Watch Video</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="right-column">
-                            <div class="image-container">
-                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/69829984bfbc8e865c725e5be0bb3b10f4b4b93830bbec65af7045c351f001a1?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Marketing illustration" class="hero-image" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="header-container">
+        <div class="content">
+            <h1><span class="blue">BEST DIGITAL</span> <span class="green">MARKETING</span> <span class="blue">COMPANY.</span></h1>
+            <p class="subheading">#1 MARKETING Services Agency in Kenya</p>
+            <p class="description">If you're looking for the best SEO company for your business, Xiracom is the perfect choice.</p>
+            <div class="buttons">
+                <button class="get-start">Get start</button>
+                <a href="#" class="watch-video">▶ Watch Video</a>
             </div>
+        </div>
+        <div class="image">
+            <img src="images\image.png" alt="Happy person in yellow sweater">
         </div>
     </div>
     
@@ -166,7 +120,7 @@
 
         <!-- Case studies section starts here -->
         <div class="case-study-container">
-    <div class="header-container">
+    <div class="header1-container">
         <div class="case-study-heading">CASE STUDY</div>
         <div class="client-results-heading" role="heading" aria-level="2" tabindex="0">
             OUR CLIENT<br />GETS RESULTS
@@ -259,8 +213,5 @@
             </div>
         </div>
     </div>
-
-
-
 </body>
 </html>

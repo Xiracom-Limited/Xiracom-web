@@ -23,6 +23,7 @@
         </div>
     </header>
 
+
 <!-- Tabs section  starts here-->
 
 <div class="tabs">
@@ -40,6 +41,12 @@
         </div>
   <button>Web Design</button>
 </div>
+
+<div class="image5">
+    <center>
+        <img src="images\Line 134.png">
+    </center>
+    </div>
 
 
 <section class="design-process">
@@ -200,7 +207,6 @@
 
       <!-- Footer starts here-->
 
-    
+    @include("footer")
 </body>
 </html>
-@include("footer")
