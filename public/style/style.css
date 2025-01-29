@@ -455,10 +455,11 @@ border-radius: 10px;
 /* Rectangle 14 */
 
 box-sizing: border-box;
-left: 10%;
-top: 10%;
-width: 427px;
-height: 221px;
+margin-top: 10%;
+width: 60%;
+margin-left: 20%;
+
+height: 80%;
 
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
 border: 1px solid #FFFFFF;
@@ -487,3 +488,243 @@ color: #FFFFFF;
 
 
 }
+.item-alg{
+
+  text-align: left;
+ margin-top: 7%;
+}
+.phone-txt{
+
+  /* ( +254) 704907555 */
+  text-align: center;
+  margin-top: 7%;
+
+/* Text Paragraph */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.call-txt{
+  /* Call Us Now */
+ margin-top: 7%;
+/* H4 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 38px;
+/* identical to box height */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.portfolio-section{
+
+
+/* Portfolio */
+height: 100%;
+
+
+
+
+}
+.portfolio-section1{
+
+  /* Left Column */
+
+margin-top: 25%;
+background-image:url('../images/Circle.svg');
+background-repeat: no-repeat;
+background-size: 25%;
+
+
+
+
+}
+.portfolio-head1{
+
+  /* Perfect Partner */
+
+/* H6 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+color: #200EE4;
+
+
+}
+.portfolio-head2{
+
+  /* WE HAVE PRIORITY FOR CAN CREATE DREAM web DESIGN */
+
+/* H2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bolder;
+font-size: 30px;
+line-height: 45px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.portfolio-paragraph{
+/* Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. */
+
+/* Text Paragraph */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 23px;
+
+color: #200EE4;
+
+
+
+}
+.button-portfolio{
+  /* Button */
+/* Button */
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 10%;
+height: 7%;
+
+
+background: linear-gradient(180deg, #200EE4 0%, #283AA8 31%, #399C23 100%);
+border-radius: 30px;
+
+
+/* Portfolio */
+
+
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+
+
+}
+@media screen and (max-width:720px){
+
+
+
+.button-portfolio{
+  /* Button */
+/* Button */
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 40%;
+height: 6%;
+
+
+background: linear-gradient(180deg, #200EE4 0%, #283AA8 31%, #399C23 100%);
+border-radius: 30px;
+
+
+/* Portfolio */
+
+
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+
+
+}
+}
+.section2-portfolio{
+
+  /* Right Column */
+
+height: 60%;
+margin-top: 13%;
+
+
+
+}
+.section1-port{
+
+  /* Image Placeholder */
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+margin-left: 15%;
+margin-right: 0%;
+height: 60%;
+margin-top: -4%;
+}
+.section2-port{
+
+  /* Image Placeholder */
+  margin-top: -10%;
+  margin-left: 0px;
+  height: 60%;
+  margin-right: 15%;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+}
+.section3-port{
+  margin-top: -10%;
+  /* Image Placeholder */
+  height: 60%;
+  margin-left: 15%;
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+}
+/* Image Placeholder */
+
