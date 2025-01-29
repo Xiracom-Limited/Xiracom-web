@@ -236,15 +236,18 @@ qui ratione voluptatem sequi nesciunt.</p>
 <!--Call us section starts here-->
 <div class="container-fluid call-us-section ">
     <div class="row">
-<div class="col-md-6 call-section1">
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+<div class="col-md-6 ">
+  <div class="call-section1" style="text-align:center">
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="40" fill="white" style="margin-top:5%"class="bi bi-telephone-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
 </svg>
-<h>CALL US NOW</h>
-<P>(+254)704907555</P>
+
+<h1 class="call-txt">CALL US NOW</h1>
+<P class="phone-txt">(+254)704907555</P>
+</div>
 </div>
 <div class="col-md-6 call-section2">
-<p>"WORK HARD & GREAT QUALITY IS our PRIORITY"</p>
+<p class="item-alg">"WORK HARD & GREAT QUALITY IS our PRIORITY"</p>
 
 </div>
 
@@ -256,6 +259,78 @@ qui ratione voluptatem sequi nesciunt.</p>
 </div>
 <!--call us section ends here-->
 
+
+<!--portfolio section starts here-->
+<div class="container">
+
+
+<div class="row portfolio-section">
+
+<div class="col-md-5">
+  <div class="portfolio-section1">
+  <h2 class="portfolio-head1">PERFECT PARTNER</h2>
+<h1 class="portfolio-head2">WE HAVE PRIORITY FOR CAN CREATE DREAM web DESIGN</h1>
+<p class="portfolio-paragraph">
+Sed ut perspiciatis unde omnis iste natus error sit 
+voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
+quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+</p>
+<button class="button-portfolio">
+  PORTFOLIO
+</button>
+  </div>
+ 
+</div>
+
+<div class="col-md-7">
+
+<div class="section2-portfolio">
+  <div class="section1-port">
+  hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+
+
+  </div>
+  <div class="section2-port">
+  hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+  </div>
+  <div class="section3-port">
+
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+hellow world hellow world hellow world
+  </div>
+
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+</div>
+
+
+
+<!--portfolio section ends here-->
 
 <!--body ends here-->
 
