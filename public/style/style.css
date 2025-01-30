@@ -684,47 +684,119 @@ color: #FFFFFF;
 
 }
 }
-.section2-portfolio{
 
-  /* Right Column */
-
-height: 60%;
-margin-top: 13%;
-
-
-
-}
 .section1-port{
 
   /* Image Placeholder */
 
+  
+  height: 40%;
+ 
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 12%;
+width: 40%;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
 border-radius: 10px;
-margin-left: 15%;
-margin-right: 0%;
-height: 60%;
-margin-top: -4%;
 }
 .section2-port{
 
   /* Image Placeholder */
-  margin-top: -10%;
   margin-left: 0px;
-  height: 60%;
-  margin-right: 15%;
-
+  height: 40%;
+width: 40%;
+margin-top: 15%;
+position: absolute;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
 border-radius: 10px;
 
 }
 .section3-port{
-  margin-top: -10%;
   /* Image Placeholder */
-  height: 60%;
-  margin-left: 15%;
+  margin-top: 25%;
+  height: 40%;
+  position: absolute;
+  margin-left: 12%;
+width: 40%;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
 border-radius: 10px;
 
 }
 /* Image Placeholder */
+.image-section1{
+  margin-top: -14%;
+  margin-left: 10%;
+}
+.image-section2{
+  margin-top: -25%;
+  margin-left: 20%;
+}
 
+.image-section3{
+  margin-top: -16%;
+  height: 135%;
+  margin-left: 40%;
+}
+@media screen and (max-width:720px){
+
+
+
+.section1-port{
+
+  /* Image Placeholder */
+
+  
+  height: 30%;
+margin-right: 35%;
+  margin-top: -40%;
+width: 90%;
+margin-left: 0%;
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+}
+.section2-port{
+
+  /* Image Placeholder */
+  margin-left: 0px;
+  height: 40%;
+width: 40%;
+margin-top: 15%;
+display: none;
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+}
+.section3-port{
+  /* Image Placeholder */
+  margin-top: 25%;
+  height: 40%;
+  margin-left: 12%;
+  display: none;
+width: 40%;
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+}
+/* Image Placeholder */
+.image-section1{
+  margin-top: -14%;
+  margin-left: 10%;
+  display: none;
+}
+.image-section2{
+  margin-top: -25%;
+  margin-left: 20%;
+  display: none;
+}
+
+.image-section3{
+  margin-top: -16%;
+  height: 135%;
+  margin-left: 40%;
+  display: none;
+}
+.section2-portfolio{
+
+}
+
+}
