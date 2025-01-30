@@ -15,15 +15,19 @@
         <!-- Hero section -->
         <div class="hero-section">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4ddba29190d25364f2407b64143527d603c8e7bdee9b82d590c5b62d27133b46?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Hardware and software maintenance services hero image" class="hero-image" />
+            <center>
             <h1 class="hero-title">Hardware and Software Maintenance</h1>
+            </center>
         </div>
 
         <!-- Content section -->
         <div class="content-wrapper">
             <h1 class="section-title">Our Services</h1>
+            <center>
             <p class="section-description">
                 At Xiracom, we specialize in providing comprehensive hardware and software maintenance services to businesses of all sizes. Our team is committed to ensuring your IT infrastructure runs smoothly, securely, and efficiently.
             </p>
+            </center>
 
             <!-- Services grid -->
             <div class="services-container">

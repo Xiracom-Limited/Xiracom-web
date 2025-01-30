@@ -13,7 +13,9 @@
     <!-- Heroes section starts here -->
     <div class="header-container">
         <div class="content">
+            <center>
             <h1><span class="blue">BEST DIGITAL</span> <span class="green">MARKETING</span> <span class="blue">COMPANY.</span></h1>
+            </center>
             <p class="subheading">#1 MARKETING Services Agency in Kenya</p>
             <p class="description">If you're looking for the best SEO company for your business, Xiracom is the perfect choice.</p>
             <div class="buttons">
@@ -215,3 +217,4 @@
     </div>
 </body>
 </html>
+@include("footer")

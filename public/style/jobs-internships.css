@@ -188,6 +188,12 @@
   justify-content: center;
 }
 
+@media (max-width: 1024px) {
+  .jobs-grid {
+   width: 50%;
+  }
+}
+
 @media (max-width: 991px) {
   .jobs-section {
     padding-bottom: 100px;
@@ -237,20 +243,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 92px;
-    height: 92px;
+    width: 52px;
+    height: 52px;
     border: 1px solid #000;
   }
   
   .step-icon {
     aspect-ratio: 1;
     object-fit: contain;
-    width: 92px;
+    width: 52px;
     border-radius: 50%;
   }
   
   .step-connector {
-    width: 340px;
+    width: 20%;
     max-width: 100%;
     height: 1px;
     margin: auto 0;
@@ -258,17 +264,19 @@
   }
   
   .step-labels {
-   f
+   font-size: 0.5rem;
   }
   
   
   .jobs-grid {
     grid-template-columns: 1fr;
+    width: 80%;
+    margin-left: 100px;
   }
   
   .job-card {
     margin-top: 20px;
-    width: 650px;
+    width: 80%;
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -279,17 +287,14 @@
   }
 }
 
-@media (max-width: 428px) {
-  
-  
-  
+@media (max-width: 435px) {
   .jobs-grid {
     grid-template-columns: 1fr;
   }
   
   .job-card {
     margin-top: 20px;
-    width: 200px;
+    width: 65%;
     margin-left: 50px;
   }
   
