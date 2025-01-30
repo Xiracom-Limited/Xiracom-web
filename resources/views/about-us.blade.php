@@ -286,34 +286,15 @@ quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt exp
 
 <div class="section2-portfolio">
   <div class="section1-port">
-  hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-
+  <img src="images/4.png" class="image-section1">
 
   </div>
   <div class="section2-port">
-  hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
+  <img src="images/1.png" class="image-section2">
   </div>
   <div class="section3-port">
 
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
-hellow world hellow world hellow world
+  <img src="images/3.png" class="image-section3">
   </div>
 
 
