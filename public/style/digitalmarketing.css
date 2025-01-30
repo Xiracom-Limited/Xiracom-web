@@ -8,7 +8,7 @@
   background: linear-gradient(to right, #A0CD96, #DAD7F7, #B3D3AB, #574ADD);
 }
 .content {
-  max-width: 50%;
+  max-width: 100%;
 }
 h1 {
   font-size: 36px;
@@ -43,6 +43,7 @@ h1 {
 }
 .image img {
   max-width: 300px;
+  margin-right: 300px;
 }
   
   .features-title {

@@ -40,10 +40,12 @@
         
         <div class="grid">
             <div class="card">
+            <img src="images\mohammad-rahmani-nBXwqxjDa5c-unsplash 1.png" alt="User">
                 <h2>Why Choose Us?</h2>
                 <p>We are committed to delivering cutting-edge solutions that meet your needs and exceed expectations.</p>
             </div>
             <div class="card">
+            <img src="images\Frame 1597884199.png" alt="User">
                 <h2>What is UI/UX Design?</h2>
                 <p>UI/UX design enhances digital experiences to be more intuitive, engaging, and effective.</p>
             </div>
