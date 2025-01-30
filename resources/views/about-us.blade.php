@@ -1,12 +1,9 @@
 
-@include("navigation-bar")
-
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    @vite(['resources/sass/app.scss','resources/js/app.js'])
     <title>About-Us-Xiracom-Limited-Kenya-Africa</title>
 </head>
 <body>
@@ -312,6 +309,13 @@ quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt exp
 
 
 <!--portfolio section ends here-->
+<!--why choose us section-->
+
+
+
+
+
+<!--why choose us section ends here-->
 
 <!--body ends here-->
 
@@ -321,4 +325,3 @@ quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt exp
 
     
 </body>
-@include("footer")
