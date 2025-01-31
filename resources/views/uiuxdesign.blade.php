@@ -1,5 +1,3 @@
-@include("navigation-bar")
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,6 +55,5 @@
             <button>Get Started</button>
         </div>
     </div>
-    @include("footer")
 </body>
 </html>
