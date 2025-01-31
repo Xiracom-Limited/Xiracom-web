@@ -1,5 +1,3 @@
-@include("navigation-bar")
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +9,7 @@
 
 <body>
 <section class="jobs-section">
-  <section class="hero-section">
+  <section class="hero-section">\
     <div class="hero-content">
       <div class="hero-text">
         <h1 class="hero-title">Jobs and Internships</h1>
@@ -103,8 +101,5 @@
     </div>
   </main>
 </section>
-
-@include("footer")
-
 </body>
 </html>
