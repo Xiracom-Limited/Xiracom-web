@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs & internship</title>
     <link rel="stylesheet" href="style/jobs-internships.css">
+    @vite(['resources/sass/app.scss','resources/js/app.js'])
 </head>
 
 <body>
