@@ -72,8 +72,9 @@ body {
 }
 
 .hero-section .image img {
-    max-width: 87%;
+    max-width: 80%;
     height: auto;
+    
 }
 
 .tabs {
