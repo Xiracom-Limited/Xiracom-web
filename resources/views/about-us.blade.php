@@ -321,12 +321,16 @@ quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt exp
 <!--why choose us section-->
 
 
-<div class="why-choose-us container-fluid mx-2">
+<div class="why-choose-us container-fluid ">
 <div class="row">
 
 <div class="why-us-section1 col-md-5">
 <div class="">
-  <img src="images/play.svg" class="link link-image">
+
+  <a id="play-video" class="video-play-button" href="https://www.youtube.com/embed/hXAdt5w3sPQ"  data-toggle="modal" data-target="#savoybeachhotel">
+	<span></span>
+
+ </a>
 </div>
 </div>
 <div class="why-us-section2 col-md-7">
