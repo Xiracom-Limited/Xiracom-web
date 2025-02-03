@@ -12,7 +12,6 @@
   
   header {
     background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .navbar {
@@ -28,13 +27,7 @@
     object-fit: contain;
     width: 220px;
     align-self: stretch;
-  }
-  
-  
-  .logo h1 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #000;
+    margin-top: 5px;
   }
   
   /* Navigation Menu */
@@ -43,9 +36,10 @@
     display: flex;
     gap: 20px;
     transition: transform 0.3s ease-in-out;
-    background: linear-gradient(90deg, #2bae66, #0924ae);
+    background: linear-gradient(90deg, #399C23, #12087E);
     padding: 10px 15px;
     border-radius: 20px;
+    margin-top: 15px;
   }
   
   .nav-menu li a {
@@ -70,10 +64,11 @@
     border-radius: 30px;
     font-weight: bold;
     transition: 0.3s;
+    margin-right: 100px;
   }
   
   .btn-get-started:hover {
-    background-color: #0924ae;
+    background: linear-gradient(90deg, #399C23, #12087E);
     color: white;
   }
   
@@ -96,7 +91,7 @@
   }
   
   /* Mobile Styles */
-  @media (max-width: 1024px) {
+  @media (max-width: 1070px) {
     .nav-menu {
       flex-direction: column;
       position: absolute;
@@ -130,7 +125,7 @@
   
     .hamburger {
       display: flex;
-      display: flex;
+      margin-left: 40%;
     }
   }
   
