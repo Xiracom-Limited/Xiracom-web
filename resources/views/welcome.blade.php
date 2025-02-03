@@ -6,7 +6,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiracom</title>
+    <title>Xiracom</title>  
+    @vite(['resources/sass/app.scss','resources/js/app.js'])
+
     <link rel="stylesheet" href="style/welcome.css">
 <body>
 <header class="hero-section">
@@ -41,11 +43,11 @@
   <button>Web Design</button>
 </div>
 
-<div class="image5">
+
     <center>
-        <img src="images\Line 134.png">
+        <img src="images\Line 134.png" class="image5">
     </center>
-    </div>
+
 
 
 <section class="design-process">
@@ -84,15 +86,15 @@
         <div class="card">
             <h4>Web Development</h4>
             <p>UX Case study</p>
-            <div class="cards-image">
-            <img src="images\pexels-shkrabaanthony-7163431 1.png">
+            <div class="">
+            <img src="images\pexels-shkrabaanthony-7163431 1.png"class="cards-image1" width="50%">
         </div>
         </div>
         <div class="card">
             <h4>Software Development</h4>
             <p>UX Case study</p>
-            <div class="cards-image">
-            <img src="images\Rectangle 3817.png">
+            <div class="">
+            <img src="images\Rectangle 3817.png" class="cards-image2">
         </div>
         </div>
     </div>

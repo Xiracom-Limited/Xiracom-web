@@ -3,13 +3,21 @@
 
 <head>
   <style>
+
+    body{
+      padding: 0px !important;
+      margin: 0px !important;
+    }
+    
+
     .contact-section {
       background: #fff;
       display: flex;
       flex-direction: column;
       overflow: hidden;
       font-weight: 700;
-      padding: 10vh 0 40vh;
+      padding: 0px !important;
+      /* padding: 10vh 0 40vh; */
       /* Use viewport height for better responsiveness */
     }
 
@@ -21,7 +29,7 @@
       max-width: 80%;
 
       flex-direction: column;
-      margin: 3vh 0 0 1%;
+      /* margin: 3vh 0 0 1%; */
       
       font-size: 2rem;
       
@@ -31,20 +39,27 @@
       align-self: flex-start;
       display: flex;
       align-items: flex-start;
+      align-items: center;
       gap: 2%;
       
       flex-wrap: wrap;
     }
 
+    .header-wrapper h1, h2{
+      margin: 0px;
+    }
+
+
     .header-text {
-      flex-grow: 1;
-      flex-basis: auto;
+      /* flex-grow: 1;
+      flex-basis: auto; */
     }
 
     .header-icon {
       aspect-ratio: 2.1;
       object-fit: contain;
       object-position: center;
+      align-items: center;
       width: 10%;
       
       margin-top: 5%;
@@ -153,6 +168,7 @@
 
 
     .hero-banner {
+      padding: 0px;
   position: relative;
   width: 100%;
   height: 80vh; 
@@ -195,34 +211,70 @@
   }
 }
 
+/* Ensure the hero banner has a specific height */
+.hero-banner {
+  height: 400px; /* Adjust height as needed */
+}
+
+/* Style the background image */
+.hero-image {
+  object-fit: cover; /* Ensures the image covers the entire area */
+  z-index: 1; /* Places the image behind the overlay and text */
+}
+
+/* Dark overlay to reduce brightness */
+.overlay {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 2; /* Places the overlay above the image but below the text */
+}
+
+/* Style the text */
+.hero-text {
+  z-index: 3; /* Ensures the text is above the overlay and image */
+  position: absolute;
+  top: 50%; /* Centers vertically */
+  left: 50%; /* Centers horizontally */
+  transform: translate(-50%, -50%); /* Adjusts for exact centering */
+  font-size: 3rem; /* Adjust font size as needed */
+  font-weight: bold; /* Optional: Makes the text bold */
+}
+
   </style>
 
 </head>
 
 <body>
   <section class="contact-section ">
-    <div class="hero-banner position-relative">
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/fba3a0076de9f8d3b4038436db55f8ff7cd4bc847b6db4f3e1d0dfab63b5d06a?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6"
-        alt="Hero Image" class="hero-image w-100 h-100 position-absolute" />
-      <div class="hero-text text-center text-white">
-        Contact Us
-      </div>
-    </div>
+  <div class="hero-banner position-relative overflow-hidden">
+  <!-- Background Image -->
+  <img
+    src="https://cdn.builder.io/api/v1/image/assets/TEMP/fba3a0076de9f8d3b4038436db55f8ff7cd4bc847b6db4f3e1d0dfab63b5d06a?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6"
+    alt="Hero Image"
+    class="hero-image w-100 h-100 position-absolute object-fit-cover"
+  />
+  
+  <!-- Dark Overlay -->
+  <div class="overlay position-absolute w-100 h-100"></div>
+  
+  <!-- Text Content -->
+  <div class="hero-text text-center text-white position-relative">
+    Contact Us
+  </div>
+</div>
 
 
 
     </div>
 
     <form class="form-container">
-      <div class="header-wrapper">
-        <h1 class="header-text">We are here for you</h1>
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/ade16f64ae3295a3314d0f2a470c71ba098d182b7dc81c5fef9596a9002d7cd6?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6"
-          alt="" class="header-icon" />
-      </div>
+    <div class="header-wrapper">
+  <h1 class="header-text fs-2 fs-sm-5">We are here for you</h1> <!-- Adjust font size for small and larger screens -->
+  <img
+    src="https://cdn.builder.io/api/v1/image/assets/TEMP/ade16f64ae3295a3314d0f2a470c71ba098d182b7dc81c5fef9596a9002d7cd6?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6"
+    alt="" class="header-icon" />
+</div>
 
-      <h2 class="subheader">How can we help?</h2>
+<h2 class="subheader fs-4 fs-sm-6">How can we help?</h2> <!-- Adjust font size for small and larger screens -->
 
       <!-- <label for="name" class="form-label">Name</label> -->
       <input type="text" id="name" placeholder="Name" aria-label="Name" class="form-input mb-10" required

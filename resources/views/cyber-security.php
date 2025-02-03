@@ -117,7 +117,7 @@ border-radius: 72.0899px;
             
         }
 
-        .hero-section {
+        /* .hero-section {
             background-image: url('images/network-3484139_1280.png');
             
             background-size: cover;
@@ -128,7 +128,7 @@ border-radius: 72.0899px;
             display: flex;
             align-items: center;
 
-        }
+        } */
 
         .hero-title {
             font-size: 3.5rem;
@@ -156,7 +156,7 @@ border-radius: 72.0899px;
             margin: auto;
             padding: 20px;
             height: 125px;
-            background-color: #999999;
+            background-color: #D3D3D3 ;
             border-radius: 18px;
             
         }
@@ -178,25 +178,88 @@ border-radius: 72.0899px;
 
         .c-btm-section {
             align-items: center;
+            background: linear-gradient(180deg, #FFFFFF 30%, #999999 100%);
             
         }
 
         .c-img{
             width: 100%;
         }
+
+        @media (max-width: 767px) {
+  .cta-section {
+    flex-direction: column; /* Stack elements vertically */
+    text-align: center; /* Center-align text */
+  }
+
+  .cta-section button {
+    margin-left: 0; /* Remove left margin */
+    margin-top: 20px; /* Add top margin for spacing */
+  }
+
+  .c-bottom{
+    height: auto;
+  }
+}
+
+
+
+/* Hero Section */
+.hero-section {
+  height: 400px; /* Adjust height as needed */
+  display: flex;
+  align-items: center; /* Vertically center content */
+}
+
+/* Background Image */
+.hero-background {
+  background-image: url('images/network-3484139_1280.png'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  z-index: 1; /* Places the image behind the overlay and text */
+}
+
+/* Dark Overlay */
+.overlay {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 2; /* Places the overlay above the image but below the text */
+}
+
+/* Content */
+.container {
+  z-index: 3; /* Ensures the text is above the overlay and image */
+}
+
+/* Optional: Adjust text styles */
+.hero-title {
+  font-size: 3rem; /* Adjust font size as needed */
+  font-weight: bold; /* Optional: Makes the text bold */
+}
+
+.hero-subtitle {
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
     </style>
 
-    <section class="hero-section text-white py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h1 class="hero-title">Cyber Security</h1>
-                    <p class="hero-subtitle">Fortifying Your Digital Defenses</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="hero-section text-white position-relative overflow-hidden py-5">
+  <!-- Background Image -->
+  <div class="hero-background position-absolute w-100 h-100">
 
+  </div>
+  
+  <!-- Dark Overlay -->
+  <div class="overlay position-absolute w-100 h-100"></div>
+  
+  <!-- Content -->
+  <div class="container position-relative">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="hero-title display-4 display-md-3">Cyber Security</h1>
+<p class="hero-subtitle fs-4 fs-md-3">Fortifying Your Digital Defenses</p>
+      </div>
+    </div>
+  </div>
+</section>
     <section class="container my-5">
         <h2 class="text-center mb-4 fw-bolder">Our Security Packages</h2>
         <div class="row">
