@@ -36,11 +36,11 @@
       color: white;
     }
 
-    .header-section {
+    /* .header-section {
       margin-bottom: 50px;
       background: linear-gradient(to right, #001f61, #0036a3);
       width: 100%;
-    }
+    } */
 
     .header-section .mockup-image {
       max-width: 300px;
@@ -310,7 +310,7 @@
       border-radius: 18px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       font-family: 'Poppins', sans-serif;
-      height: 100px;
+      /* height: 100px; */
     }
 
     .cta-section h2 {
@@ -348,17 +348,83 @@
       margin: 40px;
       padding: 20px;
     }
+
+
+    @media (max-width: 767px) {
+  .cta-section {
+    flex-direction: column; /* Stack elements vertically */
+    text-align: center; /* Center-align text */
+  }
+
+  .cta-section button {
+    margin-left: 0; /* Remove left margin */
+    margin-top: 20px; /* Add top margin for spacing */
+  }
+}
+
+
+/* Container for the header section */
+.header-section {
+  position: relative; /* Needed for absolute positioning of text */
+  width: 100%; /* Full width */
+  height: 400px; /* Adjust height as needed */
+  overflow: hidden; /* Ensures the image doesn't overflow */
+}
+
+/* Background image */
+.header-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/app-dev-2.jpg'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  z-index: -1; /* Places the image behind the text */
+}
+
+/* Text content */
+.text-content {
+  position: absolute; /* Positions text on top of the image */
+  top: 50%; /* Centers vertically */
+  left: 50%; /* Centers horizontally */
+  transform: translate(-50%, -50%); /* Adjusts for exact centering */
+  text-align: center; /* Centers text */
+  color: white; /* Text color */
+  z-index: 1; /* Ensures text is above the image */
+}
+
+/* Optional: Add a dark overlay for better text readability */
+.header-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 0; /* Places the overlay between the image and text */
+}
   </style>
 
   <section class="app-development">
-    <div class="header-section">
-      <img src="images/phone-mockup.png" alt="App Development Mockup" class="mockup-image">
+  <div class="header-section">
+  <div class="text-content">
+    <h1>App Development</h1>
+    <p id="burner-text">We create custom web applications, combining innovation, functionality, and expert
+      development to bring your vision to life.</p>
+  </div>
+</div>
+    <!-- <div class="header-section">
+      <img src="images/app-dev-2.jpg" alt="App Development Mockup" class="mockup-image">
       <div class="text-content">
         <h1>App Development</h1>
         <p id="burner-text">We create custom web applications, combining innovation, functionality, and expert
           development to bring your vision to life.</p>
       </div>
-    </div>
+    </div> -->
 
     <!-- <div class="features">
       <div class="feature-card">
@@ -476,13 +542,13 @@
   </section>
 
 
-  <section class="cta-section" id="last">
+  <section class="cta-section w-sm-100" id="last">
     <div>
-      <h2>Ready To Build Your App? Let’s Get Started.</h2>
+      <h2 class="fs-sm-2">Ready To Build Your App? Let’s Get Started.</h2>
       <p>Here is a quick way to begin</p>
     </div>
 
-    <button class="cta">Get Started</button>
+    <button class="cta fs-sm-2 ">Get Started</button>
   </section>
 </body>
 
