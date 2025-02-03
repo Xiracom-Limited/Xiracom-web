@@ -25,7 +25,7 @@
   font-family: Poppins, sans-serif;
   text-align: center;
   line-height: 1;
-  margin: auto -92px auto 0;
+  margin: auto -92px auto 20%;
 }
 
 .hero-title {
@@ -186,12 +186,7 @@
   border: 2px solid #102038;
   align-items: center;
   justify-content: center;
-}
-
-@media (max-width: 1024px) {
-  .jobs-grid {
-   width: 50%;
-  }
+  margin-left: 10%;
 }
 
 @media (max-width: 991px) {
@@ -267,16 +262,14 @@
    font-size: 0.5rem;
   }
   
-  
   .jobs-grid {
     grid-template-columns: 1fr;
     width: 80%;
-    margin-left: 100px;
   }
   
   .job-card {
     margin-top: 20px;
-    width: 80%;
+    width: 100%;
     margin-left: 50px;
     margin-right: 50px;
   }
