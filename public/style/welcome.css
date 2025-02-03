@@ -72,7 +72,7 @@ body {
 }
 
 .hero-section .image img {
-    max-width: 80%;
+    max-width: 76.5%;
     height: auto;
     
 }
@@ -104,11 +104,18 @@ body {
     margin: 0.5% 0 0 0;
 }
 
-.image5 {
-    background-color: white;
-    padding: 30px;
-}
-    
+
+    @media screen and (max-width:720px) and (max-width:600px){
+
+        .image5 {
+        width: 80%;
+        }
+        .tab-image {
+          display: none;
+        }
+        
+
+    }
 
 /* Design Process Section */
 
@@ -189,24 +196,34 @@ body {
 .card {
     background: linear-gradient(135deg, #1b74e4, #32a852);
     color: white;
-    padding: 2rem;
     border-radius: 10px;
-    position: relative;
-    height: 78.2vh;
+    position: center;
+
 }
 
 .card h4 {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+   
 }
 
 .card p {
     font-size: 1rem;
 }
 
-.cards-image {
-    max-width: 100%;
-    height: auto;
+.cards-image1 {
+    
+    margin-left: 20%;
+}
+
+@media screen and (max-width:600px) and (max-width:720px){
+
+
+    .cards-image2{
+    
+        margin-left: 10%;
+        width: 80%;
+    }
+
 }
 
     
