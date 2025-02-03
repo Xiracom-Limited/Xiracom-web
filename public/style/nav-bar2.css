@@ -20,28 +20,7 @@
     justify-content: space-between;
     padding: 0 20px;
     position: relative;
-    overflow: hidden;
   }
-  
-  .a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  .icon {
-    display: none;
-  }
-  
 
   .logo {
     aspect-ratio: 4.24;
