@@ -1,5 +1,3 @@
-@include("navigation-bar")
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UI/UX Design Landing Page</title>
     <link rel="stylesheet" href="style/uiuxdesign.css">
+    @vite(['resources/sass/app.scss','resources/js/app.js'])
 </head>
 <body>
   <!-- Hero section -->
@@ -57,6 +56,5 @@
             <button>Get Started</button>
         </div>
     </div>
-    @include("footer")
 </body>
 </html>

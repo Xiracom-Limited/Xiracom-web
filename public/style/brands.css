@@ -1,0 +1,183 @@
+
+
+
+.heroes-section-brands{
+/* Frame 1597884202 */
+
+height: 303px;
+
+background: linear-gradient(90deg, #12087E 0%, #200EE4 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.heroes-section-head1{
+    /* Our Brands */
+/* Our Brands */
+
+position: absolute;
+left: 30%;
+top: 27%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 109.1%;
+/* or 70px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+
+color: #FFFFFF;
+
+
+
+
+}
+.image-heroes{
+    /* Frame 1597884234 */
+
+/* Frame 1597884234 */
+
+position: absolute;
+height: 292px;
+left: 60%;
+top: 11px;
+
+
+}
+.brand-title{
+
+    /* Our Brands */
+
+height: 80px;
+
+margin-left: 38%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 109.1%;
+/* or 52px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+
+
+}
+
+.brand-border{
+
+    border-color: #12087E;
+    border-style: solid;
+    border-width: 1.5px;
+    margin-right: 1%;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin-bottom: 10%;
+    
+}
+.brand-txt{
+    /* Bulk Printing. School Branding. School Magazines. */
+
+font-family: 'Poppins';
+font-style: normal;
+
+
+/* or 22px */
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+}
+.check-brand{
+    /* Auto Layout Horizontal */
+
+box-sizing: border-box;
+
+
+border-radius: 100px;
+
+margin-left: 30%;
+/* Visit Brand */
+
+margin-bottom: 5%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #12087E;
+
+
+}
+@media screen and (max-width:600px) and (max-width:720px){
+
+    .heroes-section-brands{
+        /* Frame 1597884202 */
+        
+      margin-right: 0px;
+        height: 200px;
+        
+        background: linear-gradient(90deg, #12087E 0%, #200EE4 100%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        
+        }
+
+        .heroes-section-head1{
+            /* Our Brands */
+        /* Our Brands */
+        
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 109.1%;
+        /* or 70px */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.04em;
+        
+        color: #FFFFFF;
+        
+        
+        
+        
+        }
+        .image-heroes{
+            /* Frame 1597884234 */
+        
+        /* Frame 1597884234 */
+        
+        position: absolute;
+        height: 20%;
+        left: 40%;
+        top: 2%;
+        
+        
+        }
+        .brand-title{
+
+            /* Our Brands */
+display: none;
+        
+        }
+}
