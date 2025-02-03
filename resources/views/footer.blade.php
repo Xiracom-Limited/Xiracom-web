@@ -5,97 +5,174 @@
 <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="fonts/icomoon/style.css">
-@vite(['resources/sass/app.scss','resources/js/app.js'])
+@vite(['resources/sass/app.scss', 'resources/js/app.js'])
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 
 <!-- Style CSS -->
 <link rel="stylesheet" href="style/footer.css">
 </head>
+
 <body>
-<footer class="footer-14398">
-  
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-3">
-          <a href="#" class="footer-site-logo"> <img src="images/logo.svg" style="background-color:whitesmoke;"></a>
-          <ul class="list-unstyled links">
-            <li style="font-weight:bolder;"><a href="#">SMART * FAST * RELIABLE</a></li>
-            <li><a href="#"></a></li>
-            <li>  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-whatsapp" viewBox="0 0 16 16">
-  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
-</svg><a href="#">  +48729628367</a></li>
-            <li>  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-whatsapp" viewBox="0 0 16 16">
-  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
-</svg><a href="#">  +48579205541</a></li>
-            <li>  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5"/>
-</svg><a href="#">  +254704907555</a></li>
-          </ul>
-        </div>
-        <div class="col-md-2 ml-auto">
-          <h3>Our Services</h3>
-          <ul class="list-unstyled links">
-            <li><a href="#">UI/UX Design</a></li>
-            <li><a href="#">App Development</a></li>
-            <li><a href="#">Web Design & Development</a></li>
-            <li><a href="#">Apis Intergration</a></li>
-            <li><a href="#">Domain & Hosting</a></li>
-          </ul>
-        </div>
-        <div class="col-md-2 ml-auto">
-          <h3>Our Brand</h3>
-          <ul class="list-unstyled links">
-            <li><a href="#">DarasaLink</a></li>
-            <li><a href="#">Examparlour</a></li>
-            <li><a href="#">Onfod SMS</a></li>
-            <li><a href="#">Xiracom BTC</a></li>
-            <li><a href="#">Skiza Tunes</a></li>
-          </ul>
-        </div>
-        <div class="col-md-2 ml-auto">
-          <h3>About Us</h3>
-          <ul class="list-unstyled links">
-            <li><a href="#">Who We Are?</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Jobs & Internships</a></li>
-            <li><a href="#">Our Projects</a></li>
-            <li><a href="#">Testimonials</a></li>
-          </ul>
-        </div>
-   
-      <div class="col-md-3 ml-auto">
-          <h3>Contact Us</h3>
-          <ul class="list-unstyled links">
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
-  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-</svg><a href="#"> twitter</a></li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-youtube" viewBox="0 0 16 16">
-  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
-</svg><a href="#"> youtube</a></li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-</svg><a href="#"> Linkedin</a></li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-</svg><a href="#"> Facebook</a></li>
-          </ul>
-        </div>
+  <style>
+    .footer {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 50px 0;
+      font-size: 15px;
+    }
+
+    .footer h5 {
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #f8f9fa;
+    }
+
+    .footer a {
+      color: #bbb;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      color: #fff;
+    }
+
+    .social-icons a {
+      margin-right: 15px;
+      font-size: 24px;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #007bff;
+    }
+
+    .newsletter input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 25px;
+      border: 1px solid #444;
+      background: #2c2c2c;
+      color: #fff;
+      outline: none;
+    }
+
+    .newsletter button {
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 25px;
+      padding: 12px;
+      background: #007bff;
+      border: none;
+      color: white;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .newsletter button:hover {
+      background: #0056b3;
+    }
+
+    .copyright {
+      background-color: #111;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+  </style>
+
+
+<footer class="footer bg-dark text-light py-5 ">
+  <div class="container">
+    <div class="row">
+      <!-- Contact Section -->
+      <div class="col-md-3">
+  <h5 class="fw-bolder">Contact Us</h5>
+  <ul class="list-unstyled">
+    <li><i class="fab fa-whatsapp text-success"></i> +48729628367</li>
+    <li><i class="fab fa-whatsapp text-success"></i> +48579205541</li>
+    <li><i class="fas fa-phone text-primary"></i> +254704907555</li>
+    <li><i class="fas fa-envelope text-warning"></i> info@xiracom.co.ke</li>
+  </ul>
+</div>
+
+
+      <!-- Services Section -->
+      <div class="col-md-3">
+        <h5>Our Services</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">UI/UX Design</a></li>
+          <li><a href="#">App Development</a></li>
+          <li><a href="#">Web Design & Development</a></li>
+          <li><a href="#">APIs Integration</a></li>
+          <li><a href="#">Domain & Hosting</a></li>
+        </ul>
       </div>
 
-      <div class="row mb-4">
-        <div class="col-12 pb-4">
-          <div class="line"></div>
+      <!-- Brand Section -->
+      <div class="col-md-3">
+        <h5>Our Brand</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">DarasaLink</a></li>
+          <li><a href="#">Examparlour</a></li>
+          <li><a href="#">Onfod SMS</a></li>
+          <li><a href="#">Xiracom BTC</a></li>
+          <li><a href="#">Skiza Tunes</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter Section -->
+      <div class="col-md-3">
+        <h5>Newsletter</h5>
+        <p>Subscribe to our newsletter for updates.</p>
+        <div class="newsletter ">
+          <input type="email" class="form-control me-2 bg-white" placeholder="Enter your email">
+          <button class="btn btn-primary" style="background-color: #399C23">Subscribe</button>
         </div>
-        <div class="col-md-6 text-md-left">
-          <ul class="list-unstyled link-menu nav-left">
-            <li><a href="#">Copyright<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-c-circle" viewBox="0 0 16 16">
-  <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/>
-</svg>2025 Xiracom LTD</a></li>
-            <li><a href="#">Terms &amp; Conditions</a></li>
-        
-          </ul>
+      </div>
+    </div>
+
+    <!-- Contact & Social Media -->
+    <div class="row mt-4 ">
+      <div class="col">
+        <h5>Our Socials</h5>
+        <div class="social-icons">
+          <a href="#" class="text-light mx-2"><i class="fab fa-twitter fs-4"></i></a>
+          <a href="#" class="text-light mx-2"><i class="fab fa-youtube fs-4"></i></a>
+          <a href="#" class="text-light mx-2"><i class="fab fa-linkedin fs-4"></i></a>
+          <a href="#" class="text-light mx-2"><i class="fab fa-facebook fs-4"></i></a>
+          <a href="#" class="text-light mx-2"><i class="fab fa-instagram fs-4"></i></a>
+          <a href="#" class="text-light mx-2"><i class="fab fa-whatsapp fs-4"></i></a>
         </div>
-    
+      </div>
+    </div>
+<hr>
+    <!-- Google Map -->
+    <div class="row mt-4">
+      <div class="col">
+        <h5 class="text-center">Our Location</h5>
+        <p class="text-center">We are located At Eldoret, Kenya</p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.044065617223!2d39.5025871!3d-3.5447325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwMzInMzYuOCJTIDM5wrAzMCcwOS4zIkU!5e0!3m2!1sen!2ske!4v1712345678901"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+  <div class="copyright mt-4 text-center">
+    <p class="m-0">&copy; 2024 Safe Pesa. All Rights Reserved.</p>
   </div>
 </footer>
+
+<!-- Bootstrap & FontAwesome (Ensure these are included) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+  <!-- Bootstrap Icons (Make sure Bootstrap Icons CDN is included) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
