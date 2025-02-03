@@ -38,10 +38,93 @@ color: #FFFFFF;
 .image-heroes{
     /* Frame 1597884234 */
 
+/* Frame 1597884234 */
+
 position: absolute;
-width: 45%;
-height: 97%;
-left: 40%;
+width: 20%;
+height: 292px;
+left: 60%;
 top: 11px;
+
+
+}
+.our-brand-section{
+    /* Group 1927 */
+
+
+}
+.brand-title{
+
+    /* Our Brands */
+
+position: absolute;
+height: 80px;
+left: 40%;
+top: 50%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 109.1%;
+/* or 52px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+
+
+}
+.our-brand-section1{
+/* Frame 1597884203 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 444px;
+height: 365px;
+left: 24px;
+top: 588px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+    
+}
+.our-brand-section2{
+
+
+    /* Frame 1597884203 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 444px;
+height: 365px;
+left: 498px;
+top: 588px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+}
+.our-brand-section3{
+
+/* Frame 1597884203 */
+/* Frame 1597884204 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 444px;
+height: 365px;
+left: 972px;
+top: 588px;
+
+background: #FFFFFF;
+border-radius: 10px;
+border-color: black;
+
 
 }
