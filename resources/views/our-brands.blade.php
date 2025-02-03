@@ -28,6 +28,7 @@
         <div class="brand-title">
         <div style="color: #399C23;">Our</div> <div style="color:#200EE4;"> Brands</div> 
         </div>
+
 <div class="col-md-4 brand-border">
  <center>
 <img src="images/darasalink.svg">
@@ -112,6 +113,7 @@
 <button class="check-brand">
     Check Brand
 </button>
+
 
 </div>
 </div>
