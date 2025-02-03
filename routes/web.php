@@ -166,4 +166,8 @@ Route::get('/domain-hosting-services', function () {
     return view('domain-hosting-services');
 
 });
+Route::get('/our-brands', function () {
 
+    return view('our-brands');
+
+});
