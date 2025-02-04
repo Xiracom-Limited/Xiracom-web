@@ -164,8 +164,8 @@
   </div>
 
   <!-- Copyright Section -->
-  <div class="copyright mt-4 text-center" style="background-color:#399C23;">
-    <p class="m-0">&copy; 2025 XIRACOM LIMITED. All Rights Reserved.</p>
+  <div class="text-center" style="margin-top:5%;">
+    <p class="">&copy; 2025 XIRACOM LIMITED. All Rights Reserved.</p>
   </div>
 </footer>
 

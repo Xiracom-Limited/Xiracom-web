@@ -390,3 +390,4 @@ top: 852px; */
 </body>
 
 </html>
+@include("footer")

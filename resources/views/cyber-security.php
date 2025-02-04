@@ -357,3 +357,4 @@ border-radius: 72.0899px;
 </body>
 
 </html>
+@include("footer")
