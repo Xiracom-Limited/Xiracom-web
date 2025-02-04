@@ -1,5 +1,3 @@
-@include("navigation-bar")
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Marketing</title>
     <link rel="stylesheet" href="style/digitalmarketing.css">
+    @vite(['resources/sass/app.scss','resources/js/app.js'])
 </head>
 <body>
 
@@ -217,4 +216,3 @@
     </div>
 </body>
 </html>
-@include("footer")

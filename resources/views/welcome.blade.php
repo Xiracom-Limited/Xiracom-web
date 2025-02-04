@@ -1,12 +1,16 @@
 @include("navigation-bar")
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiracom</title>
+    <title>Xiracom</title>  
+    @vite(['resources/sass/app.scss','resources/js/app.js'])
+
     <link rel="stylesheet" href="style/welcome.css">
 
 <body>
@@ -295,6 +299,11 @@
         <button>Web Design</button>
     </div>
 
+
+    <center>
+        <img src="images\Line 134.png" class="image5">
+    </center>
+
     <div class="image5">
         <center>
             <img src="images\Line 134.png">
@@ -354,6 +363,23 @@
             </div>
         </div>
     </section>
+    <div class="cards">
+        <div class="card">
+            <h4>Web Development</h4>
+            <p>UX Case study</p>
+            <div class="">
+            <img src="images\pexels-shkrabaanthony-7163431 1.png"class="cards-image1" width="50%">
+        </div>
+        </div>
+        <div class="card">
+            <h4>Software Development</h4>
+            <p>UX Case study</p>
+            <div class="">
+            <img src="images\Rectangle 3817.png" class="cards-image2">
+        </div>
+        </div>
+    </div>
+</section>
 
     <h5 class="Services-title">Our Services</h5>
     <div class="services-grid">

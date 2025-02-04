@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Navigation Bar</title>
+  <title>Navigation Bar</title>
   <link rel="stylesheet" href="style/nav-bar2.css">
 </head>
 <body>
   <header>
-    <nav class="navbar">
+    <nav class="navbar" id="myTopnav">
       <div class="logo">
-        <!-- Replace with your logo -->
-        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a5016053130a5fc70271270a2305caafee1ce05308b14e2bf7842f252a184fec?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Company Logo" class="logo">
+        <img src="images\xiracomlogo.png" alt="Company Logo" class="logo">
       </div>
       <button class="hamburger" aria-label="Toggle menu">
         <span></span>
@@ -19,16 +18,75 @@
         <span></span>
       </button>
       <ul class="nav-menu">
-        <li><a href="#about">About us</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#services">Our Services</a></li>
-        <li><a href="#sections">Sections</a></li>
-        <li><a href="#contact">Contact us</a></li>
+      <a class="list" href="#home">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">About Us
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Who we are </a>
+      <a href="#">Our Team</a>
+      <a href="#">Jobs & Internships</a>
+      <a href="#">Our Projects</a>
+      <a href="#">Our Clients</a>
+      <a href="#">Blog</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Software Dev
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">UI/UX Design</a>
+      <a href="#">App Development</a>
+      <a href="#">Web Design & Dev</a>
+      <a href="#">API Intergrations</a>
+      <a href="#">ERP&CMS Systems</a>
+      <a href="#">Support</a>
+      <a href="#">Domain & Hosting</a>
+    </div>
+  </div>
+  <a class="list" href="#bulksms">Bulk SMS</a>
+  <div class="dropdown">
+    <button class="dropbtn">Our Brands
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">DarasaLink</a>
+      <a href="#">Examparlour</a>
+      <a href="#">Onfod SMS</a>
+      <a href="#">Xiracom BTC</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Other Services
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Tech Consultancy</a>
+      <a href="#">Shop</a>
+      <a href="#">Skiza Tunes</a>
+      <a href="#">Cybersecurity</a>
+      <a href="#">Digital Marketing</a>
+      <a href="#">Trainings & Bootcamps</a>
+    </div>
+  </div>
+  <a class="list" href="#contactus">Contact Us</a>
+  <a class="list" href="#blog">Blog</a>
       </ul>
       <a href="#get-started" class="btn-get-started">Get Started</a>
     </nav>
   </header>
 
-  <script src="script.js"></script>
+  <script>
+   function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+  </script>
 </body>
 </html>

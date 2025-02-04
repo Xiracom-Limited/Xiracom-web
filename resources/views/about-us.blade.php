@@ -1,13 +1,13 @@
 
-@include("navigation-bar")
-
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/team.css">
+    @vite(['resources/sass/app.scss','resources/js/app.js'])
     <title>About-Us-Xiracom-Limited-Kenya-Africa</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
     <!--body starts here-->
@@ -89,149 +89,155 @@ qui ratione voluptatem sequi nesciunt.</p>
 
 </div>
 
-
-
 </div>
 <!--who we are section ends here-->
 <!-- Our team Section starts here-->
-<div class="our-team container bg-icon3">
-<div class="team-txt">
-    OUR TEAM
-</div>
-<div class="row g-0 gt-0">
-<div class="col-md-4 col-sm-4 col-lg-4 team-card">
-<div class="upper-section-1">
-
-</div>
-<div class="lower-section" style>
-    <div class="title-txt1">CEO,Co-Founder</div>
-    <h class="head-title2">LEVIS CHISIRA</h>
-    <br>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#200EE4" class="bi bi-facebook" viewBox="0 0 16 16">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#200EE4" class="bi bi-twitter" viewBox="0 0 16 16">
-  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#200EE4" class="bi bi-linkedin" viewBox="0 0 16 16">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-</svg>
-
-
-</div>
-</div>
-<div class="col-md-4 col-sm-4 col-lg-4 team-card">
-<div class="upper-section-1">
-
-</div>
-<div class="lower-section2 ">
-<div class="title-txt2">CEO,Co-Founder</div>
-    <h class="head-title">LEVIS CHISIRA</h>
-    <br>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
-  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-</svg>
-</div>
-
-</div>
-<div class="col-md-4 col-sm-4 col-lg-4 team-card">
-<div class="upper-section-1">
-
-</div>
-<div class="lower-section">
-<div class="title-txt1">CEO,Co-Founder</div>
-    <h class="head-title2" >LEVIS CHISIRA</h>
-    <br>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#200EE4" class="bi bi-facebook" viewBox="0 0 16 16">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#200EE4" class="bi bi-twitter" viewBox="0 0 16 16">
-  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#200EE4" class="bi bi-linkedin" viewBox="0 0 16 16">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-</svg>
-</div>
-</div>
-
-</div>
-
-<!--lower row-->
-<div class="row g-0 mt-0">
-<div class="col-md-4 col-sm-4 col-lg-4">
-<div class="upper-section-1">
-
-</div>
-<div class="lower-section2">
-    <div class="title-txt2">CEO,Co-Founder</div>
-    <h class="head-title">LEVIS CHISIRA</h>
-    <br>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
-  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-</svg>
-
-
-</div>
-</div>
-<div class="col-md-4 col-sm-4 col-lg-4 team-card">
-<div class="upper-section-1">
-
-</div>
-<div class="lower-section">
-<div class="title-txt1">CEO,Co-Founder</div>
-    <h class="head-title2">LEVIS CHISIRA</h>
-    <br>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#200EE4" class="bi bi-facebook" viewBox="0 0 16 16">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#200EE4" class="bi bi-twitter" viewBox="0 0 16 16">
-  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#200EE4" class="bi bi-linkedin" viewBox="0 0 16 16">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-</svg>
-</div>
-
-</div>
-<div class="col-md-4 col-sm-4 col-lg-4 team-card">
-<div class="upper-section-1">
-
-</div>
-<div class="lower-section2">
-<div class="title-txt2">CEO,Co-Founder</div>
-    <h class="head-title">LEVIS CHISIRA</h>
-    <br>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
-  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-</svg>
-</div>
-</div>
-
-</div>
-
-
-</div>
-<!--lower row-->
-
-<!--our team section ends here-->
+<section class="team-section py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4 team-txt">Our Team</h2>
+        <div class="row">
+            <!-- Team Member 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img class="card-img-top img-fluid" src="./images/Levis.png" alt="Levis Chisira - CEO">
+                    <div class="card-body1">
+                        <h1 class="card-title">CEO, CO-FOUNDER</h1>
+                        <p class="text-muted">LEVIS CHISIRA</p>
+                        <div class="d-flex justify-content-center">
+                        <div class="social-links">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team Member 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img class="card-img-top img-fluid" src="./images/kevin.png" alt="Kelvin Mukolwe - CPO">
+                    <div class="card-body2">
+                        <h2 class="card-title">CPO, CO-FOUNDER</h2>
+                        <p class="text-muted">KELVIN MUKOLWE</p>
+                        <div class="d-flex justify-content-center">
+                        <div class="social-links">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team Member 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img class="card-img-top img-fluid" src="./images/Team2.png" alt="Gerry Ayange - CTO">
+                    <div class="card-body3">
+                        <h3 class="card-title">CTO, CO-FOUNDER</h3>
+                        <p class="text-muted">GERRY AYANGE</p>
+                        <div class="d-flex justify-content-center">
+                        <div class="social-links">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Team Member 4 -->
+             <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Nicole Akinyi - Product Manager">
+                    <div class="card-body4">
+                        <h4 class="card-title">PRODUCT MANAGER</h4>
+                        <p class="text-muted">NICOLE AKINYI</p>
+                        <div class="d-flex justify-content-center">
+                        <div class="social-links">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Team Member 5 -->
+             <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Gloria Koros- Software Engineer">
+                    <div class="card-body5">
+                        <h5 class="card-title">SOFTWARE ENGINEER</h5>
+                        <p class="text-muted">GLORIA KOROS</p>
+                        <div class="d-flex justify-content-center">
+                        <div class="social-links">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Team Member 6-->
+             <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img class="card-img-top img-fluid" src="images\DSC_6434 (1).png" alt="Japheth Kibet - Project Manager">
+                    <div class="card-body6">
+                        <h6 class="card-title">PROJECT MANAGER</h6>
+                        <p class="text-muted">JAPHETH KIBET</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="social-links">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!--Our team section ends here-->
 
 <!--Call us section starts here-->
 <div class="container-fluid call-us-section ">
@@ -312,7 +318,78 @@ quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt exp
 
 
 <!--portfolio section ends here-->
+<!--why choose us section-->
 
+
+<div class="why-choose-us container-fluid ">
+<div class="row">
+
+<div class="why-us-section1 col-md-5">
+<div class="">
+
+  <a id="play-video" class="video-play-button" href="https://www.youtube.com/embed/hXAdt5w3sPQ"  data-toggle="modal" data-target="#savoybeachhotel">
+	<span></span>
+
+ </a>
+</div>
+</div>
+<div class="why-us-section2 col-md-7">
+  <div class="back-why-us">
+<div class="why-us-head1">
+Trust Us Now
+</div>
+<div class="why-us-head2">
+WHY CHOICE OUR Tech DESIGN SERVICES
+</div>
+</div>
+<div class="why-us-paragraph">
+Lorem ipsum dolor sit amet, consectetur 
+adipiscing elit. Ut elit tellus, 
+luctus nec ullamcorper mattis, pulvinar dapibus leo.
+</div>
+<div class="row" >
+    <div class="col-md-6">
+<ul class="list2">
+    <li class="my-1"><img src="images/tick.svg" class="mx-2"> Flexible Time</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Flexible Time</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Flexible Time</li>
+    
+</ul>
+    </div>
+    <div class="col-md-6">
+    <ul class="list2">
+    <li class="my-1"><img src="images/tick.svg"class="mx-2">  Flexible Time</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2">  Flexible Time</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2">  Flexible Time</li>
+    
+</ul>
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+
+<!--why choose us section ends here-->
+<!--contact us section starts here -->
+<div class="container-fluid">
+
+<div class="contact-us-section">
+
+<h1 class="contact-us-content">LETS CHANGE YOUR OWN web  DESIGN NOW</h1>
+<button class="contact-us-button">
+Contact Us
+</button>
+
+</div>
+
+</div>
+
+
+
+<!--contact us section ends here-->
 <!--body ends here-->
 
 
@@ -321,4 +398,3 @@ quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt exp
 
     
 </body>
-@include("footer")
