@@ -29,24 +29,14 @@
 
 <div class="tabs">
   <button>UI/UX Design</button>
-  <div class="tab-image">
-            <img src="images\23.png">
-        </div>
+ 
   <button>DarasaLink</button>
-  <div class="tab-image">
-            <img src="images\23.png">
-        </div>
+  
   <button>Exam Parlour</button>
-  <div class="tab-image">
-            <img src="images\23.png">
-        </div>
+
   <button>Web Design</button>
 </div>
 
-
-    <center>
-        <img src="images\Line 134.png" class="image5">
-    </center>
 
 
 
