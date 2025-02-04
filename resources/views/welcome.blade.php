@@ -1,4 +1,4 @@
-@include("navigation-bar")
+@include("nav-bar2")
 
 <!DOCTYPE html>
 <html lang="en">
@@ -348,11 +348,7 @@
         </video>
         <div class="wrapper">
     <div class="typing-demo">
-      This is a typing demo.  This is a typing demoThis is a typing demo.  This is a typing demo.
-      This is a typing demo.
-      This is a typing demo.  This is a typing demo.
-      This is a typing demo.  This is a typing demo.
-      This is a typing demo. This is a typing demo.
+      
     </div>
 
 </div>      </div>
