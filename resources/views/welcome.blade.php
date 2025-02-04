@@ -1,7 +1,4 @@
 @include("navigation-bar")
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -231,7 +228,7 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-        const text = "Kenya's Trusted Partner\nin Professional Tech Solutions";
+        const text = "Kenya's Trusted Partner in Professional Tech Solutions";
         const typingElement = document.getElementById("typing-text");
         const cursor = document.querySelector(".cursor");
         let index = 0;
@@ -283,34 +280,16 @@
     </script>
     <!-- Tabs section  starts here-->
 
-    <div class="tabs">
-        <button>UI/UX Design</button>
-        <div class="tab-image">
-            <img src="images\23.png">
-        </div>
-        <button>DarasaLink</button>
-        <div class="tab-image">
-            <img src="images\23.png">
-        </div>
-        <button>Exam Parlour</button>
-        <div class="tab-image">
-            <img src="images\23.png">
-        </div>
-        <button>Web Design</button>
-    </div>
+<div class="tabs">
+  <button>UI/UX Design</button>
+ 
+  <button>DarasaLink</button>
+  
+  <button>Exam Parlour</button>
 
-
-    <center>
-        <img src="images\Line 134.png" class="image5">
-    </center>
-
-    <div class="image5">
-        <center>
-            <img src="images\Line 134.png">
-        </center>
-    </div>
-
-
+  <button>Web Design</button>
+</div>
+   
     <section class="design-process">
         <div class="steps">
             <div class="step">
@@ -318,6 +297,8 @@
                     <span>1</span>
                 </div>
                 <div class="step-content">
+                    <img src="images/pie1.svg"  width="11%">
+
                     <h3>Step 1: Product design Research</h3>
                     <p>This initial step involves a systematic and thorough exploration of the market landscape, user
                         needs, and existing solutions.</p>
@@ -329,6 +310,7 @@
                     <span>2</span>
                 </div>
                 <div class="step-content">
+                <img src="images/pie2.svg" width="11%">
                     <h3>Step 2: UI design in Figma</h3>
                     <p>This initial step involves a systematic and thorough exploration of the market landscape, user
                         needs, and existing solutions.</p>
@@ -339,6 +321,7 @@
                     <span>3</span>
                 </div>
                 <div class="step-content">
+                <img src="images/pie3.svg" width="11%">
                     <h3>Step 3: No-code develop in Webflow</h3>
                     <p>This initial step involves a systematic and thorough exploration of the market landscape, user
                         needs, and existing solutions.</p>
@@ -347,38 +330,36 @@
         </div>
 
         <div class="cards">
-            <div class="card">
+            
+            <div class="cards-image1">
                 <h4>Web Development</h4>
                 <p>UX Case study</p>
-                <div class="cards-image">
-                    <img src="images\pexels-shkrabaanthony-7163431 1.png">
-                </div>
+                
             </div>
-            <div class="card">
+            <div class="card cards-image2">
+                <center>
                 <h4>Software Development</h4>
                 <p>UX Case study</p>
-                <div class="cards-image">
-                    <img src="images\Rectangle 3817.png">
-                </div>
+                </center>
+            
+                <video class="" autoplay loop muted plays-inline>
+            <source src="images/software.mp4" type="video/mp4" width="40%">
+        </video>
+        <div class="wrapper">
+    <div class="typing-demo">
+      This is a typing demo.  This is a typing demoThis is a typing demo.  This is a typing demo.
+      This is a typing demo.
+      This is a typing demo.  This is a typing demo.
+      This is a typing demo.  This is a typing demo.
+      This is a typing demo. This is a typing demo.
+    </div>
+
+</div>      </div>
+                
             </div>
         </div>
     </section>
-    <div class="cards">
-        <div class="card">
-            <h4>Web Development</h4>
-            <p>UX Case study</p>
-            <div class="">
-            <img src="images\pexels-shkrabaanthony-7163431 1.png"class="cards-image1" width="50%">
-        </div>
-        </div>
-        <div class="card">
-            <h4>Software Development</h4>
-            <p>UX Case study</p>
-            <div class="">
-            <img src="images\Rectangle 3817.png" class="cards-image2">
-        </div>
-        </div>
-    </div>
+   
 </section>
 
     <h5 class="Services-title">Our Services</h5>
@@ -500,6 +481,7 @@
     </div>
 
     <!-- Footer starts here-->
+ 
 
     @include("footer")
 </body>
