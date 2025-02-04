@@ -13,7 +13,7 @@
     <div class="maintenance-container">
         <!-- Hero section -->
         <div class="hero-section">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4ddba29190d25364f2407b64143527d603c8e7bdee9b82d590c5b62d27133b46?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Hardware and software maintenance services hero image" class="hero-image" />
+            <img src="images\hardware and software installation1.jpeg" alt="Hardware and software maintenance services hero image" class="hero-image" />
             <center>
             <h1 class="hero-title">Hardware and Software Maintenance</h1>
             </center>

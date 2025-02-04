@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Navigation Bar</title>
   <link rel="stylesheet" href="style/nav-bar2.css">
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+  </script>
 </head>
 <body>
   <header>
@@ -18,18 +29,18 @@
         <span></span>
       </button>
       <ul class="nav-menu">
-      <a class="list" href="#home">Home</a>
-  <div class="dropdown">
-    <button class="dropbtn">About Us
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Who we are </a>
-      <a href="#">Our Team</a>
-      <a href="#">Jobs & Internships</a>
-      <a href="#">Our Projects</a>
-      <a href="#">Our Clients</a>
-      <a href="#">Blog</a>
+       <a class="list" href="#home">Home</a>
+       <div class="dropdown">
+       <button class="dropbtn">About Us
+       <i class="fa fa-caret-down"></i>
+       </button>
+       <div class="dropdown-content">
+       <a href="#">Who we are </a>
+       <a href="#">Our Team</a>
+       <a href="#">Jobs & Internships</a>
+       <a href="#">Our Projects</a>
+       <a href="#">Our Clients</a>
+       <a href="#">Blog</a>
     </div>
   </div>
   <div class="dropdown">
@@ -76,17 +87,7 @@
       </ul>
       <a href="#get-started" class="btn-get-started">Get Started</a>
     </nav>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </header>
-
-  <script>
-   function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-  </script>
 </body>
 </html>
