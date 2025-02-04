@@ -398,3 +398,4 @@ Contact Us
 
     
 </body>
+@include("footer")

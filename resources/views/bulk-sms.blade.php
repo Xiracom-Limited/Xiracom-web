@@ -397,3 +397,4 @@
 </body>
 
 </html>
+@include("footer")

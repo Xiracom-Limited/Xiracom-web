@@ -221,8 +221,8 @@
         <h1 id="typing-text"></h1>
         <span class="cursor">|</span> 
             <div class="buttons d-flex justify-content-center gap-3 mt-3">
-                <a href="#" class="btn btn-primary">Get Started</a>
-                <a href="#" class="btn btn-secondary">Request Quote</a>
+                <a href="./register" class="btn btn-primary">Get Started</a>
+                <a href="./Request-quote" class="btn btn-secondary">Request Quote</a>
             </div>
         </div>
     </div>
