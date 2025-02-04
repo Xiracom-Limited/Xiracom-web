@@ -34,7 +34,7 @@
     }
 
     .footer a:hover {
-      color: #fff;
+      color: #399C23;
     }
 
     .social-icons a {
@@ -83,17 +83,17 @@
   </style>
 
 
-<footer class="footer bg-dark text-light py-5 ">
+<footer class="footer text-light py-5 " style="background-color:#074d5e;">
   <div class="container">
     <div class="row">
       <!-- Contact Section -->
       <div class="col-md-3">
   <h5 class="fw-bolder">Contact Us</h5>
   <ul class="list-unstyled">
-    <li><i class="fab fa-whatsapp text-success"></i> +48729628367</li>
-    <li><i class="fab fa-whatsapp text-success"></i> +48579205541</li>
-    <li><i class="fas fa-phone text-primary"></i> +254704907555</li>
-    <li><i class="fas fa-envelope text-warning"></i> info@xiracom.co.ke</li>
+    <li><i class="fab fa-whatsapp"></i> +48729628367</li>
+    <li><i class="fab fa-whatsapp "></i> +48579205541</li>
+    <li><i class="fas fa-phone"></i> +254704907555</li>
+    <li><i class="fas fa-envelope "></i> info@xiracom.co.ke</li>
   </ul>
 </div>
 
@@ -164,8 +164,8 @@
   </div>
 
   <!-- Copyright Section -->
-  <div class="copyright mt-4 text-center">
-    <p class="m-0">&copy; 2024 Safe Pesa. All Rights Reserved.</p>
+  <div class="copyright mt-4 text-center" style="background-color:#399C23;">
+    <p class="m-0">&copy; 2025 XIRACOM LIMITED. All Rights Reserved.</p>
   </div>
 </footer>
 
