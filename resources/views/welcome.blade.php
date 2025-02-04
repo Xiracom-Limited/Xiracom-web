@@ -1,4 +1,4 @@
-
+@include("navigation-bar")
 
 
 <!DOCTYPE html>
