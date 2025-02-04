@@ -57,7 +57,7 @@ font-weight:bolder;
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link fw-bolder color-text" href="#">HOME<span class="sr-only">(current)</span></a>
+        <a class="nav-link fw-bolder color-text" href="./">HOME<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle fw-bolder color-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -115,7 +115,9 @@ font-weight:bolder;
       <li class="nav-item">
         <a class="nav-link fw-bolder color-text" href="./contact-us">CONTACT US</a>
       </li>
-     
+      <li class="nav-item">
+        <a class="nav-link fw-bolder color-text" href="./contact-us">LOGIN</a>
+      </li>
     </ul>
   <div class="me-5 contact-nav-bar" >
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">

@@ -1,3 +1,4 @@
+@include("nav-bar2")
 <!DOCTYPE html>
 <html>
 
