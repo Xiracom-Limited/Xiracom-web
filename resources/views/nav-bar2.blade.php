@@ -9,17 +9,17 @@
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "navbar") {
+  if (x.className === "nav-menu") {
     x.className += " responsive";
   } else {
-    x.className = "navbar";
+    x.className = "nav-menu";
   }
 }
   </script>
 </head>
 <body>
   <header>
-    <nav class="navbar" id="myTopnav">
+    <nav class="navbar">
       <div class="logo">
         <img src="images\xiracomlogo.png" alt="Company Logo" class="logo">
       </div>
@@ -28,7 +28,7 @@ function myFunction() {
         <span></span>
         <span></span>
       </button>
-      <ul class="nav-menu">
+      <div class="nav-menu" id="myTopnav">
        <a class="list" href="#home">Home</a>
        <div class="dropdown">
        <button class="dropbtn">About Us
@@ -84,7 +84,7 @@ function myFunction() {
   </div>
   <a class="list" href="#contactus">Contact Us</a>
   <a class="list" href="#blog">Blog</a>
-      </ul>
+</div>
       <a href="#get-started" class="btn-get-started">Get Started</a>
     </nav>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>

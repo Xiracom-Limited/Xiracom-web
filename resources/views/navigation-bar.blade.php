@@ -25,18 +25,16 @@ function myFunction() {
   background: linear-gradient(to left, #399C23, #12087E);
   overflow: hidden;
   border-radius: 25px;
-  width: 75%;
   margin-left: 15%;
-  height: ;
+  width: 75%;
 }
 
 .logo {
     object-fit: contain;
     width: 100px;
-    align-self: stretch;
-    margin-top: 5px;
-    border-radius: 20px;
-    height: 25px;
+    align-self: center;
+    height: 50px;
+    margin: -15px 0 0 0;
   }
 
 /* Style the links inside the navigation bar */
@@ -45,9 +43,10 @@ function myFunction() {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 0 16px;
+  padding: 0 16px 0 16px;
   text-decoration: none;
   font-size: 17px;
+  margin: 15px 0 0 0;
 }
 
 
@@ -68,10 +67,10 @@ function myFunction() {
   border: none;
   outline: none;
   color: white;
-  padding: 5px 16px;
+  padding: 0 16px 0 16px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
+  margin: 15px 0 0 0;
 }
 
 /* Style the dropdown content (hidden by default) */
@@ -113,13 +112,12 @@ function myFunction() {
 /* Call-to-action Button */
 .btn-get-started {
     text-decoration: none;
-    color: #0924ae;
-    border: 2px solid #0924ae;
-    padding: 13px 20px;
+    border: 2px solid #fff;
     border-radius: 30px;
-    font-weight: bold;
     transition: 0.3s;
     text-align: center;
+    background: none;
+    color: green;
   }
   
   .btn-get-started:hover {
@@ -136,12 +134,12 @@ function myFunction() {
   .topnav a.icon {
     float: right;
     display: block;
+    margin: 0 0 0 0;
   }
   .logo {
-    margin-top: 12px;
+    margin: -15px 0 0 0;
   }
 }
-
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .topnav.responsive {
@@ -244,7 +242,6 @@ function myFunction() {
   </div>
   <a class="list" href="#contactus">Contact Us</a>
   <a class="list" href="#blog">Blog</a>
-      </ul>
       <a href="#get-started" class="btn-get-started">Get Started</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
