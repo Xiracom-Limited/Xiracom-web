@@ -193,7 +193,16 @@ body {
     gap: 1rem;
 }
 
-.card {
+.card1 {
+    background: url("../images/design.jpeg");
+    color: white;
+    border-radius: 10px;
+    position: center;
+    background-size: cover;
+   
+
+}
+.card2 {
     background: linear-gradient(135deg, #1b74e4, #32a852);
     color: white;
     border-radius: 10px;
