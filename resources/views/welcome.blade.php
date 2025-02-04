@@ -231,7 +231,7 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-        const text = "Kenya's Trusted Partner\nin Professional Tech Solutions";
+        const text = "Kenya's Trusted Partner in Professional Tech Solutions";
         const typingElement = document.getElementById("typing-text");
         const cursor = document.querySelector(".cursor");
         let index = 0;
@@ -292,30 +292,7 @@
 
   <button>Web Design</button>
 </div>
-    <div class="tabs">
-        <button>UI/UX Design</button>
-        <div class="tab-image">
-            <img src="images\23.png">
-        </div>
-        <button>DarasaLink</button>
-        <div class="tab-image">
-            <img src="images\23.png">
-        </div>
-        <button>Exam Parlour</button>
-        <div class="tab-image">
-            <img src="images\23.png">
-        </div>
-        <button>Web Design</button>
-    </div>
-
-
-    <div class="image5">
-        <center>
-            <img src="images\Line 134.png">
-        </center>
-    </div>
-
-
+   
     <section class="design-process">
         <div class="steps">
             <div class="step">
@@ -368,22 +345,7 @@
             </div>
         </div>
     </section>
-    <div class="cards">
-        <div class="card">
-            <h4>Web Development</h4>
-            <p>UX Case study</p>
-            <div class="">
-            <img src="images\pexels-shkrabaanthony-7163431 1.png"class="cards-image1" width="50%">
-        </div>
-        </div>
-        <div class="card">
-            <h4>Software Development</h4>
-            <p>UX Case study</p>
-            <div class="">
-            <img src="images\Rectangle 3817.png" class="cards-image2">
-        </div>
-        </div>
-    </div>
+   
 </section>
 
     <h5 class="Services-title">Our Services</h5>
