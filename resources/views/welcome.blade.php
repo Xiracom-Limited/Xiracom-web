@@ -1,7 +1,4 @@
-
-
-
-
+@include("navigation-bar")
 <!DOCTYPE html>
 <html lang="en">
 
@@ -300,6 +297,8 @@
                     <span>1</span>
                 </div>
                 <div class="step-content">
+                    <img src="images/pie1.svg"  width="11%">
+
                     <h3>Step 1: Product design Research</h3>
                     <p>This initial step involves a systematic and thorough exploration of the market landscape, user
                         needs, and existing solutions.</p>
@@ -311,6 +310,7 @@
                     <span>2</span>
                 </div>
                 <div class="step-content">
+                <img src="images/pie2.svg" width="11%">
                     <h3>Step 2: UI design in Figma</h3>
                     <p>This initial step involves a systematic and thorough exploration of the market landscape, user
                         needs, and existing solutions.</p>
@@ -321,6 +321,7 @@
                     <span>3</span>
                 </div>
                 <div class="step-content">
+                <img src="images/pie3.svg" width="11%">
                     <h3>Step 3: No-code develop in Webflow</h3>
                     <p>This initial step involves a systematic and thorough exploration of the market landscape, user
                         needs, and existing solutions.</p>
@@ -329,19 +330,32 @@
         </div>
 
         <div class="cards">
-            <div class="card">
+            
+            <div class="cards-image1">
                 <h4>Web Development</h4>
                 <p>UX Case study</p>
-                <div class="cards-image">
-                    <img src="images\pexels-shkrabaanthony-7163431 1.png">
-                </div>
+                
             </div>
-            <div class="card">
+            <div class="card cards-image2">
+                <center>
                 <h4>Software Development</h4>
                 <p>UX Case study</p>
-                <div class="cards-image">
-                    <img src="images\Rectangle 3817.png">
-                </div>
+                </center>
+            
+                <video class="" autoplay loop muted plays-inline>
+            <source src="images/software.mp4" type="video/mp4" width="40%">
+        </video>
+        <div class="wrapper">
+    <div class="typing-demo">
+      This is a typing demo.  This is a typing demoThis is a typing demo.  This is a typing demo.
+      This is a typing demo.
+      This is a typing demo.  This is a typing demo.
+      This is a typing demo.  This is a typing demo.
+      This is a typing demo. This is a typing demo.
+    </div>
+
+</div>      </div>
+                
             </div>
         </div>
     </section>
@@ -467,6 +481,7 @@
     </div>
 
     <!-- Footer starts here-->
+ 
 
     @include("footer")
 </body>
