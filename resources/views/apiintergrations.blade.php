@@ -11,6 +11,7 @@
 
     <header class="hero">
         <div class="container">
+        <img src="images\api intergrations1.jpeg" alt="api intergrations" class="hero-image">
             <h1>Payment <span class="highlight">Integration</span></h1>
             <p>Mpesa is one of the best ways people make transactions in Kenya. 
                You can now integrate Mpesa into your online business for faster transactions.</p>
