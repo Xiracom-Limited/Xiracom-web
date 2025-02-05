@@ -261,8 +261,8 @@ body {
 
     .cards-image2{
     
-        margin-left: 10%;
-        width: 80%;
+      display: none;
+        width: 100%;
     }
 
     .cards-image1 {
@@ -483,7 +483,7 @@ p {
 }
     
 .hero-section .content {
-    max-width: 80%;
+    max-width: 30%;
 }
     
 .hero-section h1 {
