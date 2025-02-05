@@ -1,4 +1,4 @@
-@include("navigation-bar")
+@include("nav-bar2")
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,8 +6,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiracom</title>  
-    @vite(['resources/sass/app.scss','resources/js/app.js'])
+    <title>Xiracom</title>
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
     <link rel="stylesheet" href="style/welcome.css">
 
@@ -110,7 +110,8 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%) scaleX(-1); /* Flip video */
+            transform: translate(-50%, -50%) scaleX(-1);
+            /* Flip video */
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -129,71 +130,100 @@
         }
 
         .content {
-        text-align: left;  /* Align text to the left */
-        max-width: 600px;  /* Prevents text from spreading too wide */
-    }
+            text-align: left;
+            /* Align text to the left */
+            max-width: 600px;
+            /* Prevents text from spreading too wide */
+        }
 
-    .buttons {
-        display: flex;
-        gap: 10px;  /* Space between buttons */
-    }
+        .buttons {
+            display: flex;
+            gap: 10px;
+            /* Space between buttons */
+        }
 
 
-    content {
-        text-align: left;
-        max-width: 600px;
-        position: relative;
-    }
+        content {
+            text-align: left;
+            max-width: 600px;
+            position: relative;
+        }
 
-    #typing-text {
-        display: inline;
-        font-size: 3.5rem;
-        font-weight: bold;
-        white-space: nowrap;
-        /* font-size: 70px;  Ensure font size remains 70px */
-        font-weight: bold;
-        line-height: 1.2; /* Adjust for spacing */
-        white-space: pre-wrap;
-    }
+        #typing-text {
+            display: inline;
+            font-size: 3.5rem;
+            font-weight: bold;
+            white-space: nowrap;
+            /* font-size: 70px;  Ensure font size remains 70px */
+            font-weight: bold;
+            line-height: 1.2;
+            /* Adjust for spacing */
+            white-space: pre-wrap;
+        }
 
-    .cursor {
-        display: inline-block;
-        font-size: 3.5rem;
-        font-weight: bold;
-        animation: blink 0.7s infinite;
-    }
+        .cursor {
+            display: inline-block;
+            font-size: 3.5rem;
+            font-weight: bold;
+            animation: blink 0.7s infinite;
+        }
 
-    @keyframes blink {
-        0% { opacity: 1; }
-        50% { opacity: 0; }
-        100% { opacity: 1; }
-    }
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
 
-    .buttons {
-        display: flex;
-        gap: 10px;
-        margin-top: 20px;
-        position: absolute;  /* Keep buttons fixed in position */
-        top: 300px;  /* Adjust this value based on layout */
-    }
+            50% {
+                opacity: 0;
+            }
 
-    @keyframes blink {
-            0% { opacity: 1; }
-            50% { opacity: 0; }
-            100% { opacity: 1; }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            position: absolute;
+            /* Keep buttons fixed in position */
+            top: 300px;
+            /* Adjust this value based on layout */
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
         }
 
         /* Responsive Adjustments */
-        @media (max-width: 992px) {  /* Medium screens */
-            #typing-text, .cursor {
+        @media (max-width: 992px) {
+
+            /* Medium screens */
+            #typing-text,
+            .cursor {
                 font-size: 3rem;
             }
         }
 
-        @media (max-width: 768px) {  /* Small screens */
-            #typing-text, .cursor {
+        @media (max-width: 768px) {
+
+            /* Small screens */
+            #typing-text,
+            .cursor {
                 font-size: 2rem;
             }
+
             .buttons {
                 flex-direction: column;
                 gap: 10px;
@@ -218,8 +248,8 @@
         </video>
 
         <div class="content">
-        <h1 id="typing-text"></h1>
-        <span class="cursor">|</span> 
+            <h1 id="typing-text"></h1>
+            <span class="cursor">|</span>
             <div class="buttons d-flex justify-content-center gap-3 mt-3">
                 <a href="#" class="btn btn-primary">Get Started</a>
                 <a href="#" class="btn btn-secondary">Request Quote</a>
@@ -229,51 +259,51 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-        const text = "Kenya's Trusted Partner in Professional Tech Solutions";
-        const typingElement = document.getElementById("typing-text");
-        const cursor = document.querySelector(".cursor");
-        let index = 0;
-        let typingSpeed = 50;
-        let delayBeforeRestart = 4000; // 2 seconds before restart
+            const text = "Kenya's Trusted Partner in Professional Tech Solutions";
+            const typingElement = document.getElementById("typing-text");
+            const cursor = document.querySelector(".cursor");
+            let index = 0;
+            let typingSpeed = 50;
+            let delayBeforeRestart = 4000; // 2 seconds before restart
 
-        function typeEffect() {
-            if (index < text.length) {
-                if (text.charAt(index) === "\n") {
-                    typingElement.innerHTML += "<br>";
+            function typeEffect() {
+                if (index < text.length) {
+                    if (text.charAt(index) === "\n") {
+                        typingElement.innerHTML += "<br>";
+                    } else {
+                        typingElement.innerHTML += text.charAt(index);
+                    }
+                    index++;
+                    setTimeout(typeEffect, typingSpeed);
                 } else {
-                    typingElement.innerHTML += text.charAt(index);
+                    setTimeout(resetTypingEffect, delayBeforeRestart);
                 }
-                index++;
-                setTimeout(typeEffect, typingSpeed);
-            } else {
-                setTimeout(resetTypingEffect, delayBeforeRestart);
             }
-        }
 
-        function resetTypingEffect() {
-            typingElement.innerHTML = ""; // Clear text
-            index = 0;
-            setTimeout(typeEffect, typingSpeed);
-        }
+            function resetTypingEffect() {
+                typingElement.innerHTML = ""; // Clear text
+                index = 0;
+                setTimeout(typeEffect, typingSpeed);
+            }
 
-        typeEffect(); // Start the typing effect
-    });
+            typeEffect(); // Start the typing effect
+        });
 
-// document.addEventListener("DOMContentLoaded", function () {
-//         const text = "Kenya's Trusted Partner in Professional Tech Solutions";
-//         const typingElement = document.getElementById("typing-text");
-//         let index = 0;
+        // document.addEventListener("DOMContentLoaded", function () {
+        //         const text = "Kenya's Trusted Partner in Professional Tech Solutions";
+        //         const typingElement = document.getElementById("typing-text");
+        //         let index = 0;
 
-//         function typeEffect() {
-//             if (index < text.length) {
-//                 typingElement.innerHTML += text.charAt(index);
-//                 index++;
-//                 setTimeout(typeEffect, 50); // Adjust speed (lower = faster)
-//             }
-//         }
+        //         function typeEffect() {
+        //             if (index < text.length) {
+        //                 typingElement.innerHTML += text.charAt(index);
+        //                 index++;
+        //                 setTimeout(typeEffect, 50); // Adjust speed (lower = faster)
+        //             }
+        //         }
 
-//         typeEffect(); // Start the typing effect
-//     });
+        //         typeEffect(); // Start the typing effect
+        //     });
         // document.addEventListener("DOMContentLoaded", function () {
         //     const video = document.getElementById("heroVideo");
         //     video.playbackRate = 0.5; // Adjust this value for desired slow motion (0.5 means half-speed)
@@ -281,16 +311,16 @@
     </script>
     <!-- Tabs section  starts here-->
 
-<div class="tabs">
-  <button>UI/UX Design</button>
- 
-  <button>DarasaLink</button>
-  
-  <button>Exam Parlour</button>
+    <div class="tabs">
+        <button>UI/UX Design</button>
 
-  <button>Web Design</button>
-</div>
-   
+        <button>DarasaLink</button>
+
+        <button>Exam Parlour</button>
+
+        <button>Web Design</button>
+    </div>
+
     <section class="design-process">
         <div class="steps">
             <div class="step">
@@ -298,7 +328,7 @@
                     <span>1</span>
                 </div>
                 <div class="step-content">
-                    <img src="images/pie1.svg"  width="11%">
+                    <img src="images/pie1.svg" width="11%">
 
                     <h3>Step 1: Product design Research</h3>
                     <p>This initial step involves a systematic and thorough exploration of the market landscape, user
@@ -311,7 +341,7 @@
                     <span>2</span>
                 </div>
                 <div class="step-content">
-                <img src="images/pie2.svg" width="11%">
+                    <img src="images/pie2.svg" width="11%">
                     <h3>Step 2: UI design in Figma</h3>
                     <p>This initial step involves a systematic and thorough exploration of the market landscape, user
                         needs, and existing solutions.</p>
@@ -322,7 +352,7 @@
                     <span>3</span>
                 </div>
                 <div class="step-content">
-                <img src="images/pie3.svg" width="11%">
+                    <img src="images/pie3.svg" width="11%">
                     <h3>Step 3: No-code develop in Webflow</h3>
                     <p>This initial step involves a systematic and thorough exploration of the market landscape, user
                         needs, and existing solutions.</p>
@@ -331,37 +361,38 @@
         </div>
 
         <div class="cards">
-            
+
             <div class="cards-image1">
                 <h4>Web Development</h4>
                 <p>UX Case study</p>
-                
+
             </div>
             <div class="card cards-image2">
                 <center>
-                <h4>Software Development</h4>
-                <p>UX Case study</p>
+                    <h4>Software Development</h4>
+                    <p>UX Case study</p>
                 </center>
-            
-                <video class="" autoplay loop muted plays-inline>
-            <source src="images/software.mp4" type="video/mp4" width="40%">
-        </video>
-        <div class="wrapper">
-    <div class="typing-demo">
-      This is a typing demo.  This is a typing demoThis is a typing demo.  This is a typing demo.
-      This is a typing demo.
-      This is a typing demo.  This is a typing demo.
-      This is a typing demo.  This is a typing demo.
-      This is a typing demo. This is a typing demo.
-    </div>
 
-</div>      </div>
-                
+                <video class="" autoplay loop muted plays-inline>
+                    <source src="images/software.mp4" type="video/mp4" width="40%">
+                </video>
+                <div class="wrapper">
+                    <div class="typing-demo">
+                        This is a typing demo. This is a typing demoThis is a typing demo. This is a typing demo.
+                        This is a typing demo.
+                        This is a typing demo. This is a typing demo.
+                        This is a typing demo. This is a typing demo.
+                        This is a typing demo. This is a typing demo.
+                    </div>
+
+                </div>
             </div>
+
+        </div>
         </div>
     </section>
-   
-</section>
+
+    </section>
 
     <h5 class="Services-title">Our Services</h5>
     <div class="services-grid">
@@ -482,7 +513,7 @@
     </div>
 
     <!-- Footer starts here-->
- 
+
 
     @include("footer")
 </body>

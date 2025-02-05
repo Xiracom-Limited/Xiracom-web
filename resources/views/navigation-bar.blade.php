@@ -22,11 +22,13 @@ function myFunction() {
   }
     /* Add a black background color to the top navigation */
 .topnav {
+  position: absolute;
   background: linear-gradient(to left, #399C23, #12087E);
   overflow: hidden;
   border-radius: 25px;
   margin-left: 15%;
   width: 75%;
+  z-index: 10000;
 }
 
 .logo {

@@ -389,7 +389,7 @@
 .text-content {
   position: absolute; /* Positions text on top of the image */
   top: 50%; /* Centers vertically */
-  left: 50%; /* Centers horizontally */
+  left : 50%; /* Centers horizontally */
   transform: translate(-50%, -50%); /* Adjusts for exact centering */
   text-align: center; /* Centers text */
   color: white; /* Text color */
@@ -509,30 +509,31 @@
     </div>
   </section>
 
-  <section class="why-choose-us">
-    <div class="content">
-      <div class="image">
+  <section class="why-choose-us ">
+    <div class="content ">
+      <div class="image ">
         <img src="images/mohammad-rahmani-nBXwqxjDa5c-unsplash 1.png" alt="Why Choose Us Image" width="300px">
       </div>
-      <div class="text">
-        <div class="description">
+      <div class="text   ">
+        <div class="description ">
           <p>We are committed to delivering cutting-edge solutions that meet your needs and exceed your expectations.
             Here is why you should partner with us:</p>
         </div>
-        <div class="benefits">
-          <div class="benefit-card">
+        
+        <div class="benefits row">
+          <div class="benefit-card ">
             <h3>Fast Delivery</h3>
             <p>On-time and cost-efficient solutions.</p>
           </div>
-          <div class="benefit-card">
+          <div class="benefit-card ">
             <h3>Expert Team</h3>
             <p>Experienced developers for top-notch results.</p>
           </div>
-          <div class="benefit-card">
+          <div class="benefit-card ">
             <h3>Secure Transactions</h3>
             <p>We prioritize data security and privacy.</p>
           </div>
-          <div class="benefit-card">
+          <div class="benefit-card ">
             <h3>24/7 Support</h3>
             <p>Reliable assistance anytime you need it.</p>
           </div>
