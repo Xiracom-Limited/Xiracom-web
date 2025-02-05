@@ -69,7 +69,7 @@
             top: 45%;
             transform: translateY(-50%);
             text-align: center;
-            margin: 40px;
+           margin-top:4%;
         }
 
         .content h1 {
@@ -130,19 +130,21 @@
 
         .content {
         text-align: left;  /* Align text to the left */
-        max-width: 600px;  /* Prevents text from spreading too wide */
+        max-width: 50%; 
+        margin-left:3%; /* Prevents text from spreading too wide */
+    }
+@media screen and (max-width:600px) and (max-width:720px){
+    .content {
+        text-align: center;  /* Align text to the left */
+        max-width: 100%;
+        margin-left:0%; 
+        height:30%;  /* Prevents text from spreading too wide */
     }
 
+}
     .buttons {
         display: flex;
         gap: 10px;  /* Space between buttons */
-    }
-
-
-    content {
-        text-align: left;
-        max-width: 600px;
-        position: relative;
     }
 
     #typing-text {

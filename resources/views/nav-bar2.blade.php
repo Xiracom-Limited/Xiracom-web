@@ -16,7 +16,7 @@
 
     .nav-image{
 
-display:none;
+width: 33%;
 
 }
 
@@ -49,8 +49,8 @@ font-weight:bolder;
 <body>
 
 <nav class="navbar w-100 navbar-expand-lg navbar-light bg-white custom-nav" style="position:fixed;z-index:2000;">
-  <button class="navbar-toggler ms-sm-5" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
   </button>
   <img src="images/xiracomlogo.png" width="10%" class="nav-image" style="">
 
