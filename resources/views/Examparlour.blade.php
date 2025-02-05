@@ -1,4 +1,5 @@
 
+@include("nav-bar2")
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,7 @@
 </head>
 <body>
     <div style="background-color: #399C23">
-@include("navigation-bar")
+
 
     <!-- Hero Section -->
     <div class="container-fluid heroes-section bg-success text-white py-5">

@@ -69,7 +69,7 @@
             top: 45%;
             transform: translateY(-50%);
             text-align: center;
-            margin: 40px;
+           margin-top:4%;
         }
 
         .content h1 {
@@ -130,6 +130,7 @@
         }
 
         .content {
+<<<<<<< HEAD
             text-align: left;
             /* Align text to the left */
             max-width: 600px;
@@ -160,6 +161,36 @@
             /* Adjust for spacing */
             white-space: pre-wrap;
         }
+=======
+        text-align: left;  /* Align text to the left */
+        max-width: 50%; 
+        margin-left:3%; /* Prevents text from spreading too wide */
+    }
+@media screen and (max-width:600px) and (max-width:720px){
+    .content {
+        text-align: center;  /* Align text to the left */
+        max-width: 100%;
+        margin-left:0%; 
+        height:30%;  /* Prevents text from spreading too wide */
+    }
+
+}
+    .buttons {
+        display: flex;
+        gap: 10px;  /* Space between buttons */
+    }
+
+    #typing-text {
+        display: inline;
+        font-size: 3.5rem;
+        font-weight: bold;
+        white-space: nowrap;
+        /* font-size: 70px;  Ensure font size remains 70px */
+        font-weight: bold;
+        line-height: 1.2; /* Adjust for spacing */
+        white-space: pre-wrap;
+    }
+>>>>>>> 8569ee09eb9726151c78951665892ab084983998
 
         .cursor {
             display: inline-block;
@@ -251,8 +282,8 @@
             <h1 id="typing-text"></h1>
             <span class="cursor">|</span>
             <div class="buttons d-flex justify-content-center gap-3 mt-3">
-                <a href="#" class="btn btn-primary">Get Started</a>
-                <a href="#" class="btn btn-secondary">Request Quote</a>
+                <a href="./register" class="btn btn-primary">Get Started</a>
+                <a href="./Request-quote" class="btn btn-secondary">Request Quote</a>
             </div>
         </div>
     </div>
@@ -372,6 +403,17 @@
                     <h4>Software Development</h4>
                     <p>UX Case study</p>
                 </center>
+<<<<<<< HEAD
+=======
+            
+                <video class="" autoplay loop muted plays-inline>
+            <source src="images/software.mp4" type="video/mp4" width="40%">
+        </video>
+        <div class="wrapper">
+    <div class="typing-demo">
+      
+    </div>
+>>>>>>> 8569ee09eb9726151c78951665892ab084983998
 
                 <video class="" autoplay loop muted plays-inline>
                     <source src="images/software.mp4" type="video/mp4" width="40%">
