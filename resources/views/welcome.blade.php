@@ -348,12 +348,7 @@
                 <video class="" autoplay loop muted plays-inline>
             <source src="images/software.mp4" type="video/mp4" width="40%">
         </video>
-        <div class="wrapper">
-    <div class="typing-demo">
-      
-    </div>
-
-</div>      </div>
+        </div>
                 
             </div>
         </div>
