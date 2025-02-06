@@ -267,7 +267,7 @@
       width: 100%;
     }
   </style>
-  <section class="bulk-sms container-fluid">
+  <section class="bulk-sms container-fluid  mt-5">
     <div class="header-section py-5">
       <div class="container">
         <div class="row align-items-center">
@@ -292,9 +292,9 @@
         <div class="col">
           <div class="card h-100">
             <div class="card-body">
-              <h3 class="card-title">Airtel</h3>
+              <h3 class="card-title">Safaricom</h3>
               <hr>
-              <p class="card-text"><strong>Ksh 7,500</strong></p>
+              <p class="card-text"><strong>Ksh 8,500</strong></p>
               <hr>
               <ul class="list-unstyled">
                 <li>Recognizable messages</li>
@@ -312,9 +312,9 @@
         <div class="col">
           <div class="card h-100">
             <div class="card-body">
-              <h3 class="card-title">Safaricom</h3>
+              <h3 class="card-title">Airtel</h3>
               <hr>
-              <p class="card-text"><strong>Ksh 8,500</strong></p>
+              <p class="card-text"><strong>Ksh 7,500</strong></p>
               <hr>
               <ul class="list-unstyled">
                 <li>Recognizable messages</li>
