@@ -69,7 +69,7 @@ top: 397px; */
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            padding: 10px 28px;
+            padding: 10px 16px;
 
             background: #399C23;
             border: 1.5px solid #102038;
@@ -79,6 +79,7 @@ top: 397px; */
             font-weight: 700;
             font-size: 20px;
             line-height: 22px;
+            margin-left:35%;
             /* or 112% */
             display: flex;
             align-items: center;
@@ -174,7 +175,7 @@ top: 852px; */
 
         }
     </style>
-    <section class="bunner bg-light">
+    <section class="bunner bg-light mt-5">
         <div class="container-fluid">
 
             <div class="row banner">
@@ -183,15 +184,15 @@ top: 852px; */
 
                 <div class="col-md-6 d-flex align-items-center px-md-5">
                     <div class="banner-text">
-                        <h1 class="fs-sm-5">Discover Top-Notch Hosting and Domain Solutions</h1>
-                        <p>We are the best in the business. Get started with us today
+                        <h1 class="fs-sm-5">Discover The Fastest Web Hosting in Africa</h1>
+                        <p>Get your business online with our Hosting & Domain Services
                         </p>
 
-                        <button class="c-btn ">Get started</button>
+                        <button class="c-btn">Get started</button>
                     </div>
                 </div>
                 <!-- Right Text -->
-                <div class="col-md-6 p-0 d-flex align-items-center">
+                <div class="col-md-6 p-0 d-flex align-items-center mt-5">
                     <img src="images/network-servers-isolated_98292-6502 1.png" alt="Banner Image">
                 </div>
 
@@ -199,7 +200,7 @@ top: 852px; */
         </div>
 
         <div class="container-fluid mt-5  w-100 d-flex justify-content-center">
-            <h3 class="fw-bolder">Why Choose us</h3>
+            <h3 class="fw-bolder">Register a New Domain With Us?</h3>
         </div>
         <div class="container-fluid mt-5 c-card-cont">
             <div class="row row-cols-1 row-cols-md-3 g-2">
@@ -209,25 +210,25 @@ top: 852px; */
                             <img src="images/Security SSL.svg" alt="CSV Icon" width="50">
                         </div>
 
-                        <h5 class="card-title p-2 fw-bolder text-center ">Free SSL Security</h5>
-                        <div class="card-body ">
+                        <h5 class="card-title p-2 fw-bolder text-center ">.CO.KE</h5>
+                        <div class="card-body ml-5">
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
                                 <!-- Text -->
-                                <p class="card-text mb-0">Secure data</p>
+                                <p class="card-text mb-0">Ksh.499</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
                                 <!-- Text -->
-                                <p class="card-text mb-0">Build Trust</p>
+                                <p class="card-text mb-0">Easy DNS Management</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
                                 <!-- Text -->
-                                <p class="card-text mb-0">Boost SEO</p>
+                                <p class="card-text mb-0">Free SSL Certificate</p>
                             </div>
 
 
@@ -244,25 +245,25 @@ top: 852px; */
                             <img src="images/Security SSL.svg" alt="CSV Icon" width="50">
                         </div>
 
-                        <h5 class="card-title p-2 fw-bolder text-center ">Free SSL Security</h5>
-                        <div class="card-body ">
+                        <h5 class="card-title p-2 fw-bolder text-center ">.COM</h5>
+                        <div class="card-body ml-5">
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
                                 <!-- Text -->
-                                <p class="card-text mb-0">Secure data</p>
+                                <p class="card-text mb-0">Ksh.1200</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
                                 <!-- Text -->
-                                <p class="card-text mb-0">Build Trust</p>
+                                <p class="card-text mb-0">Easy DNS Management</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
                                 <!-- Text -->
-                                <p class="card-text mb-0">Boost SEO</p>
+                                <p class="card-text mb-0">Free SSL Certificate</p>
                             </div>
 
 
@@ -277,25 +278,25 @@ top: 852px; */
                             <img src="images/Security SSL.svg" alt="CSV Icon" width="50">
                         </div>
 
-                        <h5 class="card-title p-2 fw-bolder text-center ">Free SSL Security</h5>
-                        <div class="card-body ">
+                        <h5 class="card-title p-2 fw-bolder text-center ">.KE</h5>
+                        <div class="card-body ml-5">
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
                                 <!-- Text -->
-                                <p class="card-text mb-0">Secure data</p>
+                                <p class="card-text mb-0">Ksh.3000</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
                                 <!-- Text -->
-                                <p class="card-text mb-0">Build Trust</p>
+                                <p class="card-text mb-0">Easy DNS Management</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
                                 <!-- Text -->
-                                <p class="card-text mb-0">Boost SEO</p>
+                                <p class="card-text mb-0">Free SSL Certificate</p>
                             </div>
 
 
@@ -319,15 +320,16 @@ top: 852px; */
                 <div class="col d-flex justify-content-center">
                     <div class="card mx-auto p-3">
                         <h5 class="card-title p-2 fw-bolder text-center">Regular</h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center">KES 5,000/yre</h6>
+                        <h6 class="card-subtitle mb-2 text-muted text-center">KES 288/Month</h6>
                         <div class="card-body">
                             <ul>
-                                <li>30GB SSD disk space</li>
-                                <li>Host up to 3 domains</li>
-                                <li>Unlimited FTP </li>
-                                <li>Accounts</li>
-                                <li>Shared IP address</li>
-                                <li>Unlimited databases</li>
+                                <li>30 GB storage</li>
+                                <li>Free automated SSL</li>
+                                <li>Unlimited bandwidth</li>
+                                <li>unlimited Domain emails</li>
+                                <li>cPanel control.</li>
+                                <li> Free website builder.</li>
+                                <li>Host 10 Websites</li>
                             </ul>
                             
                         </div>
@@ -337,15 +339,15 @@ top: 852px; */
                     <div class="card mx-auto p-3">
                         <!-- <h5 class="card-title p-2 fw-bolder">The Future of AI</h5> -->
                         <h5 class="card-title p-2 fw-bolder text-center">Starlight</h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center">KES 10,000 /yr</h6>
+                        <h6 class="card-subtitle mb-2 text-muted text-center">KES 494/Month</h6>
                         <div class="card-body">
                             <ul>
                                 <li>50GB SSD disk space</li>
                                 <li>Host up to 30 domains</li>
-                                <li>Unlimited databases </li>
-                                <li>Unlimited FTP </li>
-                                <li>Accounts</li>
-                                <li>Shared IP address</li>
+                                <li>Unlimited bandwidth</li>
+                                <li>unlimited Domain emails </li>
+                                <li>Free domain (Ksh.899 value)</li>
+                                <li>Host 30 Websites</li>
                             </ul>
                             
                         </div>
@@ -357,15 +359,15 @@ top: 852px; */
                     <div class="card mx-auto p-3">
                         <!-- <h5 class="card-title p-2 fw-bolder">The Future of AI</h5> -->
                         <h5 class="card-title p-2 fw-bolder text-center">Premium</h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center">KES 20,000/yr</h6>
+                        <h6 class="card-subtitle mb-2 text-muted text-center">KES 1220/Month</h6>
                         <div class="card-body">
                             <ul>
-                                <li>30GB SSD disk space</li>
-                                <li>Host up to 3 domains</li>
-                                <li>Unlimited FTP </li>
-                                <li>Accounts</li>
-                                <li>Shared IP address</li>
-                                <li>Unlimited databases</li>
+                                <li>400GB SSD Disk</li>
+                                <li>Host up to 30 domains</li>
+                                <li>Unlimited bandwidth</li>
+                                <li>unlimited Domain emails </li>
+                                <li>Free domain (Ksh.1200 value)</li>
+                                <li>Host 30 Websites</li>
                             </ul>
                             
                         </div>
@@ -380,7 +382,7 @@ top: 852px; */
 
         <div class=" row container text-center c-bottom bg-light">
             <div class="row ">
-                <h2 class="col-sm-10 fs-4 ">Get a Cyber Security Assessment today...</h2>
+                <h2 class="col-sm-10 fs-4 ">Get Started with Our Hosting Plan Today...</h2>
                 <a href="#" class="btn btn-primary btn-lg col-sm-2 c-btm-button">Get Started</a>
 
             </div>
