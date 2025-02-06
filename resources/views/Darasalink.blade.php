@@ -23,65 +23,58 @@
   </div>
 </div>
 
-    <!-- Services section starts here -->
     <div class="container-fluid services-section py-5">
         <div class="container text-center">
             <h2 class="mb-4">School Management System Modules</h2>
             <div class="row d-flex justify-content-center">
-                <!-- Service: UI/UX Designing -->
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="images/Darasalink2.png" alt="UI/UX" class="img-fluid mb-3">
+                        <img src="images\frontoffice (1).png" alt="front office" class="img-fluid mb-3">
                         <h5>FRONT OFFICE</h5>
                         <p>We create intuitive, user-friendly designs to ensure smooth interaction and engagement on
                             digital platforms.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
-                <!-- Service: Bulk SMS -->
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink3.png" alt="Bulk SMS" class="img-fluid mb-3">
+                        <img src="images\studentinfo.png" alt="student information" class="img-fluid mb-3">
                         <h5>STUDENT INFORMATION</h5>
                         <p>Simplify communication with your audience through reliable and cost-effective messaging
                             solutions.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
-                <!-- Service: Graphic Designing -->
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink4.png" alt="Graphic Designing" class="img-fluid mb-3">
+                        <img src="images\fee-collection-1.png" alt="fee collection" class="img-fluid mb-3">
                         <h5>FEE COLLECTION -MPESA PAYMENT</h5>
                         <p>We deliver visually compelling designs for branding, promotional materials, and other
                             creative needs.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
-                <!-- Service: Web Development -->
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink5.png" alt="Web Development" class="img-fluid mb-3">
+                        <img src="images\attendance.png" alt="attendance" class="img-fluid mb-3">
                         <h5>ATTENDANCE</h5>
                         <p>Our team builds responsive, functional websites that elevate your online presence and meet
                             your business goals.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
-                <!-- Service: App Development -->
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink6.png" alt="App Development" class="img-fluid mb-3">
+                        <img src="images\inventory.png" alt="inventory" class="img-fluid mb-3">
                         <h5>INVENTORY</h5>
                         <p>We create innovative mobile applications that enhance operations, simplify processes, and
                             connect you with your users.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
-                <!-- Service: Jobs & Internships -->
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
+                        <img src="images\examination.png" alt="examination" class="img-fluid mb-3">
                         <h5>EXAMINATION</h5>
                         <p>We offer opportunities for skill development and professional growth, helping individuals and
                             businesses thrive together.</p>
@@ -99,7 +92,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
+                        <img src="images\academics.png" alt="academics" class="img-fluid mb-3">
                         <h5>ACADEMICS</h5>
                         <p>We offer opportunities for skill development and professional growth, helping individuals and
                             businesses thrive together.</p>
@@ -108,7 +101,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
+                        <img src="images\dormitory.png" alt="dormitory" class="img-fluid mb-3">
                         <h5>DORMITORY</h5>
                         <p>We offer opportunities for skill development and professional growth, helping individuals and
                             businesses thrive together.</p>
@@ -117,7 +110,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
+                        <img src="images\library.png" alt="library" class="img-fluid mb-3">
                         <h5>LIBRARY</h5>
                         <p>We offer opportunities for skill development and professional growth, helping individuals and
                             businesses thrive together.</p>
@@ -126,7 +119,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
+                        <img src="images\bulksms.svg" alt="bulk sms" class="img-fluid mb-3">
                         <h5>BULK SMS</h5>
                         <p>We offer opportunities for skill development and professional growth, helping individuals and
                             businesses thrive together.</p>
@@ -135,17 +128,13 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
+                        <img src="images\examparlour.png" alt="examparlour" class="img-fluid mb-3">
                         <h5>EXAMPARLOUR</h5>
                         <p>We offer opportunities for skill development and professional growth, helping individuals and
                             businesses thrive together.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
-
-
-
-
             </div>
         </div>
     </div>
