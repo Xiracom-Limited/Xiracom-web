@@ -14,6 +14,93 @@
 
 
     <style>
+        @media screen and (max-width:600px) and (max-width:720px){
+            .banner-image-section{
+
+width:80%;
+margin-left:15%;
+
+        }
+        .banner-text h1 {
+            /* Discover Top-Notch Hosting and Domain Solutions */
+
+
+            margin-top:20%;
+            /* font-family: 'Poppins'; */
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px !important;
+            /* or 52px */
+            display: flex;
+            color:blue;
+            align-items: center;
+            text-align: center;
+            letter-spacing: -0.04em;
+
+         
+
+
+        }
+        .banner-text h1 {
+            /* Discover Top-Notch Hosting and Domain Solutions */
+
+
+
+            /* font-family: 'Poppins'; */
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px !important;
+            /* or 52px */
+            display: flex;
+            align-items: center;
+            text-align: center;
+    
+
+            color: #000000;
+
+
+        }
+        .c-btn {
+            background: #EDEDF5;
+            box-sizing: border-box;
+
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 12px !important;
+
+            background: #399C23;
+            border: 1.5px solid #102038;
+            border-radius: 72.0899px;
+            /* font-family: 'Poppins'; */
+            font-style: normal;
+            font-weight: 700;
+            font-size: 10px !important;
+            margin-left:35%;
+            /* or 112% */
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #FFFFFF;
+
+
+        }
+        .banner-paragraph-section{
+            font-size:20px !important;
+      
+
+        }
+
+        }
+        .banner-image-section{
+
+width:70%;
+
+
+        }
         .banner-text h1 {
             /* Discover Top-Notch Hosting and Domain Solutions */
 
@@ -59,7 +146,11 @@ top: 397px; */
 
 
         }
+        .banner-paragraph-section{
+            font-size:30px;
+      
 
+        }
         .c-btn {
             background: #EDEDF5;
             box-sizing: border-box;
@@ -184,8 +275,8 @@ top: 852px; */
 
                 <div class="col-md-6 d-flex align-items-center px-md-5">
                     <div class="banner-text">
-                        <h1 class="fs-sm-5">Discover The Fastest Web Hosting in Africa</h1>
-                        <p>Get your business online with our Hosting & Domain Services
+                        <h1 class="fs-sm-5 ">Discover The Fastest Web Hosting in Africa</h1>
+                        <p class="banner-paragraph-section">Get your business online with our Hosting & Domain Services
                         </p>
 
                         <button class="c-btn">Get started</button>
@@ -193,7 +284,7 @@ top: 852px; */
                 </div>
                 <!-- Right Text -->
                 <div class="col-md-6 p-0 d-flex align-items-center mt-5">
-                    <img src="images/network-servers-isolated_98292-6502 1.png" alt="Banner Image">
+                    <img src="images/network-servers-isolated_98292-6502 1.png" class="banner-image-section"alt="Banner Image">
                 </div>
 
             </div>
@@ -211,7 +302,7 @@ top: 852px; */
                         </div>
 
                         <h5 class="card-title p-2 fw-bolder text-center ">.CO.KE</h5>
-                        <div class="card-body ml-5">
+                        <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
@@ -246,7 +337,7 @@ top: 852px; */
                         </div>
 
                         <h5 class="card-title p-2 fw-bolder text-center ">.COM</h5>
-                        <div class="card-body ml-5">
+                        <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
@@ -279,7 +370,7 @@ top: 852px; */
                         </div>
 
                         <h5 class="card-title p-2 fw-bolder text-center ">.KE</h5>
-                        <div class="card-body ml-5">
+                        <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <!-- CSV Icon -->
                                 <img src="images/Check Mark.svg" alt="CSV Icon" width="30" class="me-2">
