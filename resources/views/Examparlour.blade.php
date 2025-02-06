@@ -24,8 +24,8 @@
                 <div class="col-md-6 text-md-left">
                     <h1>Welcome to Examparlour</h1>
                     <p>Access curated study materials, take interactive tests, and track your progress all in one place.</p>
-                    <a href="#" class="btn btn-primary">Get Started</a>
-                    <a href="#" class="btn btn-secondary">Request Demo</a>
+                    <a href="https://examparlour.com" class="btn btn-primary">Join Us</a>
+                    <a href="https://examparlour.com" class="btn btn-secondary">Start Learning</a>
                 </div>
                 <!-- Hero Image -->
                 <div class="col-md-6 text-center">
@@ -109,12 +109,12 @@
     </div>
 
     <!-- Smart Learning Tips Section -->
-    <div class="container-fluid smart-tips-section py-5">
+    <div class="container-fluid smart-tips-section ">
         <div class="container text-center">
             <h2>Smart Learning Tips</h2>
             <div class="row card-wrapper">
                 <!-- Tip 1 -->
-                <div class="col-md-4 card mb-4">
+                <div class="col-md-3 card ">
                     <div class="card-image" style="background: url('./images/Examparlour9.png') no-repeat center/cover;"></div>
                     <div class="card-body">
                         <h5 class="card-title">Top 10 Tips for Acing Exams</h5>
@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <!-- Tip 2 -->
-                <div class="col-md-4 card mb-4">
+                <div class="col-md-3 card">
                     <div class="card-image" style="background: url('./images/Examparlour10.png') no-repeat center/cover;"></div>
                     <div class="card-body">
                         <h5 class="card-title">How to Stay Focused While Studying</h5>
@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <!-- Tip 3 -->
-                <div class="col-md-4 card mb-4">
+                <div class="col-md-3 card">
                     <div class="card-image" style="background: url('./images/Examparlour11.png') no-repeat center/cover;"></div>
                     <div class="card-body">
                         <h5 class="card-title">Time Management</h5>
@@ -149,5 +149,6 @@
             </div>
         </div>
     </div>
+    @include("footer")
 </body>
 </html>

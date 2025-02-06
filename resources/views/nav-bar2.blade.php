@@ -97,7 +97,7 @@ font-weight:bolder;
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="./Darasalink">DarasaLink</a>
           <a class="dropdown-item" href="./Examparlour">Examparlour</a>
-          <a class="dropdown-item" href="./bulk-sms">Onfod SMS</a>
+          <a class="dropdown-item"  href="https://darasalink.co.ke/shop/">Xi Shop</a>
           <a class="dropdown-item" href="#">Xiracom BTC</a>
         </div>
       </li>
@@ -107,7 +107,6 @@ font-weight:bolder;
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         <a class="dropdown-item"  href="./consultancy">Tech Consultancy</a>
-      <a class="dropdown-item"  href="https://darasalink.co.ke/shop/">Shop</a>
       <a class="dropdown-item"  href="./skiza-tunes&SSID-codes">Skiza Tunes</a>
       <a class="dropdown-item"  href="./cyber-security">Cybersecurity</a>
       <a class="dropdown-item"  href="./Digital-marketing">Digital Marketing</a>
