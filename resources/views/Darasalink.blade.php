@@ -13,8 +13,8 @@
     <body>
 
     <div class="header-section mt-5">
-  <div class="text-content ml-5" style="margin-top:15%;">
-  <h1>Revolutionizing Education With One Link At a Time</h1>
+  <div class="text-content" style="margin-top:15%;">
+  <h1 class="darasa-link-section">Revolutionizing Education With One Link At a Time</h1>
   <p>Darasalink empowers you with real-time access to student progress and efficient operational tools.</p>
   <div>
     <a href="#" class="btn btn-primary">Get Started</a>
@@ -33,8 +33,8 @@
                     <div class="p-3 shadow rounded">
                         <img src="images/Darasalink2.png" alt="UI/UX" class="img-fluid mb-3">
                         <h5>FRONT OFFICE</h5>
-                        <p>We create intuitive, user-friendly designs to ensure smooth interaction and engagement on
-                            digital platforms.</p>
+                        <p>Streamlines visitor management, student inquiries, and administrative tasks, enabling efficient tracking of visitor entries, handling special requests, and facilitating seamless communication 
+                            between parents, staff, and school management for improved coordination and security</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
@@ -43,8 +43,7 @@
                     <div class="p-3 shadow rounded">
                         <img src="./images/Darasalink3.png" alt="Bulk SMS" class="img-fluid mb-3">
                         <h5>STUDENT INFORMATION</h5>
-                        <p>Simplify communication with your audience through reliable and cost-effective messaging
-                            solutions.</p>
+                        <p>Manages comprehensive student profiles, including personal information, academic records, medical history, and guardian details, ensuring efficient record-keeping, easy access, and streamlined management of student data.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
@@ -53,8 +52,8 @@
                     <div class="p-3 shadow rounded">
                         <img src="./images/Darasalink4.png" alt="Graphic Designing" class="img-fluid mb-3">
                         <h5>FEE COLLECTION -MPESA PAYMENT</h5>
-                        <p>We deliver visually compelling designs for branding, promotional materials, and other
-                            creative needs.</p>
+                        <p>Seamless fee collection through M-Pesa, cash, and bank transfers can be consolidated within the system,
+                             offering a secure, efficient, and convenient method for tracking all transactions.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
@@ -63,8 +62,10 @@
                     <div class="p-3 shadow rounded">
                         <img src="./images/Darasalink5.png" alt="Web Development" class="img-fluid mb-3">
                         <h5>ATTENDANCE</h5>
-                        <p>Our team builds responsive, functional websites that elevate your online presence and meet
-                            your business goals.</p>
+                        <p>biometric scanner tracks student attendance, automatically uploading 
+                            real-time data to the system for accurate, reliable, and efficient management, 
+                            reducing manual errors,
+                            and providing instant access to attendance records for both students and staff.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
@@ -73,8 +74,8 @@
                     <div class="p-3 shadow rounded">
                         <img src="./images/Darasalink6.png" alt="App Development" class="img-fluid mb-3">
                         <h5>INVENTORY</h5>
-                        <p>We create innovative mobile applications that enhance operations, simplify processes, and
-                            connect you with your users.</p>
+                        <p>Manages and tracks school supplies, equipment, and resources, ensuring real-time updates on stock levels, automated reorder alerts,
+                             and efficient asset management to prevent shortages and optimize resource allocation.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
@@ -83,26 +84,18 @@
                     <div class="p-3 shadow rounded">
                         <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
                         <h5>EXAMINATION</h5>
-                        <p>We offer opportunities for skill development and professional growth, helping individuals and
-                            businesses thrive together.</p>
+                        <p>Facilitates the creation, scheduling, and management of exams, automating the process of grading, result compilation, and report generation. It ensures secure handling of exam papers, tracks student performance, and provides timely access to results, while also allowing for
+                             easy communication of feedback between teachers, students, and parents.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
-                        <h5>EXAMINATION</h5>
-                        <p>We offer opportunities for skill development and professional growth, helping individuals and
-                            businesses thrive together.</p>
-                        <a href="#" class="btn btn-warning">Explore</a>
-                    </div>
-                </div>
+                
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
                         <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
                         <h5>ACADEMICS</h5>
-                        <p>We offer opportunities for skill development and professional growth, helping individuals and
-                            businesses thrive together.</p>
+                        <p> Management of curricula, lesson planning, class schedules, and student progress. It tracks attendance, grades, and performance, allowing for seamless communication between teachers, students, and parents, 
+                            while providing real-time insights into academic achievements and areas for improvement.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
@@ -110,8 +103,8 @@
                     <div class="p-3 shadow rounded">
                         <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
                         <h5>DORMITORY</h5>
-                        <p>We offer opportunities for skill development and professional growth, helping individuals and
-                            businesses thrive together.</p>
+                        <p>Manages student accommodations in boarding schools by tracking room assignments, occupancy, and maintenance requests, ensuring efficient resource management while monitoring student welfare,
+                             daily operations, and maintaining a safe living environment.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
@@ -119,8 +112,8 @@
                     <div class="p-3 shadow rounded">
                         <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
                         <h5>LIBRARY</h5>
-                        <p>We offer opportunities for skill development and professional growth, helping individuals and
-                            businesses thrive together.</p>
+                        <p> manages book inventories, tracks student borrowing and returns, and handles reservations and due dates. It ensures efficient resource utilization, automates overdue notifications, and provides easy access to 
+                            library materials, enhancing the learning experience for students and staff.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
@@ -128,21 +121,12 @@
                     <div class="p-3 shadow rounded">
                         <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
                         <h5>BULK SMS</h5>
-                        <p>We offer opportunities for skill development and professional growth, helping individuals and
-                            businesses thrive together.</p>
+                        <p>Enables the efficient communication of important information to parents, students, and staff through mass text messaging. It allows for quick dissemination of notices, announcements, reminders, and emergency alerts, 
+                            ensuring timely and effective communication across the school community.</p>
                         <a href="#" class="btn btn-warning">Explore</a>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="p-3 shadow rounded">
-                        <img src="./images/Darasalink7.png" alt="Jobs & Internships" class="img-fluid mb-3">
-                        <h5>EXAMPARLOUR</h5>
-                        <p>We offer opportunities for skill development and professional growth, helping individuals and
-                            businesses thrive together.</p>
-                        <a href="#" class="btn btn-warning">Explore</a>
-                    </div>
-                </div>
-
+             
 
 
 
