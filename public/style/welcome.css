@@ -243,9 +243,10 @@ body {
 
 .cards-image1 {
 
-    background-image: url("../images/design.jpeg");
+    background-image: url("../images/innovate.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+padding-bottom: 100%;
    
 }
 

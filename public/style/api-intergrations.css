@@ -58,7 +58,7 @@ form {
     margin-bottom: 20px;
 }
 
-input, textarea {
+ textarea {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -87,7 +87,7 @@ textarea {
     width: 48%;
 }
 
-.service-group label {
+.service-group{
     display: block;
     font-size: 1rem;
     margin: 8px 0;

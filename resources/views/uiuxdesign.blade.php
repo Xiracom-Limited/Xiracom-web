@@ -41,19 +41,25 @@
         <div class="grid">
             <div class="card">
             <img src="images\mohammad-rahmani-nBXwqxjDa5c-unsplash 1.png" alt="User">
-                <h2>Why Choose Us?</h2>
-                <p>We are committed to delivering cutting-edge solutions that meet your needs and exceed expectations.</p>
+                <h2>Crafting Digital Experiences That Works?</h2>
+                <p>At Xiracom Limited, we design intuitive, user-friendly interfaces that look great and work even better. By blending creativity with technology,
+                     we turn complex ideas into simple, engaging experiences that people love to use.</p>
+                     <p>
+                     Whether it’s a website, app, or software, we focus on usability, accessibility, and aesthetics 
+                     to keep your users happy and coming back for more. 
+                     Let’s create something amazing together.
+                     </p>
             </div>
             <div class="card">
             <img src="images\Frame 1597884199.png" alt="User">
-                <h2>What is UI/UX Design?</h2>
-                <p>UI/UX design enhances digital experiences to be more intuitive, engaging, and effective.</p>
+                <h4>Design that works. Experiences that inspire.</h4>
+                <p>Crafting seamless solutions with innovation, transforming ideas into impactful experiences.</p>
             </div>
         </div>
         
         <div class="cta">
             <h2>Get in Touch</h2>
-            <p>Ready to have the best UI/UX design? Here is a quick way to begin.</p>
+            <p>Ready to start with our Designs?</p>
             <button>Get Started</button>
         </div>
     </div>

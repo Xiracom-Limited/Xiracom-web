@@ -224,7 +224,7 @@
         <span class="cursor">|</span> 
             <div class="buttons d-flex justify-content-center gap-3 mt-3">
                 <a href="./register" class="btn btn-primary">Get Started</a>
-                <a href="./Request-quote" class="btn btn-secondary">Request Quote</a>
+                <a href="./request-quote" class="btn btn-secondary">Request Quote</a>
             </div>
         </div>
     </div>
@@ -294,17 +294,26 @@
 </div>
    
     <section class="design-process">
+        
         <div class="steps">
+        <h3 class="step-content" style="color:blue;text-weight:bolder">
+        What's Make Us Different?
+         </h3>
             <div class="step">
+            
                 <div class="step-number">
                     <span>1</span>
                 </div>
-                <div class="step-content">
-                    <img src="images/pie1.svg"  width="11%">
 
-                    <h3>Step 1: Product design Research</h3>
-                    <p>This initial step involves a systematic and thorough exploration of the market landscape, user
-                        needs, and existing solutions.</p>
+                <div class="step-content">
+
+              
+                   
+                 
+                    <h3> <img src="images/pie1.svg"  width="11%">Expertise and Innovation</h3>
+                    <p>
+               Our team of professionals brings years of experience across Software Engineering,
+                         ensuring that we understand the challenges and opportunities you face.</p>
                     <a href="#" class="btn-link">See Examples</a>
                 </div>
             </div>
@@ -313,10 +322,9 @@
                     <span>2</span>
                 </div>
                 <div class="step-content">
-                <img src="images/pie2.svg" width="11%">
-                    <h3>Step 2: UI design in Figma</h3>
-                    <p>This initial step involves a systematic and thorough exploration of the market landscape, user
-                        needs, and existing solutions.</p>
+               
+                    <h3> <img src="images/pie2.svg" width="11%">Customer-Centric Approach</h3>
+                    <p>At Xiracom, you are at the heart of everything we do. We believe that the key to success lies in understanding your unique needs, goals, and challenges. </p>
                 </div>
             </div>
             <div class="step">
@@ -324,10 +332,9 @@
                     <span>3</span>
                 </div>
                 <div class="step-content">
-                <img src="images/pie3.svg" width="11%">
-                    <h3>Step 3: No-code develop in Webflow</h3>
-                    <p>This initial step involves a systematic and thorough exploration of the market landscape, user
-                        needs, and existing solutions.</p>
+               
+                    <h3> <img src="images/pie3.svg" width="11%">Ongoing Support</h3>
+                    <p>Our dedicated support team is always here to assist you, whether you need troubleshooting, updates, or guidance on how to maximize the value of our solutions.</p>
                 </div>
             </div>
         </div>
@@ -335,21 +342,10 @@
         <div class="cards">
             
             <div class="cards-image1">
-                <h4>Web Development</h4>
-                <p>UX Case study</p>
-                
+              
             </div>
-            <div class="card cards-image2">
-                <center>
-                <h4>Software Development</h4>
-                <p>UX Case study</p>
-                </center>
-            
-                <video class="" autoplay loop muted plays-inline>
-            <source src="images/software.mp4" type="video/mp4" width="40%">
-        </video>
-        </div>
-                
+           
+               
             </div>
         </div>
     </section>
@@ -414,13 +410,13 @@
     </section>
 
     <div class="Testimonials">
-        <h5 class="Clients">Clients Testimonials</h5>
+        <h5 class="Clients">Our Clients</h5>
         <div class="profile-card-container">
             <div class="profile-card">
                 <div class="profile-image">
                     <img src="images\Ellipse 4.png" alt="Jason Wandrag">
                 </div>
-                <h2 class="profile-name">Jason Wandrag</h2>
+                <h2 class="profile-name">Eyrie School</h2>
                 <p class="profile-description">
                     Opening a Graphic Design Business can be a very good business opportunity if you have knowledge
                     about Graphic terms.
@@ -432,7 +428,7 @@
                 <div class="profile-image">
                     <img src="images\Ellipse 5.png" alt="Jason Wandrag">
                 </div>
-                <h2 class="profile-name">Maria Ava</h2>
+                <h2 class="profile-name">EAVI Technical</h2>
                 <p class="profile-description">
                     Opening a Graphic Design Business can be a very good business opportunity if you have Knowledge
                     about Graphic terms.
@@ -444,7 +440,7 @@
                 <div class="profile-image">
                     <img src="public\images\Ellipse 6.png" alt="Jason Wandrag">
                 </div>
-                <h2 class="profile-name">Smith Jon</h2>
+                <h2 class="profile-name">Gaba Campus CUEA</h2>
                 <p class="profile-description">
                     Opening a Graphic Design Business can be a very good business opportunity if you have Knowledge
                     about Graphic terms.
@@ -456,7 +452,7 @@
                 <div class="profile-image">
                     <img src="images\Ellipse 6.png" alt="Jason Wandrag">
                 </div>
-                <h2 class="profile-name">Mary Ndegwa</h2>
+                <h2 class="profile-name">Ascada School</h2>
                 <p class="profile-description">
                     Opening a Graphic Design Business can be a very good business opportunity if you have knowledge
                     about Graphic terms.

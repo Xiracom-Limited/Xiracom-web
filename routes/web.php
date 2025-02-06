@@ -96,9 +96,9 @@ Route::get('/ourclients&testimonials', function () {
 
 });
 
-Route::get('/apiintergrations', function () {
+Route::get('/request-quote', function () {
 
-    return view('apiintergrations');
+    return view('request-quote');
 
 });
 

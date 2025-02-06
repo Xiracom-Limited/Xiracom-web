@@ -71,6 +71,7 @@ font-weight:bolder;
       <a class="dropdown-item"  href="./ourclients&testimonials">Our Clients</a>
       <a class="dropdown-item"  href="./blog">Blog</a>
       <a class="dropdown-item"  href="./contact-us">Contact Us</a>
+      <a class="dropdown-item"  href="./request-quote">Request Quote</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -81,8 +82,8 @@ font-weight:bolder;
           <a class="dropdown-item" href="./uiuxdesign">UX/UI Design</a>
           <a class="dropdown-item" href="./app-development">App Development</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="./apiintergrations">API Intergrations</a>
-          <a class="dropdown-item" href="./Hardware-software">Support</a>
+          <a class="dropdown-item" href="#">API Intergrations</a>
+          <a class="dropdown-item" href="./Hardware-software">H&S Maintenance </a>
           <a class="dropdown-item" href="./domain-hosting-services">Domain & Hosting</a>
         </div>
       </li>
