@@ -15,7 +15,7 @@
 <body>
 
     <!--Heroes section starts here-->
-    <div class="container-fluid heroes-section bg-success text-white py-5">
+    <div class="container-fluid heroes-section bg-success text-white py-5 mt-5">
         <div class="container text-center">
             <div class="row align-items-center">
                     <h1>Our Team</h1>
@@ -32,7 +32,7 @@
             <!-- Team Member 1 -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/Team2.png" alt="Levis Chisira - CEO">
+                    <img class="card-img-top img-fluid" src="./images/Levis.png" alt="Levis Chisira - CEO">
                     <div class="card-body1">
                         <h1 class="card-title">CEO, CO-FOUNDER</h1>
                         <p class="text-muted">LEVIS CHISIRA</p>
@@ -55,7 +55,7 @@
             <!-- Team Member 2 -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/Team2.png" alt="Kelvin Mukolwe - CPO">
+                    <img class="card-img-top img-fluid" src="./images/kevin.png" alt="Kelvin Mukolwe - CPO">
                     <div class="card-body2">
                         <h2 class="card-title">CPO, CO-FOUNDER</h2>
                         <p class="text-muted">KELVIN MUKOLWE</p>
@@ -103,8 +103,8 @@
                 <div class="card shadow-sm h-100">
                     <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Nicole Akinyi - Product Manager">
                     <div class="card-body4">
-                        <h4 class="card-title">PRODUCT MANAGER</h4>
-                        <p class="text-muted">NICOLE AKINYI</p>
+                        <h4 class="card-title">PROJECT MANAGER</h4>
+                        <p class="text-muted">GLORIA KOROS</p>
                         <div class="d-flex justify-content-center">
                         <div class="social-links">
                             <a href="https://facebook.com" target="_blank" aria-label="Facebook">
@@ -126,8 +126,8 @@
                 <div class="card shadow-sm h-100">
                     <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Gloria Koros- Software Engineer">
                     <div class="card-body5">
-                        <h5 class="card-title">SOFTWARE ENGINEER</h5>
-                        <p class="text-muted">GLORIA KOROS</p>
+                        <h5 class="card-title">UI/UX ENGINEER</h5>
+                        <p class="text-muted">BERNARD NYENDE</p>
                         <div class="d-flex justify-content-center">
                         <div class="social-links">
                             <a href="https://facebook.com" target="_blank" aria-label="Facebook">
