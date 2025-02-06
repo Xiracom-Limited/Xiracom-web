@@ -685,33 +685,33 @@ color: #FFFFFF;
 }
 }
 
-.section1-port{
+.section1-port1{
 
   /* Image Placeholder */
 
   
-  height: 40%;
+  height: 40% !important;
  
-  position: absolute;
-  margin-top: 5%;
-  margin-left: 12%;
-width: 40%;
+  position: absolute !important;
+  margin-top: 5% !important;
+  margin-left: 12% !important;
+width: 40% !important;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
-border-radius: 10px;
+border-radius: 10px !important;
 }
-.section2-port{
+.section2-port2{
 
   /* Image Placeholder */
-  margin-left: 0px;
-  height: 40%;
-width: 40%;
-margin-top: 15%;
-position: absolute;
+  margin-left: 0px !important;
+  height: 40% !important;
+width: 40% !important;
+margin-top: 15% !important;
+position: absolute !important;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
-border-radius: 10px;
+border-radius: 10px !important;
 
 }
-.section3-port{
+.section3-port3{
   /* Image Placeholder */
   margin-top: 25%;
   height: 40%;
@@ -723,16 +723,16 @@ border-radius: 10px;
 
 }
 /* Image Placeholder */
-.image-section1{
+.image-section10{
   margin-top: -14%;
   margin-left: 10%;
 }
-.image-section2{
+.image-section20{
   margin-top: -25%;
   margin-left: 20%;
 }
 
-.image-section3{
+.image-section30{
   margin-top: -16%;
   height: 135%;
   margin-left: 40%;
@@ -741,32 +741,32 @@ border-radius: 10px;
 
 
 
-.section1-port{
+.section1-port1{
 
   /* Image Placeholder */
 
   
-  height: 30%;
-margin-right: 35%;
-  margin-top: -40%;
-width: 90%;
-margin-left: 0%;
+  height: 30% !important;
+margin-right: 35% !important;
+  margin-top: -40% !important;
+width: 90% !important;
+margin-left: 0% !important;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
-border-radius: 10px;
+border-radius: 10px !important;
 }
-.section2-port{
+.section2-port2{
 
   /* Image Placeholder */
-  margin-left: 0px;
-  height: 40%;
-width: 40%;
-margin-top: 15%;
+  margin-left: 0px !important;
+  height: 40% !important;
+width: 40% !important;
+margin-top: 15% !important;
 display: none;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
 border-radius: 10px;
 
 }
-.section3-port{
+.section3-port3{
   /* Image Placeholder */
   margin-top: 25%;
   height: 40%;
@@ -778,19 +778,19 @@ border-radius: 10px;
 
 }
 /* Image Placeholder */
-.image-section1{
+.image-section10{
   margin-top: -14%;
   height: 119%;
   margin-left: -19%;
 
 }
-.image-section2{
+.image-section20{
   margin-top: -25%;
   margin-left: 20%;
   display: none;
 }
 
-.image-section3{
+.image-section30{
   margin-top: -16%;
   height: 135%;
   margin-left: 40%;
