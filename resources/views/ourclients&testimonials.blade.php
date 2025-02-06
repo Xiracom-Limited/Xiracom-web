@@ -1,3 +1,4 @@
+@include("nav-bar2")
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,3 +53,4 @@
     </div>
 </body>
 </html>
+@include("footer")

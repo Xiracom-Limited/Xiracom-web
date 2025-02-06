@@ -1,3 +1,4 @@
+@include("nav-bar2")
 <!DOCTYPE html>
 <html lang="en">
 
@@ -356,3 +357,4 @@ border-radius: 72.0899px;
 </body>
 
 </html>
+@include("footer")
