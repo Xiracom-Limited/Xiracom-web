@@ -14,27 +14,33 @@ body {
   padding: 20px;
   background: linear-gradient(to right, #A0CD96, #DAD7F7, #B3D3AB, #574ADD);
 }
+
 .content {
   max-width: 100%;
 }
+
 h1 {
   font-size: 36px;
   font-weight: bold;
 }
+
 .blue { color: blue; }
 .green { color: green; }
 .subheading {
   font-size: 18px;
   font-weight: bold;
 }
+
 .description {
   font-size: 16px;
   margin: 10px 0;
 }
+
 .buttons {
   display: flex;
   gap: 15px;
 }
+
 .get-start {
   background-color: blue;
   color: white;
@@ -43,11 +49,13 @@ h1 {
   cursor: pointer;
   border-radius: 5px;
 }
+
 .watch-video {
   text-decoration: none;
   font-size: 16px;
   color: green;
 }
+
 .image img {
   max-width: 300px;
   margin-right: 300px;
@@ -282,6 +290,7 @@ h1 {
       margin-top: 20px;
     }
   }
+  
   .stats-container {
     border-radius: 0;
     display: flex;
