@@ -224,7 +224,7 @@
         <span class="cursor">|</span> 
             <div class="buttons d-flex justify-content-center gap-3 mt-3">
                 <a href="./register" class="btn btn-primary">Get Started</a>
-                <a href="./Request-quote" class="btn btn-secondary">Request Quote</a>
+                <a href="./request-quote" class="btn btn-secondary">Request Quote</a>
             </div>
         </div>
     </div>
