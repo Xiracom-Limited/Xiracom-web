@@ -87,9 +87,6 @@ font-weight:bolder;
           <a class="dropdown-item" href="./domain-hosting-services">Domain & Hosting</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link fw-bolder color-text" href="./bulk-sms">BULK SMS</a>
-      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle color-text fw-bolder" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           OUR BRANDS
@@ -97,6 +94,7 @@ font-weight:bolder;
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="./Darasalink">DarasaLink</a>
           <a class="dropdown-item" href="./Examparlour">Examparlour</a>
+          <a class="dropdown-item" href="./bulk-sms">Onfod Bulk SMS</a>
           <a class="dropdown-item"  href="https://darasalink.co.ke/shop/">Xi Shop</a>
           <a class="dropdown-item" href="#">Xiracom BTC</a>
         </div>

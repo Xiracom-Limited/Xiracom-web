@@ -14,11 +14,11 @@
 
     <div class="header-section mt-5">
   <div class="text-content" style="margin-top:15%;">
-  <h1 class="darasa-link-section">Revolutionizing Education With One Link At a Time</h1>
-  <p>Darasalink empowers you with real-time access to student progress and efficient operational tools.</p>
+  <h1 class="darasa-link-section ml-5">Revolutionizing Education With One Link At a Time</h1>
+  <p class="ml-5 darasa-link-paragraph">Darasalink empowers you with real-time access to student progress and efficient operational tools.</p>
   <div>
-    <a href="#" class="btn btn-primary">Get Started</a>
-    <a href="#" class="btn btn-outline-light">Request Demo</a>
+    <a href="#" class="btn btn-primary ml-5">Get Started</a>
+    <a href="#" class="btn btn-outline-secondary">Request Demo</a>
   </div>
   </div>
 </div>
@@ -120,21 +120,7 @@
                     </div>
                 </div>
 
-             
-
-
-
-
-                <div class="col-md-4 mb-4">
-                    <div class="p-3 shadow rounded">
-                        <img src="images\examparlour.png" alt="examparlour" class="img-fluid mb-3">
-                        <h5>EXAMPARLOUR</h5>
-                        <p>We offer opportunities for skill development and professional growth, helping individuals and
-                            businesses thrive together.</p>
-                        <a href="#" class="btn btn-warning">Explore</a>
-                    </div>
-                </div>
-
+        
             </div>
         </div>
     </div>
