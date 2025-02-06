@@ -106,8 +106,8 @@
 
 /* Images */
 .services-section .img-fluid {
-    width: 100%; /* Responsive image */
-    height: 200px; /* Fixed height for images */
+    width: auto; /* Responsive image */
+    height: auto; /* Fixed height for images */
     object-fit: cover; /* Cover the area while maintaining aspect ratio */
     border-radius: 10px; /* Rounded corners for images */
 }
