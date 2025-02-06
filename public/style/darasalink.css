@@ -2,143 +2,24 @@
     font-family: 'Poppins', sans-serif; 
     font-size: 14px;
   }
-  .header-wrapper {
-    align-self: center;
-    display: flex;
-    margin-left: 12px;
+  
+  .header-section {
     width: 100%;
-    max-width: 1199px;
-    align-items: center;
-    gap: 80px 132px;
+    height: auto;
   }
-  
-  .logo {
-    aspect-ratio: 4.24;
-    object-fit: contain;
-    width: 220px;
-    align-self: stretch;
-  }
-  
-  .nav-container {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    min-width: 240px;
-    gap: 40px 50px;
-    flex-wrap: wrap;
-    width: 905px;
-    height: 100%; 
-}
 
-  
-  .menu-wrapper {
-    border-radius: 290px;
-    align-self: stretch;
-    display: flex;
-    min-width: 240px;
-    align-items: center;
-    gap: 28px;
-    overflow: hidden;
-    width: 664px;
-    padding: 6px;
-   background: linear-gradient(90deg, #399C23 0%, #12087E 100%);
+  .header-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
   }
   
-  .home-link {
-    border-radius: 40px;
-    background-color: #fafafa;
-    align-self: stretch;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    justify-content: center;
-    padding: 8px 16px;
-
-
-  }
-  
-  .home-icon {
-    aspect-ratio: 1;
-    object-fit: contain;
-    width: 20px;
-    align-self: stretch;
-  }
-  
-  .nav-link {
-    color: #fff;
-    text-align: center;
-    align-self: stretch;
-    font: 400 16px Poppins, sans-serif;
-    margin-top: 10px;
-    
-  }
-  
-  .auth-container {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 133px;
-    font: 500 16px Poppins, sans-serif;
-  }
-  
-  .signup-wrapper {
-    display: flex;
-    align-items: start;
-  }
-  
-  .get-started-btn {
-    border-radius: 40px;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 132px;
-    padding: 14px 13px;
-    background: linear-gradient(180deg, #399C23 0%, #2068DC 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Gradient for the text or icon */
-  }
-  
-  /* Hero Section */
-  .heroes-section {
-    background: linear-gradient(90deg, #399C23 36.67%, #14360C 100%); 
-    color: #FFFFFF; /* Text color */
-    padding: 80px 0; /* Spacing for content */
-    position: relative; /* To control relative positioning */
-    height: 350px;
-    margin-top: 10px;
-  }
-  
-  .heroes-section .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; /* Make it responsive */
-    padding: 0 50px;
-  }
-  
-  .heroes-section .text-content {
-    max-width: 600px; /* Keep text compact */
-  }
-  
-  .heroes-section h1 {
-    font-size: 36px; 
-    line-height: 54px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-  
-  .heroes-section p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
-    line-height: 1.6;
-  }
-  
-  .heroes-section .btn {
+  .hero-section .btn {
     display: inline-block;
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: 600;
     border-radius: 5px;
-    margin-right: 10px; /* Spacing between buttons */
+    margin-right: 10px;
     margin-top: 20px;
   }
   
@@ -163,10 +44,10 @@
     
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
-    .heroes-section .content {
-      flex-direction: column; /* Stack text and image */
+    .header-section .content {
+      flex-direction: column;
       text-align: center;
     }
   }
@@ -243,39 +124,39 @@
 
 /* Description inside cards */
 .services-section p {
-    font-family: 'Poppins', sans-serif; /* Font style for description */
-    font-size: 14px; /* Font size for description */
-    line-height: 20px; /* Line height for description */
-    color: #555; /* Description color */
-    margin-bottom: auto; /* Space below the description */
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px; 
+    line-height: 20px; 
+    color: #555; 
+    margin-bottom: auto; 
 }
 
 /* Button */
 .services-section .btn {
-    display: inline-block; /* Inline-block for button */
-    padding: 10px 20px; /* Padding for button */
-    background-color: #DE5917; /* Button background color */
-    color: #FFFFFF; /* Button text color */
-    text-decoration: none; /* Remove underline from links */
-    border-radius: 20px; /* Rounded corners for button */
-    transition: background-color 0.3s, transform 0.3s; /* Transition for hover effect */
-    align-self: center; /* Center the button horizontally */
-    margin-top: 10px; /* Space above the button */
+    display: inline-block; 
+    padding: 10px 20px;
+    background-color: #DE5917;
+    color: #FFFFFF;
+    text-decoration: none; 
+    border-radius: 20px; 
+    transition: background-color 0.3s, transform 0.3s;
+    align-self: center; 
+    margin-top: 10px;
 }
 
 /* Button hover effect */
 .services-section .btn:hover {
-    background-color: #D76C1D; /* Darken button on hover */
-    transform: scale(1.05); /* Slightly enlarge button on hover */
+    background-color: #D76C1D;
+    transform: scale(1.05); 
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .services-section {
-        padding: 40px 0; /* Reduce padding on smaller screens */
+        padding: 40px 0; 
     }
     .services-section .col-md-4 {
-        margin-bottom: 20px; /* Space between cards on smaller screens */
+        margin-bottom: 20px; 
     }
 }
 

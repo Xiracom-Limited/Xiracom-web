@@ -208,6 +208,7 @@
       line-height: 113%;
       /* or 27px */
       display: flex;
+      margin-left: 20%;
       align-items: center;
       /* list-style: decimal !important; */
       /* letter-spacing: -0.04em; */
@@ -267,7 +268,7 @@
       width: 100%;
     }
   </style>
-  <section class="bulk-sms container-fluid">
+  <section class="bulk-sms container-fluid  mt-5">
     <div class="header-section py-5">
       <div class="container">
         <div class="row align-items-center">
@@ -292,38 +293,17 @@
         <div class="col">
           <div class="card h-100">
             <div class="card-body">
-              <h3 class="card-title">Airtel</h3>
-              <hr>
-              <p class="card-text"><strong>Ksh 7,500</strong></p>
-              <hr>
-              <ul class="list-unstyled">
-                <li>Recognizable messages</li>
-                <li>Engagement: Increased interaction</li>
-                <li>Trust: Authentic and credible</li>
-                <li>Customizable: Match your brand</li>
-                <li>Affordable: Cost-effective reach</li>
-                <li>Compliant: Follows regulations</li>
-                <li>Insights: Track performance</li>
-              </ul>
-              <button class="btn btn-outline-primary w-100">Choose Plan</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
               <h3 class="card-title">Safaricom</h3>
               <hr>
               <p class="card-text"><strong>Ksh 8,500</strong></p>
               <hr>
               <ul class="list-unstyled">
-                <li>Recognizable messages</li>
-                <li>Engagement: Increased interaction</li>
-                <li>Trust: Authentic and credible</li>
-                <li>Customizable: Match your brand</li>
-                <li>Affordable: Cost-effective reach</li>
-                <li>Compliant: Follows regulations</li>
-                <li>Insights: Track performance</li>
+                <li>&#x2713;  Increased interaction</li>
+                <li>&#x2713;  Authentic and credible</li>
+                <li>&#x2713;  Match your brand</li>
+                <li>&#x2713;  Cost-effective reach</li>
+                <li>&#x2713;  Follows regulations</li>
+                <li>&#x2713;  Track performance</li>
               </ul>
               <button class="btn btn-outline-primary w-100">Choose Plan</button>
             </div>
@@ -332,18 +312,17 @@
         <div class="col">
           <div class="card h-100">
             <div class="card-body">
-              <h3 class="card-title">Telkom</h3>
+              <h3 class="card-title">Airtel</h3>
               <hr>
-              <p class="card-text"><strong>Ksh 5,500</strong></p>
+              <p class="card-text"><strong>Ksh 7,500</strong></p>
               <hr>
               <ul class="list-unstyled">
-                <li>Recognizable messages</li>
-                <li>Engagement: Increased interaction</li>
-                <li>Trust: Authentic and credible</li>
-                <li>Customizable: Match your brand</li>
-                <li>Affordable: Cost-effective reach</li>
-                <li>Compliant: Follows regulations</li>
-                <li>Insights: Track performance</li>
+                <li>&#x2713;  Increased interaction</li>
+                <li>&#x2713;  Authentic and credible</li>
+                <li>&#x2713;  Match your brand</li>
+                <li>&#x2713;  Cost-effective reach</li>
+                <li>&#x2713;  Follows regulations</li>
+                <li>&#x2713;  Track performance</li>
               </ul>
               <button class="btn btn-outline-primary w-100">Choose Plan</button>
             </div>
@@ -352,18 +331,36 @@
         <div class="col">
           <div class="card h-100">
             <div class="card-body">
-              <h3 class="card-title">Telkom</h3>
+              <h3 class="card-title">Easy SMS Credits</h3>
+              <hr>
+              <p class="card-text">Ksh 0.8 / per SMS</strong></p>
+              <hr>
+              <ul class="list-unstyled">
+                <li>&#x2713;  Increased interaction</li>
+                <li>&#x2713;  Authentic and credible</li>
+                <li>&#x2713;  Match your brand</li>
+                <li>&#x2713;  Cost-effective reach</li>
+                <li>&#x2713;  Follows regulations</li>
+                <li>&#x2713;  Track performance</li>
+              </ul>
+              <button class="btn btn-outline-primary w-100">Choose Plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">SMS Credits</h3>
               <hr>
               <p class="card-title">Ksh 0.8 / per SMS</p>
               <hr>
               <ul class="list-unstyled">
-                <li>Recognizable messages</li>
-                <li>Engagement: Increased interaction</li>
-                <li>Trust: Authentic and credible</li>
-                <li>Customizable: Match your brand</li>
-                <li>Affordable: Cost-effective reach</li>
-                <li>Compliant: Follows regulations</li>
-                <li>Insights: Track performance</li>
+                <li>&#x2713;  Increased interaction</li>
+                <li>&#x2713;  Authentic and credible</li>
+                <li>&#x2713;  Match your brand</li>
+                <li>&#x2713;  Cost-effective reach</li>
+                <li>&#x2713;  Follows regulations</li>
+                <li>&#x2713;  Track performance</li>
               </ul>
               <button class="btn btn-outline-primary w-100">Choose Plan</button>
             </div>
