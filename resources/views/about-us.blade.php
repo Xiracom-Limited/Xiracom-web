@@ -26,43 +26,39 @@
  <div class="bg-icon txt-about">
 <div class="about-us">About Us?</div>
 <P class="about-content">
-    <br>Lorem ipsum dolor sit amet, 
-    consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, 
-    pulvinar dapibus leo.
-    Lorem ipsum dolor sit amet, 
-    consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, 
-    pulvinar dapibus leo.
-    Lorem ipsum dolor sit amet, 
-    consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, 
-    pulvinar dapibus leo.
-    Lorem ipsum dolor sit amet, 
-    consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, 
-    pulvinar dapibus leo.</P>
+    <br>At XIRACOM LIMITED, we are passionate about 
+    empowering businesses through innovative software solutions.
+     Founded with a vision to bridge the gap between technology and real-world challenges,
+      we specialize in creating cutting-edge software that drives efficiency, growth, 
+      and success for our clients.
+    </P>
+    <p class="about-content">
+    With years of experience in the tech industry, our team of skilled developers, designers, and strategists is dedicated to 
+    delivering tailored solutions that meet the unique needs of every business we work with. From startups to enterprises, 
+    we pride ourselves on being a trusted partner in digital transformation.
+    </p>
 </div>
 </div>
 <div class="col-md-7 col-sm-6 col-lg-7 about-section-two bg-icon2">
 <h3 class="who-we">WHO WE ARE</h3>
-<h1 class="we-are">WE ARE PERFECT TEAM FOR TECH DESIGN</h1>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-    doloremque laudantium, totam rem aperiam, 
-    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur 
-aut odit aut fugit, sed quia consequuntur magni dolores eos 
-qui ratione voluptatem sequi nesciunt.</p>
+<h1 class="we-are">TRANSFORMING IDEAS INTO INTELLIGENT SOLUTIONS</h1>
+<p><b>Our mission is simple:</b>to build software that makes a difference. 
+  We strive to create intuitive, scalable, and future-ready solutions 
+  that not only solve today’s problems but also anticipate tomorrow’s opportunities.We value the follwoing :</p>
 <div class="row ms-0" >
     <div class="col-md-6">
 <ul class="list">
-    <li class="my-1"><img src="images/tick.svg" class="mx-2"> Flexible Time</li>
-    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Flexible Time</li>
-    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Flexible Time</li>
+    <li class="my-1"><img src="images/tick.svg" class="mx-2"> Integrity</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Collaboration</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Excellence</li>
     
 </ul>
     </div>
     <div class="col-md-6">
     <ul class="list">
-    <li class="my-1"><img src="images/tick.svg"class="mx-2">  Flexible Time</li>
-    <li class="my-1"><img src="images/tick.svg"class="mx-2">  Flexible Time</li>
-    <li class="my-1"><img src="images/tick.svg"class="mx-2">  Flexible Time</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Transparency</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2">  Honesty</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Ethical Practices</li>
     
 </ul>
 </div>
@@ -92,177 +88,11 @@ qui ratione voluptatem sequi nesciunt.</p>
 </div>
 <!--who we are section ends here-->
 <!-- Our team Section starts here-->
-<section class="team-section py-5 bg-light">
-    <div class="container text-center">
-        <h2 class="mb-4 team-txt">Our Team</h2>
-        <div class="row">
-            <!-- Team Member 1 -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/Levis.png" alt="Levis Chisira - CEO">
-                    <div class="card-body1">
-                        <h1 class="card-title">CEO, CO-FOUNDER</h1>
-                        <p class="text-muted">LEVIS CHISIRA</p>
-                        <div class="d-flex justify-content-center">
-                        <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-                              <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-                              <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-                              <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Team Member 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/kevin.png" alt="Kelvin Mukolwe - CPO">
-                    <div class="card-body2">
-                        <h2 class="card-title">CPO, CO-FOUNDER</h2>
-                        <p class="text-muted">KELVIN MUKOLWE</p>
-                        <div class="d-flex justify-content-center">
-                        <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-                              <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-                              <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-                              <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Team Member 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/Team2.png" alt="Gerry Ayange - CTO">
-                    <div class="card-body3">
-                        <h3 class="card-title">CTO, CO-FOUNDER</h3>
-                        <p class="text-muted">GERRY AYANGE</p>
-                        <div class="d-flex justify-content-center">
-                        <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-                              <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-                              <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-                              <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <!-- Team Member 4 -->
-             <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Nicole Akinyi - Product Manager">
-                    <div class="card-body4">
-                        <h4 class="card-title">PRODUCT MANAGER</h4>
-                        <p class="text-muted">NICOLE AKINYI</p>
-                        <div class="d-flex justify-content-center">
-                        <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-                              <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-                              <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-                              <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <!-- Team Member 5 -->
-             <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Gloria Koros- Software Engineer">
-                    <div class="card-body5">
-                        <h5 class="card-title">SOFTWARE ENGINEER</h5>
-                        <p class="text-muted">GLORIA KOROS</p>
-                        <div class="d-flex justify-content-center">
-                        <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-                              <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-                              <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-                              <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <!-- Team Member 6-->
-             <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="images\DSC_6434 (1).png" alt="Japheth Kibet - Project Manager">
-                    <div class="card-body6">
-                        <h6 class="card-title">PROJECT MANAGER</h6>
-                        <p class="text-muted">JAPHETH KIBET</p>
-                        <div class="d-flex justify-content-center">
-                            <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-                              <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-                              <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-                              <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
+
     <!--Our team section ends here-->
 
 <!--Call us section starts here-->
-<div class="container-fluid call-us-section ">
-    <div class="row">
-<div class="col-md-6 ">
-  <div class="call-section1" style="text-align:center">
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="40" fill="white" style="margin-top:5%"class="bi bi-telephone-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-</svg>
 
-<h1 class="call-txt">CALL US NOW</h1>
-<P class="phone-txt">(+254)704907555</P>
-</div>
-</div>
-<div class="col-md-6 call-section2">
-<p class="item-alg">"WORK HARD & GREAT QUALITY IS our PRIORITY"</p>
-
-</div>
-
-
-    </div>
-
-
-
-</div>
 <!--call us section ends here-->
 
 
@@ -275,11 +105,10 @@ qui ratione voluptatem sequi nesciunt.</p>
 <div class="col-md-5">
   <div class="portfolio-section1">
   <h2 class="portfolio-head1">PERFECT PARTNER</h2>
-<h1 class="portfolio-head2">WE HAVE PRIORITY FOR CAN CREATE DREAM web DESIGN</h1>
+<h1 class="portfolio-head2">WE HAVE PRIORITY FOR OUR CLIENT'S NEED FOR TECH</h1>
 <p class="portfolio-paragraph">
-Sed ut perspiciatis unde omnis iste natus error sit 
-voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
-quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Choosing the right technology partner can make all the difference in achieving your business goals. At xIRACOM, we don’t 
+just deliver software—we deliver partnerships built on trust, innovation, and results. 
 </p>
 <button class="button-portfolio">
   PORTFOLIO
@@ -291,16 +120,16 @@ quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt exp
 <div class="col-md-7">
 
 <div class="section2-portfolio">
-  <div class="section1-port">
-  <img src="images/4.png" class="image-section1">
+  <div class="section1-port1">
+  <img src="images/4.png" class="image-section10">
 
   </div>
-  <div class="section2-port">
-  <img src="images/1.png" class="image-section2">
+  <div class="section2-port2">
+  <img src="images/1.png" class="image-section20">
   </div>
-  <div class="section3-port">
+  <div class="section3-port3">
 
-  <img src="images/3.png" class="image-section3">
+  <img src="images/3.png" class="image-section30">
   </div>
 
 
@@ -339,28 +168,28 @@ quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt exp
 Trust Us Now
 </div>
 <div class="why-us-head2">
-WHY CHOICE OUR Tech DESIGN SERVICES
+WHY CHOOSE XIRACOM LIMITED?
 </div>
 </div>
 <div class="why-us-paragraph">
-Lorem ipsum dolor sit amet, consectetur 
-adipiscing elit. Ut elit tellus, 
-luctus nec ullamcorper mattis, pulvinar dapibus leo.
+At XIRACOM, we go beyond just delivering 
+software—we deliver solutions that empower your business to thrive. Here’s why we stand out:
+
 </div>
 <div class="row" >
     <div class="col-md-6">
 <ul class="list2">
-    <li class="my-1"><img src="images/tick.svg" class="mx-2"> Flexible Time</li>
-    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Flexible Time</li>
-    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Flexible Time</li>
+    <li class="my-1"><img src="images/tick.svg" class="mx-2">Expertise You Can Trust</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Tailored Solutions for Your Needs</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Cutting-Edge Innovation</li>
     
 </ul>
     </div>
     <div class="col-md-6">
     <ul class="list2">
-    <li class="my-1"><img src="images/tick.svg"class="mx-2">  Flexible Time</li>
-    <li class="my-1"><img src="images/tick.svg"class="mx-2">  Flexible Time</li>
-    <li class="my-1"><img src="images/tick.svg"class="mx-2">  Flexible Time</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2">Client-Centric Approach</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2"> Agile and Efficient Processes</li>
+    <li class="my-1"><img src="images/tick.svg"class="mx-2">Commitment to Quality and Security</li>
     
 </ul>
 </div>
@@ -378,9 +207,9 @@ luctus nec ullamcorper mattis, pulvinar dapibus leo.
 
 <div class="contact-us-section">
 
-<h1 class="contact-us-content">LETS CHANGE YOUR OWN web  DESIGN NOW</h1>
+<h1 class="contact-us-content">LETS CHANGE YOUR OWN TECH EXPERIENCE NOW</h1>
 <button class="contact-us-button">
-Contact Us
+<a href="./contact-us">Contact Us</a>
 </button>
 
 </div>
