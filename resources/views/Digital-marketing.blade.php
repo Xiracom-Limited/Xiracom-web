@@ -31,29 +31,27 @@
             <div class="col-md-6">
                 <div class="features-section">
                     <h2 class="features-title">
-                        HOW XIRACOM CREATES
-                        <br />
-                        HYPER BUSINESS GROWTH
+                        Improve your Online Indexing With Our SEO Services
                     </h2>
                     <p class="features-description">
                         Xiracom offers top-notch SEO and digital marketing solutions to help you rank high on search results, connect with customers, and grow your business.
                     </p>
                     <div class="features-list">
                         <div class="feature-item">
-                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/50ecb6f7f2c25310018ffd5ceb65ac31a5dea2e6252b1a07b1805e8ccdfe1b84?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon" />
-                            <p class="feature-text">Xiracom offers top-notch SEO and digital marketing solutions.</p>
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/50ecb6f7f2c25310018ffd5ceb65ac31a5dea2e6252b1a07b1805e8ccdfe1b84?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon " />
+                            <p class="feature-text">We Boosts online visibility, driving more organic website traffic.</p>
                         </div>
                         <div class="feature-item">
                             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/331a826514cf13bb5906f1f6998ab27d86ce8ba71984971a1fb293d98379ac48?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon" />
-                            <p class="feature-text">Xiracom helps businesses connect with their audience effectively.</p>
+                            <p class="feature-text">Our SEO Enhances user experience through optimized, relevant content.</p>
                         </div>
                         <div class="feature-item ">
                             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/331a826514cf13bb5906f1f6998ab27d86ce8ba71984971a1fb293d98379ac48?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon" />
-                            <p class="feature-text mb-5">Xiracom helps businesses connect with their audience effectively.</p>
+                            <p class="feature-text mb-5">We Build brand credibility and trust with higher rankings.</p>
                         </div>
                         <div class="feature-item">
-                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/331a826514cf13bb5906f1f6998ab27d86ce8ba71984971a1fb293d98379ac48?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon" />
-                            <p class="feature-text">Xiracom helps businesses connect with their audience effectively.</p>
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/331a826514cf13bb5906f1f6998ab27d86ce8ba71984971a1fb293d98379ac48?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon " />
+                            <p class="feature-text">Targets specific audiences, increasing conversion rates and revenue for your Biz.</p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +78,7 @@
                             <div class="card">
                                 <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ed7790cb41e76d43f137d48339c280cfe30e44a117f83cd6a66bb1e4e2e826a3?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Service icon" class="card-icon" />
                                 <h3 class="card-title">I Want Leads</h3>
-                                <p class="card-description">Looking to get higher ROI by improving website.</p>
+                                <p class="card-description">Generate more leads with our proven marketing strategies</p>
                                 <a href="#" class="card-link">View more</a>
                             </div>
                         </div>
@@ -90,7 +88,7 @@
                                     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d489b2e6079749b79dee4fa9026bcf686695248b9bcf02600878778645df953?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Service icon" class="card-icon" />
                                 </div>
                                 <h3 class="card-title">I Want Traffic</h3>
-                                <p class="card-description">Looking to get higher ROI by improving website.</p>
+                                <p class="card-description">Boost website visits using proven traffic-generation techniques.</p>
                                 <a href="#" class="card-link">View more</a>
                             </div>
                         </div>
@@ -98,7 +96,7 @@
                             <div class="card">
                                 <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ed7790cb41e76d43f137d48339c280cfe30e44a117f83cd6a66bb1e4e2e826a3?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Service icon" class="card-icon" />
                                 <h3 class="card-title">I Want Conversions</h3>
-                                <p class="card-description">Transform visitors into customers.</p>
+                                <p class="card-description">Get more eyes on your site—start growing now.</p>
                                 <a href="#" class="card-link">View more</a>
                             </div>
                         </div>
@@ -107,8 +105,8 @@
                                 <div class="card-icon-wrapper">
                                     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d489b2e6079749b79dee4fa9026bcf686695248b9bcf02600878778645df953?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Service icon" class="card-icon" />
                                 </div>
-                                <h3 class="card-title">I Want Conversions</h3>
-                                <p class="card-description">Transform visitors into customers.</p>
+                                <h3 class="card-title">I Want More Sales</h3>
+                                <p class="card-description">Increase revenue fast using proven sales strategies.</p>
                                 <a href="#" class="card-link">View more</a>
                             </div>
                         </div>
@@ -127,7 +125,7 @@
     </div>
 
 
-    <div class="profile-cards-container mb-4 ml-5">
+    <div class="profile-cards-container mb-4">
         <div class="profile-grid">
              <!-- Profile card -->
             <div class="profile-row">
