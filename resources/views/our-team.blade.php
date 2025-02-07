@@ -149,7 +149,7 @@
                 <div class="card shadow-sm h-100">
                     <img class="card-img-top img-fluid" src="images\DSC_6434 (1).png" alt="Japheth Kibet - Project Manager">
                     <div class="card-body6">
-                        <h6 class="card-title">PROJECT MANAGER</h6>
+                        <h6 class="card-title">PRODUCT MANAGER</h6>
                         <p class="text-muted">JAPHETH KIBET</p>
                         <div class="d-flex justify-content-center">
                             <div class="social-links">
