@@ -17,7 +17,7 @@
   </header>
 
   <section id="about" class="container">
-    <h2>About Xiracom</h2>
+    <h2>Learn With Us</h2>
     <p>Xiracom is a leading provider of professional trainings and bootcamps designed to equip individuals and organizations with the skills needed to thrive in today's fast-paced tech industry.</p>
   </section>
 
