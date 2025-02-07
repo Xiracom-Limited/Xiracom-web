@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Xira Skiza Tunes</title>
  <style>
-  /* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +18,6 @@
     color: #333;
   }
   
-  /* Skiza Section */
   .skiza {
     background-color: rgba(253, 255, 252, 1);
     display: flex;
@@ -106,7 +104,7 @@
     padding: 20px;
     width: 250px;
     text-align: left;
-    gap: 50px;
+    gap: 70px;
     transition: transform 0.3s ease;
   }
 
@@ -184,6 +182,16 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 300px;
+  }
+
+  .plan-button {
+    padding: 10px 40px;
+    background-color: #399C23;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20%;
   }
   
   .cta-form button {
@@ -305,8 +313,8 @@
     </div>
 
     <!-- Pricing Section -->
-    <div class="row pricing-section">
-      <div class="col-12 pricing-card bronze">
+    <div class="pricing-section">
+    <div class="pricing-card bronze">
         <h3>Bronze</h3>
         <p><strong>KSH 1000</strong></p>
         <p>Quick easy setup for small businesses, greet your customers with a custom ringtone when they call.</p>
@@ -317,8 +325,9 @@
           <li>Pick 1 voice gender</li>
           <li>Professional recording</li>
         </ul>
+        <button class="plan-button">Get Plan</button>
       </div>
-      <div class="col-12 pricing-card silver">
+      <div class="pricing-card silver">
         <h3>Silver</h3>
         <p><strong>KSH 5000</strong></p>
         <p>Set up a custom ringtone on your mobile line and customer care centre, manage which tone is played to customers.</p>
@@ -331,6 +340,7 @@
           <li>Tone Shuffling</li>
           <li>Professional recording</li>
         </ul>
+        <button class="plan-button">Get Plan</button>
       </div>
       <div class="pricing-card gold">
         <h3>Gold</h3>
@@ -348,18 +358,18 @@
           <li>Free Music</li>
           <li>Get Skiza</li>
         </ul>
+        <button class="plan-button">Get Plan</button>
       </div>
     </div>
 
     <!-- Call-to-Action -->
-    <div class="cta-section">
+    <div class="cta-section mb-5">
       <h3>Get your business set up today</h3>
       <div class="cta-form">
         <input type="text" placeholder="Email or number">
         <button>Get Started</button>
       </div>
     </div>
-  
 </body>
 </html>
 @include("footer")
