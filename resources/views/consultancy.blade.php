@@ -15,10 +15,10 @@
   <section class="hero-section">
     <div class="hero-content">
       <div class="hero-text">
-        <h1 class="hero-title">Your Business, Our Experts</h1>
-        <p class="hero-subtitle">Strategic Consultancy to Drive Success</p>
+        <h1 class="hero-title">Expert Guidance, Tailored Solutions – Building Your Future.</h1>
+        <p class="hero-subtitle">We offer professional Tech consultancy Services for your business, organization, and Institution</p>
       </div>
-      <img src="images\pexels-shvetsa-3727469 (1).png" alt="Illustration of people working" class="hero-image" />
+     
     </div>
   </section>
 
@@ -30,7 +30,7 @@
         </div>
         <div class="text-column">
           <div class="text-content">
-            <h2 class="section-title">Consulting Services</h2>
+            <h2 class="section-title">Any Question About Tech? </h2>
             <p class="section-description">At Xiracom, we provide expert consultancy to help businesses solve challenges and drive growth. Our team delivers tailored solutions that enhance efficiency, streamline processes, and support your long-term success.</p>
             <button class="cta-button-large">Call Us</button>
           </div>

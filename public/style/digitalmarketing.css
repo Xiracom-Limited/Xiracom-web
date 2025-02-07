@@ -1,8 +1,7 @@
 body {
- max-width: 100%;
+
  font-family: Arial, sans-serif;
- margin: 0;
- padding: 0;
+ 
  background-color: #f4f4f4;
 }
 
@@ -56,11 +55,6 @@ h1 {
   color: green;
 }
 
-.image img {
-  max-width: 300px;
-  margin-right: 300px;
-}
-  
   .features-title {
     color: rgba(1, 22, 39, 1);
     font-size: 32px;
@@ -113,7 +107,7 @@ h1 {
     flex-direction: column;
     line-height: normal;
     width: 50%;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   
   .image-container {
@@ -193,7 +187,7 @@ h1 {
     .hero-section {
       max-width: 100%;
       margin-bottom: 10px;
-      padding-left: 20px;
+      padding-left: 10px;
     }
     
     .nav-container {
@@ -347,7 +341,7 @@ h1 {
   }
   
   .profile-card {
-    display: flex;
+  
     flex-direction: column;
     border-radius: 20px;
     position: relative;
@@ -356,7 +350,7 @@ h1 {
     gap: 36px;
     font-family: Inter, sans-serif;
     color: rgba(255, 255, 255, 1);
-    padding: 262px 13px 15px;
+    padding: 262px 120px 140px;
   }
   
   .profile-image {

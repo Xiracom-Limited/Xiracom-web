@@ -11,20 +11,16 @@
 <body>
 
     <!-- Heroes section starts here -->
-    <div class="header-container">
+    <div class="header-container mt-5">
         <div class="content">
-            <center>
             <h1><span class="blue">BEST DIGITAL</span> <span class="green">MARKETING</span> <span class="blue">COMPANY.</span></h1>
-            </center>
+            
             <p class="subheading">#1 MARKETING Services Agency in Kenya</p>
             <p class="description">If you're looking for the best SEO company for your business, Xiracom is the perfect choice.</p>
             <div class="buttons">
                 <button class="get-start">Get start</button>
                 <a href="#" class="watch-video">▶ Watch Video</a>
             </div>
-        </div>
-        <div class="image">
-            <img src="images\image.png" alt="Happy person in yellow sweater">
         </div>
     </div>
     
@@ -130,7 +126,7 @@
     </div>
     <p>Xiracom offers top-notch SEO and digital marketing solutions.</p>
 
-    <div class="profile-cards-container">
+    <div class="profile-cards-container mb-4">
         <div class="profile-grid">
              <!-- Profile card -->
             <div class="profile-row">
@@ -197,11 +193,11 @@
                 <div class="profile-card">
                     <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a74a5a8090c2e86357a977f6e41940185002a35d86eb6cfdfbf8b3639700c9fe?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/72fd14adbf2f8d8c24c5a47351952aac9088934bcf7d56b436a2dd37cfcde70d?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8"
                         class="profile-image"
-                        alt="Profile photo of Darrell Steward"
+                        alt="Profile photo of Cody Fisher"
                     />
-                    <div class="profile-name">Darrell Steward</div>
+                    <div class="profile-name">Cody Fisher</div>
                     <div class="rating-badge">
                         <img
                             loading="lazy"
@@ -209,12 +205,14 @@
                             class="rating-star"
                             alt=""
                         />
-                        <div>5.0</div>
+                        <div>4.9</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 </html>
+
 @include("footer")
