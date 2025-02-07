@@ -330,7 +330,18 @@ h1 {
 
   .profile-cards-container {
     border-radius: 0;
-    max-width: 753px;
+    max-width: 100%;
+    margin-left: 3%;
+  }
+  @media screen and (max-width:600px) and (max-width:720px){
+
+    .profile-cards-container {
+      border-radius: 0;
+      max-width: 100%;
+      margin-left: 0%;
+    }
+
+
   }
   
   .profile-grid {
@@ -427,6 +438,21 @@ h1 {
   .client-results-heading {
   color: rgba(18, 8, 126, 1);
   font: 700 45px Inter, sans-serif;
+}
+@media screen and (max-width:600px) and (max-width:720px){
+
+
+  .client-results-heading {
+    color: rgba(18, 8, 126, 1);
+    font: 700 25px Inter, sans-serif;
+  }
+  .case-study-heading {
+    color: rgba(57, 156, 35, 1);
+    max-width: 165px;
+    font: 500 20px Inter, sans-serif;
+  }
+
+
 }
 
 .visually-hidden {

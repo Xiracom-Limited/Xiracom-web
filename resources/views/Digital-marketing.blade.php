@@ -127,7 +127,7 @@
     </div>
 
 
-    <div class="profile-cards-container mb-4 ml-5">
+    <div class="profile-cards-container mb-4">
         <div class="profile-grid">
              <!-- Profile card -->
             <div class="profile-row">
