@@ -12,7 +12,7 @@
 
     <!-- Heroes section starts here -->
     <div class="header-container mt-5">
-        <div class="content">
+        <div class="">
             <h1><span class="blue">BEST DIGITAL</span> <span class="green">MARKETING</span> <span class="blue">COMPANY.</span></h1>
             
             <p class="subheading">#1 MARKETING Services Agency in Kenya</p>
@@ -20,6 +20,7 @@
             <div class="buttons">
                 <button class="get-start">Get start</button>
                 <a href="#" class="watch-video">▶ Watch Video</a>
+            
             </div>
         </div>
     </div>
@@ -46,13 +47,13 @@
                             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/331a826514cf13bb5906f1f6998ab27d86ce8ba71984971a1fb293d98379ac48?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon" />
                             <p class="feature-text">Xiracom helps businesses connect with their audience effectively.</p>
                         </div>
-                        <div class="feature-item">
+                        <div class="feature-item ">
                             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/331a826514cf13bb5906f1f6998ab27d86ce8ba71984971a1fb293d98379ac48?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon" />
-                            <p class="feature-text">Xiracom offers top notch.</p>
+                            <p class="feature-text mb-5">Xiracom helps businesses connect with their audience effectively.</p>
                         </div>
                         <div class="feature-item">
                             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/331a826514cf13bb5906f1f6998ab27d86ce8ba71984971a1fb293d98379ac48?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon" />
-                            <p class="feature-text">Xiracom offers top-notch SEO and.</p>
+                            <p class="feature-text">Xiracom helps businesses connect with their audience effectively.</p>
                         </div>
                     </div>
                 </div>

@@ -6,16 +6,16 @@ body {
 }
 
 .header-container {
-  display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 100%;
   padding: 20px;
   background: linear-gradient(to right, #A0CD96, #DAD7F7, #B3D3AB, #574ADD);
 }
 
 .content {
   max-width: 100%;
+  margin-top: 2%;
+  margin-left: 3%;
 }
 
 h1 {
@@ -90,14 +90,12 @@ h1 {
   
   .feature-icon {
     aspect-ratio: 1;
-    object-fit: contain;
-    object-position: center;
     width: 14px;
-    margin: auto 0;
+    margin-bottom: 10%;
+   
   }
   
   .feature-text {
-    flex-grow: 1;
     width: 360px;
     flex-basis: auto;
   }
