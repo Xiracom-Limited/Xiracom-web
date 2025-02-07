@@ -12,7 +12,7 @@
 
     <!-- Heroes section starts here -->
     <div class="header-container mt-5">
-        <div class="content">
+        <div class="">
             <h1><span class="blue">BEST DIGITAL</span> <span class="green">MARKETING</span> <span class="blue">COMPANY.</span></h1>
             
             <p class="subheading">#1 MARKETING Services Agency in Kenya</p>
@@ -20,6 +20,7 @@
             <div class="buttons">
                 <button class="get-start">Get start</button>
                 <a href="#" class="watch-video">▶ Watch Video</a>
+            
             </div>
         </div>
     </div>
@@ -46,13 +47,13 @@
                             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/331a826514cf13bb5906f1f6998ab27d86ce8ba71984971a1fb293d98379ac48?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon" />
                             <p class="feature-text">Xiracom helps businesses connect with their audience effectively.</p>
                         </div>
-                        <div class="feature-item">
+                        <div class="feature-item ">
                             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/331a826514cf13bb5906f1f6998ab27d86ce8ba71984971a1fb293d98379ac48?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon" />
-                            <p class="feature-text">Xiracom offers top notch.</p>
+                            <p class="feature-text mb-5">Xiracom helps businesses connect with their audience effectively.</p>
                         </div>
                         <div class="feature-item">
                             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/331a826514cf13bb5906f1f6998ab27d86ce8ba71984971a1fb293d98379ac48?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Feature check icon" class="feature-icon" />
-                            <p class="feature-text">Xiracom offers top-notch SEO and.</p>
+                            <p class="feature-text">Xiracom helps businesses connect with their audience effectively.</p>
                         </div>
                     </div>
                 </div>
@@ -89,7 +90,7 @@
                                     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d489b2e6079749b79dee4fa9026bcf686695248b9bcf02600878778645df953?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Service icon" class="card-icon" />
                                 </div>
                                 <h3 class="card-title">I Want Traffic</h3>
-                                <p class="card-description">Driving traffic to your site is our expertise.</p>
+                                <p class="card-description">Looking to get higher ROI by improving website.</p>
                                 <a href="#" class="card-link">View more</a>
                             </div>
                         </div>
@@ -106,8 +107,8 @@
                                 <div class="card-icon-wrapper">
                                     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d489b2e6079749b79dee4fa9026bcf686695248b9bcf02600878778645df953?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Service icon" class="card-icon" />
                                 </div>
-                                <h3 class="card-title">I Want Analytics</h3>
-                                <p class="card-description">Understanding your data is key to success.</p>
+                                <h3 class="card-title">I Want Conversions</h3>
+                                <p class="card-description">Transform visitors into customers.</p>
                                 <a href="#" class="card-link">View more</a>
                             </div>
                         </div>
@@ -115,18 +116,18 @@
                 </div>
             </div>
         </div>
-
+      </div>
         <!-- Case studies section starts here -->
         <div class="case-study-container">
     <div class="header1-container">
-        <div class="case-study-heading">CASE STUDY</div>
-        <div class="client-results-heading" role="heading" aria-level="2" tabindex="0">
-            OUR CLIENT<br />GETS RESULTS
+        <div class="case-study-heading ml-5">CASE STUDY</div>
+        <div class="client-results-heading ml-5 mb-3" role="heading" aria-level="2" tabindex="0">
+            OUR CLIENT GETS RESULTS
         </div>
     </div>
-    <p>Xiracom offers top-notch SEO and digital marketing solutions.</p>
 
-    <div class="profile-cards-container mb-4">
+
+    <div class="profile-cards-container mb-4 ml-5">
         <div class="profile-grid">
              <!-- Profile card -->
             <div class="profile-row">

@@ -171,3 +171,9 @@ Route::get('/our-brands', function () {
     return view('our-brands');
 
 });
+
+Route::get('/training&bootcamps', function () {
+
+    return view('training&bootcamps');
+
+});
