@@ -108,7 +108,7 @@ font-weight:bolder;
       <a class="dropdown-item"  href="./skiza-tunes&SSID-codes">Skiza Tunes</a>
       <a class="dropdown-item"  href="./cyber-security">Cybersecurity</a>
       <a class="dropdown-item"  href="./Digital-marketing">Digital Marketing</a>
-      <a class="dropdown-item"  href="#">Trainings & Bootcamps</a>
+      <a class="dropdown-item"  href="./training&bootcamps">Trainings & Bootcamps</a>
         </div>
       </li>
       <li class="nav-item">
