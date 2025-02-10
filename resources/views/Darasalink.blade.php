@@ -11,17 +11,19 @@
     </head>
 
     <body>
-
-    <div class="header-section mt-5">
-  <div class="text-content" style="margin-top:15%;">
-  <h1 class="darasa-link-section ml-5">Revolutionizing Education With One Link At a Time</h1>
-  <p class="ml-5 darasa-link-paragraph">Darasalink empowers you with real-time access to student progress and efficient operational tools.</p>
+<div class="back-content-darasa">
+<div class="header-section"style="margin-top:6%;">
+  <div class="text-content" >
+  <h1 class="ml-5 mt-5 head-darasalink-section">Revolutionizing Education <br>With One Link At a Time</h1>
+  <p class="ml-5 darasa-link-paragraph">Darasalink empowers you with real-time access to student progress <br>and efficient operational tools.</p>
   <div>
     <a href="#" class="btn btn-primary ml-5">Get Started</a>
     <a href="#" class="btn btn-outline-secondary">Request Demo</a>
   </div>
   </div>
 </div>
+</div>
+  
 
     <div class="container-fluid services-section py-5">
         <div class="container text-center">
