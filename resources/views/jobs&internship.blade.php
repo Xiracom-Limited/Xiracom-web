@@ -10,11 +10,11 @@
 </head>
 
 <body>
-<section class="jobs-section">
+<section class="jobs-section mt-5 mb-5">
   <section class="hero-section">\
     <div class="hero-content">
       <div class="hero-text">
-        <h1 class="hero-title">Jobs and Internships</h1>
+        <h1 class="hero-title"><b>Jobs and Internships</b></h1>
         <p class="hero-subtitle">Find jobs that match up to your skill set</p>
       </div>
       <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/06f1c6bdc53778cbc60e71269c44a113a8ebd78caa24c14e56f756aa6d204618?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Illustration of people working" class="hero-image" />
@@ -48,9 +48,10 @@
         <span>Apply for Dream Job</span>
       </div>
     </section>
-
-    <h2 class="section-title">Latest Jobs and opportunities</h2>
-
+    <center>
+    <h2 class="section-title"><b>Latest Jobs and opportunities</b></h2>
+    </center>
+    <center>
     <div class="jobs-grid">
       <article class="job-card">
         <div class="job-header">
@@ -99,6 +100,7 @@
         </div>
         <p class="job-count">10 Jobs available</p>
       </article>
+      </center>
       <button class="explore-button">Explore More</button>
     </div>
   </main>

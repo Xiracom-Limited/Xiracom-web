@@ -5,6 +5,7 @@
   flex-direction: column;
   overflow: hidden;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero-section {
@@ -22,7 +23,6 @@
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  font-family: Poppins, sans-serif;
   text-align: center;
   line-height: 1;
   margin: auto -92px auto 20%;
@@ -125,6 +125,10 @@
   font: 400 20px/1 Poppins, sans-serif;
 }
 
+.section-title {
+  margin: 40px 0;
+}
+
 .jobs-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -173,16 +177,13 @@
 
 .explore-button {
   align-self: center;
-  width: 200px;
+  width: auto;
   border-radius: 72px;
   background-color: #399c23;
   margin-top: 24px;
-  min-height: 65px;
-  font-size: 20px;
+  font-size: 1rem;
   color: #fff;
-  font-weight: 700;
-  line-height: 1;
-  padding: 23px 28px;
+  padding: 10px 28px;
   border: 2px solid #102038;
   align-items: center;
   justify-content: center;
@@ -270,8 +271,6 @@
   .job-card {
     margin-top: 20px;
     width: 100%;
-    margin-left: 50px;
-    margin-right: 50px;
   }
   
   .explore-button {
