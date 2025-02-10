@@ -14,7 +14,7 @@
     <div class="maintenance-container">
         <!-- Hero section -->
         <div class="hero-section">
-            <img src="images\hardware and software installation1.jpeg" alt="Hardware and software maintenance services hero image" class="hero-image" />
+            <img src="images\lab.jpg" alt="Hardware and software maintenance services hero image" class="hero-image" />
             <center>
             <h1 class="hero-title">Hardware and Software Maintenance</h1>
             </center>
@@ -30,7 +30,7 @@
             </center>
 
             <!-- Services grid -->
-            <div class="services-container">
+            <div>
                 <div class="services-grid">
                     <!-- Hardware Maintenance Card -->
                     <div class="service-card">
@@ -40,7 +40,7 @@
                             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a75f9fec9bf49c2560d0e9cffee0bd51c1dbf5e7ce75b82f3d998cffb1f9614a?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="" class="feature-icon" />
                             <div class="feature-list">
                                 <p>Diagnostics and Repair Services</p>
-                                <p>Preventive Maintenance Schedules</p>
+                                <p>Preventive Mainteobject-fit: contain;nance Schedules</p>
                                 <p>Installation and Upgrades of IT Equipment</p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@
 
                     <!-- Software Maintenance Card -->
                     <div class="service-card">
-                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b481d809b39c967acfb0316674a7cb89f35605c7278745b2d8386e2b09650f40?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Software maintenance icon" class="service-icon" />
+                         <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b481d809b39c967acfb0316674a7cb89f35605c7278745b2d8386e2b09650f40?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Software maintenance icon" class="service-icon" />
                         <h2 class="service-title">Software Maintenance</h2>
                         <div class="service-features">
                             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a75f9fec9bf49c2560d0e9cffee0bd51c1dbf5e7ce75b82f3d998cffb1f9614a?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="" class="feature-icon" />
@@ -69,17 +69,17 @@
             <div class="benefits-grid">
                 <div class="benefit-card">
                     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/072ac28f35e03d3f79a82e1278f4c18e6af2eaaade2f063fbc4a360ceb1cd06f?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Certified professionals icon" class="benefit-icon" />
-                    <h3 class="benefit-title">Certified Professionals</h3>
+                    <h3 class="benefit-title1">Certified Professionals</h3>
                 </div>
 
                 <div class="benefit-card">
                     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ccb89ab72fae73ec2790fe82310dbcce09b4c6334d3408c2cad271ccde7970a?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="24/7 support icon" class="benefit-icon" />
-                    <h3 class="benefit-title">24/7 Support</h3>
+                    <h3 class="benefit-title2">24/7 Support</h3>
                 </div>
 
                 <div class="benefit-card">
                     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e5591344c6479bc25e3113aa904e93ffdaa5b15612b8bb7bf5aaa1804a65718?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Tailored solutions icon" class="benefit-icon" />
-                    <h3 class="benefit-title">Tailored Solutions</h3>
+                    <h3 class="benefit-title3">Tailored Solutions</h3>
                 </div>
             </div>
         </div>
