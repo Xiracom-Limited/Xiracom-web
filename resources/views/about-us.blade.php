@@ -209,7 +209,7 @@ software—we deliver solutions that empower your business to thrive. Here’s w
 
 <h1 class="contact-us-content">LETS CHANGE YOUR OWN TECH EXPERIENCE NOW</h1>
 <button class="contact-us-button">
-<a href="./contact-us" style="color:white;font-weght:bolder">Contact Us</a>
+<a href="./contact-us" style="color:white;">Contact Us</a>
 </button>
 
 </div>
