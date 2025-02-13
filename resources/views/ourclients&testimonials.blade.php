@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class="hero">
+<div class="hero mt-5">
         <h1>Testimonials and feedback</h1>
     </div>
 

@@ -410,58 +410,48 @@
     </section>
 
     <div class="Testimonials">
-        <h5 class="Clients">Our Clients</h5>
-        <div class="profile-card-container">
-            <div class="profile-card">
-                <div class="profile-image">
-                    <img src="images\Ellipse 4.png" alt="Jason Wandrag">
-                </div>
-                <h2 class="profile-name">Eyrie School</h2>
-                <p class="profile-description">
-                    Opening a Graphic Design Business can be a very good business opportunity if you have knowledge
-                    about Graphic terms.
-                    It can be a very secure path to earn good money and make you a very successful creative
-                    entrepreneur.
-                </p>
+    <h2>Client Testimonials</h2>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/60" alt="">
+                <h3>Jason Wandrag</h3>
+                <p>Opening a Graphic Design Business can be a very good business opportunity...</p>
             </div>
-            <div class="profile-card">
-                <div class="profile-image">
-                    <img src="images\Ellipse 5.png" alt="Jason Wandrag">
-                </div>
-                <h2 class="profile-name">EAVI Technical</h2>
-                <p class="profile-description">
-                    Opening a Graphic Design Business can be a very good business opportunity if you have Knowledge
-                    about Graphic terms.
-                    It can be a very secure path to earn good money and make you a very successful creative
-                    entrepreneur.
-                </p>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/60" alt="">
+                <h3>Maria Ava</h3>
+                <p>Opening a Graphic Design Business can be a very good business opportunity...</p>
             </div>
-            <div class="profile-card">
-                <div class="profile-image">
-                    <img src="public\images\Ellipse 6.png" alt="Jason Wandrag">
-                </div>
-                <h2 class="profile-name">Gaba Campus CUEA</h2>
-                <p class="profile-description">
-                    Opening a Graphic Design Business can be a very good business opportunity if you have Knowledge
-                    about Graphic terms.
-                    It can be a very secure path to earn good money and make you a very successful creative
-                    entrepreneur.
-                </p>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/60" alt="">
+                <h3>Smith Jon</h3>
+                <p>Opening a Graphic Design Business can be a very good business opportunity...</p>
             </div>
-            <div class="profile-card">
-                <div class="profile-image">
-                    <img src="images\Ellipse 6.png" alt="Jason Wandrag">
-                </div>
-                <h2 class="profile-name">Ascada School</h2>
-                <p class="profile-description">
-                    Opening a Graphic Design Business can be a very good business opportunity if you have knowledge
-                    about Graphic terms.
-                    It can be a very secure path to earn good money and make you a very successful creative
-                    entrepreneur.
-                </p>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/60" alt="">
+                <h3>Smith Jon</h3>
+                <p>Opening a Graphic Design Business can be a very good business opportunity...</p>
             </div>
         </div>
+        <div class="arrow prev" onclick="moveSlide(-1)">&#10094;</div>
+        <div class="arrow next" onclick="moveSlide(1)">&#10095;</div>
+     </div>
     </div>
+
+    <script>
+        let index = 0;
+        function moveSlide(direction) {
+            const slider = document.querySelector('.slider');
+            const totalSlides = document.querySelectorAll('.testimonial').length;
+            const slideWidth = document.querySelector('.testimonial').offsetWidth;
+            index += direction;
+            if (index < 0) index = totalSlides - 1;
+            if (index >= totalSlides) index = 0;
+            slider.style.transform = `translateX(${-index * slideWidth}px)`;
+        }
+        setInterval(() => moveSlide(1), 3000); // Auto-slide every 3 sec
+    </script>
 
 
     <h5 class="idea">Have an idea about project?</h5>

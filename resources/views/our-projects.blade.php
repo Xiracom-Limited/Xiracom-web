@@ -288,7 +288,6 @@
   </div>    </div>
 
     <h2 class="section-title">Here Are Some Of Our Projects</h2>
-    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba2d68a1b86cfb7437eeaf49df6cc910ec4230fb01cc932f1fd07c5c94c3f0f4?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6" alt="" class="divider" />
 
     <div class="project-card">
       <div class="project-content">
