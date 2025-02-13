@@ -3,9 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/team.css">
-    @vite(['resources/sass/app.scss','resources/js/app.js'])
-    <title>About-Us-Xiracom-Limited-Kenya-Africa</title>
+  
+  
+    <title>About-Us Xiracom Limited Kenya-Africa</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
 </head>
@@ -209,13 +209,13 @@ software—we deliver solutions that empower your business to thrive. Here’s w
 
 <h1 class="contact-us-content">LETS CHANGE YOUR OWN TECH EXPERIENCE NOW</h1>
 <button class="contact-us-button">
-<a href="./contact-us">Contact Us</a>
+<a href="./contact-us" style="color:white;font-weght:bolder">Contact Us</a>
 </button>
 
 </div>
 
 </div>
-
+</div>
 
 
 <!--contact us section ends here-->

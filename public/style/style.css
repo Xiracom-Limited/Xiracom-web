@@ -532,7 +532,7 @@ color: #FFFFFF;
 
 
 /* Portfolio */
-height: 100%;
+height: 100% !important;
 
 
 
@@ -613,7 +613,7 @@ color: #200EE4;
 /* Rectangle 2 */
 
 position: absolute;
-width: 10%;
+width: 25% !important;
 height: 7%;
 
 
@@ -654,9 +654,9 @@ color: #FFFFFF;
 /* Rectangle 2 */
 
 position: absolute;
-width: 40%;
+width: 40% !important;
 height: 6%;
-
+left: 5%;
 
 background: linear-gradient(180deg, #200EE4 0%, #283AA8 31%, #399C23 100%);
 border-radius: 30px;
@@ -669,7 +669,7 @@ border-radius: 30px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 15px;
+font-size: 12px;
 line-height: 22px;
 /* identical to box height */
 text-align: center;
@@ -690,34 +690,39 @@ color: #FFFFFF;
   /* Image Placeholder */
 
   
-  height: 40% !important;
+  height: 40%;
  
-  position: absolute !important;
-  margin-top: 5% !important;
-  margin-left: 12% !important;
-width: 40% !important;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 20%;
+  right: 0px;
+width: 75% !important;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
-border-radius: 10px !important;
+border-radius: 10px;
+
+
+
 }
 .section2-port2{
 
   /* Image Placeholder */
-  margin-left: 0px !important;
-  height: 40% !important;
-width: 40% !important;
-margin-top: 15% !important;
-position: absolute !important;
+  margin-left: 0px;
+  height: 42%;
+width: 90%;
+margin-top: 32%;
+position: absolute;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
-border-radius: 10px !important;
+border-radius: 10px ;
 
 }
 .section3-port3{
   /* Image Placeholder */
-  margin-top: 25%;
+  margin-top: 48%;
   height: 40%;
   position: absolute;
-  margin-left: 12%;
-width: 40%;
+  margin-left: 40%;
+  right: 0px;
+  width: 75% !important;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
 border-radius: 10px;
 
@@ -725,7 +730,7 @@ border-radius: 10px;
 /* Image Placeholder */
 .image-section10{
   margin-top: -14%;
-  margin-left: 10%;
+  margin-left: 18%;
 }
 .image-section20{
   margin-top: -25%;
@@ -734,7 +739,7 @@ border-radius: 10px;
 
 .image-section30{
   margin-top: -16%;
-  height: 135%;
+  height: 132.5%;
   margin-left: 40%;
 }
 @media screen and (max-width:720px){
