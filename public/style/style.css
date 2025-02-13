@@ -2,7 +2,7 @@
 .heroes-section{
 
     width: 100%;
-    
+    position: relative;
 
 }
 .about-section-one{
@@ -16,12 +16,27 @@
 
 }
 @media screen and (max-width:600px){
+
+.heroes-section{
+
+ display: none;
+}
+.about-section-one{
+  /* Left Column */
+
+margin-top: 12% !important;
+
+  background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+
+
+
+}
     body{
       margin-right: auto;
     }
     .heroes-section{
         /* About Us */
-      
+  
       position: absolute;
       width: 100%;
  
@@ -142,7 +157,7 @@ color: #FFFFFF;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 18px;
   top: 10px;
   
@@ -151,7 +166,24 @@ color: #FFFFFF;
   
   
   }
+  .about-us{
 
+    /* About Us */
+  /* H1 */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 60px;
+  /* identical to box height */
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  
+  /* White */
+  color: #FFFFFF;
+  
+  
+  }
 
 
   
@@ -532,7 +564,7 @@ color: #FFFFFF;
 
 
 /* Portfolio */
-height: 100%;
+height: 100% !important;
 
 
 
@@ -613,7 +645,7 @@ color: #200EE4;
 /* Rectangle 2 */
 
 position: absolute;
-width: 10%;
+width: 25% !important;
 height: 7%;
 
 
@@ -654,9 +686,9 @@ color: #FFFFFF;
 /* Rectangle 2 */
 
 position: absolute;
-width: 40%;
+width: 40% !important;
 height: 6%;
-
+left: 5%;
 
 background: linear-gradient(180deg, #200EE4 0%, #283AA8 31%, #399C23 100%);
 border-radius: 30px;
@@ -669,7 +701,7 @@ border-radius: 30px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 15px;
+font-size: 12px;
 line-height: 22px;
 /* identical to box height */
 text-align: center;
@@ -690,34 +722,39 @@ color: #FFFFFF;
   /* Image Placeholder */
 
   
-  height: 40% !important;
+  height: 40%;
  
-  position: absolute !important;
-  margin-top: 5% !important;
-  margin-left: 12% !important;
-width: 40% !important;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 20%;
+  right: 0px;
+width: 75% !important;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
-border-radius: 10px !important;
+border-radius: 10px;
+
+
+
 }
 .section2-port2{
 
   /* Image Placeholder */
-  margin-left: 0px !important;
-  height: 40% !important;
-width: 40% !important;
-margin-top: 15% !important;
-position: absolute !important;
+  margin-left: 0px;
+  height: 42%;
+width: 90%;
+margin-top: 32%;
+position: absolute;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
-border-radius: 10px !important;
+border-radius: 10px ;
 
 }
 .section3-port3{
   /* Image Placeholder */
-  margin-top: 25%;
+  margin-top: 48%;
   height: 40%;
   position: absolute;
-  margin-left: 12%;
-width: 40%;
+  margin-left: 40%;
+  right: 0px;
+  width: 75% !important;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
 border-radius: 10px;
 
@@ -725,7 +762,7 @@ border-radius: 10px;
 /* Image Placeholder */
 .image-section10{
   margin-top: -14%;
-  margin-left: 10%;
+  margin-left: 18%;
 }
 .image-section20{
   margin-top: -25%;
@@ -734,7 +771,7 @@ border-radius: 10px;
 
 .image-section30{
   margin-top: -16%;
-  height: 135%;
+  height: 132.5%;
   margin-left: 40%;
 }
 @media screen and (max-width:720px){
@@ -746,11 +783,10 @@ border-radius: 10px;
   /* Image Placeholder */
 
   
-  height: 30% !important;
-margin-right: 35% !important;
+  height: 100% !important;
   margin-top: -40% !important;
-width: 90% !important;
-margin-left: 0% !important;
+width: 100% !important;
+display: none;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
 border-radius: 10px !important;
 }
@@ -768,11 +804,10 @@ border-radius: 10px;
 }
 .section3-port3{
   /* Image Placeholder */
-  margin-top: 25%;
-  height: 40%;
-  margin-left: 12%;
-  display: none;
-width: 40%;
+  margin-top:-35%;
+  height: 140% !important;
+
+width: 100% !important;
 background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
 border-radius: 10px;
 
@@ -781,7 +816,7 @@ border-radius: 10px;
 .image-section10{
   margin-top: -14%;
   height: 119%;
-  margin-left: -19%;
+width: 100%;
 
 }
 .image-section20{
@@ -791,10 +826,10 @@ border-radius: 10px;
 }
 
 .image-section30{
-  margin-top: -16%;
-  height: 135%;
-  margin-left: 40%;
-  display: none;
+  margin-left: 0.1% !important;
+  height: 115%;
+width: 100%;
+
 }
 
 
@@ -921,6 +956,32 @@ color: white;
 background: linear-gradient(90deg, #200EE4 4.77%, #399C23 100%);
 border: 1px solid #FFFFFF;
 border-radius: 10px;
+
+
+
+}
+
+@media screen and (max-width:600px) and (max-width:720px){
+
+  .contact-us-content{
+
+    /* LETS CHANGE YOUR OWN web DESIGN NOW */
+    /* H1 */
+    padding-top: 5%;
+    padding-left: 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px !important;
+    line-height: 70px !important;
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase;
+    
+    /* White */
+    color: #FFFFFF;
+    
+    
+    }
 
 
 
@@ -1055,6 +1116,50 @@ margin-top: 500%;
   border-bottom: 12px solid transparent;
   top: 10px;
   left: 5px;
+}
+@media screen and (max-width:600px) and (max-width:720px){
+
+  .video-play-button {
+    position: absolute;
+    z-index: 10;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    /* background: #eb2055; */
+    border-radius: 50%;
+    padding: 26px 24px 14px 12px !important;
+  }
+  .video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    margin-left: 810%;
+  margin-top: 500%;
+    height: 0;
+    border-left: 19px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    top: 10px;
+    left: 2px;
+    
+  }
+  .video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    margin-left: 810%;
+  margin-top: 500%;
+    height: 0;
+    border-left: 19px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    top: 12px !important;
+    left: -22px !important;
+  }
 }
 
 @keyframes pulse-border {
