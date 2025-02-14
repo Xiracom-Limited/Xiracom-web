@@ -370,7 +370,11 @@ p {
         .prev { left: 10px; }
         .next { right: 10px; }
 
-   
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
 .slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -401,7 +405,6 @@ p {
 .next { right: 10px; }
 
     
-       
 .idea {
     text-align: center;
     width: 100%;
