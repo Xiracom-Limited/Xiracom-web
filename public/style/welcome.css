@@ -332,11 +332,15 @@ p {
     color: black;
     padding: 2%;
 }
+
+.client-h2 {
+    margin-top: 5%;
+}
     
 .slider-container {
 
             width: 80%;
-            margin: auto;
+            margin: 5% auto;
             overflow: hidden;
             position: relative;
         }
@@ -366,11 +370,7 @@ p {
         .prev { left: 10px; }
         .next { right: 10px; }
 
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-}
+   
 .slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -401,6 +401,7 @@ p {
 .next { right: 10px; }
 
     
+       
 .idea {
     text-align: center;
     width: 100%;
