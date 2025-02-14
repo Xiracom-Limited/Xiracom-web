@@ -408,13 +408,12 @@
         </div>
     </div>
     </section>
-
+    <center>
     <div class="Testimonials">
-
     <h2>Client Testimonials</h2>
     <div class="slider-container">
         <div class="slider">
-            <div class="testimonial">
+            <div class="testimonial">  
 
                 <img src="images\ascada.png" alt="">
                 <h3>ASCADA SCHOOL</h3>
@@ -433,6 +432,7 @@
             </div>
         </div>
      </div>
+</div>
      </center>
     
 
