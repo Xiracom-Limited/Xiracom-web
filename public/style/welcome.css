@@ -327,69 +327,6 @@ p {
     
     
     
-/* Testimonials Section */
-.Testimonials {
-    margin: 5% 0;
-    background: linear-gradient(to right,#399C23, #12087E);
-    text-align: center;
-    color: black;
-    padding: 2%;
-}
-    
-.Clients {
-    text-align: center;
-    font-size: 2rem;
-    color: #fff;
-}
-    
-.profile-card-container {
-    display: flex;
-    justify-content: center;
-    gap: 1%;
-    flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: 100%;
-    padding: 7%;
-}
-      
-.profile-card {
-    width: 100%;
-    background: linear-gradient(135deg, #32a852, #1b74e4);
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    color: white;
-    text-align: center;
-    position: relative;
-}
-      
-.profile-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto 15px;
-    background: #ffffff;
-}
-      
-.profile-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-      
-.profile-name {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 10px 0;
-}
-      
-.profile-description {
-    font-size: 0.95em;
-    line-height: 1.5;
-}
-    
 .idea {
     text-align: center;
     width: 100%;
@@ -591,7 +528,6 @@ p {
   /* Testimonials Section */
 .Testimonials {
     margin: 5% 0;
-    background: linear-gradient(to right,#399C23, #12087E);
     text-align: center;
     color: black;
     padding: 2%;
@@ -641,15 +577,13 @@ p {
 }
 .testimonial {
     min-width: 25%;
-    background: #4a4ab5;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
 }
 .testimonial img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    width: 80px;
+    height: 80px;
 }
 .arrow {
     position: absolute;
