@@ -453,55 +453,38 @@
     </div>
     </section>
 
-
-    <center>
-    <div class="Testimonials">
-    <h2>Client Testimonials</h2>
-    <div class="slider-container">
-        <div class="slider">
-            <div class="testimonial">  
-
-                <img src="images\ascada.png" alt="">
-                <h3>ASCADA SCHOOL</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\CUEA.jpeg" alt="">
-                <h3>CUEA</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\eavi.png" alt="">
-                <h3>EAVI</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\eyrie.png" alt="">
-                <h3>EYRIE</h3>
-            </div>
-        </div>
-     </div>
-</div>
-     </center>
+    <!--Testimonials starts here-->
+    <h5 class="Services-title mt-5"><img src="images/star.svg">Our Clients </h5>
+    <div id="carouselExampleControls" class="carousel slide mt-5" style="background-color:whitesmoke;" data-ride="carousel">
     
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block" src="images/eavi.png" width="15%"  style="margin-left:40%;"alt="First slide">
 
-    <script>
-        let index = 0;
-        function moveSlide(direction) {
-            const slider = document.querySelector('.slider');
-            const totalSlides = document.querySelectorAll('.testimonial').length;
-            const slideWidth = document.querySelector('.testimonial').offsetWidth;
-            index += direction;
-            if (index < 0) {
-                index = totalSlides - 1;
-            } else if (index >= totalSlides) {
-                index = 0;
-            }
-            slider.style.transform = `translateX(${-index * slideWidth}px)`;
-        }
-        function autoSlide() {
-            moveSlide(1);
-        }
-        setInterval(autoSlide, 3000); // Auto-slide every 3 sec
-    </script>
-              
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-30" src="images/examparlour.png" height="20%" width="15%"style="margin-left:40%;"aalt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block " src="images/CUEA.jpeg" width="15%" height="20%"style="margin-left:40%;"aalt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-30" src="images/ascada.png" height="20%" width="15%"style="margin-left:40%;"aalt="Third slide">
+    
+    </div>
+  </div>
+  <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" style="background-color:black;" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next " href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" style="background-color:black;"  aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!--testimonials ends here-->
 
     <h5 class="idea">Have an idea about project?</h5>
     <div class="ideas">
