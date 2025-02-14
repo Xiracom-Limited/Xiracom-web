@@ -338,6 +338,7 @@ p {
 }
     
 .slider-container {
+
             width: 80%;
             margin: 5% auto;
             overflow: hidden;
@@ -356,6 +357,50 @@ p {
             width: 150px;
             height: 150px;
         }
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 50%;
+        }
+        .prev { left: 10px; }
+        .next { right: 10px; }
+
+   
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.testimonial {
+    min-width: 25%;
+    background: #4a4ab5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+}
+.prev { left: 10px; }
+.next { right: 10px; }
+
+    
        
 .idea {
     text-align: center;

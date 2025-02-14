@@ -409,11 +409,15 @@
     </div>
     </section>
 
+    <div class="Testimonials">
+
+    <h2>Client Testimonials</h2>
     
     <center><h2 class="client-h2">Our Client</h2>
     <div class="slider-container">
         <div class="slider">
             <div class="testimonial">
+
                 <img src="images\ascada.png" alt="">
                 <h3>ASCADA SCHOOL</h3>
             </div>
@@ -452,6 +456,45 @@
             moveSlide(1);
         }
         setInterval(autoSlide, 3000); // Auto-slide every 3 sec
+    </script>
+                <img src="https://via.placeholder.com/60" alt="">
+                <h3>Jason Wandrag</h3>
+                <p>Opening a Graphic Design Business can be a very good business opportunity...</p>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/60" alt="">
+                <h3>Maria Ava</h3>
+                <p>Opening a Graphic Design Business can be a very good business opportunity...</p>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/60" alt="">
+                <h3>Smith Jon</h3>
+                <p>Opening a Graphic Design Business can be a very good business opportunity...</p>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/60" alt="">
+                <h3>Smith Jon</h3>
+                <p>Opening a Graphic Design Business can be a very good business opportunity...</p>
+            </div>
+        </div>
+        <div class="arrow prev" onclick="moveSlide(-1)">&#10094;</div>
+        <div class="arrow next" onclick="moveSlide(1)">&#10095;</div>
+     </div>
+    </div>
+
+
+    <script>
+        let index = 0;
+        function moveSlide(direction) {
+            const slider = document.querySelector('.slider');
+            const totalSlides = document.querySelectorAll('.testimonial').length;
+            const slideWidth = document.querySelector('.testimonial').offsetWidth;
+            index += direction;
+            if (index < 0) index = totalSlides - 1;
+            if (index >= totalSlides) index = 0;
+            slider.style.transform = `translateX(${-index * slideWidth}px)`;
+        }
+        setInterval(() => moveSlide(1), 3000); // Auto-slide every 3 sec
     </script>
 
 
