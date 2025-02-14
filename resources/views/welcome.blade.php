@@ -410,7 +410,7 @@
     </section>
 
     
-    <h2>Client Testimonials</h2>
+    <center><h2 class="client-h2">Our Client</h2>
     <div class="slider-container">
         <div class="slider">
             <div class="testimonial">
@@ -431,6 +431,7 @@
             </div>
         </div>
      </div>
+     </center>
     
 
     <script>

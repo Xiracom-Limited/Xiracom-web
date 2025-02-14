@@ -332,10 +332,14 @@ p {
     color: black;
     padding: 2%;
 }
+
+.client-h2 {
+    margin-top: 5%;
+}
     
 .slider-container {
             width: 80%;
-            margin: auto;
+            margin: 5% auto;
             overflow: hidden;
             position: relative;
         }
@@ -352,19 +356,7 @@ p {
             width: 150px;
             height: 150px;
         }
-        .arrow {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 24px;
-            cursor: pointer;
-            background: rgba(0, 0, 0, 0.5);
-            padding: 10px;
-            border-radius: 50%;
-        }
-        .prev { left: 10px; }
-        .next { right: 10px; }
-    
+       
 .idea {
     text-align: center;
     width: 100%;
