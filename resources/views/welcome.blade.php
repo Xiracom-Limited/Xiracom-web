@@ -1,4 +1,4 @@
-@include("nav-bar2")
+@include("nav-bar")
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiracom</title>  
+    <title>Xiracom Limited - Nairobi Kenya</title>
     @vite(['resources/sass/app.scss','resources/js/app.js'])
 
     <link rel="stylesheet" href="style/welcome.css">
@@ -102,8 +102,6 @@
 
         .banner video {
             position: absolute;
-            right: 0;
-            bottom: 0;
             z-index: -1;
 
 
@@ -114,7 +112,16 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+       
         }
+        .center-button{
+
+            margin-left:35%;
+            margin-top:-10% !important;
+
+        }
+        
+        
 
         @media(min-aspect-ratio: 16/9) {
             .banner video {
@@ -129,9 +136,9 @@
         }
 
         .content {
-        text-align: left;  /* Align text to the left */
-        max-width: 50%; 
-        margin-left:3%; /* Prevents text from spreading too wide */
+        text-align: center;  /* Align text to the left */
+        max-width: 60%; 
+        margin-left:20%; /* Prevents text from spreading too wide */
     }
 @media screen and (max-width:600px) and (max-width:720px){
     .content {
@@ -152,6 +159,7 @@
         font-size: 3.5rem;
         font-weight: bold;
         white-space: nowrap;
+        
         /* font-size: 70px;  Ensure font size remains 70px */
         font-weight: bold;
         line-height: 1.2; /* Adjust for spacing */
@@ -201,6 +209,19 @@
                 gap: 10px;
             }
         }
+        .buttons-heroes-section2{
+
+     position:inherit;
+     margin-top:-10%;
+     
+     padding-bottom:3%;
+
+
+        }
+        .button-section{
+            margin-left:35%;
+       
+        }
     </style>
     <!-- <header class="hero-section">
         <div class="content">
@@ -214,21 +235,27 @@
             <img src="images\Rectangle 1981.png" alt="Person with Laptop">
         </div>
     </header> -->
-    <div class="banner">
+    <div class="banner" style="height:680px">
         <video class="flip" autoplay loop muted plays-inline>
-            <source src="images/hiro-video3.mp4" type="video/mp4">
+            <source src="images/xiravide.mp4" type="video/mp4">
         </video>
 
         <div class="content">
         <h1 id="typing-text"></h1>
         <span class="cursor">|</span> 
-            <div class="buttons d-flex justify-content-center gap-3 mt-3">
+            <div class="buttons center-button" >
                 <a href="./register" class="btn btn-primary">Get Started</a>
                 <a href="./request-quote" class="btn btn-secondary">Request Quote</a>
-            </div>
-        </div>
+                
+        
     </div>
-
+   
+  
+        </div>
+    
+     
+    </div>
+  
     <script>
         document.addEventListener("DOMContentLoaded", function () {
         const text = "Kenya's Trusted Partner in Professional Tech Solutions";
@@ -283,16 +310,27 @@
     </script>
     <!-- Tabs section  starts here-->
 
-<div class="tabs">
-  <button>UI/UX Design</button>
- 
-  <button>DarasaLink</button>
-  
-  <button>Exam Parlour</button>
+    <div class="buttons-heroes-section2">
+        <div class="button-section">
 
-  <button>Web Design</button>
-</div>
-   
+        <button>
+    Examparlour
+</button>
+<button>
+ DarasaLink
+</button>
+<button>
+  UI/UX Design
+</button>
+<button>
+   Web Design
+</button>
+<button>
+    Bulk SMS 
+</button>
+        </div>
+
+   </div>
     <section class="design-process">
         
         <div class="steps">
@@ -310,7 +348,7 @@
               
                    
                  
-                    <h3> <img src="images/pie1.svg"  width="11%">Expertise and Innovation</h3>
+                    <h3> <img src="images/pie1.svg"  width="10%">Expertise and Innovation</h3>
                     <p>
                Our team of professionals brings years of experience across Software Engineering,
                          ensuring that we understand the challenges and opportunities you face.</p>
@@ -323,7 +361,7 @@
                 </div>
                 <div class="step-content">
                
-                    <h3> <img src="images/pie2.svg" width="11%">Customer-Centric Approach</h3>
+                    <h3> <img src="images/pie2.svg" width="10%">Customer-Centric Approach</h3>
                     <p>At Xiracom, you are at the heart of everything we do. We believe that the key to success lies in understanding your unique needs, goals, and challenges. </p>
                 </div>
             </div>
@@ -333,7 +371,7 @@
                 </div>
                 <div class="step-content">
                
-                    <h3> <img src="images/pie3.svg" width="11%">Ongoing Support</h3>
+                    <h3> <img src="images/pie3.svg" width="10%">Ongoing Support</h3>
                     <p>Our dedicated support team is always here to assist you, whether you need troubleshooting, updates, or guidance on how to maximize the value of our solutions.</p>
                 </div>
             </div>
@@ -341,18 +379,24 @@
 
         <div class="cards">
             
-            <div class="cards-image1">
-              
-            </div>
-           
+            <div >
                
+                <img src="images/young-black-man.jpg"class="border-image" width="100%" height="100%">
+                
+            </div>
+            <div>
+          
+            <img src="images/colleagues-working.jpg"  class="border-image" width="100%" height="100%">
+          
+              </div>
+            
             </div>
         </div>
     </section>
    
 </section>
 
-    <h5 class="Services-title">Our Services</h5>
+    <h5 class="Services-title">Our Services <img src="images/star.svg"></h5>
     <div class="services-grid">
         <div class="service-card">
             <div class="icon">📡</div>
@@ -408,6 +452,8 @@
         </div>
     </div>
     </section>
+
+
     <center>
     <div class="Testimonials">
     <h2>Client Testimonials</h2>
@@ -457,7 +503,6 @@
     </script>
               
 
-
     <h5 class="idea">Have an idea about project?</h5>
     <div class="ideas">
         <button class="btn-request-quote">Request Quote</button>
@@ -471,3 +516,8 @@
 </body>
 
 </html>
+
+
+
+
+

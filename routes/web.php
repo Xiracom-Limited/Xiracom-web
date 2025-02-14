@@ -177,3 +177,8 @@ Route::get('/training&bootcamps', function () {
     return view('training&bootcamps');
 
 });
+Route::get('/nav-bar', function () {
+
+    return view('nav-bar');
+
+});
