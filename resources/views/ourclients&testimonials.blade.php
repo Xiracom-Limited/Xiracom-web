@@ -47,7 +47,7 @@
             <div class="testimonial-text">
                 <h3>"AMACEA Pastoral Institute"</h3>
                 <p>"Xirocom LIMITED transformed our school with a seamless system. Their support was exceptional, and their team was very responsive. Highly recommended!"</p>
-                <p class="author">- Prof. Segeja, Principal, CUEA Gaba</p>
+                <p class="author">- Prof. Segeja, Director, CUEA Gaba</p>
             </div>
         </div>
     </div>

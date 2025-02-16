@@ -29,39 +29,11 @@
             background-size: center;
         }
 
-        /* .navbar{
-    width: 90%;
-    padding: 30px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    width: 160px;
-    margin-top: -10px;
-    cursor: pointer;
-}
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 20px;
-}
-.navbar ul li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 600;
-    padding: 15px;
-} */
         li a:hover {
             background: white;
             transition: 0.6s;
         }
 
-        /* .navbar a:hover{
-    color: black;
-} */
         .content {
             width: 100%;
             position: absolute;
@@ -77,28 +49,6 @@
             font-size: 60px;
             font-weight: 800;
         }
-
-        /* button {
-            width: 200px;
-            padding: 15px;
-            margin: 20px 5px;
-            text-align: center;
-            border-radius: 25px;
-            color: black;
-            border: 2px;
-            font-size: 20px;
-            cursor: pointer;
-            font-weight: 600;
-        } */
-
-        /* button:hover {
-            background: rgb(0, 192, 226);
-            transition: 0.5s;
-        } */
-
-        /* button:hover {
-            color: white;
-        } */
 
         .banner video {
             position: absolute;
@@ -223,18 +173,6 @@
        
         }
     </style>
-    <!-- <header class="hero-section">
-        <div class="content">
-            <h1>Kenya's Trusted Partner in <br> Professional Tech Solutions</h1>
-            <div class="buttons">
-                <a href="#" class="btn btn-primary">Get Started</a>
-                <a href="#" class="btn btn-secondary">Request Quote</a>
-            </div>
-        </div>
-        <div class="image">
-            <img src="images\Rectangle 1981.png" alt="Person with Laptop">
-        </div>
-    </header> -->
     <div class="banner" style="height:680px">
         <video class="flip" autoplay loop muted plays-inline>
             <source src="images/xiravide.mp4" type="video/mp4">
@@ -311,32 +249,32 @@
     <!-- Tabs section  starts here-->
 
     <div class="buttons-heroes-section2">
-        <div class="button-section">
-
+       <div class="button-section">
         <button>
-    Examparlour
-</button>
-<button>
- DarasaLink
-</button>
-<button>
-  UI/UX Design
-</button>
-<button>
-   Web Design
-</button>
-<button>
-    Bulk SMS 
-</button>
-        </div>
-
+         Examparlour
+        </button>
+        <button>
+         DarasaLink
+        </button>
+        <button>
+         UI/UX Design
+        </button>
+        <button>
+         Web Design
+        </button>
+        <button>
+         Bulk SMS 
+        </button>
+    </div>
    </div>
+
     <section class="design-process">
-        
         <div class="steps">
+        <center>
         <h3 class="step-content" style="color:blue;text-weight:bolder">
-        What's Make Us Different?
+        What Make's Us Different?
          </h3>
+        </center>
             <div class="step">
             
                 <div class="step-number">
@@ -456,9 +394,58 @@
 
     <center>
     <div class="Testimonials">
-    <h2>Client Testimonials</h2>
+    <h5 class="Services-title">Our Clients <img src="images/star.svg"></h5>
     <div class="slider-container">
         <div class="slider">
+            <div class="testimonial">  
+                <img src="images\ascada.png" alt="">
+                <h3>ASCADA SCHOOL</h3>
+            </div>
+            <div class="testimonial">
+                <img src="images\CUEA.jpeg" alt="">
+                <h3>CUEA</h3>
+            </div>
+            <div class="testimonial">
+                <img src="images\eavi.png" alt="">
+                <h3>EAVI</h3>
+            </div>
+            <div class="testimonial">
+                <img src="images\eyrie.png" alt="">
+                <h3>EYRIE</h3>
+            </div>
+            <div class="testimonial">  
+
+                <img src="images\ascada.png" alt="">
+                <h3>ASCADA SCHOOL</h3>
+            </div>
+            <div class="testimonial">
+                <img src="images\CUEA.jpeg" alt="">
+                <h3>CUEA</h3>
+            </div>
+            <div class="testimonial">
+                <img src="images\eavi.png" alt="">
+                <h3>EAVI</h3>
+            </div>
+            <div class="testimonial">
+                <img src="images\eyrie.png" alt="">
+                <h3>EYRIE</h3>
+            </div>
+            <div class="testimonial">  
+                <img src="images\ascada.png" alt="">
+                <h3>ASCADA SCHOOL</h3>
+            </div>
+            <div class="testimonial">
+                <img src="images\CUEA.jpeg" alt="">
+                <h3>CUEA</h3>
+            </div>
+            <div class="testimonial">
+                <img src="images\eavi.png" alt="">
+                <h3>EAVI</h3>
+            </div>
+            <div class="testimonial">
+                <img src="images\eyrie.png" alt="">
+                <h3>EYRIE</h3>
+            </div>
             <div class="testimonial">  
 
                 <img src="images\ascada.png" alt="">
@@ -501,18 +488,20 @@
         }
         setInterval(autoSlide, 3000); // Auto-slide every 3 sec
     </script>
-              
 
-    <h5 class="idea">Have an idea about project?</h5>
-    <div class="ideas">
-        <button class="btn-request-quote">Request Quote</button>
-        <button class="btn-hire-us">Hire us</button>
+<section class="cta-section-bottom w-sm-100" id="last">
+    <div>
+      <h2 class="fs-sm-2">Have an idea about a project? Let’s Get Started.</h2>
+      <p>Here is a quick way to begin</p>
     </div>
-
-    <!-- Footer starts here-->
+    <div>
+    <button class="cta-bottom">Request quote</button>
+    <button class="cta-bottom">Hire us</button>
+    </div>
+  </section>
  
-
     @include("footer")
+
 </body>
 
 </html>
