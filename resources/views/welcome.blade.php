@@ -390,104 +390,16 @@
         </div>
     </div>
     </section>
+     
+    <h5 class="Services-title mt-5">Our Clients <img src="images/star.svg"></h5>
+    <div class="pic-ctn">
+    <img src="images/eavi.png" alt="" class="pic">
+    <img src="images/examparlour.png" alt="" class="pic">
+    <img src="images/CUEA.jpeg" alt="" class="pic">
+    <img src="images/ascada.png" alt="" class="pic">
+    <img src="images/examparlour.png" alt="" class="pic">
+  </div>
 
-
-    <center>
-    <div class="Testimonials">
-    <h5 class="Services-title">Our Clients <img src="images/star.svg"></h5>
-    <div class="slider-container">
-        <div class="slider">
-            <div class="testimonial">  
-                <img src="images\ascada.png" alt="">
-                <h3>ASCADA SCHOOL</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\CUEA.jpeg" alt="">
-                <h3>CUEA</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\eavi.png" alt="">
-                <h3>EAVI</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\eyrie.png" alt="">
-                <h3>EYRIE</h3>
-            </div>
-            <div class="testimonial">  
-
-                <img src="images\ascada.png" alt="">
-                <h3>ASCADA SCHOOL</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\CUEA.jpeg" alt="">
-                <h3>CUEA</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\eavi.png" alt="">
-                <h3>EAVI</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\eyrie.png" alt="">
-                <h3>EYRIE</h3>
-            </div>
-            <div class="testimonial">  
-                <img src="images\ascada.png" alt="">
-                <h3>ASCADA SCHOOL</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\CUEA.jpeg" alt="">
-                <h3>CUEA</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\eavi.png" alt="">
-                <h3>EAVI</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\eyrie.png" alt="">
-                <h3>EYRIE</h3>
-            </div>
-            <div class="testimonial">  
-
-                <img src="images\ascada.png" alt="">
-                <h3>ASCADA SCHOOL</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\CUEA.jpeg" alt="">
-                <h3>CUEA</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\eavi.png" alt="">
-                <h3>EAVI</h3>
-            </div>
-            <div class="testimonial">
-                <img src="images\eyrie.png" alt="">
-                <h3>EYRIE</h3>
-            </div>
-        </div>
-     </div>
-</div>
-     </center>
-    
-
-    <script>
-        let index = 0;
-        function moveSlide(direction) {
-            const slider = document.querySelector('.slider');
-            const totalSlides = document.querySelectorAll('.testimonial').length;
-            const slideWidth = document.querySelector('.testimonial').offsetWidth;
-            index += direction;
-            if (index < 0) {
-                index = totalSlides - 1;
-            } else if (index >= totalSlides) {
-                index = 0;
-            }
-            slider.style.transform = `translateX(${-index * slideWidth}px)`;
-        }
-        function autoSlide() {
-            moveSlide(1);
-        }
-        setInterval(autoSlide, 3000); // Auto-slide every 3 sec
-    </script>
 
 <section class="cta-section-bottom w-sm-100" id="last">
     <div>
