@@ -26,28 +26,38 @@
       Welcome to Xiracom's Jobs and internships space where innovation meets skill. At Xiracom we believe that working together is the first step to achieving more than we can possibly imagine.
     </p>
 
-    <section class="process-section">
-      <div class="process-steps">
-        <div class="step-circle">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef2c9783ee912505a67a374e92568d0b6badea58cbe3c86acf82ae91b46a1324?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Register account icon" class="step-icon" />
+<!-- Steps Section -->
+<div class="container-fluid steps-section bg-light py-5">
+        <div class="container text-center">
+            <h2>Unlock Your Job Potential in 3 Simple Steps</h2>
+            <div class="row">
+                <!-- Step 1: Sign Up -->
+                <div class="col-md-3">
+                    <div class="step-frame">
+                        <img src="./images/Examparlour5.png" alt="Step 1">
+                    </div>
+                    <h5>Register your account</h5>
+                </div>
+                <!-- Step 2: Choose Study Material -->
+                <div class="col-md-3">
+                    <div class="step-frame">
+                        <img src="./images/Examparlour6.png" alt="Step 2">
+                    </div>
+                    <h5>Upload your resume</h5>
+                </div>
+                <!-- Step 3: Take Interactive Tests -->
+                <div class="col-md-3">
+                    <div class="step-frame">
+                        <img src="./images/Examparlour7.png" alt="Step 3">
+                    </div>
+                    <h5>Apply for dream job</h5>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div class="step-connector"></div>
-        <div class="step-circle">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/770660ec75faec43c3339cc0a2026bc0d6850b4a30a52b0c03520a97a66dc2b2?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Upload resume icon" class="step-icon" />
-        </div>
 
-        <div class="step-connector"></div>
-        <div class="step-circle">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/77944ddad3c4e223a2ee883e26e63bae74553850e28bfbc74f46dd9b601533e9?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Apply job icon" class="step-icon" />
-        </div>
-      </div>
-      <div class="step-labels">
-        <span>Register your account</span>
-        <span>Upload your Resume</span>
-        <span>Apply for Dream Job</span>
-      </div>
-    </section>
+
     <center>
     <h2 class="section-title"><b>Latest Jobs and opportunities</b></h2>
     </center>
@@ -101,7 +111,62 @@
         <p class="job-count">10 Jobs available</p>
       </article>
       </center>
-      <button class="explore-button">Explore More</button>
+      <button class="explore-button">Get Job</button>
+
+      <center>
+    <h2 class="section-title"><b>Internships Available</b></h2>
+    </center>
+    <center>
+    <div class="jobs-grid">
+      <article class="job-card">
+        <div class="job-header">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
+          <h3 class="job-title">Web design and development</h3>
+        </div>
+        <p class="job-count">10 Jobs available</p>
+      </article>
+
+      <article class="job-card">
+        <div class="job-header">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
+          <h3 class="job-title">Web design and development</h3>
+        </div>
+        <p class="job-count">10 Jobs available</p>
+      </article>
+
+      <article class="job-card">
+        <div class="job-header">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
+          <h3 class="job-title">Web design and development</h3>
+        </div>
+        <p class="job-count">10 Jobs available</p>
+      </article>
+
+      <article class="job-card">
+        <div class="job-header">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
+          <h3 class="job-title">Web design and development</h3>
+        </div>
+        <p class="job-count">10 Jobs available</p>
+      </article>
+
+      <article class="job-card">
+        <div class="job-header">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
+          <h3 class="job-title">Web design and development</h3>
+        </div>
+        <p class="job-count">10 Jobs available</p>
+      </article>
+
+      <article class="job-card">
+        <div class="job-header">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
+          <h3 class="job-title">Web design and development</h3>
+        </div>
+        <p class="job-count">10 Jobs available</p>
+      </article>
+      </center>
+      <button class="explore-button">Apply Internships</button>
     </div>
   </main>
 </section>

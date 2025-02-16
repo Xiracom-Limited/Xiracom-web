@@ -179,16 +179,23 @@
   align-self: center;
   width: auto;
   border-radius: 72px;
-  background-color: #399c23;
+  background: linear-gradient(to bottom, #399C23, #200EE4);
   margin-top: 24px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
   color: #fff;
   padding: 10px 28px;
-  border: 2px solid #102038;
+  border: none;
   align-items: center;
   justify-content: center;
-  margin-left: 10%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
+
+.explore-button:hover {
+  background: linear-gradient(to top, #399C23, #200EE4);
+}
+
 
 @media (max-width: 991px) {
   .jobs-section {
@@ -293,5 +300,105 @@
   .explore-button {
     padding: 20px;
     margin-left: 100px;
+  }
+}
+
+/* Steps Section */
+.steps-section {
+  color: #fff;
+  padding: 60px 0; /* Padding around the section */
+}
+
+.steps-section h2 {
+  font-family: 'Poppins', sans-serif; /* Font style for title */
+  font-size: 28px; /* Font size for title */
+  font-weight: 600; /* Bold font weight */
+  color: #FF6600; /* Dark gray for contrast */
+  margin-bottom: 40px; /* Space below the title */
+}
+
+/* Pipeline Row */
+.steps-section .row {
+  display: flex; /* Flex layout */
+  align-items: center; /* Center align vertically */
+  justify-content: space-between; /* Spread out columns evenly */
+  position: relative; /* Position for pipeline */
+  margin-top: 20px; /* Space between title and steps */
+}
+
+
+/* Step Container */
+.steps-section .col-md-3 {
+  position: relative; /* For positioning */
+  z-index: 2; /* Above the pipeline */
+  text-align: center; /* Center align content */
+}
+
+/* Circular Frame */
+.steps-section .col-md-3 .step-frame {
+  width: 80px; /* Set consistent size for the circular frame */
+  height: 80px; /* Set consistent size for the circular frame */
+  background-color: #fff; /* White background for the frame */
+  border: 4px solid #DE5917; /* Border color and thickness */
+  border-radius: 50%; /* Make it a circle */
+  display: flex; /* Flexbox for centering image */
+  align-items: center; /* Center image vertically */
+  justify-content: center; /* Center image horizontally */
+  margin: 0 auto; /* Center frame */
+  position: relative; /* Relative for pseudo-element alignment */
+}
+
+/* Step Image */
+.steps-section .col-md-3 img {
+  width: 50%; /* Responsive size within the circular frame */
+  height: 50%; /* Maintain aspect ratio */
+  object-fit: contain; /* Contain the image inside the circle */
+}
+
+/* Step Title */
+.steps-section .col-md-3 h5 {
+  font-family: 'Poppins', sans-serif; /* Font style for step titles */
+  font-size: 16px; /* Font size for step titles */
+  font-weight: 500; /* Medium font weight */
+  color: #333; /* Step title color */
+  margin-top: 15px; /* Space above the text */
+}
+
+/* Connecting lines between steps */
+.steps-section .col-md-3:not(:last-child)::after {
+  content: ""; /* Decorative line */
+  position: absolute; /* Positioned relative to step */
+  top: 30%; /* Center vertically */
+  right: -50px; /* Position to the right of the circle */
+  width: 100px; /* Length of the line */
+  height: 2px; /* Thickness of the line */
+  background-color: #ccc; /* Grey color for the line */
+  z-index: 1; /* Below the step */
+}
+
+/* Space between circle and connecting line */
+.steps-section .col-md-3 .step-frame::after {
+  content: ""; /* Add a gap */
+  position: absolute;
+  top: 50%; /* Center with the frame */
+  right: -10px; /* Space between circle and line */
+  width: 10px; /* Length of the gap */
+  height: 2px; /* Match the pipeline thickness */
+  background-color: transparent; /* Transparent space */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .steps-section .row {
+      flex-direction: column; /* Stack steps vertically */
+      gap: 30px; /* Space between steps */
+  }
+
+  .steps-section .row::before {
+      display: none; /* Hide pipeline on small screens */
+  }
+
+  .steps-section .col-md-3:not(:last-child)::after {
+      display: none; /* Hide connecting lines on small screens */
   }
 }

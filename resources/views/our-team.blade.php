@@ -98,11 +98,37 @@
                     </div>
                 </div>
             </div>
-             <!-- Team Member 4 -->
+
+                         <!-- Team Member 4-->
+                         <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img class="card-img-top img-fluid" src="images\DSC_6434 (1).png" alt="Japheth Kibet - Project Manager">
+                    <div class="card-body4">
+                        <h6 class="card-title">PRODUCT MANAGER</h6>
+                        <p class="text-muted">JAPHETH KIBET</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="social-links">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <!-- Team Member 5 -->
              <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
                     <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Nicole Akinyi - Product Manager">
-                    <div class="card-body4">
+                    <div class="card-body5">
                         <h4 class="card-title">PROJECT MANAGER</h4>
                         <p class="text-muted">GLORIA KOROS</p>
                         <div class="d-flex justify-content-center">
@@ -121,38 +147,15 @@
                     </div>
                 </div>
             </div>
-             <!-- Team Member 5 -->
+             <!-- Team Member 6 -->
              <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
                     <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Gloria Koros- Software Engineer">
-                    <div class="card-body5">
+                    <div class="card-body6">
                         <h5 class="card-title">UI/UX ENGINEER</h5>
                         <p class="text-muted">BERNARD NYENDE</p>
                         <div class="d-flex justify-content-center">
                         <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-                              <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-                              <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-                              <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <!-- Team Member 6-->
-             <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="images\DSC_6434 (1).png" alt="Japheth Kibet - Project Manager">
-                    <div class="card-body6">
-                        <h6 class="card-title">PRODUCT MANAGER</h6>
-                        <p class="text-muted">JAPHETH KIBET</p>
-                        <div class="d-flex justify-content-center">
-                            <div class="social-links">
                             <a href="https://facebook.com" target="_blank" aria-label="Facebook">
                               <i class="fab fa-facebook-f"></i>
                             </a>
