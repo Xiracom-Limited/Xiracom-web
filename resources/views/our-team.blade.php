@@ -150,7 +150,7 @@
              <!-- Team Member 6 -->
              <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Gloria Koros- Software Engineer">
+                    <img class="card-img-top img-fluid" src="./images/bena.png" alt="Gloria Koros- Software Engineer">
                     <div class="card-body6">
                         <h5 class="card-title">UI/UX ENGINEER</h5>
                         <p class="text-muted">BERNARD NYENDE</p>
