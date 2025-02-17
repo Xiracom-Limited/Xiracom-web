@@ -1,0 +1,1213 @@
+
+.heroes-section{
+  width: 100%;
+  height: 100%;
+}
+
+.about-section-one{
+  background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+}
+
+.flip {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width:600px){
+.about-section-one{
+  margin-top: 12% !important;
+  background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+}
+
+body{
+  margin-right: auto;
+}
+.heroes-section{  
+  position: absolute;
+  width: 100%;
+}
+    
+.bg-icon{
+  background-image:url('../images/about-icon.png');
+  background-repeat: no-repeat;
+  background-size: 20%;
+}   
+}
+
+.bg-icon2{
+ background-image:url('../images/Circle.svg');
+ background-repeat: no-repeat;
+ background-size: 20%;
+}
+
+.bg-icon3{
+  background-image:url('../images/Circle.svg');
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+
+.txt-about{
+padding-top: 5%;
+}
+
+.list{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.team-card{
+width: 100%;
+height: 605px;
+}
+
+.upper-section-1{
+  width: 100%;
+  height: 60%;
+  top: 30%;
+  background: url("../images/Team2.png");
+background-position: center;
+background-repeat: no-repeat;
+/* Image Placeholder */
+
+
+
+}
+
+.lower-section2{
+/* Background */
+
+background: #2068DC;
+text-align: center;
+
+
+}
+.lower-section{
+  text-align: center;
+}
+.about-us{
+
+  /* About Us */
+/* H1 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 90px;
+/* identical to box height */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+}
+.about-content{
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. */
+
+/* Text Paragraph */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+/* White */
+color: #FFFFFF;
+
+
+}
+@media screen and (max-width:720px){
+  .about-content{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. */
+  
+  /* Text Paragraph */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  top: 10px;
+  
+  /* White */
+  color: #FFFFFF;
+  
+  
+  }
+  .about-us{
+
+    /* About Us */
+  /* H1 */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 60px;
+  /* identical to box height */
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  
+  /* White */
+  color: #FFFFFF;
+  
+  
+  }
+
+
+  
+}
+.who-we{
+  /* WHO WE ARE */
+/* H6 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 26px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.we-are{
+  /* WE ARE PERFECT TEAM FOR TECH DESIGN */
+/* H2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 68px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+@media screen and (max-width:720px){
+  .we-are{
+    /* WE ARE PERFECT TEAM FOR TECH DESIGN */
+  /* H2 */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  
+  color: #12087E;
+  
+  
+  }
+}
+.team-txt{
+  /* Title */
+
+/* OUR TEAM */
+
+
+
+/* H2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 68px;
+/* identical to box height */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+
+
+}
+.head-txt{
+  /* 15Y */
+
+/* H2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 68px;
+text-align: center;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.exp-txt1{
+  /* Experience */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: left;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+.exp-txt2{
+  /* Best Team */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: left;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+.exp-txt3{
+  /* Best Team */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: left;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+@media screen and (max-width:720px){
+
+.exp-txt1{
+  /* Experience */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: left;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+.exp-txt2{
+  /* Best Team */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: left;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+.exp-txt3{
+  /* Best Team */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: left;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #12087E;
+
+
+}
+}
+.head-title{
+  /* KELVIN MUKOLWE */
+
+/* H4 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+}
+.head-title2{
+  /* LEVIS CHISIRA */
+/* H4 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.title-txt1{
+  /* CEO, CO-FOUNDER */
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* Paragraph Color */
+color: #6E6E6E;
+
+
+}
+.title-txt2{
+
+  /* PRODUCT MANAGER */
+
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.call-us-section{
+  /* Quote Block */
+/* Background */
+
+
+width: 100%;
+height: 50%;
+left: 0px;
+
+
+
+background: linear-gradient(96.08deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+
+
+}
+.call-section1{
+  /* Right Column */
+/* Icon Box */
+
+/* Rectangle 14 */
+
+box-sizing: border-box;
+margin-top: 10%;
+width: 60%;
+margin-left: 20%;
+
+height: 80%;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+
+}
+.call-section2{
+  /* "WORK HARD & GREAT QUALITY IS our PRIORITY" */
+
+width: 70%;
+height: 40%;
+left: 55px;
+top: 38px;
+
+/* H1 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 90px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+}
+.item-alg{
+
+  text-align: left;
+ margin-top: 7%;
+}
+.phone-txt{
+
+  /* ( +254) 704907555 */
+  text-align: center;
+  margin-top: 7%;
+
+/* Text Paragraph */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.call-txt{
+  /* Call Us Now */
+ margin-top: 7%;
+/* H4 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 38px;
+/* identical to box height */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.portfolio-section{
+
+
+/* Portfolio */
+height: 100% !important;
+
+
+
+
+}
+.portfolio-section1{
+
+  /* Left Column */
+
+margin-top: 25%;
+background-image:url('../images/Circle.svg');
+background-repeat: no-repeat;
+background-size: 25%;
+
+
+
+
+}
+.portfolio-head1{
+
+  /* Perfect Partner */
+
+/* H6 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+color: #200EE4;
+
+
+}
+.portfolio-head2{
+
+  /* WE HAVE PRIORITY FOR CAN CREATE DREAM web DESIGN */
+
+/* H2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bolder;
+font-size: 30px;
+line-height: 45px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.portfolio-paragraph{
+/* Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. */
+
+/* Text Paragraph */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 23px;
+
+color: #200EE4;
+
+
+
+}
+.button-portfolio{
+  /* Button */
+/* Button */
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 25% !important;
+height: 7%;
+
+
+background: linear-gradient(180deg, #200EE4 0%, #283AA8 31%, #399C23 100%);
+border-radius: 30px;
+
+
+/* Portfolio */
+
+
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+
+
+}
+@media screen and (max-width:720px){
+
+
+
+.button-portfolio{
+  /* Button */
+/* Button */
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 40% !important;
+height: 6%;
+left: 5%;
+
+background: linear-gradient(180deg, #200EE4 0%, #283AA8 31%, #399C23 100%);
+border-radius: 30px;
+
+
+/* Portfolio */
+
+
+/* Text Button */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+
+
+}
+}
+
+.section1-port1{
+
+  /* Image Placeholder */
+
+  
+  height: 40%;
+ 
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 20%;
+  right: 0px;
+width: 75% !important;
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+
+
+}
+.section2-port2{
+
+  /* Image Placeholder */
+  margin-left: 0px;
+  height: 42%;
+width: 90%;
+margin-top: 32%;
+position: absolute;
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px ;
+
+}
+.section3-port3{
+  /* Image Placeholder */
+  margin-top: 48%;
+  height: 40%;
+  position: absolute;
+  margin-left: 40%;
+  right: 0px;
+  width: 75% !important;
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+}
+/* Image Placeholder */
+.image-section10{
+  margin-top: -14%;
+  margin-left: 18%;
+}
+.image-section20{
+  margin-top: -25%;
+  margin-left: 20%;
+}
+
+.image-section30{
+  margin-top: -16%;
+  height: 132.5%;
+  margin-left: 40%;
+}
+@media screen and (max-width:720px){
+
+
+
+.section1-port1{
+
+  /* Image Placeholder */
+
+  
+  height: 100% !important;
+  margin-top: -40% !important;
+width: 100% !important;
+display: none;
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px !important;
+}
+.section2-port2{
+
+  /* Image Placeholder */
+  margin-left: 0px !important;
+  height: 40% !important;
+width: 40% !important;
+margin-top: 15% !important;
+display: none;
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+}
+.section3-port3{
+  /* Image Placeholder */
+  margin-top:-35%;
+  height: 140% !important;
+
+width: 100% !important;
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+}
+/* Image Placeholder */
+.image-section10{
+  margin-top: -14%;
+  height: 119%;
+width: 100%;
+
+}
+.image-section20{
+  margin-top: -25%;
+  margin-left: 20%;
+  display: none;
+}
+
+.image-section30{
+  margin-left: 0.1% !important;
+  height: 115%;
+width: 100%;
+
+}
+
+
+}
+.why-us-section1{
+
+/* Background Overlay */
+
+width: 100%;
+height: 350px;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+
+
+}
+.why-us-head1{
+
+  /* Trust Us Now */
+
+/* H6 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.why-us-head2{
+
+  /* WHY CHOICE OUR Tech DESIGN SERVICES */
+
+/* H2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 68px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.why-us-paragraph{
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. */
+/* Text Paragraph */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+
+color: #200EE4;
+
+
+}
+.list2{
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+.contact-us-section{
+/* Rectangle 8 */
+width: 100%;
+height: 386px;
+
+margin-top: 3%;
+margin-bottom: 3%;
+background: linear-gradient(90deg, #399C23 0%, #200EE4 100%);
+border-radius: 10px;
+
+
+}
+.contact-us-content{
+
+/* LETS CHANGE YOUR OWN web DESIGN NOW */
+/* H1 */
+padding-top: 5%;
+padding-left: 10%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 90px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+}
+.contact-us-button{
+
+/* Button */
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 10%;
+height: 7%;
+left: 177px;
+color: white;
+
+background: linear-gradient(90deg, #200EE4 4.77%, #399C23 100%);
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+
+
+
+}
+
+@media screen and (max-width:600px) and (max-width:720px){
+
+  .contact-us-content{
+
+    /* LETS CHANGE YOUR OWN web DESIGN NOW */
+    /* H1 */
+    padding-top: 5%;
+    padding-left: 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px !important;
+    line-height: 70px !important;
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase;
+    
+    /* White */
+    color: #FFFFFF;
+    
+    
+    }
+
+
+
+}
+
+.back-why-us{
+  background-image:url('../images/Circle.svg');
+  background-repeat: no-repeat;
+background-size: 15%;
+}
+.link{
+/* Play Button */
+
+
+background: rgba(0, 122, 255, 0.15);
+
+background-size: contain;
+background-size: cover;
+padding-left: 3%;
+padding-right: 3%;
+padding-top: 3%;
+padding-bottom: 3%;
+border-radius: 50%;
+cursor: pointer;
+}
+.link-image{
+  margin-left: 40%;
+  margin-top: 25%;
+
+}
+@media screen and (max-width:720px){
+
+
+  .contact-us-content{
+
+    /* LETS CHANGE YOUR OWN web DESIGN NOW */
+    /* H1 */
+    padding-top: 5%;
+    padding-left: 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 90px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    
+    /* White */
+    color: #FFFFFF;
+    
+    
+    }
+    .contact-us-button{
+
+      /* Button */
+      
+      /* Rectangle 2 */
+      
+      box-sizing: border-box;
+      
+      position: absolute;
+      width: 40%;
+      height: 5%;
+      left: 100px;
+      color: white;
+      
+      background: linear-gradient(90deg, #200EE4 4.77%, #399C23 100%);
+      border: 1px solid #FFFFFF;
+      border-radius: 10px;
+      
+      
+      
+      }
+
+
+
+}
+
+.video-play-button {
+  position: absolute;
+  z-index: 10;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  width: 32px;
+  height: 44px;
+  /* background: #eb2055; */
+  border-radius: 50%;
+  padding: 18px 20px 18px 28px;
+}
+
+.video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+ margin-left: 340%;
+  top: 250%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 55px;
+  height: 55px;
+  background: #399C23;
+  border-radius: 50%;
+  animation: pulse-border 1100ms ease-out infinite;
+}
+
+.video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  margin-left: 340%;
+  top: 250%;
+  width: 80px;
+  height: 80px;
+  background: rgba(0, 122, 255, 0.15);
+  border-radius: 50%;
+  transition: all 200ms;
+}
+
+.video-play-button span {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: 0;
+  margin-left: 810%;
+margin-top: 500%;
+  height: 0;
+  border-left: 19px solid #fff;
+	border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  top: 10px;
+  left: 5px;
+}
+@media screen and (max-width:600px) and (max-width:720px){
+
+  .video-play-button {
+    position: absolute;
+    z-index: 10;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    /* background: #eb2055; */
+    border-radius: 50%;
+    padding: 26px 24px 14px 12px !important;
+  }
+  .video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    margin-left: 810%;
+  margin-top: 500%;
+    height: 0;
+    border-left: 19px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    top: 10px;
+    left: 2px;
+    
+  }
+  .video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    margin-left: 810%;
+  margin-top: 500%;
+    height: 0;
+    border-left: 19px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    top: 12px !important;
+    left: -22px !important;
+  }
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+@media screen and (max-width:720px){
+
+.video-play-button {
+  position: absolute;
+  z-index: 10;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  width: 32px;
+  height: 44px;
+  /* background: #eb2055; */
+  border-radius: 50%;
+  padding: 18px 20px 18px 28px;
+}
+
+.video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+ margin-left: 240%;
+  top: 250%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 55px;
+  height: 55px;
+  background: #399C23;
+  border-radius: 50%;
+  animation: pulse-border 1100ms ease-out infinite;
+}
+
+.video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  margin-left: 240%;
+  top: 250%;
+  width: 80px;
+  height: 80px;
+  background: rgba(0, 122, 255, 0.15);
+  border-radius: 50%;
+  transition: all 200ms;
+}
+
+.video-play-button span {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: 0;
+  margin-left: 560%;
+margin-top: 500%;
+  height: 0;
+  border-left: 19px solid #fff;
+	border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  top: 10px;
+  left: 5px;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+}

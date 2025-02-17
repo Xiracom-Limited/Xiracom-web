@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/about-us.css">
   
   
     <title>About-Us Xiracom Limited Kenya-Africa</title>
@@ -10,17 +10,13 @@
 
 </head>
 <body>
-    <!--body starts here-->
-    <!--heroes section starts here-->
-<div class="heroes-section">
-
-<img src="images/about.png" width="100%" height="60%">
-
+<div class="banner" style="height:680px">
+  <video class="flip" autoplay loop muted plays-inline>
+   <source src="images\about-us.mp4" type="video/mp4">
+  </video>
 </div>
-<!--heroes section ends here-->
-<!--Who we are section-->
-<div class="container-fluid">
 
+<div class="container-fluid">
 <div class="row">
 <div class="col-md-5 col-sm-6 col-lg-5 about-section-one ">
  <div class="bg-icon txt-about">
