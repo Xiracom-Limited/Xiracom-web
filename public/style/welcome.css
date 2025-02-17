@@ -697,9 +697,16 @@ html, body {
     animation-delay: 8s;
   }
 
+  .heroes-buttion-section{
+
+    padding: 2%;
+  }
+
+
   @media (max-width: 768px) {
     .pic-ctn > img {
         width: 30%;
         height: 50%;
       }
 }
+
