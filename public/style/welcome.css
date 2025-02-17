@@ -696,3 +696,7 @@ html, body {
   img:nth-child(5) {
     animation-delay: 8s;
   }
+  .heroes-buttion-section{
+
+    padding: 2%;
+  }
