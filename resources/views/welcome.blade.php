@@ -169,8 +169,8 @@
 
         }
         .button-section{
-            margin-left:35%;
-       
+            margin-left:27%;
+       margin-right:5%;
         }
     </style>
     <div class="banner" style="height:680px">
@@ -250,19 +250,19 @@
 
     <div class="buttons-heroes-section2">
        <div class="button-section">
-        <button>
+        <button class="heroes-buttion-section">
          Examparlour
         </button>
-        <button>
+        <button class="heroes-buttion-section">
          DarasaLink
         </button>
-        <button>
+        <button class="heroes-buttion-section">
          UI/UX Design
         </button>
-        <button>
+        <button class="heroes-buttion-section">
          Web Design
         </button>
-        <button>
+        <button class="heroes-buttion-section">
          Bulk SMS 
         </button>
     </div>
