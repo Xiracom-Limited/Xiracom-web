@@ -17,19 +17,19 @@
 
 
     <!-- Hero Section -->
-    <div class="container-fluid heroes-section bg-success text-white py-5">
+    <div class="container-fluid heroes-section bg-success text-white py-5 mt-5">
         <div class="container text-center">
             <div class="row align-items-center">
                 <!-- Hero Text Content -->
-                <div class="col-md-6 text-md-left">
+                <div class="col-md-6 text-md-left mt-5">
                     <h1>Welcome to Examparlour</h1>
                     <p>Access curated study materials, take interactive tests, and track your progress all in one place.</p>
                     <a href="https://examparlour.com" class="btn btn-primary">Join Us</a>
                     <a href="https://examparlour.com" class="btn btn-secondary">Start Learning</a>
-                </div>
-                <!-- Hero Image -->
-                <div class="col-md-6 text-center">
+                    <!-- Hero Image -->
+                <div class="text-center mt-5">
                     <img src="images/Examparlour1.png" alt="Hero Image">
+                </div>
                 </div>
             </div>
         </div>
