@@ -154,10 +154,10 @@
         <h5 class="text-center">Our Location</h5>
         <p class="text-center">We are located At Daima Towers Eldoret, Kenya</p>
         <div class="map-container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.044065617223!2d39.5025871!3d-3.5447325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwMzInMzYuOCJTIDM5wrAzMCcwOS4zIkU!5e0!3m2!1sen!2ske!4v1712345678901"
-            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
-          </iframe>
+        <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d666.1724175064755!2d35.28114372988457!3d0.5155271440097308!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x178101986728c90f%3A0x485aa4f9417d759!2sDaima%20Towers%20(MUPS)!5e1!3m2!1sen!2sus!4v1739822949609!5m2!1sen!2sus"
+    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+</iframe>
         </div>
       </div>
     </div>
