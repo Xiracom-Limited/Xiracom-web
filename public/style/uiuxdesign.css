@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  min-height: 423px;
+  min-height: 70%;
   margin-top: 0px;
   width: 100%;
   align-items: start;
@@ -74,7 +74,7 @@ body {
 }
 
 .cta {
-    background: linear-gradient(to right, #4b0082, #1a1a3f);
+    background: linear-gradient(to right, #399C23, #200EE4);
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -125,6 +125,10 @@ body {
 .icons img {
     width: 40px;
     height: 40px;
+}
+
+.gridimage {
+    border-radius: 10px;
 }
 
 /* ✅ RESPONSIVE DESIGN */
