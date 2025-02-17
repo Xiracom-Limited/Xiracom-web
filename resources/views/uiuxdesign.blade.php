@@ -10,8 +10,8 @@
 </head>
 <body>
   <!-- Hero section -->
-  <div class="hero-section">
-            <img src="images\uiuxdesign.png" alt="Hardware and software maintenance services hero image" class="hero-image" />
+  <div class="hero-section mt-5">
+            <img src="images\representations-user-experience-interface-design.jpg" alt="Hardware and software maintenance services hero image" class="hero-image" />
         </div>
     
     <div class="container">
@@ -40,7 +40,7 @@
         
         <div class="grid">
             <div class="card">
-            <img src="images\mohammad-rahmani-nBXwqxjDa5c-unsplash 1.png" alt="User">
+            <img src="images\mohammad-rahmani-nBXwqxjDa5c-unsplash 1.png" alt="User" class="gridimage">
                 <h2>Crafting Digital Experiences That Works?</h2>
                 <p>At Xiracom Limited, we design intuitive, user-friendly interfaces that look great and work even better. By blending creativity with technology,
                      we turn complex ideas into simple, engaging experiences that people love to use.</p>
@@ -51,7 +51,7 @@
                      </p>
             </div>
             <div class="card">
-            <img src="images\Frame 1597884199.png" alt="User">
+            <img src="images\pexels-jakubzerdzicki-17561405.jpg" alt="User">
                 <h4>Design that works. Experiences that inspire.</h4>
                 <p>Crafting seamless solutions with innovation, transforming ideas into impactful experiences.</p>
             </div>
