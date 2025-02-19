@@ -19,7 +19,7 @@
         <div class="container text-center">
             <div class="row align-items-center">
                     <h1>Our Team</h1>
-                    <p>Explore the minds behind the<br>amazing Xiracom and it’s partners.</p>
+                    
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
     <!--Our team section starts here-->
     <section class="team-section py-5 bg-light">
     <div class="container text-center">
-        <h2 class="mb-4">Our Team</h2>
+       
         <div class="row">
             <!-- Team Member 1 -->
             <div class="col-md-4 mb-4">
@@ -183,7 +183,7 @@
 
           <!-- Right Column: Button -->
           <div class="col-md-4 ms-auto text-end">
-            <button class="btn btn-custom btn-lg">Get Started</button>
+            <button class="btn btn-custom btn-lg bg-dark">Get Started</button>
           </div>
         </div>
       </div>
