@@ -27,17 +27,15 @@
     }
 
     .hero-section {
-      position: relative;
-      min-height: 626px;
+     margin-top: 40px !important;
       width: 100%;
-      display: flex;
+
       align-items: center;
       justify-content: flex-start; /* Align content to the left */
       padding: 0 80px; /* Add padding for spacing */
     }
     .hero-bg {
-      position: absolute;
-      inset: 0;
+   margin-top: -13%;
       height: 100%;
       width: 100%;
       object-fit: cover;
@@ -278,16 +276,11 @@
 </head>
 <body>
 
-<div class="projects-section">
+<div class="projects-section" >
   <div class="projects-container">
-    <div class="hero-section">
-      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e2ccae77694309af0910fbaae89a241625d53a16a20948910e2f32d819a8ced4?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6" alt="" class="hero-bg" />
-      <div class="hero-content ms-lg-5">
-    <h1 class="hero-title">Some Of Our Projects</h1>
-    <p class="hero-description ms-lg-5">As a digital tech design company, we have a couple of projects that are currently working and others are yet to be launched</p>
-  </div>    </div>
+   
 
-    <h2 class="section-title">Here Are Some Of Our Projects</h2>
+    <h2 class="section-title">Our Current Projects</h2>
 
     <div class="project-card">
       <div class="project-content">
