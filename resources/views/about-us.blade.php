@@ -1,4 +1,4 @@
-@include("nav-bar2")
+@include("nav-bar")
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,9 @@
 
 </head>
 <body>
-<div class="banner" style="height:680px">
-  <video class="flip" autoplay loop muted plays-inline>
-   <source src="images\about-us.mp4" type="video/mp4">
+<div class="bg-dark" style="">
+<video class="container-fluid" autoplay loop muted plays-inline>
+   <source src="images\about-us.mp4" width="100%"type="video/mp4">
   </video>
 </div>
 
