@@ -66,11 +66,22 @@
 
     }
     .section-title {
-      color: #000;
+      
       letter-spacing: -2px;
       text-align: center;
       margin: 123px 0 0 27px;
       font: 700 50px/1 'Poppins', sans-serif;
+    }
+    @media screen and (max-width: 768px) and (max-width: 600px){
+
+      .section-title {
+      font-size: 25px !important;
+      letter-spacing: -2px;
+      text-align: center;
+      margin: 123px 0 0 27px;
+      font: 700 50px/1 'Poppins', sans-serif;
+    }
+      
     }
 
     .divider {
@@ -144,6 +155,7 @@
       font: 400 18px/2 'Poppins', sans-serif;
       text-align: center;
       padding: 11px 40px;
+      color: green !important;
     }
 
     .footer-image {
@@ -280,7 +292,7 @@
   <div class="projects-container">
    
 
-    <h2 class="section-title">Our Current Projects</h2>
+    <h2 class="section-title" style="color:green;">Our Projects</h2>
 
     <div class="project-card">
       <div class="project-content">
