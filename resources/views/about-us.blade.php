@@ -10,13 +10,13 @@
 
 </head>
 <body>
-<div class="bg-dark" style="">
-<video class="container-fluid" autoplay loop muted plays-inline>
+<div class="bg-dark" >
+<video class="container-fluid  phone-view" autoplay loop muted plays-inline>
    <source src="images\about-us.mp4" width="100%"type="video/mp4">
   </video>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid about-phone-section">
 <div class="row">
 <div class="col-md-5 col-sm-6 col-lg-5 about-section-one ">
  <div class="bg-icon txt-about">
