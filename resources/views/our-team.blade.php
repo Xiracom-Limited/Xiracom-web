@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiracom Team</title>
+    <title>Our Team Experts - Xiracom Limited</title>
     <!-- Bootstrap CSS -->
     @vite(['resources/sass/app.scss','resources/js/app.js'])
     <!-- Custom CSS -->
@@ -38,13 +38,13 @@
                         <p class="text-muted">LEVIS CHISIRA</p>
                         <div class="d-flex justify-content-center">
                         <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <a href="#" target="_blank" aria-label="Facebook">
                               <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                            <a href="https://x.com/Chisira_" target="_blank" aria-label="Twitter">
                               <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/company/xiracom/?viewAsMember=true" target="_blank" aria-label="LinkedIn">
                               <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
@@ -61,13 +61,13 @@
                         <p class="text-muted">KELVIN MUKOLWE</p>
                         <div class="d-flex justify-content-center">
                         <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <a href="#" target="_blank" aria-label="Facebook">
                               <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                            <a href="#" target="_blank" aria-label="Twitter">
                               <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/kelvin-omunyu-a7056168/" target="_blank" aria-label="LinkedIn">
                               <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
@@ -84,13 +84,13 @@
                         <p class="text-muted">GERRY AYANGE</p>
                         <div class="d-flex justify-content-center">
                         <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <a href="#" target="_blank" aria-label="Facebook">
                               <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                            <a href="#" target="_blank" aria-label="Twitter">
                               <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <a href="#" target="_blank" aria-label="LinkedIn">
                               <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
@@ -108,13 +108,13 @@
                         <p class="text-muted">JAPHETH KIBET</p>
                         <div class="d-flex justify-content-center">
                             <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <a href="#" target="_blank" aria-label="Facebook">
                               <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                            <a href="https://x.com/BettsonJaphy?t=qWEKTGJ0Psy-SsFoa1TikA&s=09" target="_blank" aria-label="Twitter">
                               <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/japheth-kibet-369778329/" target="_blank" aria-label="LinkedIn">
                               <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
@@ -133,13 +133,13 @@
                         <p class="text-muted">GLORIA KOROS</p>
                         <div class="d-flex justify-content-center">
                         <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <a href="#" target="_blank" aria-label="Facebook">
                               <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                            <a href="#" target="_blank" aria-label="Twitter">
                               <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <a href="#" target="_blank" aria-label="LinkedIn">
                               <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
@@ -156,13 +156,13 @@
                         <p class="text-muted">BERNARD NYENDE</p>
                         <div class="d-flex justify-content-center">
                         <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <a href="#" target="_blank" aria-label="Facebook">
                               <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                            <a href="#" target="_blank" aria-label="Twitter">
                               <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <a href="#" target="_blank" aria-label="LinkedIn">
                               <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
@@ -172,18 +172,18 @@
             </div>
         </div>
         <!-- Call to Action -->
-        <section class="cta-section py-5 bg-white">
+        <section class="cta-section py-2 bg-color-section">
       <div id="container-bottom" class="container">
         <div class="row align-items-center">
           <!-- Left Column: Text Content -->
           <div class="col-md-8 text-left">
-            <h2 class="mb-3">Ready To Build your Website? Let’s Get Started.</h2>
-            <p class="mb-0">Here is a quick way to begin</p>
+            <h2 class="mb-3">Ready To Get Services From Our Experts?</h2>
+            <p class="mb-0"> Let’s Get Started.</p>
           </div>
 
           <!-- Right Column: Button -->
-          <div class="col-md-4 ms-auto text-end">
-            <button class="btn btn-custom btn-lg bg-dark">Get Started</button>
+          <div class="col-md-4 ms-auto text-end ">
+            <a href="./register"><button class="btn btn-custom btn-lg get-color">Get Started</button> </a>
           </div>
         </div>
       </div>

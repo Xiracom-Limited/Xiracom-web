@@ -22,31 +22,10 @@
     width: 220px;
     align-self: stretch;
   }
-  
-  .nav-container {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    min-width: 240px;
-    gap: 40px 50px;
-    flex-wrap: wrap;
-    width: 905px;
-    height: 100%; 
-}
+
 
   
-  .menu-wrapper {
-    border-radius: 290px;
-    align-self: stretch;
-    display: flex;
-    min-width: 240px;
-    align-items: center;
-    gap: 28px;
-    overflow: hidden;
-    width: 664px;
-    padding: 6px;
-   background: linear-gradient(90deg, #399C23 0%, #12087E 100%);
-  }
+  
   
   .home-link {
     border-radius: 40px;
@@ -68,15 +47,7 @@
     align-self: stretch;
   }
   
-  .nav-link {
-    color: #fff;
-    text-align: center;
-    align-self: stretch;
-    font: 400 16px Poppins, sans-serif;
-    margin-top: 10px;
-    
-  }
-  
+
   .auth-container {
     align-self: stretch;
     display: flex;
@@ -260,18 +231,6 @@
   }
   
   
-  .cta-section {
-    border-radius: 18px;
-    background-color: var(--background-color);
-    align-self: center;
-    display: flex;
-    margin-top: 56px;
-    width: 100%;
-    max-width: 1284px;
-    flex-direction: column;
-    font-family: var(--font-family);
-    padding: 34px 52px;
-  }
   
   .cta-title {
     color: #000;
@@ -442,8 +401,7 @@
     .cta-section {
       /* padding: 60px 0; */
       /* height: 50px; */
-      margin-left: 40px;
-      margin-right: 40px;
+  
       /* margin-bottom: 40px; */
       /* Rectangle 1987 */
       padding: 10px !important;
@@ -465,6 +423,8 @@
     }
 
 
-  
+  .get-color{
+    background-color: #399C23 !important;
+    color: #fff !important;
 
-  
+  }
