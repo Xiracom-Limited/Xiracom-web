@@ -11,25 +11,22 @@
 
 <body>
 <section class="jobs-section mt-5 mb-5">
-  <section class="hero-section">\
+  <section class="hero-section">
     <div class="hero-content">
       <div class="hero-text">
-        <h1 class="hero-title"><b>Jobs and Internships</b></h1>
-        <p class="hero-subtitle">Find jobs that match up to your skill set</p>
+        <h4 class="hero-title"><b>Jobs & Internships</b></h4>
+    
       </div>
-      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/06f1c6bdc53778cbc60e71269c44a113a8ebd78caa24c14e56f756aa6d204618?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="Illustration of people working" class="hero-image" />
+      <img src="images/jobs.png" alt="Illustration of people working" class="hero-image" />
     </div>
   </section>
 
   <main class="main-content">
-    <p class="welcome-text">
-      Welcome to Xiracom's Jobs and internships space where innovation meets skill. At Xiracom we believe that working together is the first step to achieving more than we can possibly imagine.
-    </p>
-
+   
 <!-- Steps Section -->
-<div class="container-fluid steps-section bg-light py-5">
+<div class="container-fluid steps-section bg-light py-2">
         <div class="container text-center">
-            <h2>Unlock Your Job Potential in 3 Simple Steps</h2>
+            <h2>Apply Jobs & Internships With Us in 3 Simple Steps</h2>
             <div class="row">
                 <!-- Step 1: Sign Up -->
                 <div class="col-md-3">
@@ -59,14 +56,14 @@
 
 
     <center>
-    <h2 class="section-title"><b>Latest Jobs and opportunities</b></h2>
+    <h2 class="section-title"><b>Latest Jobs Opportunities</b></h2>
     </center>
     <center>
     <div class="jobs-grid">
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">Web design & development</h3>
         </div>
         <p class="job-count">10 Jobs available</p>
       </article>

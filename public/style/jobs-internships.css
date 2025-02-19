@@ -160,19 +160,23 @@
 .job-icon {
   aspect-ratio: 0.83;
   object-fit: contain;
-  width: 75px;
+  width: 70px;
 }
 
 .job-title {
-  width: 253px;
-  margin: auto 0;
+
+  font-family: 'poppins', sans-serif;
+font-weight: 250;
+margin-left: -15%;
 }
 
 .job-count {
   font-weight: 300;
   line-height: 1;
-  align-self: center;
+  font-family: 'poppins', sans-serif;
+  align-self: right !important;
   margin-top: 9px;
+  color: #399C23;
 }
 
 .explore-button {
@@ -306,7 +310,8 @@
 /* Steps Section */
 .steps-section {
   color: #fff;
-  padding: 60px 0; /* Padding around the section */
+  padding: 60px 0; 
+  margin-top: -8% !important;/* Padding around the section */
 }
 
 .steps-section h2 {

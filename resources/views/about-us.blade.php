@@ -10,13 +10,13 @@
 
 </head>
 <body>
-<div class="bg-dark" style="">
-<video class="container-fluid" autoplay loop muted plays-inline>
+<div class="bg-dark" >
+<video class="container-fluid  phone-view" autoplay loop muted plays-inline>
    <source src="images\about-us.mp4" width="100%"type="video/mp4">
   </video>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid about-phone-section">
 <div class="row">
 <div class="col-md-5 col-sm-6 col-lg-5 about-section-one ">
  <div class="bg-icon txt-about">
@@ -152,8 +152,27 @@ just deliver software—we deliver partnerships built on trust, innovation, and 
 <div class="why-us-section1 col-md-5">
 <div class="">
 
-  <a id="play-video" class="video-play-button" href="https://www.youtube.com/embed/hXAdt5w3sPQ"  data-toggle="modal" data-target="#savoybeachhotel">
-	<span></span>
+<!-- Video Play Button -->
+<a id="play-video" class="video-play-button" href="https://www.youtube.com/embed/UI5hs1nYY0w" data-toggle="modal" data-target="#savoybeachhotel">
+    <span></span>
+</a>
+
+<!-- Video Modal -->
+<div class="modal fade" id="savoybeachhotel" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="videoModalLabel">Video</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe id="videoFrame" width="100%" height="400px" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
 
  </a>
 </div>
@@ -219,6 +238,21 @@ software—we deliver solutions that empower your business to thrive. Here’s w
 
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#play-video").click(function(event){
+      event.preventDefault();
+      var videoSrc = $(this).attr("href");
+      $("#videoFrame").attr("src", videoSrc);
+    });
+
+    // Stop video when modal closes
+    $("#savoybeachhotel").on("hidden.bs.modal", function () {
+      $("#videoFrame").attr("src", "");
+    });
+  });
+</script>
 
 
     

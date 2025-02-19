@@ -809,7 +809,8 @@ width: 100%;
 width: 100%;
 height: 350px;
 
-background: linear-gradient(180deg, #399C23 0%, #200EE4 100%);
+background: url("https://img.youtube.com/vi/UI5hs1nYY0w/maxresdefault.jpg");
+background-size: cover;
 border-radius: 10px;
 
 
@@ -1210,4 +1211,17 @@ margin-top: 500%;
     opacity: 0;
   }
 }
+}
+@media screen and (max-width:768px) and (max-width:600px){
+
+  .phone-view{
+
+margin-top:20% !important;
+margin-bottom: 0% !important;
+
+  }
+  .about-phone-section{
+    margin-top: -12% !important;
+  }
+  
 }
