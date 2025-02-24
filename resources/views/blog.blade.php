@@ -102,22 +102,7 @@
 
     <div class="container-fluid">
 
-        <div class="row banner">
-            <!-- Left Image -->
-            <div class="col-md-6 p-0 d-flex align-items-center">
-                <img src="images/pexels-ketut-subiyanto-4560184-removebg-preview 1.png" alt="Banner Image">
-            </div>
-
-            <!-- Right Text -->
-            <div class="col-md-6 d-flex align-items-center">
-                <div class="banner-text">
-                    <h1>Welcome to Our Website</h1>
-                    <p>Discover amazing content, products, and services tailored just for you. Explore now and enjoy!
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <section class="p-5">
         <div class="container-fluid bg-light p-5">

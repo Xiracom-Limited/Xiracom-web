@@ -283,7 +283,20 @@
     margin-top: 50px;
   }
 }
-
+.circle {
+            width: 100px;
+            height: 60px;
+            background-color: #12087E;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle span {
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
   </style>
 </head>
 <body>
@@ -292,17 +305,21 @@
   <div class="projects-container">
    
 
-    <h2 class="section-title" style="color:green;">Our Projects</h2>
+    <h2 class="section-title" style="color:green;">Our Latest Projects</h2>
 
     <div class="project-card">
       <div class="project-content">
         <div class="project-icon-wrapper">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca431d6bd16bbf7cbaab55d0d98c70e49f442fc738cac05309d8192d89ee08ec?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6" alt="DarasaLink icon" class="project-icon" />
-        </div>
-        <h3 class="project-name">DarasaLink</h3>
+        <div class="circle">
+        <span>1</span>
+    </div>
+           </div>
+        <h3 class="project-name">Xiracom Web Based Portfolio</h3>
         <div class="project-details">
-          <p class="project-description">This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
-          <a href="#" class="read-more-btn" tabindex="0">Read More</a>
+          <p class="project-description">The Xiracom web-based portfolio is a Laravel application with basic HTML and CSS. It is designed to showcase the company's services and offerings, providing an online presence to highlight what Xiracom LTD does.</p>
+          <a href="https://github.com/Bennavi-Softsolution/Xiracom-web.git" class="read-more-btn" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+  <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
+</svg> </a>
         </div>
       </div>
     </div>
@@ -310,12 +327,15 @@
     <div class="project-card">
       <div class="project-content">
         <div class="project-icon-wrapper">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca431d6bd16bbf7cbaab55d0d98c70e49f442fc738cac05309d8192d89ee08ec?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6" alt="Exam Parlour icon" class="project-icon" />
-        </div>
-        <h3 class="project-name">Exam parlour</h3>
+        <div class="circle">
+        <span>2</span>
+    </div> </div>
+        <h3 class="project-name">E- Commerce System</h3>
         <div class="project-details">
-          <p class="project-description">This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
-          <a href="#" class="read-more-btn" tabindex="0">Read More</a>
+          <p class="project-description">Xiracom LTD is developing an e-commerce system called Sokoni, a Laravel-based platform. "Sokoni" is a Swahili word meaning "market." The platform enables users to buy and sell products both in Kenya and internationally. Let us know if you need more details! 🚀</p>
+          <a href="https://github.com/Bennavi-Softsolution/e-comm.git" class="read-more-btn" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+  <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
+</svg> </a>
         </div>
       </div>
     </div>
@@ -323,15 +343,65 @@
     <div class="project-card">
       <div class="project-content">
         <div class="project-icon-wrapper">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/44fde226d97d52b929598d0954c0042c99f29b440f36ee9fa30a2ed19a4cca14?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6" alt="Benavvi Solutions icon" class="project-icon" />
-        </div>
-        <h3 class="project-name">Benavvi solutions</h3>
+        <div class="circle">
+        <span>3</span>
+    </div> </div>
+        <h3 class="project-name">Admission Page Module Integration</h3>
         <div class="project-details">
-          <p class="project-description">This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
-          <a href="#" class="read-more-btn" tabindex="0">Read More</a>
+          <p class="project-description">Xiracom LTD developed an Admission Page Module Integration for East Africa Vision Institute. The project enabled new students to apply for admission remotely. It was built using basic HTML, CSS, and JavaScript to provide a user-friendly and accessible application process.</p>
+          <a href="https://github.com/Bennavi-Softsolution/Admission-Page-Module-Integration.git" class="read-more-btn" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+  <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
+</svg> </a>
         </div>
       </div>
     </div>
+
+    <div class="project-card">
+      <div class="project-content">
+        <div class="project-icon-wrapper">
+        <div class="circle">
+        <span>4</span>
+    </div> </div>
+        <h3 class="project-name">East Africa Vision Institute LMS</h3>
+        <div class="project-details">
+          <p class="project-description">Xiracom LTD developed a Moodle Learning Management System (LMS) for East Africa Vision Institute. The system enables the institution to manage learning effectively and is currently in use.</p>
+          <a href="https://www.elearning.eavi.ac.ke/" class="read-more-btn" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+  <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
+</svg> </a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-content">
+        <div class="project-icon-wrapper">
+        <div class="circle">
+        <span>5</span>
+    </div> </div>
+        <h3 class="project-name">Ascada- DarasaLink School Management System</h3>
+        <div class="project-details">
+          <p class="project-description">Xiracom LTD developed and installed the DarasaLink School Management System at Ascada School. As part of the implementation, the team also conducted team building sessions for the staff. The system efficiently manages various school operations, including school fees and learning management.</p>
+          <a href="https://ascadaschool.sc.ke/" class="read-more-btn" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+  <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
+</svg> </a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-content">
+        <div class="project-icon-wrapper">
+        <div class="circle">
+        <span>6</span>
+    </div> </div>
+        <h3 class="project-name">Eyrie - DarasaLink School Management System</h3>
+        <div class="project-details">
+          <p class="project-description">Xiracom LTD developed and installed the DarasaLink School Management System at Eyrie School. As part of the implementation, the team also conducted team-building sessions for the staff. The system efficiently manages various school operations, including school fees and learning management.</p>
+          <a href="https://eyrieacademy.co.ke/" class="read-more-btn" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+  <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
+</svg> </a>
+        </div>
+      </div>
+    </div>
+
 
     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/08d8f16e550429ef3ee3b365712151bf071b5d3caf7b48bcfdfb3d90af65fcf0?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6" alt="" class="footer-image" />
   </div>
