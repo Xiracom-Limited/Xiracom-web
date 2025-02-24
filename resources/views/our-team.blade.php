@@ -78,7 +78,7 @@
             <!-- Team Member 3 -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/Team2.png" alt="Gerry Ayange - CTO">
+                    <img class="card-img-top img-fluid" src="./images/gerry.png" alt="Gerry Ayange - CTO">
                     <div class="card-body3">
                         <h3 class="card-title">CTO, CO-FOUNDER</h3>
                         <p class="text-muted">GERRY AYANGE</p>
@@ -98,16 +98,15 @@
                     </div>
                 </div>
             </div>
-
-                         <!-- Team Member 4-->
-                         <div class="col-md-4 mb-4">
+     <!-- Team Member 4-->
+     <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="images\DSC_6434 (1).png" alt="Japheth Kibet - Project Manager">
-                    <div class="card-body4">
-                        <h6 class="card-title">PRODUCT MANAGER</h6>
+                    <img class="card-img-top img-fluid" src="images\DSC_6434 (1).png"  height="100%" alt="Kelvin Mukolwe - CPO">
+                    <div class="card-body2">
+                        <h2 class="card-title">PRODUCT MANAGER</h2>
                         <p class="text-muted">JAPHETH KIBET</p>
                         <div class="d-flex justify-content-center">
-                            <div class="social-links">
+                        <div class="social-links">
                             <a href="#" target="_blank" aria-label="Facebook">
                               <i class="fab fa-facebook-f"></i>
                             </a>
@@ -122,15 +121,13 @@
                     </div>
                 </div>
             </div>
-
-
-             <!-- Team Member 5 -->
-             <div class="col-md-4 mb-4">
+                 <!-- Team Member 5-->
+                 <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Nicole Akinyi - Product Manager">
-                    <div class="card-body5">
-                        <h4 class="card-title">PROJECT MANAGER</h4>
-                        <p class="text-muted">GLORIA KOROS</p>
+                    <img class="card-img-top img-fluid" src="./images/Team1.png" alt="Gerry Ayange - CTO">
+                    <div class="card-body3">
+                        <h3 class="card-title">PROJECT MANAGER</h3>
+                        <p class="text-muted">GRLORIA KOROS</p>
                         <div class="d-flex justify-content-center">
                         <div class="social-links">
                             <a href="#" target="_blank" aria-label="Facebook">
@@ -147,12 +144,12 @@
                     </div>
                 </div>
             </div>
-             <!-- Team Member 6 -->
-             <div class="col-md-4 mb-4">
+               <!-- Team Member 6 -->
+              <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
-                    <img class="card-img-top img-fluid" src="./images/bena.png" alt="Gloria Koros- Software Engineer">
-                    <div class="card-body6">
-                        <h5 class="card-title">UI/UX ENGINEER</h5>
+                    <img class="card-img-top img-fluid" src="./images/bena.png" alt="Kelvin Mukolwe - CPO">
+                    <div class="card-body2">
+                        <h2 class="card-title">UI/UX ENGINEER</h2>
                         <p class="text-muted">BERNARD NYENDE</p>
                         <div class="d-flex justify-content-center">
                         <div class="social-links">
@@ -170,7 +167,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+                
+
+
+            
+            
         <!-- Call to Action -->
         <section class="cta-section py-2 bg-color-section">
       <div id="container-bottom" class="container">

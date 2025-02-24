@@ -26,7 +26,7 @@
 <!-- Steps Section -->
 <div class="container-fluid steps-section bg-light py-2">
         <div class="container text-center">
-            <h2>Apply Jobs & Internships With Us in 3 Simple Steps</h2>
+            <h2 class="job-title1-section">3 Simple Steps For Applications</h2>
             <div class="row">
                 <!-- Step 1: Sign Up -->
                 <div class="col-md-3">
@@ -63,49 +63,49 @@
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design & development</h3>
+          <h3 class="job-title">Software Engineer / Developer(1)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
 
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">Front-End Developer(2)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
 
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">Back-End Developer(3)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
 
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">Full-Stack Developer(5)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
 
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">Mobile App Developer (1)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
 
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">Embedded Systems Developer(2)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
       </center>
       <button class="explore-button">Get Job</button>
@@ -118,49 +118,49 @@
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">QA Engineer / Tester(1)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
 
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">Automation Test Engineer(2)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
 
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">DevOps Engineer(1)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
 
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">Cloud Engineer(0)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#"class="apply-btn">apply</a>
       </article>
 
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">Game Developer(2)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
 
       <article class="job-card">
         <div class="job-header">
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3151a68d1738b8dc27415e6c9684fdb6e20545d515434d1f77ebed8bcd679622?placeholderIfAbsent=true&apiKey=25571cca6f844f248ab52a34de520040" alt="" class="job-icon" />
-          <h3 class="job-title">Web design and development</h3>
+          <h3 class="job-title">UI/UX Designer(2)</h3>
         </div>
-        <p class="job-count">10 Jobs available</p>
+        <a href="#" class="apply-btn">apply</a>
       </article>
       </center>
       <button class="explore-button">Apply Internships</button>

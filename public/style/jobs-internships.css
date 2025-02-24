@@ -30,10 +30,11 @@
 
 .hero-title {
   color: #fff;
-  font-size: 68px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: -2.72px;
 }
+
 
 .hero-subtitle {
   color: #d6d2d2;
@@ -49,6 +50,32 @@
   object-fit: contain;
   width: 50%;
   flex-grow: 1;
+}
+@media screen and (max-width:768px) and (max-width:600px){
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    text-align: center;
+    line-height: 1;
+    margin: auto -92px auto 20%;
+  }
+  
+  .hero-title {
+    color: #fff;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    letter-spacing: -2.70px;
+ 
+  }
+  .hero-image {
+    aspect-ratio: 1.9;
+    object-fit: contain;
+    width: 100%;
+    flex-grow: 1;
+  }
+  
 }
 
 .main-content {
@@ -149,6 +176,50 @@
   font: 27px Poppins, sans-serif;
   border: 1px solid #000;
 }
+@media screen and (max-width:600px) and (max-width:516px){
+  .section-title {
+    margin: 40px 0;
+    font-size: 20px !important;
+  }
+  
+  .job-card {
+    border-radius: 10px;
+    background-color: #efe9e9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    margin-left: 0px !important;
+    text-align: center;
+    letter-spacing: -1.00px;
+    padding-right: 100% !important;
+    margin-right: 0px !important;
+    font: 20px Poppins, sans-serif;
+    border: 1px solid #000;
+  }
+  .job-icon {
+    
+margin-left: -50% !important;
+    width: 40px !important;
+  }
+  .job-title {
+
+    font-family: 'poppins', sans-serif;
+  font-weight: 250;
+  font-size: 18px !important;
+position:inherit !important;
+
+
+  }
+  .apply-btn{
+
+    color: green;
+    font-size: 20px;
+    text-align: center !important;
+    margin-left: 20% !important;
+  }
+
+}
 
 .job-header {
   display: flex;
@@ -160,14 +231,22 @@
 .job-icon {
   aspect-ratio: 0.83;
   object-fit: contain;
-  width: 70px;
+  width: 50px;
+}
+.apply-btn{
+
+  color: green;
+  font-size: 20px;
+  text-decoration: underline !important;
+  width: 100%;
 }
 
 .job-title {
 
   font-family: 'poppins', sans-serif;
 font-weight: 250;
-margin-left: -15%;
+font-size: 20px;
+margin-top: 15px;
 }
 
 .job-count {
@@ -177,6 +256,67 @@ margin-left: -15%;
   align-self: right !important;
   margin-top: 9px;
   color: #399C23;
+}
+.job-title1-section{
+
+  font-size: 20px !important;
+  
+  }
+
+@media screen and (max-width: 768px) and (max-width: 600px){
+.job-title1-section{
+
+font-size: 20px !important;
+
+}
+
+
+  .job-card {
+    border-radius: 15px;
+    background-color: #efe9e9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    text-align: center;
+    letter-spacing: -1.08px;
+    padding: 14px 20px;
+    font: 27px Poppins, sans-serif;
+    border: 1px solid #000;
+  }
+  .job-header {
+    display: flex;
+    gap: 18px;
+    font-weight: 500;
+    line-height: 29px;
+  }
+  
+  .job-icon {
+    aspect-ratio: 0.83;
+    object-fit: contain;
+    width: 70px;
+  }
+  
+  .job-title {
+  
+    font-family: 'poppins', sans-serif;
+  font-weight: 250;
+  font-size: 30px;
+  margin-left: -15%;
+  }
+  
+  .job-count {
+    font-weight: 300;
+    line-height: 1;
+    font-family: 'poppins', sans-serif;
+    align-self: right !important;
+    margin-top: 9px;
+    color: #399C23;
+  }
+  
+
+
+
 }
 
 .explore-button {
@@ -202,17 +342,28 @@ margin-left: -15%;
 
 
 @media (max-width: 991px) {
+  .explore-button {
+  align-self: center;
+  width: auto;
+  border-radius: 72px;
+  background: linear-gradient(to bottom, #399C23, #200EE4);
+  margin-top: 24px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 8px 15px !important;
+  border: none;
+  align-items: left;
+  justify-content: left;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  margin-left: -1% !important;
+}
   .jobs-section {
     padding-bottom: 100px;
   }
   
-  .header-wrapper,
-  .nav-container,
-  .nav-menu,
-  .hero-section,
-  .main-content,
-  .process-section,
-  .process-steps,
+
   .jobs-grid {
     max-width: 100%;
   }
