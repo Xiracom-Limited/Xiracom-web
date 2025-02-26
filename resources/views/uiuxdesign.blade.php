@@ -11,16 +11,19 @@
 <body>
   <!-- Hero section -->
   <div class="hero-section mt-5">
-            <img src="images\representations-user-experience-interface-design.jpg" alt="Hardware and software maintenance services hero image" class="hero-image" />
-        </div>
+  <div class="hero-container">
+    <img src="images/representations-user-experience-interface-design.jpg" alt="Hardware and software maintenance services hero image" class="hero-image" />
+    <div class="hero-text">UI/UX Designs & Computer Graphics</div>
+</div>
+   </div>
     
     <div class="container">
         <div class="section sample-designs">
-            <h2>Our Sample Designs</h2>
+            <h2 class="title-section-container">Ready For Designs?</h2>
             <div class="content">
                 <div class="text">
                     <h3>Landing Page UI Kit</h3>
-                    <p><strong>5+</strong> Web Templates | <strong>50+</strong> Blocks</p>
+                    <p><strong>5+</strong> Web Templates | <strong>500+</strong> Blocks</p>
                     <div class="icons">
                         <img src="images\figma.png" alt="Figma">
                         <img src="images\XD.png" alt="Adobe XD">
@@ -32,7 +35,7 @@
                     <img src="images\design2.jpg" alt="Design 2">
                     <img src="images\design3.jpg" alt="Design 3">
                     <img src="images\Darasalink5.png" alt="Design 4">
-                    <img src="images\design4.jpg" alt="Design 5">
+                    <img src="images\mohammad-rahmani-nBXwqxjDa5c-unsplash 1.png" alt="Design 5">
                     <img src="images\design6.png" alt="Design 6">
                 </div>
             </div>
@@ -40,14 +43,15 @@
         
         <div class="grid">
             <div class="card">
-            <img src="images\mohammad-rahmani-nBXwqxjDa5c-unsplash 1.png" alt="User" class="gridimage">
+            <img src="images\colleagues-working.jpg" alt="User" class="gridimage">
                 <h2>Crafting Digital Experiences That Works?</h2>
-                <p>At Xiracom Limited, we design intuitive, user-friendly interfaces that look great and work even better. By blending creativity with technology,
+                <p>"At Xiracom Limited, we design intuitive, user-friendly interfaces that look great and work even better. By blending creativity with technology,
                      we turn complex ideas into simple, engaging experiences that people love to use.</p>
                      <p>
                      Whether it’s a website, app, or software, we focus on usability, accessibility, and aesthetics 
                      to keep your users happy and coming back for more. 
-                     Let’s create something amazing together.
+                     Let’s create something amazing together."
+                     <br><b>Bernard Nyende - Lead UX/UI Engineer </b>
                      </p>
             </div>
             <div class="card">
