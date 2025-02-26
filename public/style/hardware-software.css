@@ -1,356 +1,105 @@
-*body{
+body{margin-top:20px;}
 
-  font-family: 'Poppins';
+/* Feature Box
+---------------------*/
+.feature-box-1 {
+  padding: 32px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  margin: 15px 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  top: 0;
 }
-  .maintenance-container {
-    border-radius: 15px;
-    background: #EDEDF5;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-  }
-  
-  .hero-section {
-    display: flex;
-    flex-direction: column;
+.feature-box-1 * {
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1 .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #399C23;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  font-size: 27px;
+}
+.feature-box-1 .icon i {
+  line-height: 70px;
+}
+.feature-box-1 h5 {
+  color: #200EE4;
+  font-weight: 600;
+}
+.feature-box-1 p {
+  margin: 0;
+}
+.feature-box-1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  border-radius: 10px;
+  width: 0;
+  background: #20247b;
+  z-index: -1;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1:hover {
+  top: -5px;
+}
+.feature-box-1:hover h5 {
+  color: #ffffff;
+}
+.feature-box-1:hover p {
+  color: rgba(255, 255, 255, 0.8);
+}
+.feature-box-1:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  left: 0;
+  right: auto;
+}
+.section {
+    padding: 100px 0;
     position: relative;
-    min-height: 423px;
-    width: 100%;
-    align-items: start;
-    font-family: Poppins, sans-serif;
-    color: #fff;
+}
+.section-title {
+    padding-bottom: 45px;
+}
+@media screen and (max-width:768px) and (max-width:600px){
+
+  .section-title h2{
+    font-size: 30px !important;
   }
-  
-  .hero-image {
-    position: absolute;
-    inset: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .hero-title {
-    position: relative;
+}
+.section-title h2 {
+    font-weight: 700;
+    color: #20247b;
     font-size: 45px;
-    font-weight: 700;
-    line-height: 1;
-    letter-spacing: -2.56px;
-    margin-top: 20%;
-    margin-left: 20%;
-    text-align: center;
-  }
-  @media screen and (max-width:600px) and (max-width:720px){
-
-    .hero-title {
-      position: relative;
-      font-size: 35px;
-      font-weight: 700;
-      line-height: 1;
-      font-family: 'Poppins';
-      letter-spacing: -2.56px;
-      margin-top: 50%;
-      margin-left: 0%;
-    
-    }
-
-  }
-  
-  .content-wrapper {
-    align-self: center;
-    display: flex;
-    width: 100%;
-    max-width: 1259px;
-    flex-direction: column;
-  }
-  
-  .section-title {
-    color: #000;
-    text-align: center;
-    align-self: center;
-    font: 700 40px/1 Poppins, sans-serif;
-    font-size: 2rem;
-  }
-  @media screen and (max-width:600px) and (max-width:720px){
-    .section-title {
-      color: #000;
-      text-align: center;
-      align-self: center;
-      font: 700 40px/1 Poppins, sans-serif;
-      font-size: 2rem;
-      
-    }
-
-  }
-  
-  .section-description {
-    color: #000;
-    margin: 39px 50px 0 50px;
-    font-size: 400;
-    font-family: 'Poppins';
-    font-size: 1rem;
-  }
-  @media screen and (max-width:600px) and (max-width:600px){
-
-    .section-description {
-      color: #000;
-      margin: 39px 50px 0 50px;
-      font-size: 400;
-      font-family: 'Poppins';
-      font-size: 1rem;
-      display: none;
-    }
-
-
-
-  }
-  
-  .services-container {
-    align-self: center;
-    font-family: 'Poppins';
-    width: 100%;
-    max-width: 1136px;
-    margin: 93px 0 0 11px;
-  }
-@media screen and (max-width:600px) and (max-width:720px){
-
-  .services-container {
-    align-self: center;
-    font-family: 'Poppins';
-    width: 100%;
-    margin: 90px 0 0 10px;
-   
-  }
-
-
+    margin: 0 0 15px;
+    border-left: 5px solid #399C23;
+    padding-left: 15px;
 }
-  
-  .services-grid {
-    gap: 20px;
-    display: flex;
-  }
-  
-  .service-card {
-  border-radius: 30px;
-    background: #fff;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    color: #000;
-    margin: 0 auto;
-    padding: 70px 22px 21px;
-    font: 400 20px Poppins, sans-serif;
-    
-  }
-  
-  .service-icon {
-    aspect-ratio: 1.15;
-    object-fit: contain;
-    width: 125px;
-  }
-  
-  .service-title {
-    font-size: 36px;
-    line-height: 1;
-    text-align: center;
-    margin-top: 47px;
-  }
-  @media screen and (max-width:600px) and (max-width:720px){
-    .service-title {
-      font-size: 25px;
-      line-height: 1;
-      text-align: center;
-      margin-top: 47px;
-    }
-    .service-features {
-      align-self: stretch;
-      margin-top: 15px;
-      gap: 2px;
-      line-height: 22px;
-    }
-    
-    .feature-icon {
-      aspect-ratio: 0.31;
-      width: 60px;
-      margin-right: 0px !important;
-    }
-
-  }
-  .service-features {
-    align-self: stretch;
-    display: flex;
-    margin-top: 19px;
-    gap: 3px;
-    line-height: 22px;
-  }
-  
-  .feature-icon {
-    aspect-ratio: 0.31;
-    object-fit: contain;
-    width: 47px;
-  }
-  
-  .feature-list {
-    flex-grow: 1;
-    margin: auto 0;
-  }
-  
-  .cta-button {
-    align-self: stretch;
-    width: 160px;
-    border-radius: 72px;
-    background: #399C23;
-    margin-top: 72px;
-    min-height: 55px;
-    color: #fff;
-    font-weight: 700;
-    text-align: center;
-    line-height: 1;
-    padding: 15px 15px;
-    border: 1px solid #102038;
-    cursor: pointer;
-  }
-  
-  .benefits-title {
-   text-align: center;
-   margin-top: 2%;
-    font: 700;
-    font-family: poppins , sans-serif;
-  }
-  
-  .benefit-title1{
-    margin-top: 24px;
-    margin-left: 10%;
-    color: #000;
-    text-align: left;
-    font-size: 20px;
-    /* margin: 133px 0 0 118px; */
-    /* margin-top: ; */
-    font: 600;
-    font-family: poppins , sans-serif;
 
 
-    
-  }
-  .benefit-title2{
+.fading-image {
 
-    margin-top: 24px;
-    margin-left: 10%;
-    color: #000;
-    text-align: left;
-    font-size: 20px;
-    /* margin: 133px 0 0 118px; */
-    /* margin-top: ; */
-    font: 600;
-    font-family: poppins , sans-serif;
-
-
-    
-  }
-  .benefit-title3{
-
-    margin-top: 24px;
-    margin-left: 10%;
-    color: #000;
-    text-align: left;
-    font-size: 20px;
-    /* margin: 133px 0 0 118px; */
-    /* margin-top: ; */
-    font: 600;
-    font-family: poppins , sans-serif;
-
-    
-  }
-  .benefits-grid {
-    margin-top: 20px;
-    gap: 20px;
-    display: flex;
-  }
-  
-  .benefit-card {
-    display: flex;
-    flex-direction: column;
-    color: #000;
-    text-align: center;
-    font: 500 24px/1 Poppins, sans-serif;
-  }
-  
-  .benefit-icon {
-    aspect-ratio: 1.08;
-    object-fit: contain;
-    width: 60%;
-    border-radius: 50%;
-  }
-  
-  .benefit-title {
-    margin-top: 24px;
-  }
-  
-  @media (max-width: 991px) {
-    .maintenance-section {
-      padding: 100px 0;
-    }
-  
-    .maintenance-container {
-      max-width: 100%;
-      padding-bottom: 100px;
-    }
-  
-    .hero-section {
-      max-width: 100%;
-      font-size: 40px;
-      padding: 0 20px 110px;
-    }
-  
-    .content-wrapper {
-      max-width: 100%;
-      margin-bottom: 10px;
-    }
-  
-    .section-description {
-      max-width: 100%;
-      margin-right: 10px;
-    }
-  
-    .services-container {
-      max-width: 100%;
-      
-    }
-  
-    .services-grid {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0;
-    }
-  
-    .service-card {
-      max-width: 80%;
-      margin-top: 40px;
-      padding-left: 20px;
-    }
-  
-    .service-title {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  
-    .cta-button {
-      margin-top: 40px;
-    }
-  
-    .benefits-title {
-      margin: 40px 0 0 10px;
-    }
-  
-    .benefits-grid {
-      max-width: 100%;
-      margin-top: 40px;
-      flex-direction: column;
-      margin-left: 100px;
-    }
-  
-    .benefit-card {
-      margin-top: 40px;
-      max-width: 80%;
-    }
-  }
+  mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 30%, rgba(128, 128, 128, 0.5) 70%, rgba(128, 128, 128, 0) 100%);
+  -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 30%, rgba(128, 128, 128, 0.5) 70%, rgba(128, 128, 128, 0) 100%);
+}
