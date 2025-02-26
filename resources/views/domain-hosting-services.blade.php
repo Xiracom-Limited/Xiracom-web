@@ -625,7 +625,7 @@ top: 852px; */
                         <li class="widget-49-meeting-item"><span>DNS Management & Support </span></li>
                     </ol>
                     <div class="widget-49-meeting-action">
-                        <a href="#" class="btn btn-sm btn-flash-border-primary">View All</a>
+                    <a href="./register" class="btn btn-sm btn-flash-border-primary bg-primary" style="color:white;">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -654,7 +654,8 @@ top: 852px; */
                         <li class="widget-49-meeting-item"><span>Secure & Reliable Hosting Options</span></li>
                     </ol>
                     <div class="widget-49-meeting-action">
-                        <a href="#" class="btn btn-sm btn-flash-border-warning">View All</a>
+                    <a href="./register" class="btn btn-sm btn-flash-border-primary bg-primary" style="color:white;">Get Started</a>
+                  
                     </div>
                 </div>
             </div>
@@ -683,7 +684,7 @@ top: 852px; */
                         <li class="widget-49-meeting-item"><span>Secure & Reliable Hosting Options </span></li>
                     </ol>
                     <div class="widget-49-meeting-action">
-                        <a href="#" class="btn btn-sm btn-flash-border-success">View All</a>
+                    <a href="./register" class="btn btn-sm btn-flash-border-primary bg-primary" style="color:white;">Get Started</a>
                     </div>
                 </div>
             </div>
