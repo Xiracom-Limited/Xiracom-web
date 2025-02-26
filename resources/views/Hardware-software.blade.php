@@ -6,87 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hardware Software Maintenance</title>
     <link rel="stylesheet" href="style/hardware-software.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     @vite(['resources/sass/app.scss','resources/js/app.js'])
 </head>
 <body>
 
-    <!-- Maintenance container -->
-    <div class="maintenance-container">
-        <!-- Hero section -->
-        <div class="hero-section">
-            <img src="images\lab.jpg" alt="Hardware and software maintenance services hero image" class="hero-image" />
-            <center>
-            <h1 class="hero-title">Hardware and Software Maintenance</h1>
-            </center>
+<section class="section services-section" id="services">
+    <div class="container">
+        <div class="row bg-light">
+            <div class="col-lg-6 col-md-6">
+                <div class="section-title">
+                    <h2>Hardware & Software Maintenance</h2>
+                    <p>"Our software and hardware support services ensure seamless performance for businesses, schools, and institutions. We specialize in maintaining websites, applications, computer labs, and tech workshops, whether developed by us or third-party providers. At Xiracom Limited, we are committed to delivering reliable troubleshooting, upgrades, and maintenance to keep your systems running efficiently."
+
+— <b>Kevin Mukolwe, CPO, Xiracom Limited</b></p>
+                </div>
+               
         </div>
-
-        <!-- Content section -->
-        <div class="content-wrapper">
-            <h1 class="section-title">Our Services</h1>
-            <center>
-            <p class="section-description">
-                At Xiracom, we specialize in providing comprehensive hardware and software maintenance services to businesses of all sizes. Our team is committed to ensuring your IT infrastructure runs smoothly, securely, and efficiently.
-            </p>
-            </center>
-
-            <!-- Services grid -->
-            <div>
-                <div class="services-grid">
-                    <!-- Hardware Maintenance Card -->
-                    <div class="service-card">
-                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0da636ce9df697438dbfa6c78a0e3e38d9f010029341e39844423ee54bc23d2a?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Hardware maintenance icon" class="service-icon" />
-                        <h2 class="service-title">Hardware Maintenance</h2>
-                        <div class="service-features">
-                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a75f9fec9bf49c2560d0e9cffee0bd51c1dbf5e7ce75b82f3d998cffb1f9614a?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="" class="feature-icon" />
-                            <div class="feature-list">
-                                <p>Diagnostics and Repair Services</p>
-                                <p>Preventive Mainteobject-fit: contain;nance Schedules</p>
-                                <p>Installation and Upgrades of IT Equipment</p>
-                            </div>
-                        </div>
-                        <button class="cta-button" tabindex="0">Get Started</button>
+        <div class="col-lg-6 col-md-6">
+               <img src="images/hs.jpg" width="95%"  class="fading-image" height="100%">
+               
+        </div>
+        <div class="row">
+            <!-- feaure box -->
+            
+            <div class="col-sm-6 col-lg-4">
+            <a href="./contact-us">
+                <div class="feature-box-1">
+                    <div class="icon">
+                        <i class="fa fa-desktop"></i>
                     </div>
-
-                    <!-- Software Maintenance Card -->
-                    <div class="service-card">
-                         <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b481d809b39c967acfb0316674a7cb89f35605c7278745b2d8386e2b09650f40?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Software maintenance icon" class="service-icon" />
-                        <h2 class="service-title">Software Maintenance</h2>
-                        <div class="service-features">
-                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a75f9fec9bf49c2560d0e9cffee0bd51c1dbf5e7ce75b82f3d998cffb1f9614a?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="" class="feature-icon" />
-                            <div class="feature-list">
-                                <p>Operating System Updates and Patch Management</p>
-                                <p>Antivirus Installation & Malware Removal</p>
-                                <p>License Management and Compliance</p>
-                            </div>
-                        </div>
-                        <button class="cta-button" tabindex="0">Get Started</button>
+                    <div class="feature-content">
+                        <h5>Software Updates & Security Patches</h5>
+                        <p>Regular updates to enhance performance and protect against vulnerabilities</p>
                     </div>
                 </div>
+                </a>
             </div>
-
-            <!-- Benefits Section -->
-            <h2 class="benefits-title">Why Choose Us?</h2>
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/072ac28f35e03d3f79a82e1278f4c18e6af2eaaade2f063fbc4a360ceb1cd06f?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Certified professionals icon" class="benefit-icon" />
-                    <h3 class="benefit-title1">Certified Professionals</h3>
+           
+            <!-- / -->
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4">
+            <a href="./contact-us">
+                <div class="feature-box-1">
+                    <div class="icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5>Website & Application Maintenance</h5>
+                        <p>Diagnosis, repairs, and component upgrades for optimal system efficiency.</p>
+                    </div>
                 </div>
-
-                <div class="benefit-card">
-                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ccb89ab72fae73ec2790fe82310dbcce09b4c6334d3408c2cad271ccde7970a?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="24/7 support icon" class="benefit-icon" />
-                    <h3 class="benefit-title2">24/7 Support</h3>
-                </div>
-
-                <div class="benefit-card">
-                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e5591344c6479bc25e3113aa904e93ffdaa5b15612b8bb7bf5aaa1804a65718?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8" alt="Tailored solutions icon" class="benefit-icon" />
-                    <h3 class="benefit-title3">Tailored Solutions</h3>
-                </div>
+             </a>
             </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4">
+            <a href="./contact-us">
+                <div class="feature-box-1">
+                    <div class="icon">
+                        <i class="fa fa-laptop"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5>Computer Hardware Repairs & Upgrades</h5>
+                        <p>On-demand technical assistance for software and hardware issues.</p>
+                    </div>
+                </div>
+</a>
+            </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4">
+            <a href="./contact-us">
+                <div class="feature-box-1">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5>IT Support & Troubleshooting</h5>
+                        <p>On-demand technical assistance for software and hardware issues.</p>
+                    </div>
+                </div>
+</a>
+            </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4">
+            <a href="./contact-us">
+                <div class="feature-box-1">
+                    <div class="icon">
+                        <i class="fa fa-th"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5>Network & Server Maintenance</h5>
+                        <p>Ensuring secure and stable connectivity for businesses and institutions.</p>
+                    </div>
+                </div>
+</a>
+            </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4">
+            <a href="./contact-us">
+                <div class="feature-box-1">
+                    <div class="icon">
+                        <i class="fa fa-cog"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5>School & Institutional Tech Setup</h5>
+                        <p>Maintenance of computer labs, tech workshops, and digital learning tools.</p>
+                    </div>
+                </div>
+</a>
+            </div>
+            <a href="./request-quote">
+            <button type="button" class="btn btn-primary">Request Quote</button>
+            </a>
+            
+            <!-- / -->
         </div>
     </div>
-
- 
-
+</section>
 
 </body>
 </html>
