@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bulk SMS Pricing</title>
+  <title>Onfod Bulk SMS - Xiracom Limited</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="bulk-sms.css">
 </head>
@@ -276,7 +276,7 @@
           <div class="col-md-6">
             <h1 class="display-4">Share More, Sell More with Bulk SMS!</h1>
             <p class="lead">At affordable prices to suit your needs. Get Started with us today.</p>
-            <button class="btn btn-primary btn-lg">Get Started</button>
+            <a href="./login"><button class="btn btn-primary btn-lg">Get Started</button></a>
           </div>
 
           <!-- Right Column: Image -->
@@ -305,7 +305,9 @@
                 <li>&#x2713;  Follows regulations</li>
                 <li>&#x2713;  Track performance</li>
               </ul>
+              <a href="./login">
               <button class="btn btn-outline-primary w-100">Choose Plan</button>
+               </a>
             </div>
           </div>
         </div>
@@ -324,7 +326,9 @@
                 <li>&#x2713;  Follows regulations</li>
                 <li>&#x2713;  Track performance</li>
               </ul>
+              <a href="./login">
               <button class="btn btn-outline-primary w-100">Choose Plan</button>
+               </a>
             </div>
           </div>
         </div>
@@ -362,7 +366,9 @@
                 <li>&#x2713;  Follows regulations</li>
                 <li>&#x2713;  Track performance</li>
               </ul>
+              <a href="./login">
               <button class="btn btn-outline-primary w-100">Choose Plan</button>
+             </a>
             </div>
           </div>
         </div>
@@ -379,7 +385,10 @@
 
           <!-- Right Column: Button -->
           <div class="col-md-4 ms-auto text-end">
-            <button class="btn btn-custom btn-lg">Get Started</button>
+            <a href="./login">
+            <button class="btn btn-custom bg-primary btn-lg">Get Started</button>
+            </a>
+            
           </div>
         </div>
       </div>
