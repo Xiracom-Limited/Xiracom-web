@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UI/UX Design Landing Page</title>
+    <title>UI/UX Designs - Xiracom Limited</title>
     <link rel="stylesheet" href="style/uiuxdesign.css">
     @vite(['resources/sass/app.scss','resources/js/app.js'])
 </head>
@@ -28,12 +28,12 @@
                     </div>
                 </div>
                 <div class="images">
-                    <img src="images\imageui1.png" alt="Design 1">
-                    <img src="images\imageui2.png" alt="Design 2">
-                    <img src="images\imageui3.png" alt="Design 3">
-                    <img src="images\imageui4.png" alt="Design 4">
-                    <img src="images\imageui5.png" alt="Design 5">
-                    <img src="images\imageui6.png" alt="Design 6">
+                    <img src="images\design1.jpg" alt="Design 1">
+                    <img src="images\design2.jpg" alt="Design 2">
+                    <img src="images\design3.jpg" alt="Design 3">
+                    <img src="images\Darasalink5.png" alt="Design 4">
+                    <img src="images\design4.jpg" alt="Design 5">
+                    <img src="images\design6.png" alt="Design 6">
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
                      </p>
             </div>
             <div class="card">
-            <img src="images\pexels-jakubzerdzicki-17561405.jpg" alt="User">
+            <img src="images\design5.jpg" alt="User">
                 <h4>Design that works. Experiences that inspire.</h4>
                 <p>Crafting seamless solutions with innovation, transforming ideas into impactful experiences.</p>
             </div>
