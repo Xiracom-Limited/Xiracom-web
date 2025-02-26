@@ -22,23 +22,23 @@
             <div class="row align-items-center">
                 <!-- Hero Text Content -->
                 <div class="col-md-6 text-md-left mt-5">
-                    <h1>Welcome to Examparlour</h1>
-                    <p>Access curated study materials, take interactive tests, and track your progress all in one place.</p>
+                    <h1>Examparlour -Smarter Learning</h1>
+                    <p>Experience Xiracom Limited’s advanced learning system, offering students from primary to university a rich pool of study materials, interactive tests, and Q&A resources. Track progress and enhance learning—all in one place.<b>— Gerry Ayange, CTO, Xiracom Limited</b></p>
                     <a href="https://examparlour.com" class="btn btn-primary">Join Us</a>
                     <a href="https://examparlour.com" class="btn btn-secondary">Start Learning</a>
                     <!-- Hero Image -->
-                <div class="text-center mt-5">
-                    <img src="images/Examparlour1.png" alt="Hero Image">
+                    <div class="">
+                    <img src="images/Examparlour1.png" class="examparlour-image"alt="Hero Image">
                 </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+</div>
     <!-- Core Features Section -->
     <div class="container-fluid core-features-section py-5">
         <div class="container text-center">
-            <h2 class="mb-4">Core Features</h2>
+            <h3 class="mb-4" style="color:#000080;font-weight:500;"> <img src="images/examparlour.png"> Core Features</h3>
             <div class="row d-flex justify-content-center">
                 <!-- Feature 1: Study Materials -->
                 <div class="col-md-4 mb-4">

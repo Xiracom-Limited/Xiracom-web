@@ -3,6 +3,11 @@
     font-size: 14px;
   }
   
+  .examparlour-image{
+
+    margin-left:-24%;
+    height: 120% !important;
+  }
   /* Hero Section */
   .heroes-section {
     background: linear-gradient(90deg, #399C23 36.67%, #14360C 100%);
@@ -198,7 +203,7 @@
     font-family: 'Poppins', sans-serif; /* Font style for title */
     font-size: 28px; /* Font size for title */
     font-weight: 600; /* Bold font weight */
-    color: green; /* Dark gray for contrast */
+    color: #DE5917; /* Dark gray for contrast */
     margin-bottom: 40px; /* Space below the title */
 }
 
