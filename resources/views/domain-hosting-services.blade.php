@@ -585,7 +585,7 @@ top: 852px; */
                         <p class="banner-paragraph-section">Get your business online with our Hosting & Domain Services
                         </p>
 
-                        <button class="c-btn">Get started</button>
+                       <a href="./login"><button class="c-btn">Get Started</button></a> 
                     </div>
                 </div>
                 <!-- Right Text -->

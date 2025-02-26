@@ -5,9 +5,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darasalink</title>
+    <title>Darasalink -Revolutionizing Education in Kenya & Africa</title>
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     <link rel="stylesheet" href="style/darasalink.css">
+  
     </head>
 
     <body>
@@ -17,8 +18,9 @@
   <h1 class="ml-5 mt-5 head-darasalink-section">Revolutionizing Education <br>With One Link At a Time</h1>
   <p class="ml-5 darasa-link-paragraph">Darasalink empowers you with real-time access to student progress <br>and efficient operational tools.</p>
   <div>
-    <a href="#" class="btn btn-primary ml-5">Get Started</a>
-    <a href="#" class="btn btn-outline-secondary">Request Demo</a>
+    <a href="https://darasalink.co.ke/" class="btn btn-primary ml-5">Get Started</a>
+    <a href="https://demo.darasalink.co.ke/" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">Get a Demo</a>
+
   </div>
   </div>
 </div>
@@ -27,12 +29,14 @@
 
     <div class="container-fluid services-section py-5">
         <div class="container text-center">
-            <h2 class="mb-4">School Management System Modules</h2>
+            <h2 class="mb-4">DarasaLink School Management System Modules</h2>
             <div class="row d-flex justify-content-center">
                 <div class="col-md-4 mb-4">
                     <div class="p-3 shadow rounded">
-                        <img src="images\frontoffice (1).png" alt="front office" class="img-fluid mb-3">
-                        <h5>FRONT OFFICE</h5>
+                  
+    <img src="images/frontoffice (1).png" alt="front office" class="img-fluid mb-3 fading-image">
+      
+             <h5>FRONT OFFICE</h5>
                         <p>Streamlines visitor management, student inquiries, and administrative tasks, enabling efficient tracking of visitor entries, handling special requests, and facilitating seamless communication 
                             between parents, staff, and school management for improved coordination and security</p>
                         <a href="#" class="btn btn-warning">Explore</a>

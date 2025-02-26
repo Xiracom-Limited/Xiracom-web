@@ -6,7 +6,7 @@
     <!-- Meta Information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examparlour Learning</title>
+    <title>Examparlour - School Learning Materials in Kenya & Africa </title>
 
     <!-- Importing Bootstrap and Custom Styles -->
     @vite(['resources/sass/app.scss','resources/js/app.js'])
