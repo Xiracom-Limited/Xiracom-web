@@ -95,7 +95,7 @@ font-weight:bolder;
           <a class="dropdown-item" href="./Darasalink">DarasaLink</a>
           <a class="dropdown-item" href="./Examparlour">Examparlour</a>
           <a class="dropdown-item" href="./bulk-sms">Onfod Bulk SMS</a>
-          <a class="dropdown-item"  href="https://darasalink.co.ke/shop/">Xi Shop</a>
+          <a class="dropdown-item"  href="#">Xi Shop</a>
           <a class="dropdown-item" href="#">Xiracom BTC</a>
         </div>
       </li>

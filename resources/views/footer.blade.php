@@ -85,6 +85,7 @@
 
 <footer class="footer text-light py-5 " style="background-color:#074d5e;">
   <div class="container">
+  <div style="background-color:white;"><hr></div>
     <div class="row">
       <!-- Contact Section -->
       <div class="col-md-3">
