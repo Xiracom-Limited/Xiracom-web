@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Xira Skiza Tunes</title>
+  <title>Xira Skiza Tunes - Safaricom Calls Kenya & Africa</title>
  <style>
 
   body {
@@ -380,7 +380,7 @@ margin-left: 20%;
     </div>
   </div>
     <div class="subheading">
-      <p><strong>15,000+ Businesses</strong> delighting their customers with custom Skiza Tunes</p>
+      <p><strong>1500+ Businesses</strong> delighting their customers with custom Skiza Tunes</p>
     </div>
 
     <!-- Info Section -->
