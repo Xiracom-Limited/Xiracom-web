@@ -84,9 +84,7 @@
 
     </div>
 
-    <div class="d-flex justify-content-end m-5">
-      <button class="cta">Get Started</button>
-    </div>
+   
     <div class="d-flex justify-content-center pe-5">
       <h2 id="whychooseus">Why Choose Us?</h2>
     </div>
@@ -95,7 +93,7 @@
   <section class="why-choose-us">
     <div class="content">
       <div class="image">
-        <img src="images/mohammad-rahmani-nBXwqxjDa5c-unsplash 1.png" alt="Why Choose Us Image" width="300px">
+        <img src="images/mohammad-rahmani-nBXwqxjDa5c-unsplash 1.png" alt="UI/UX Design" width="300px">
       </div>
       <div class="text">
         <div class="description">

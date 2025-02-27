@@ -64,7 +64,10 @@
         <div class="cta">
             <h2>Get in Touch</h2>
             <p>Ready to start with our Designs?</p>
+            <a href="./register">
             <button>Get Started</button>
+            </a>
+            
         </div>
     </div>
 </body>
