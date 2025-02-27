@@ -4,26 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Marketing</title>
+    <title>Digital Marketing Agency Kenya & Africa - Xiracom Limited</title>
     <link rel="stylesheet" href="style/digitalmarketing.css">
     @vite(['resources/sass/app.scss','resources/js/app.js'])
 </head>
 <body>
-
-    <!-- Heroes section starts here -->
-    <div class="header-container mt-5">
-        <div class="">
-            <h1><span class="blue">BEST DIGITAL</span> <span class="green">MARKETING</span> <span class="blue">COMPANY.</span></h1>
+<div class="container-fluid header-container" style="margin-top:60px">
+    <div class="row">
+        <div class="col-md-6 mt-3 mb-3">
+        <h1><span class="blue">BEST DIGITAL</span> <span class="green">MARKETING</span> <span class="blue">COMPANY.</span></h1>
             
             <p class="subheading">#1 MARKETING Services Agency in Kenya</p>
-            <p class="description">If you're looking for the best SEO company for your business, Xiracom is the perfect choice.</p>
+            <p class="description">If you're looking for the best SEO company for your business<br> Xiracom is the perfect choice.</p>
             <div class="buttons">
+                <a href="./register">
                 <button class="get-start">Get start</button>
-                <a href="#" class="watch-video">▶ Watch Video</a>
-            
+                </a>
+          
             </div>
         </div>
+        <div class="col-md-6">
+    <div class="video-container">
+        <iframe 
+            src="https://www.youtube.com/embed/UI5hs1nYY0w?autoplay=1&mute=1&loop=1&playlist=UI5hs1nYY0w&rel=0&controls=0&showinfo=0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
     </div>
+</div>
+
+
+    </div>
+
+</div>
+
     
     <!-- Features and Cards section starts here -->
     <div class="container my-5">
@@ -132,11 +146,11 @@
                 <div class="profile-card">
                     <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/04f528311b56c2f78047bd36b5dfac49b61a9b07711ab4e8bad9f5cdca5d3654?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8"
+                        src="images/client1.jpg"
                         class="profile-image"
                         alt="Profile photo of Jenny Wilson"
                     />
-                    <div class="profile-name">Jenny Wilson</div>
+                    <div class="profile-name">James Okindo</div>
                     <div class="rating-badge">
                         <img
                             loading="lazy"
@@ -152,11 +166,11 @@
                 <div class="profile-card">
                     <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/52cb74c61fc5e68ede8324036a208fb478fc57f2654ad2eb609a8d54b0c428ff?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8"
+                        src="images/client4.jpg"
                         class="profile-image"
                         alt="Profile photo of Jane Cooper"
                     />
-                    <div class="profile-name">Jane Cooper</div>
+                    <div class="profile-name">Dr. Beatrice</div>
                     <div class="rating-badge">
                         <img
                             loading="lazy"
@@ -172,11 +186,11 @@
                 <div class="profile-card">
                     <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/72fd14adbf2f8d8c24c5a47351952aac9088934bcf7d56b436a2dd37cfcde70d?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8"
+                        src="images/client3.jpg"
                         class="profile-image"
                         alt="Profile photo of Cody Fisher"
                     />
-                    <div class="profile-name">Cody Fisher</div>
+                    <div class="profile-name">Tonny Lukalo</div>
                     <div class="rating-badge">
                         <img
                             loading="lazy"
@@ -192,15 +206,15 @@
                 <div class="profile-card">
                     <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/72fd14adbf2f8d8c24c5a47351952aac9088934bcf7d56b436a2dd37cfcde70d?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8"
+                        src="images/client2.jpg"
                         class="profile-image"
                         alt="Profile photo of Cody Fisher"
                     />
-                    <div class="profile-name">Cody Fisher</div>
+                    <div class="profile-name">Glide Wanyonyi</div>
                     <div class="rating-badge">
                         <img
                             loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/25c5c3b0c94e39ae0b12492ed63bf14b9124d75c13726ae42245a201358ed320?placeholderIfAbsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/25c5c3b0c94e39ae0b1bsent=true&apiKey=b253cd62eabd450abd701eab9cc667e8"
                             class="rating-star"
                             alt=""
                         />
