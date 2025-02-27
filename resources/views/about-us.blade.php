@@ -10,16 +10,28 @@
 
 </head>
 <body>
-<div class="bg-dark" >
-<video class="container-fluid  phone-view" autoplay loop muted plays-inline>
-   <source src="images\about-us.mp4" width="100%"type="video/mp4">
-  </video>
+<div class="video-section">
+    <!-- Background Video -->
+    <video class="bg-fullscreen" autoplay loop muted playsinline>
+        <source src="images/about-us.mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay YouTube Video -->
+    <div class="youtube-overlay">
+        <iframe 
+            src="https://www.youtube.com/embed/UI5hs1nYY0w?autoplay=1&mute=1&loop=1&playlist=UI5hs1nYY0w&rel=0&controls=0&showinfo=0" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
+    </div>
 </div>
 
-<div class="container-fluid about-phone-section">
-<div class="row">
-<div class="col-md-5 col-sm-6 col-lg-5 about-section-one ">
- <div class="bg-icon txt-about">
+
+<div class="container-fluid about-phone-section margin-section" style="margin-top: -7.2%;">
+<div class="row" >
+<div class="col-md-5 col-sm-6 col-lg-5 about-section-one " >
+ <div class="bg-icon txt-about" >
 <div class="about-us">About Us?</div>
 <P class="about-content">
     <br>At XIRACOM LIMITED, we are passionate about 

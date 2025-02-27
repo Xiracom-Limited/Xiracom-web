@@ -128,8 +128,10 @@
       <h2 class="fs-sm-2">Ready To Build Your App? Let’s Get Started.</h2>
       <p>Here is a quick way to begin</p>
     </div>
-
-    <button class="cta fs-sm-2 ">Get Started</button>
+<a href="./register">
+<button class="cta fs-sm-2 ">Get Started</button>
+</a>
+ 
   </section>
 </body>
 
