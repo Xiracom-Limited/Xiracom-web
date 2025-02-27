@@ -3,6 +3,11 @@
     font-size: 14px;
   }
   
+  .examparlour-image{
+
+    margin-left:-24%;
+    height: 120% !important;
+  }
   /* Hero Section */
   .heroes-section {
     background: linear-gradient(90deg, #399C23 36.67%, #14360C 100%);
@@ -49,13 +54,13 @@
   }
   
   .btn-primary {
-    background-color: #FF6600; /* Adjust as needed */
+    background-color: #399C23; /* Adjust as needed */
     color: #FFF;
     border: none;
   }
   
   .btn-secondary {
-    background-color: #FF6600;
+    background-color: #399C23;
     color: #FFF;
     border: none;
   }
@@ -95,7 +100,7 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 1.2;
-    color: #FF6600;
+    color: green;
     margin-bottom: 40px;
 }
 
@@ -163,7 +168,7 @@
 .core-features-section .btn {
     display: inline-block; /* Inline-block for button */
     padding: 10px 20px; /* Padding for button */
-    background-color: #DE5917; /* Button background color */
+    background-color: #399C23; /* Button background color */
     color: #FFFFFF; /* Button text color */
     text-decoration: none; /* Remove underline from links */
     border-radius: 20px; /* Rounded corners for button */
@@ -174,7 +179,7 @@
 
 /* Button hover effect */
 .core-features-section .btn:hover {
-    background-color: #D76C1D; /* Darken button on hover */
+    background-color: #399C23; /* Darken button on hover */
     transform: scale(1.05); /* Slightly enlarge button on hover */
 }
 
@@ -198,7 +203,7 @@
     font-family: 'Poppins', sans-serif; /* Font style for title */
     font-size: 28px; /* Font size for title */
     font-weight: 600; /* Bold font weight */
-    color: #FF6600; /* Dark gray for contrast */
+    color: #DE5917; /* Dark gray for contrast */
     margin-bottom: 40px; /* Space below the title */
 }
 

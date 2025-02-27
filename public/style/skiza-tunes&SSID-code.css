@@ -18,8 +18,8 @@ body {
   padding-bottom: 100px;
   padding-top: 100px;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: left;
+  text-align: left !important;
   background: linear-gradient(90deg, #A0CD96 0%, #DAD7F7 26.81%, #B3D3AB 54.58%, #DAD7F7 99.86%);
 }
 
@@ -42,7 +42,7 @@ body {
 .subheading p {
   font-size: 1.1rem;
   margin: 20px 0;
-  text-align: center;
+  text-align:left !important;
 }
 
 /* Info Section */
@@ -50,7 +50,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 40px 0 0 200px;
-  text-align: left;
+  text-align: left !important;
 }
 
 .info, .setup {

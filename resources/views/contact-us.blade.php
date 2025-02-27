@@ -3,296 +3,82 @@
 <html>
 
 <head>
-  <style>
-
-    body{
-      padding: 0px !important;
-      margin: 0px !important;
-    }
-    
-
-    .contact-section {
-      background: #fff;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      font-weight: 700;
-      padding: 0px !important;
-      /* padding: 10vh 0 40vh; */
-      /* Use viewport height for better responsiveness */
-    }
-
-    .form-container {
-      align-self: center;
-      display: flex;
-      width: 90%;
-      
-      max-width: 80%;
-
-      flex-direction: column;
-      /* margin: 3vh 0 0 1%; */
-      
-      font-size: 2rem;
-      
-    }
-
-    .header-wrapper {
-      align-self: flex-start;
-      display: flex;
-      align-items: flex-start;
-      align-items: center;
-      gap: 2%;
-      
-      flex-wrap: wrap;
-    }
-
-    .header-wrapper h1, h2{
-      margin: 0px;
-    }
-
-
-    .header-text {
-      /* flex-grow: 1;
-      flex-basis: auto; */
-    }
-
-    .header-icon {
-      aspect-ratio: 2.1;
-      object-fit: contain;
-      object-position: center;
-      align-items: center;
-      width: 10%;
-      
-      margin-top: 5%;
-      
-      max-width: 100%;
-    }
-
-    .subheader {
-      align-self: center;
-      margin-top: 2%;
-      
-    }
-
-
-
-    .form-input {
-      border-radius: 2rem;
-      background-color: rgba(217, 217, 217, 0.55);
-      align-self: flex-end;
-      display: flex;
-      width: 100%;
-      max-width: 100%;
-      height: 10vh;
-      border: none;
-      padding: 0 2%;
-      font-size: 1rem;
-      box-sizing: border-box;
-    }
-
-    .message-input {
-
-      height: 20vh;
-      border-radius: 2rem;
-      background-color: rgba(217, 217, 217, 0.55);
-      border: none;
-      padding: 2%;
-      font-size: 1rem;
-      resize: none;
-      box-sizing: border-box;
-    }
-
-    .form-label {
-      color: #000;
-      font-weight: 400;
-      align-self: flex-start;
-      margin: 3% 0 0 4%;
-    }
-
-    .submit-button {
-      align-self: center;
-      width: 20%;
-      border-radius: 5rem;
-      background-color: rgb(57, 156, 35);
-      margin-top: 5%;
-      min-height: 20px !important;
-      max-width: 100%;
-      color: #fff;
-      text-align: center;
-      padding: 1.5rem 1.5rem;
-      font-size: 1rem;
-      cursor: pointer;
-      height: 4rem;
-    }
-
-    .visually-hidden {
-      position: absolute;
-      width: 0.1rem;
-      height: 0.1rem;
-      padding: 0;
-      margin: -0.1rem;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      border: 0;
-    }
-
-    @media (max-width: 991px) {
-      .contact-section {
-        padding: 8vh 0;
-      }
-
-      .form-container {
-        max-width: 100%;
-      }
-
-      .form-label {
-        margin-left: 2%;
-      }
-
-      .submit-button {
-        margin-top: 4%;
-        padding: 0 5%;
-      }
-
-
-    }
-
-    .form-input {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-
-    .message {
-      width: ;
-    }
-
-
-
-    .hero-banner {
-      padding: 0px;
-  position: relative;
-  width: 100%;
-  height: 80vh; 
-  display: flex;
-  align-items: center; 
-  justify-content: center; 
-  overflow: hidden; 
-}
-
-.hero-image {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  filter: brightness(0.7); 
-  z-index: 1; 
-   
-}
-.hero-text {
-  color: white;
-  position: absolute;
-  z-index: 2; 
-  font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem; 
-  font-weight: bold;
-  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  padding: 1rem; 
-  line-height: 1.5;
-}
-
-@media (max-width: 768px) {
-  .hero-text {
-    font-size: 2rem; 
+<link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/contacts/contact-1/assets/css/contact-1.css">
+<style>
+  .back-section{
+    background: whitesmoke;
+    margin-bottom: 10px;
+  
   }
-}
-
-@media (max-width: 480px) {
-  .hero-text {
-    font-size: 1.5rem; 
-  }
-}
-
-/* Ensure the hero banner has a specific height */
-.hero-banner {
-  height: 400px; /* Adjust height as needed */
-}
-
-/* Style the background image */
-.hero-image {
-  object-fit: cover; /* Ensures the image covers the entire area */
-  z-index: 1; /* Places the image behind the overlay and text */
-}
-
-/* Dark overlay to reduce brightness */
-.overlay {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-  z-index: 2; /* Places the overlay above the image but below the text */
-}
-
-/* Style the text */
-.hero-text {
-  z-index: 3; /* Ensures the text is above the overlay and image */
-  position: absolute;
-  top: 50%; /* Centers vertically */
-  left: 50%; /* Centers horizontally */
-  transform: translate(-50%, -50%); /* Adjusts for exact centering */
-  font-size: 3rem; /* Adjust font size as needed */
-  font-weight: bold; /* Optional: Makes the text bold */
-}
-
-  </style>
-
+</style>
 </head>
 
 <body>
-  <section class="contact-section ">
-  <div class="hero-banner position-relative overflow-hidden">
-  <!-- Background Image -->
-  <img
-    src="https://cdn.builder.io/api/v1/image/assets/TEMP/fba3a0076de9f8d3b4038436db55f8ff7cd4bc847b6db4f3e1d0dfab63b5d06a?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6"
-    alt="Hero Image"
-    class="hero-image w-100 h-100 position-absolute object-fit-cover"
-  />
-  
-  <!-- Dark Overlay -->
-  <div class="overlay position-absolute w-100 h-100"></div>
-  
-  <!-- Text Content -->
-  <div class="hero-text text-center text-white position-relative">
-    Contact Us
-  </div>
-</div>
 
-
-
+ 
+<!-- Contact 1 - Bootstrap Brain Component -->
+<section class="bg-light py-3 py-md-5 mt-5">
+  <div class="container back-section">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+        <h2 class="mb-4 display-5 text-center" style="font-weight:700;color:#399C23;">Contact Us</h2>
+        <p class="text-secondary mb-5 text-center">Get in Touch With Us using our contact form below. Our Xiracom Service Team will get back to you as soon as possible.</p>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+      </div>
     </div>
+  </div>
 
-    <form class="form-container">
-    <div class="header-wrapper">
-  <h1 class="header-text fs-2 fs-sm-5">We are here for you</h1> <!-- Adjust font size for small and larger screens -->
-  <img
-    src="https://cdn.builder.io/api/v1/image/assets/TEMP/ade16f64ae3295a3314d0f2a470c71ba098d182b7dc81c5fef9596a9002d7cd6?placeholderIfAbsent=true&apiKey=51edbe165a3b4d6fbc5f94469e7471c6"
-    alt="" class="header-icon" />
-</div>
+  <div class="container">
+    <div class="row justify-content-lg-center">
+      <div class="col-12 col-lg-9">
+        <div class="bg-white border rounded shadow-sm overflow-hidden">
 
-<h2 class="subheader fs-4 fs-sm-6">How can we help?</h2> <!-- Adjust font size for small and larger screens -->
+          <form action="#!">
+            <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
+              <div class="col-12">
+                <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg>
+                  </span>
+                  <input type="email" class="form-control" id="email" name="email" value="" required>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="phone" class="form-label">Phone Number</label>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                      <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg>
+                  </span>
+                  <input type="tel" class="form-control" id="phone" name="phone" value="">
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+              </div>
+              <div class="col-12">
+                <div class="d-grid">
+                  <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
 
-      <!-- <label for="name" class="form-label">Name</label> -->
-      <input type="text" id="name" placeholder="Name" aria-label="Name" class="form-input mb-10" required
-        aria-label="Name" />
-
-      <!-- <label for="email" class="form-label">Email</label> -->
-      <input type="email" id="email" placeholder="Email" aria-label="Email" class="form-input " required
-        aria-label="Email" />
-
-      <!-- <label for="message" class="form-label">Message</label> -->
-      <textarea id="message" placeholder="Message" aria-label="Message" class="form-input message-input " required
-        aria-label="Message"></textarea>
-
-      <button type="submit" class="submit-button">Submit</button>
-
-    </form>
-  </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 

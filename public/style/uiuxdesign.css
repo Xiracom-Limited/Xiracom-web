@@ -6,7 +6,7 @@ body {
     background: linear-gradient(to bottom, #fff, #7A87FB);
 }
 
-.container {
+.title-section-container {
     width: 90%;
     margin: auto;
     text-align: center;
@@ -26,6 +26,46 @@ body {
 
 }
 
+.hero-image {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%) !important;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    animation: fadeIn 3s infinite alternate;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.9); }
+    100% { opacity: 1; transform: scale(1); }
+}
+@media screen and (max-width:768px) and (max-width:600px){
+
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        animation: fadeIn 3s infinite alternate;
+    }
+    .title-section-container {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+}
 .hero-image {
   position: absolute;
   inset: 0;
@@ -48,6 +88,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .sample-designs {
@@ -98,7 +139,12 @@ body {
     justify-content: space-between;
 }
 
-.sample-designs .text {
+.sample-designs  {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+.text {
     flex: 1;
     text-align: left;
     padding: 20px;
@@ -132,21 +178,44 @@ body {
 }
 
 /* ✅ RESPONSIVE DESIGN */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-width:600px) {
    .hero-section {
     max-width: 100%;
    }
+   .sample-designs .images {
+    display:block;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none !important;
+}
 
    .hero-image {
     width: 100%;
   }
-
-  .container {
-    width: 100%;
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
 }
 
+  
 .card {
-    width: 100%;
+    background: #3F3965;
+    padding: 18px !important;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 10px !important;
 }
 
   }

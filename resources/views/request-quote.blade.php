@@ -5,25 +5,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Integration</title>
+    <title>Request Quotation - Services @Xiracom Limited</title>
     <link rel="stylesheet" href="style/api-intergrations.css">
     @vite(['resources/sass/app.scss','resources/js/app.js'])
+    <style>
+
+.img-quote{
+
+
+width: 40% !important;
+height: 35% !important;
+position: absolute;
+margin-top: -5%;
+margin-left: 50% !important;
+
+  }
+ 
+    </style>
 </head>
 <body>
 
     <header class="hero">
         <div class="container">
       
-            <p class="mt-5">Need a trusted partner for your digital projects?
-                At Xiracom Limited, we create tailored solutions—from websites and apps to branding and digital marketing.
-
-Share your project details, and we’ll deliver a solution that fits your goals. Ready to start? Request a quote today!</p>
+        <h2 class="mt-5">Request a Quote</h2>
+        
         </div>
     </header>
 
     <section class="quote-form">
         <div class="container">
-            <h2>Request a Quote</h2>
+            
             <p>Request a quote now and take your online presence to the next level with our expert team.</p>
 
             <form>

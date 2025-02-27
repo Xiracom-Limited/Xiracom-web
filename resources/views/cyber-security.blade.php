@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XiRacem - Cyber Security</title>
+    <title>Xiracom Cyber Security - Welcome To Our Cyberspace</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -240,6 +240,51 @@ border-radius: 72.0899px;
 .hero-subtitle {
   font-size: 1.5rem; /* Adjust font size as needed */
 }
+
+.video-hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('images/hero-bg.jpg') no-repeat center center/cover;
+        }
+
+        /* Video container with fade effect */
+        .video-container {
+            position: relative;
+            width: 70%; /* Adjust width for margins */
+            max-width: 800px; /* Ensures it doesn't get too big */
+            aspect-ratio: 16 / 9; /* Maintain video aspect ratio */
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+            -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+            mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+        }
+        @media screen and (max-width: 768px) and (max-width:600px){
+            .video-container {
+            position: relative;
+            width: 100%; /* Adjust width for margins */
+            max-width: 800px; /* Ensures it doesn't get too big */
+            aspect-ratio: 16 / 9; /* Maintain video aspect ratio */
+            overflow: hidden;
+            height: 60%;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+            -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+            mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+        } 
+        }
+
+        /* Responsive video iframe */
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+
     </style>
 
 <section class="hero-section text-white position-relative overflow-hidden py-5">
@@ -254,9 +299,15 @@ border-radius: 72.0899px;
   <!-- Content -->
   <div class="container position-relative">
     <div class="row">
-      <div class="col-md-6">
-        <h1 class="hero-title display-4 display-md-3">Cyber Security</h1>
-<p class="hero-subtitle fs-4 fs-md-3">Fortifying Your Digital Defenses</p>
+      <div class="col-md-12">
+      <div class="video-hero">
+      <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/UI5hs1nYY0w?autoplay=1&mute=1&loop=1&playlist=UI5hs1nYY0w&rel=0&controls=0&showinfo=0" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+    </iframe>
+</div>
+    </div>
       </div>
     </div>
   </div>
@@ -266,37 +317,37 @@ border-radius: 72.0899px;
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
-                <img src="images/binary-3441010_1280.png" alt="" class="card-img-top c-img">
+                <img src="images/sec1.jpg" alt="" class="card-img-top c-img">
 
                     <div class="card-body mt-5">
                         <h5 class="card-title">Data Encryption</h5>
                         <p class="card-text">Encryption secures sensitive data by encoding it.</p>
                         <hr>
-                        <a href="#" class="btn btn-primary">Learn more >> </a>
+                        <a href="./login" class="btn btn-primary">Get Package>> </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card middle-card c-card">
-                <img src="images/pexels-pixabay-60504.png" alt="" class="card-img-top ">
+                <img src="images/sec8.jpg" alt="" class="card-img-top ">
 
                     <div class="card-body mt-5">
                         <h5 class="card-title">End-Point Security</h5>
                         <p class="card-text">Protect device from malicious software.</p>
                         <hr>
-                        <a href="#" class="btn btn-primary">Learn more >> </a>
+                        <a href="./login" class="btn btn-primary">Get Package>> </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card">
-                <img src="images/growtika-ahgsuFHlIFo-unsplash.png" alt="" class="card-img-top ">
+                <img src="images/sec3.jpg" alt="" class="card-img-top ">
 
                     <div class="card-body mt-5">
                         <h5 class="card-title">Network Security</h5>
                         <p class="card-text">Controls receiving and outgoing traffic to protect networks.</p>
                         <hr>
-                        <a href="#" class="btn btn-primary">Learn more >> </a>
+                        <a href="./login" class="btn btn-primary">Get Package>> </a>
                     </div>
                 </div>
             </div>
@@ -304,38 +355,38 @@ border-radius: 72.0899px;
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card c-card">
-                <img src="images/growtika-ahgsuFHlIFo-unsplash.png" alt="" class="card-img-top ">
+                <img src="images/sec4.jpg" alt="" class="card-img-top ">
 
                     <div class="card-body mt-5">
                         <h5 class="card-title">Cloud Security</h5>
                         <p class="card-text">Cloud Encryption: Protects data stored in the cloud from breaches.</p>
                         <hr>
-                        <a href="#" class="btn btn-primary">Learn more >> </a>
+                        <a href="./login" class="btn btn-primary">Get Package>> </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card middle-card ">
-                <img src="images/pexels-photo-577585.png" alt="" class="card-img-top ">
+                <img src="images/sec5.jpg" alt="" class="card-img-top ">
 
                     <div class="card-body mt-5">
                         <h5 class="card-title">Data Backup</h5>
                         <p class="card-text">Advanced Backups: Ensures regular backups of critical data.</p>
                         <hr>
-                        <a href="#" class="btn btn-primary">Learn more >> </a>
+                        <a href="./login" class="btn btn-primary">Get Package>> </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card c-card">
-                <img src="images/cloud-3998880_1280.png" alt="" class="card-img-top ">
+                <img src="images/sec7.jpg" alt="" class="card-img-top ">
 
                     <div class="card-body mt-5">
                         <h5 class="card-title">Data Protection</h5>
                         <p class="card-text">Data Anonymization: Protects personal data by removing identifiable
                             information.</p>
                             <hr>
-                        <a href="#" class="btn btn-primary">Learn more >> </a>
+                        <a href="./login" class="btn btn-primary">Get Package>> </a>
                     </div>
                 </div>
             </div>
@@ -347,7 +398,7 @@ border-radius: 72.0899px;
         <div class=" row container text-center c-bottom">
             <div class="row ">
                 <h2 class="col-sm-10 fs-4 ">Get a Cyber Security Assessment today...</h2>
-                <a href="#" class="btn btn-primary btn-lg col-sm-2 c-btm-button">Get Started</a>
+                <a href="./register" class="btn btn-primary btn-lg col-sm-2 c-btm-button">Get Started</a>
 
             </div>
 
