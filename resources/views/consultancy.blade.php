@@ -19,7 +19,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8 col-xl-7 text-center desc">
                 <h2 class="h1 mb-3">Need IT Consultancy? </h2>
-                <p class="mx-lg-8">Xiracom Limited provides IT consultancy in software and hardware engineering, offering development, integration, infrastructure setup, and troubleshooting. We serve businesses and institutions in Kenya, Africa, and globally, enhancing efficiency and digital transformation.<b>— Levis Chisira, CEO, Xiracom Limited</b></p>
+                <p class="mx-lg-8">"Xiracom Limited provides IT consultancy in software and hardware engineering, offering development, integration, infrastructure setup, and troubleshooting. We serve businesses and institutions in Kenya, Africa, and globally, enhancing efficiency and digital transformation"<b>— Levis Chisira, CEO, Xiracom Limited</b></p>
                 <form class="d-flex flex-column flex-md-row mt-4"><input type="email" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="Enterprise IT Solutions "> <button class="btn btn-primary flex-shrink-0" type="submit">Search</button></form>
             </div>
         </div>
