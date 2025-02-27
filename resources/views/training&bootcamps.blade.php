@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Xiracom Trainings & Bootcamps</title>
+  <title>Xiracom Trainings & Bootcamps in Kenya & Africa</title>
   <link rel="stylesheet" href="style/training&bootcamps.css">
 </head>
 <body>

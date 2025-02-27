@@ -640,7 +640,7 @@ top: 852px; */
                 <div class="widget-49">
                     <div class="widget-49-title-wrapper">
                         <div class="widget-49-date-warning">
-                            <span class="widget-49-date-day" >.COM</span>
+                            <span class="widget-49-date-day" >.com</span>
                            
                         </div>
                         <div class="widget-49-meeting-info">

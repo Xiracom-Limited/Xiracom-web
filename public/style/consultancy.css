@@ -1,6 +1,6 @@
 body{
   margin-top:20px;
-  background: linear-gradient(to bottom, #399C23 0%, #266B1F 40%, #004400 70%, #002244 100%);
+  background: linear-gradient(to bottom, #F5F5F5 0%, #E0E0E0 40%, #D6D6D6 70%, #CCCCCC 100%);
   
   
 }
@@ -23,4 +23,14 @@ a {
 
 .desc{
   color:#fff;    
+}
+.dark-consultancy-section {
+  background: linear-gradient(to bottom, #266B1F, #399C23, #003366, #001F33); /* Green to Dark Blue */
+  
+  padding: 50px 0;
+  border-radius: 12px;
+}
+
+.dark-consultancy-section .desc {
+  color: #fff; /* White text for contrast */
 }
