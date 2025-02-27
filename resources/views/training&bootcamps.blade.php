@@ -11,55 +11,133 @@
 <body>
   <header class="header">
     <div class="container">
-      <h1>Xiracom Trainings & Bootcamps</h1>
-      <p>Empowering Your Future with Industry-Relevant Skills</p>
+      <br><br>
+      <div class="blurred-section">
+    <h1>Xiracom Bootcamps & Trainings</h1>
+</div>
+      
     </div>
   </header>
 
   <section id="about" class="container">
-    <h2>Learn With Us</h2>
-    <p>Xiracom is a leading provider of professional trainings and bootcamps designed to equip individuals and organizations with the skills needed to thrive in today's fast-paced tech industry.</p>
-  </section>
-
-  <section id="trainings" class="container">
-    <h2>Our Trainings</h2>
-    <div class="training-list">
-      <div class="training-item">
-        <h3>Web Development</h3>
-        <p>Learn the latest technologies in web development, including HTML, CSS, JavaScript, and frameworks like React and Angular.</p>
-      </div>
-      <div class="training-item">
-        <h3>Data Science</h3>
-        <p>Master data analysis, machine learning, and data visualization with Python, R, and TensorFlow.</p>
-      </div>
-      <div class="training-item">
-        <h3>Cloud Computing</h3>
-        <p>Get hands-on experience with AWS, Azure, and Google Cloud Platform to build scalable cloud solutions.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="bootcamps" class="container">
-    <h2>Our Bootcamps</h2>
-    <div class="bootcamp-list">
-      <div class="bootcamp-item">
-        <h3>Full-Stack Developer Bootcamp</h3>
-        <p>An intensive program covering front-end and back-end development to make you job-ready in 12 weeks.</p>
-      </div>
-      <div class="bootcamp-item">
-        <h3>AI & Machine Learning Bootcamp</h3>
-        <p>Dive deep into AI and ML concepts, algorithms, and real-world applications in this 16-week program.</p>
-      </div>
-      <div class="bootcamp-item">
-        <h3>DevOps Bootcamp</h3>
-        <p>Learn CI/CD, containerization, and orchestration tools like Docker and Kubernetes in this 10-week bootcamp.</p>
+    <h2 >Learn With Us</h2>
+    <p>Xiracom offers tech bootcamps for students across Africa, held three times a year. Free for selected participants, our programs equip individuals and organizations with essential digital skills.</p>
+  </section> 
+  <h2 style="text-align:center">Our Courses</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  
+  <div class="col">
+    <div class="card">
+    <iframe 
+    class="card-img-top"
+    src="https://www.youtube.com/embed/UI5hs1nYY0w?autoplay=1&mute=1&loop=1&playlist=UI5hs1nYY0w&rel=0&controls=0&showinfo=0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+</iframe>
+      <div class="card-body">
+        <a href="https://examparlour.com" style="text-decoration:underline !important;">
+        <h5 class="card-title" style="color:green;">Web Development (Front-end & Back-end)</h5></a>
+        <p class="card-text">
+        Learn how to build modern, responsive websites and web applications using HTML, CSS, JavaScript, PHP, and Laravel. This course covers both front-end (UI/UX design) and back-end (server-side logic & databases), giving you full-stack development skills.
+        </p>
       </div>
     </div>
-  </section>
+  </div>
+  <div class="col">
+    <div class="card">
+    <iframe 
+    class="card-img-top"
+    src="https://www.youtube.com/embed/uHI0kuZnKlI?autoplay=1&mute=1&loop=1&playlist=uHI0kuZnKlI&rel=0&controls=0&showinfo=0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+</iframe>
+      <div class="card-body">
+      <a href="https://examparlour.com" style="text-decoration:underline !important;">
+        <h5 class="card-title" style="color:green;">Cybersecurity & Ethical Hacking</h5>
+</a>
+        <p class="card-text">
+        Gain essential skills in network security, penetration testing, and ethical hacking to protect systems from cyber threats. This course covers cryptography, malware analysis, firewall configuration, and vulnerability assessment, preparing you for a career in cybersecurity.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+    <iframe 
+    class="card-img-top"
+    src="https://www.youtube.com/embed/UI5hs1nYY0w?autoplay=1&mute=1&loop=1&playlist=UI5hs1nYY0w&rel=0&controls=0&showinfo=0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+</iframe>
+      <div class="card-body">
+      <a href="https://examparlour.com" style="text-decoration:underline !important;">
+        <h5 class="card-title" style="color:green;"> Data Science & Machine Learning</h5>
+</a>
+        <p class="card-text">Master Python, data analysis, and AI-powered algorithms to process and interpret large datasets. Learn how to use Pandas, NumPy, TensorFlow, and Scikit-Learn to develop data-driven solutions for real-world applications.</p>
+      </div>
+    </div>
+  </div>
 
+</div>
+<h2 style="text-align:center;">Our Bootcamps</h2>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/camp3.jpg" class="card-img-top"
+        alt="Skyscrapers" />
+      <div class="card-body">
+      <a href="https://examparlour.com" style="text-decoration:underline !important;">
+        <h5 class="card-title" style="color:green;">XiraCode Bootcamp – Master Full-Stack Development</h5>
+</a>
+        <p class="card-text">
+        Xiracom Limited’s Full-Stack Web Development Bootcamp covers HTML, CSS, JavaScript, PHP, Laravel, and React. Learn through hands-on projects and real-world applications, gaining skills to build and deploy professional websites and web apps.
+        </p>
+      </div>
+      <div class="card-footer">
+      <small class="text-muted" id="lastUpdated">Last updated 20th Jan 2025</small>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/camp2.jpg" class="card-img-top"
+        alt="Los Angeles Skyscrapers" />
+      <div class="card-body">
+      <a href="https://examparlour.com" style="text-decoration:underline !important;">
+        <h5 class="card-title" style="color:green;">XiraSecure Bootcamp – Cybersecurity & Ethical Hacking</h5>
+</a>
+        <p class="card-text">Xiracom Limited’s Cybersecurity & Ethical Hacking Bootcamp covers network security, penetration testing, and ethical hacking. Through hands-on practice with firewalls, encryption, and cybersecurity tools, participants learn to secure systems and prevent cyber threats, gaining essential skills for safeguarding digital assets.
+        </p>
+      </div>
+      <div class="card-footer">
+      <small class="text-muted" id="lastUpdated">Last updated 16th Feb 2025</small>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/camp1.jpg" class="card-img-top"
+        alt="Palm Springs Road" />
+      <div class="card-body">
+      <a href="https://examparlour.com" style="text-decoration:underline !important;">
+        <h5 class="card-title" style="color:green;">XiraAI Bootcamp – Data Science & AI Mastery</h5>
+</a>
+        <p class="card-text">
+        Xiracom Limited’s AI & Data Science Bootcamp covers Python programming, machine learning, and data analysis. Participants work on real-world datasets and AI applications, gaining skills to develop predictive models and AI-powered solutions.
+        </p>
+      </div>
+      <div class="card-footer">
+      <small class="text-muted" id="lastUpdated">Last updated 21st Dec 2025</small>
+
+      </div>
+    </div>
+  </div>
+</div>
   <!-- New Packages Section -->
   <section id="packages" class="container">
-    <h2>Our Packages</h2>
+    <h2 style="color:green;">Examparlour Learning Materials</h2>
     <div class="package-list">
       <div class="package-item">
         <h3>Basic Package</h3>
@@ -69,7 +147,9 @@
           <li>Downloadable Resources</li>
           <li>Email Support</li>
         </ul>
-        <button>Enroll</button>
+        <a href="https://examparlour.com">
+        <button>Register</button>
+        </a>
       </div>
       <div class="package-item">
         <h3>Standard Package</h3>
@@ -79,7 +159,9 @@
           <li>Live Q&A Sessions</li>
           <li>Certificate of Completion</li>
         </ul>
-        <button>Enroll</button>
+        <a href="https://examparlour.com">
+        <button>Register</button>
+        </a>
       </div>
       <div class="package-item">
         <h3>Premium Package</h3>
@@ -89,7 +171,10 @@
           <li>1-on-1 Mentorship</li>
           <li>Job Placement Assistance</li>
         </ul>
-        <button>Enroll</button>
+        <a href="https://examparlour.com">
+        <button>Register</button>
+        </a>
+       
       </div>
     </div>
   </section>
