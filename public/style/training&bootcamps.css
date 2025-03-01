@@ -4,6 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    overflow-x: hidden !important;
     background-color: #f4f4f4;
   }
   
@@ -91,4 +92,24 @@ body {
   .package-item button:hover {
     background: #2b2295;
   }
+  h1 {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+@media screen and (max-width:768px) and (max-width:600px){
+
+  h1 {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 22px !important;
+    margin-top: 15% !important;
   
+}
+
+}

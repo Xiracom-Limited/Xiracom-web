@@ -6,6 +6,7 @@
 
     body {
       font-family: 'Poppins', sans-serif;
+    
     }
 
     body {
@@ -156,7 +157,58 @@
       font-size: 1.25rem;
       margin-bottom: 10px;
     }
+@media screen and (max-width:768px) and (max-width:600px){
+  .benefit-card {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 0 1 calc(50% - 20px);
+    min-width: 200px;
+    margin-left: -20px !important;
+  }
 
+  .benefit-card h3 {
+    font-size: 1.1rem !important;
+    margin-bottom: 10px;
+  }
+  .description {
+    margin-bottom: 30px;
+    display: none;
+  }
+  .cta {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px !important;
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .cta:hover {
+    background-color: #218838;
+  }
+  .header-section .hero-image {
+    width: 100%;
+    height: 80%;
+  }
+
+  .app-development .header-section {
+    display: flex;
+    align-items: center;
+    height: 50% !important;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+
+}
     .cta-section {
       padding: 40px;
       background-color: #f8f9fa;
@@ -192,8 +244,17 @@
       width: 100%;
       text-align: left;
       padding: 0 15px;
+      background: rgba(144, 238, 144, 0.2);
+      display: inline-block;
     }
+@media screen and (max-width: 768px) and (max-width:600px){
 
+  .text-content h1{
+    
+    display: inline-block;
+    font-size: 20px !important;
+  }
+}
     @media (min-width: 768px) {
       .mockup-image {
         width: 40%;

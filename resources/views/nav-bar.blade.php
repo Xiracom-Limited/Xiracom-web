@@ -62,7 +62,21 @@ font-weight:bolder;
 
  }
 }
+.nav-image {
+  content: url("images/xiracomlogo.png"); /* Default image */
+  width: 10%;
+}
 
+/* Change image for phone screens */
+@media screen and (max-width: 768px) and (max-width:468px) {
+  .nav-image {
+      content: url("../images/png-file.png"); /* Image for mobile */
+      width: 40%; /* Adjust size if needed */
+      height:10%;
+      margin-bottom:-9%;
+      margin-top:-9%;
+  }
+}
 </style>
 </head>
 <body>
